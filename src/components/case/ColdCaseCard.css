@@ -116,6 +116,11 @@
   color: #fff;
 }
 
+/* 관련 방송 영상 */
+.cold-card__video {
+  padding: 0 14px 14px;
+}
+
 /* 모바일에서 인장은 위로 */
 @media (max-width: 420px) {
   .cold-card__inner {

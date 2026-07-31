@@ -36,4 +36,5 @@ export interface ColdCaseItem {
   tags: string[]
   image?: string
   sourceUrl?: string     // 참고 보도/자료 링크
+  videoUrl?: string      // 이 사건을 다룬 시사프로그램(그것이 알고싶다·궁금한 이야기 Y 등) 유튜브
 }

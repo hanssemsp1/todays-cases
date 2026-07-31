@@ -1,6 +1,7 @@
 import type { ColdCaseItem } from '../../types'
 import { COLD_STATUS_META } from '../../data/coldCases'
 import Icon from '../ui/Icon'
+import VideoEmbed from '../ui/VideoEmbed'
 import './ColdCaseCard.css'
 
 // 미제사건 파일 카드 — 수사 파일(도시에) 느낌
@@ -55,6 +56,13 @@ export default function ColdCaseCard({ item }: { item: ColdCaseItem }) {
           ) : null}
         </div>
       </div>
+
+      {/* 이 사건을 다룬 시사프로그램 영상 (있을 때) */}
+      {item.videoUrl && (
+        <div className="cold-card__video">
+          <VideoEmbed url={item.videoUrl} label="관련 방송 다시보기" />
+        </div>
+      )}
     </article>
   )
 }
