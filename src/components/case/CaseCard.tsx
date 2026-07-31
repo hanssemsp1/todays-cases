@@ -1,13 +1,16 @@
 import { Link } from 'react-router-dom'
 import type { CaseItem } from '../../types'
 import { CATEGORY_META } from '../../data/cases'
+import { parseYouTubeId, youTubeThumb } from '../../lib/youtube'
 import Icon from '../ui/Icon'
 import { CategoryBadge, BreakingBadge } from '../ui/Badge'
 import './CaseCard.css'
 
-// 뉴스형 사건 카드 — 카드 전체가 상세로 연결. 실제 사진 있으면 사진, 없으면 카테고리 커버.
+// 뉴스형 사건 카드 — 카드 전체가 상세로 연결.
+// 미디어 우선순위: 방송 영상(썸네일+▶) → 실제 사진 → 카테고리 커버
 export default function CaseCard({ item }: { item: CaseItem }) {
   const meta = CATEGORY_META[item.category]
+  const ytId = parseYouTubeId(item.videoUrl)
 
   return (
     <Link to={`/case/${item.id}`} className="case-card card">
@@ -27,9 +30,19 @@ export default function CaseCard({ item }: { item: CaseItem }) {
         {item.isBreaking && <BreakingBadge />}
       </header>
 
-      {/* ── 대표 이미지(있으면) / 없으면 축소된 카테고리 커버 ── */}
+      {/* ── 미디어: 영상 썸네일 → 사진 → 카테고리 커버 ── */}
       <div className="case-card__media">
-        {item.image ? (
+        {ytId ? (
+          <>
+            <img src={youTubeThumb(ytId)} alt="" loading="lazy" />
+            <span className="case-card__play" aria-hidden="true">
+              <Icon name="play_arrow" size={30} />
+            </span>
+            <span className="case-card__video-tag">
+              <Icon name="smart_display" size={13} /> 영상
+            </span>
+          </>
+        ) : item.image ? (
           <img src={item.image} alt="" loading="lazy" />
         ) : (
           <span

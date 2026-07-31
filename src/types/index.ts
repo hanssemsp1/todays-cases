@@ -13,7 +13,8 @@ export interface CaseItem {
   time?: string          // HH:mm
   source: string         // 출처(언론사 등)
   sourceUrl?: string     // 원문 링크 (실제 보도)
-  image?: string         // 대표 이미지 URL (없으면 그라데이션 썸네일)
+  videoUrl?: string      // 방송 뉴스 영상(유튜브) — 있으면 최우선 표시
+  image?: string         // 대표 이미지 URL (영상 없을 때)
   likes: number
   comments: number
   isBreaking?: boolean   // 속보 여부

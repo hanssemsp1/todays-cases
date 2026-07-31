@@ -77,6 +77,41 @@
   bottom: 12px;
 }
 
+/* 영상 재생 배지 (가운데) */
+.case-card__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  backdrop-filter: blur(2px);
+}
+/* 영상 태그 (우상단) */
+.case-card__video-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}
+.case-card__video-tag .icon {
+  color: #fff;
+}
+
 /* 본문 */
 .case-card__body {
   display: flex;

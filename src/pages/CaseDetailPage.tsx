@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { CASES, CATEGORY_META } from '../data/cases'
 import { downloadShareCard } from '../lib/shareCard'
+import { parseYouTubeId, youTubeEmbed } from '../lib/youtube'
 import Icon from '../components/ui/Icon'
 import { CategoryBadge, BreakingBadge } from '../components/ui/Badge'
 import './CaseDetailPage.css'
@@ -96,19 +97,36 @@ export default function CaseDetailPage() {
           </div>
         </div>
 
-        {/* 대표 이미지 / 그라데이션 썸네일 */}
-        <div className="detail__media">
-          {item.image ? (
-            <img src={item.image} alt={item.title} />
-          ) : (
-            <span
-              className="detail__thumb"
-              style={{ background: `linear-gradient(135deg, ${meta.color}, #262626)` }}
-            >
-              <Icon name={meta.icon} size={88} />
-            </span>
-          )}
-        </div>
+        {/* 미디어: 방송 영상 → 사진 → 그라데이션 */}
+        {(() => {
+          const ytId = parseYouTubeId(item.videoUrl)
+          if (ytId) {
+            return (
+              <div className="detail__video">
+                <iframe
+                  src={youTubeEmbed(ytId)}
+                  title={item.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            )
+          }
+          return (
+            <div className="detail__media">
+              {item.image ? (
+                <img src={item.image} alt={item.title} />
+              ) : (
+                <span
+                  className="detail__thumb"
+                  style={{ background: `linear-gradient(135deg, ${meta.color}, #262626)` }}
+                >
+                  <Icon name={meta.icon} size={88} />
+                </span>
+              )}
+            </div>
+          )
+        })()}
 
         {/* 배지 */}
         <div className="detail__badges">
