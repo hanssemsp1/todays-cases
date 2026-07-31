@@ -43,7 +43,8 @@ const today = new Date().toLocaleDateString('ko-KR', {
 })
 
 const lines = top.map((c) => `• ${c.title}`).join('\n')
-const text = `📰 오늘의 사건사고 (${today})\n\n${lines}\n\n🔒 오늘의 미제사건: ${cold.title}\n\n아래 버튼으로 전체를 확인하세요 👇`
+// 본문에 URL을 직접 넣어 카톡이 자동 링크로 만들게 함 (버튼은 도메인 등록이 필요하므로 텍스트 링크가 더 확실)
+const text = `📰 오늘의 사건사고 (${today})\n\n${lines}\n\n🔒 오늘의 미제사건: ${cold.title}\n\n👉 전체 보기: https://todays-cases.vercel.app`
 
 // 1) 액세스 토큰 갱신
 const tokenRes = await fetch('https://kauth.kakao.com/oauth/token', {
