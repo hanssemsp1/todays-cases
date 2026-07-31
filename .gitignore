@@ -5,6 +5,11 @@ node_modules
 dist
 dist-ssr
 
+# tsc -b 부산물
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
 # logs
 *.log
 npm-debug.log*
