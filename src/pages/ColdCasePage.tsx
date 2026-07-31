@@ -26,20 +26,23 @@ export default function ColdCasePage() {
     [],
   )
 
+  // 전체 목록 = 오늘의 미제사건을 제외한 지난 기록, 최신순
   const list = useMemo(() => {
     const q = query.trim().toLowerCase()
-    return COLD_CASES.filter((c) => {
-      const matchStatus = status === 'all' || c.status === status
-      const matchQuery =
-        !q ||
-        c.title.toLowerCase().includes(q) ||
-        c.summary.toLowerCase().includes(q) ||
-        c.region.toLowerCase().includes(q) ||
-        c.caseNo.toLowerCase().includes(q) ||
-        c.tags.some((t) => t.toLowerCase().includes(q))
-      return matchStatus && matchQuery
-    })
-  }, [query, status])
+    return COLD_CASES.filter((c) => c.id !== today.id)
+      .filter((c) => {
+        const matchStatus = status === 'all' || c.status === status
+        const matchQuery =
+          !q ||
+          c.title.toLowerCase().includes(q) ||
+          c.summary.toLowerCase().includes(q) ||
+          c.region.toLowerCase().includes(q) ||
+          c.caseNo.toLowerCase().includes(q) ||
+          c.tags.some((t) => t.toLowerCase().includes(q))
+        return matchStatus && matchQuery
+      })
+      .reverse()
+  }, [query, status, today.id])
 
   return (
     <div className="cold">
@@ -65,7 +68,7 @@ export default function ColdCasePage() {
         </div>
         <ColdCaseCard item={today} />
         <p className="cold__today-note">
-          매일 한 건씩 자동으로 다른 미제사건이 올라와요. 아래에서 전체 파일도 볼 수 있어요.
+          매일 한 건씩 새로운 미제사건이 올라와요. 내일은 어떤 사건이 올라올까요? 🔍
         </p>
       </section>
 
@@ -95,15 +98,18 @@ export default function ColdCasePage() {
 
       <section className="container cold__list">
         <p className="cold__divider">
-          <Icon name="inventory_2" size={18} /> 전체 미제사건 파일
+          <Icon name="inventory_2" size={18} /> 지난 미제사건 파일
         </p>
-        <p className="cold__count">파일 {list.length}건</p>
         {list.length > 0 ? (
-          list.map((item) => <ColdCaseCard key={item.id} item={item} />)
+          <>
+            <p className="cold__count">파일 {list.length}건</p>
+            {list.map((item) => <ColdCaseCard key={item.id} item={item} />)}
+          </>
         ) : (
           <div className="cold__empty">
-            <Icon name="search_off" size={48} />
-            <p>해당하는 미제사건 파일이 없어요.</p>
+            <Icon name="hourglass_empty" size={48} />
+            <p>지난 기록이 매일 하나씩 쌓여요.</p>
+            <p style={{ fontSize: 13 }}>내일 다시 들러 새 미제사건을 확인해 보세요.</p>
           </div>
         )}
       </section>

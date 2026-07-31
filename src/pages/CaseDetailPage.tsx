@@ -121,16 +121,6 @@ export default function CaseDetailPage() {
         <p className="detail__summary">{item.summary}</p>
         <p className="detail__content">{item.content}</p>
 
-        {/* 통계 */}
-        <div className="detail__stats">
-          <span>
-            <Icon name="favorite" size={18} /> {item.likes.toLocaleString()}
-          </span>
-          <span>
-            <Icon name="mode_comment" size={18} /> {item.comments}
-          </span>
-        </div>
-
         {/* ── 공유 액션 (A안) ── */}
         <div className="detail__share card">
           <p className="detail__share-title">

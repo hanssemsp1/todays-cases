@@ -1,6 +1,13 @@
 .case-card {
+  display: block;
   overflow: hidden;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
+  color: var(--text);
+  transition: 0.15s;
+}
+.case-card:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06), 0 12px 28px rgba(0, 0, 0, 0.09);
+  transform: translateY(-1px);
 }
 
 /* 헤더 */
@@ -8,14 +15,14 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 12px;
+  padding: 12px 14px 10px;
 }
 .case-card__avatar {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
+  width: 30px;
+  height: 30px;
   border-radius: 999px;
   color: #fff;
   flex: none;
@@ -28,21 +35,20 @@
 }
 .case-card__source {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13.5px;
 }
 .case-card__loc {
   display: inline-flex;
   align-items: center;
   gap: 2px;
   color: var(--sub);
-  font-size: 12px;
+  font-size: 11.5px;
 }
 
-/* 미디어 */
+/* 미디어 — 축소된 커버 (16:9) */
 .case-card__media {
   position: relative;
-  display: block;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   background: var(--bg);
 }
 .case-card__media img {
@@ -50,13 +56,20 @@
   height: 100%;
   object-fit: cover;
 }
-.case-card__thumb {
+.case-card__cover {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 4px;
   width: 100%;
   height: 100%;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9);
+}
+.case-card__cover-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
 }
 .case-card__cat {
   position: absolute;
@@ -64,64 +77,36 @@
   bottom: 12px;
 }
 
-/* 액션 바 */
-.case-card__actions {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 8px 2px;
-}
-.case-card__act {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-  border-radius: 999px;
-  background: transparent;
-  border: none;
-  color: var(--text);
-  cursor: pointer;
-  transition: 0.15s;
-}
-.case-card__act:hover {
-  background: var(--bg);
-}
-.case-card__act--right {
-  margin-left: auto;
-}
-
 /* 본문 */
 .case-card__body {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  padding: 4px 14px 16px;
-}
-.case-card__likes {
-  font-weight: 700;
-  font-size: 14px;
+  gap: 6px;
+  padding: 12px 14px 14px;
 }
 .case-card__title {
+  font-size: 16px;
   font-weight: 700;
-  font-size: 15.5px;
   line-height: 1.4;
-  color: var(--text);
-}
-.case-card__title:hover {
-  text-decoration: underline;
+  letter-spacing: -0.2px;
 }
 .case-card__summary {
   margin: 0;
-  color: var(--text);
+  color: #3a3a3a;
   font-size: 14px;
+  line-height: 1.55;
+  /* 2줄 클램프 */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .case-card__more {
-  color: var(--sub);
-  font-size: 14px;
-  width: fit-content;
-}
-.case-card__comments {
-  color: var(--sub);
-  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--primary);
+  font-size: 13.5px;
+  font-weight: 600;
+  margin-top: 2px;
 }
