@@ -1,0 +1,22 @@
+.app-footer {
+  margin-top: 40px;
+  padding: 28px 0 96px;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+}
+.app-footer__brand {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+.app-footer__desc {
+  color: var(--sub);
+  font-size: 13px;
+  margin: 0 0 12px;
+  max-width: 460px;
+}
+.app-footer__copy {
+  color: var(--sub);
+  font-size: 12px;
+  margin: 0;
+}

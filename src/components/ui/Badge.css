@@ -1,0 +1,18 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  white-space: nowrap;
+}
+.badge .icon {
+  color: #fff;
+}
+.badge--breaking {
+  background: var(--grad); /* 강조 요소 → 그라데이션 */
+}

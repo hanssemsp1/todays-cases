@@ -1,0 +1,144 @@
+.cold {
+  padding-bottom: 24px;
+}
+
+/* 다크 파일 헤더 */
+.cold__hero {
+  background: #262626;
+  color: #fff;
+  padding: 26px 0 22px;
+  margin-bottom: 16px;
+}
+.cold__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--grad); /* 강조 → 그라데이션 */
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.cold__badge .icon {
+  color: #fff;
+}
+.cold__title {
+  font-size: 26px;
+  margin: 10px 0 4px;
+}
+.cold__subtitle {
+  margin: 0;
+  color: #c7c7c7;
+  font-size: 14px;
+  max-width: 460px;
+}
+
+/* 오늘의 미제사건 */
+.cold__today {
+  margin-bottom: 22px;
+}
+.cold__today-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.cold__today-label .icon {
+  color: var(--cat-crime);
+}
+.cold__today-date {
+  margin-left: auto;
+  color: var(--sub);
+  font-size: 13px;
+  font-weight: 500;
+}
+.cold__today .cold-card {
+  outline: 2px solid transparent;
+  background-image:
+    linear-gradient(var(--surface), var(--surface)),
+    var(--grad);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border: 2px solid transparent;
+}
+.cold__today-note {
+  margin: 10px 2px 0;
+  font-size: 12.5px;
+  color: var(--sub);
+}
+
+/* 전체 목록 구분 */
+.cold__divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text);
+  margin: 4px 0 14px;
+}
+
+/* 컨트롤 */
+.cold__controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.cold__chips {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.cold__chips::-webkit-scrollbar {
+  display: none;
+}
+.cold__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex: none;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.cold__chip.is-active {
+  background: var(--text);
+  color: #fff;
+  border-color: var(--text);
+}
+.cold__chip.is-active .icon {
+  color: #fff;
+}
+
+/* 목록 */
+.cold__count {
+  color: var(--sub);
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+.cold__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 60px 0;
+  color: var(--sub);
+}
+
+@media (min-width: 768px) {
+  .cold__list {
+    max-width: 560px;
+  }
+}

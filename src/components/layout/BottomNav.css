@@ -1,0 +1,42 @@
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: saturate(180%) blur(12px);
+  border-top: 1px solid var(--border);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.bottom-nav__tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 8px 0;
+  color: var(--sub);
+  font-size: 11px;
+  font-weight: 600;
+  transition: 0.15s;
+}
+.bottom-nav__tab.is-active {
+  color: var(--text);
+}
+/* 활성 탭 아이콘에 그라데이션 강조 */
+.bottom-nav__tab.is-active .icon {
+  background: var(--grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 데스크탑에서는 하단 탭 숨김 (헤더 네비 사용) */
+@media (min-width: 768px) {
+  .bottom-nav {
+    display: none;
+  }
+}

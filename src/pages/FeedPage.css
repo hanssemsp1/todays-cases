@@ -1,0 +1,112 @@
+.feed {
+  padding: 16px 0 24px;
+}
+
+/* 히어로 */
+.feed__hero {
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+.feed__title {
+  font-size: 26px;
+  letter-spacing: -0.5px;
+}
+.feed__subtitle {
+  margin: 4px 0 0;
+  color: var(--sub);
+  font-size: 14px;
+}
+
+/* 검색 + 정렬 */
+.feed__controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 14px auto;
+}
+.feed__sort {
+  display: flex;
+  gap: 8px;
+}
+.feed__sort-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--sub);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.feed__sort-btn.is-active {
+  color: var(--text);
+  border-color: var(--text);
+}
+
+/* 카테고리 칩 (가로 스크롤) */
+.feed__chips {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  scrollbar-width: none;
+}
+.feed__chips::-webkit-scrollbar {
+  display: none;
+}
+.feed__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex: none;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.feed__chip:hover {
+  border-color: var(--sub);
+}
+/* 활성 칩 → 강조 그라데이션 */
+.feed__chip.is-active {
+  background: var(--grad);
+  color: #fff;
+  border-color: transparent;
+}
+.feed__chip.is-active .icon {
+  color: #fff;
+}
+
+/* 목록 */
+.feed__count {
+  color: var(--sub);
+  font-size: 13px;
+  margin: 4px 0 12px;
+}
+.feed__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 60px 0;
+  color: var(--sub);
+}
+
+/* 데스크탑: 히어로/컨트롤은 넓게, 카드 피드는 인스타처럼 좁은 단일 컬럼 유지 */
+@media (min-width: 768px) {
+  .feed__list {
+    max-width: 470px;
+  }
+}
