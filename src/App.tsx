@@ -5,6 +5,7 @@ import BottomNav from './components/layout/BottomNav'
 import FeedPage from './pages/FeedPage'
 import CaseDetailPage from './pages/CaseDetailPage'
 import ColdCasePage from './pages/ColdCasePage'
+import ArchivePage from './pages/ArchivePage'
 
 // 앱 셸: 헤더 + 라우팅 본문 + 푸터 + 모바일 하단 탭
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/" element={<FeedPage />} />
           <Route path="/case/:id" element={<CaseDetailPage />} />
           <Route path="/cold-cases" element={<ColdCasePage />} />
+          <Route path="/archive" element={<ArchivePage />} />
         </Routes>
       </main>
       <Footer />

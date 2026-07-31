@@ -17,6 +17,9 @@ export default function Header() {
           <Link to="/cold-cases" className="app-header__icon-btn" aria-label="미제사건 파일">
             <Icon name="folder_special" />
           </Link>
+          <Link to="/archive" className="app-header__icon-btn" aria-label="지난 기록">
+            <Icon name="inventory_2" />
+          </Link>
         </nav>
       </div>
     </header>

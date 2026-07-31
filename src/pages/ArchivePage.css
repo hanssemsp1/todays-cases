@@ -1,0 +1,92 @@
+.archive {
+  padding-bottom: 24px;
+}
+
+/* 히어로 */
+.archive__hero {
+  background: var(--grad);
+  color: #fff;
+  padding: 26px 0 22px;
+  margin-bottom: 16px;
+}
+.archive__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.22);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.archive__badge .icon {
+  color: #fff;
+}
+.archive__title {
+  font-size: 26px;
+  margin: 10px 0 4px;
+}
+.archive__subtitle {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 14px;
+}
+
+/* 날짜 칩 */
+.archive__dates {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  scrollbar-width: none;
+}
+.archive__dates::-webkit-scrollbar {
+  display: none;
+}
+.archive__date {
+  flex: none;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.archive__date:hover {
+  border-color: var(--sub);
+}
+.archive__date.is-active {
+  background: var(--text);
+  color: #fff;
+  border-color: var(--text);
+}
+
+/* 목록 */
+.archive__count {
+  color: var(--sub);
+  font-size: 13px;
+  margin: 4px 0 12px;
+}
+.archive__list {
+  max-width: 640px;
+}
+.archive__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 50px 0;
+  color: var(--sub);
+}
+
+@media (min-width: 768px) {
+  .archive__list {
+    max-width: 470px;
+  }
+}

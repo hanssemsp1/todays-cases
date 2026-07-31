@@ -6,6 +6,7 @@ import './BottomNav.css'
 const tabs = [
   { to: '/', label: '사건사고', icon: 'newspaper', end: true },
   { to: '/cold-cases', label: '미제사건', icon: 'folder_special', end: false },
+  { to: '/archive', label: '지난기록', icon: 'inventory_2', end: false },
 ]
 
 export default function BottomNav() {
