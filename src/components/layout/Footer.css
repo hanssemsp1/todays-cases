@@ -15,6 +15,33 @@
   margin: 0 0 12px;
   max-width: 460px;
 }
+.app-footer__links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 0 12px;
+}
+.app-footer__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.15s;
+}
+.app-footer__link:hover {
+  border-color: var(--sub);
+}
+.app-footer__link .icon {
+  font-family: 'Material Symbols Rounded';
+  font-size: 18px;
+  font-variation-settings: 'FILL' 1;
+}
 .app-footer__copy {
   color: var(--sub);
   font-size: 12px;

@@ -24,7 +24,11 @@ await build({
   outfile: tmp,
   logLevel: 'silent',
 })
-const { CASES } = await import(pathToFileURL(tmp).href + '?t=' + Date.now())
+const { CASES, CATEGORY_META } = await import(
+  pathToFileURL(tmp).href + '?t=' + Date.now()
+)
+
+const SITE = 'https://todays-cases.vercel.app'
 
 mkdirSync(archiveDir, { recursive: true })
 
@@ -61,4 +65,53 @@ const index = dates.map((date) => {
 })
 writeFileSync(join(archiveDir, 'index.json'), JSON.stringify(index, null, 2))
 
-console.log(`[gen-archive] ${dates.length}개 날짜, 현재 ${CASES.length}건`)
+// ── RSS 2.0 피드 생성 (public/rss.xml) ──────────────────────────
+const xmlEscape = (s = '') =>
+  s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+
+// 최신순 정렬 후 최근 30건
+const sorted = [...CASES].sort((a, b) =>
+  (b.date + (b.time ?? '')).localeCompare(a.date + (a.time ?? '')),
+)
+const feedItems = sorted.slice(0, 30)
+
+const toPubDate = (c) => {
+  const dt = new Date(`${c.date}T${c.time ?? '09:00'}:00+09:00`)
+  return isNaN(dt) ? new Date().toUTCString() : dt.toUTCString()
+}
+
+const items = feedItems
+  .map((c) => {
+    const cat = CATEGORY_META?.[c.category]?.label ?? '사건사고'
+    return `    <item>
+      <title>${xmlEscape(c.title)}</title>
+      <link>${SITE}/case/${c.id}</link>
+      <guid isPermaLink="false">${c.id}</guid>
+      <category>${xmlEscape(cat)}</category>
+      <pubDate>${toPubDate(c)}</pubDate>
+      <description><![CDATA[${c.summary}]]></description>
+    </item>`
+  })
+  .join('\n')
+
+const rss = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>오늘의 사건사고</title>
+    <link>${SITE}</link>
+    <description>그날그날의 사건·사고를 한 곳에서. 매일 자동 업데이트됩니다.</description>
+    <language>ko</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+${items}
+  </channel>
+</rss>
+`
+writeFileSync(join(root, 'public', 'rss.xml'), rss)
+
+console.log(
+  `[gen-archive] ${dates.length}개 날짜, 현재 ${CASES.length}건, RSS ${feedItems.length}건`,
+)

@@ -10,6 +10,19 @@ export default function Footer() {
           그날그날의 사건·사고를 한 곳에서. 본 서비스의 사건 정보는 공개 언론 보도를
           요약·재구성한 것으로, 정확한 내용은 각 원문 출처를 확인해 주세요.
         </p>
+        <div className="app-footer__links">
+          <a className="app-footer__link" href="/rss.xml" target="_blank" rel="noopener">
+            <span className="icon">rss_feed</span> RSS 구독
+          </a>
+          <a
+            className="app-footer__link"
+            href="https://todays-cases.vercel.app"
+            target="_blank"
+            rel="noopener"
+          >
+            <span className="icon">share</span> 사이트 공유
+          </a>
+        </div>
         <p className="app-footer__copy">© 2026 오늘의 사건사고 · 데모</p>
       </div>
     </footer>
