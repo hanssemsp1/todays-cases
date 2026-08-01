@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://todays-cases.vercel.app/sitemap.xml
+Sitemap: https://todaycase.com/sitemap.xml

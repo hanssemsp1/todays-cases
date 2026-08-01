@@ -2,13 +2,13 @@
 <rss version="2.0">
   <channel>
     <title>오늘의 사건사고</title>
-    <link>https://todays-cases.vercel.app</link>
+    <link>https://todaycase.com</link>
     <description>그날그날의 사건·사고를 한 곳에서. 매일 자동 업데이트됩니다.</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 01 Aug 2026 00:15:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 00:47:37 GMT</lastBuildDate>
     <item>
       <title>연 1만3000% '살인 이자' 뜯은 불법 대부업 조직 16명 검거</title>
-      <link>https://todays-cases.vercel.app/case/c-20260801-daegu-loan-shark</link>
+      <link>https://todaycase.com/case/c-20260801-daegu-loan-shark</link>
       <guid isPermaLink="false">c-20260801-daegu-loan-shark</guid>
       <category>강력범죄</category>
       <pubDate>Sat, 01 Aug 2026 08:00:00 GMT</pubDate>
@@ -16,7 +16,7 @@
     </item>
     <item>
       <title>인천 쿠팡 물류센터 대형 화재…109시간 만에 진화, 경찰 압수수색</title>
-      <link>https://todays-cases.vercel.app/case/c-20260801-koupang-fire</link>
+      <link>https://todaycase.com/case/c-20260801-koupang-fire</link>
       <guid isPermaLink="false">c-20260801-koupang-fire</guid>
       <category>화재/산불</category>
       <pubDate>Sat, 01 Aug 2026 02:29:00 GMT</pubDate>
@@ -24,7 +24,7 @@
     </item>
     <item>
       <title>통영 여성 살인사건 50일째 미검거…범인 여전히 오리무중</title>
-      <link>https://todays-cases.vercel.app/case/c-20260801-tongyeong-murder</link>
+      <link>https://todaycase.com/case/c-20260801-tongyeong-murder</link>
       <guid isPermaLink="false">c-20260801-tongyeong-murder</guid>
       <category>강력범죄</category>
       <pubDate>Sat, 01 Aug 2026 01:57:00 GMT</pubDate>
@@ -32,7 +32,7 @@
     </item>
     <item>
       <title>강화 주문도 앞바다서 아동 추정 시신…실종아동·북한 유입 가능성 조사</title>
-      <link>https://todays-cases.vercel.app/case/c-20260801-ganghwa-body</link>
+      <link>https://todaycase.com/case/c-20260801-ganghwa-body</link>
       <guid isPermaLink="false">c-20260801-ganghwa-body</guid>
       <category>기타</category>
       <pubDate>Sat, 01 Aug 2026 00:30:00 GMT</pubDate>
@@ -40,7 +40,7 @@
     </item>
     <item>
       <title>日 구마모토 강진 나흘째…사망 36명, 이온몰 실종자 수색 계속</title>
-      <link>https://todays-cases.vercel.app/case/c-20260801-kumamoto-quake</link>
+      <link>https://todaycase.com/case/c-20260801-kumamoto-quake</link>
       <guid isPermaLink="false">c-20260801-kumamoto-quake</guid>
       <category>재난/사고</category>
       <pubDate>Fri, 31 Jul 2026 23:00:00 GMT</pubDate>
@@ -48,7 +48,7 @@
     </item>
     <item>
       <title>살인적 폭염…온열질환자 1701명·사망 13명, 양산 41.4도 신기록</title>
-      <link>https://todays-cases.vercel.app/case/c-20260801-heatwave</link>
+      <link>https://todaycase.com/case/c-20260801-heatwave</link>
       <guid isPermaLink="false">c-20260801-heatwave</guid>
       <category>재난/사고</category>
       <pubDate>Fri, 31 Jul 2026 16:44:00 GMT</pubDate>

@@ -28,7 +28,7 @@ const { CASES, CATEGORY_META } = await import(
   pathToFileURL(tmp).href + '?t=' + Date.now()
 )
 
-const SITE = 'https://todays-cases.vercel.app'
+const SITE = 'https://todaycase.com'
 
 mkdirSync(archiveDir, { recursive: true })
 

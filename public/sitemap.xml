@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://todays-cases.vercel.app/</loc>
+    <loc>https://todaycase.com/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://todays-cases.vercel.app/cold-cases</loc>
+    <loc>https://todaycase.com/cold-cases</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://todays-cases.vercel.app/archive</loc>
+    <loc>https://todaycase.com/archive</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://todays-cases.vercel.app/about</loc>
+    <loc>https://todaycase.com/about</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://todays-cases.vercel.app/privacy</loc>
+    <loc>https://todaycase.com/privacy</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://todays-cases.vercel.app/contact</loc>
+    <loc>https://todaycase.com/contact</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://todays-cases.vercel.app/case/c-20260801-heatwave</loc>
+    <loc>https://todaycase.com/case/c-20260801-heatwave</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://todays-cases.vercel.app/case/c-20260801-koupang-fire</loc>
+    <loc>https://todaycase.com/case/c-20260801-koupang-fire</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://todays-cases.vercel.app/case/c-20260801-kumamoto-quake</loc>
+    <loc>https://todaycase.com/case/c-20260801-kumamoto-quake</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://todays-cases.vercel.app/case/c-20260801-daegu-loan-shark</loc>
+    <loc>https://todaycase.com/case/c-20260801-daegu-loan-shark</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://todays-cases.vercel.app/case/c-20260801-ganghwa-body</loc>
+    <loc>https://todaycase.com/case/c-20260801-ganghwa-body</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://todays-cases.vercel.app/case/c-20260801-tongyeong-murder</loc>
+    <loc>https://todaycase.com/case/c-20260801-tongyeong-murder</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
