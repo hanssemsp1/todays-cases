@@ -112,6 +112,34 @@ ${items}
 `
 writeFileSync(join(root, 'public', 'rss.xml'), rss)
 
+// ── sitemap.xml 생성 (SEO) ──────────────────────────────────────
+const today = new Date().toISOString().slice(0, 10)
+const staticUrls = [
+  { loc: `${SITE}/`, pri: '1.0', freq: 'daily' },
+  { loc: `${SITE}/cold-cases`, pri: '0.8', freq: 'daily' },
+  { loc: `${SITE}/archive`, pri: '0.6', freq: 'daily' },
+  { loc: `${SITE}/about`, pri: '0.3', freq: 'monthly' },
+  { loc: `${SITE}/privacy`, pri: '0.3', freq: 'yearly' },
+  { loc: `${SITE}/contact`, pri: '0.3', freq: 'yearly' },
+]
+const caseUrls = CASES.map((c) => ({
+  loc: `${SITE}/case/${c.id}`,
+  pri: '0.7',
+  freq: 'weekly',
+}))
+const urlXml = [...staticUrls, ...caseUrls]
+  .map(
+    (u) =>
+      `  <url>\n    <loc>${u.loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${u.freq}</changefreq>\n    <priority>${u.pri}</priority>\n  </url>`,
+  )
+  .join('\n')
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urlXml}
+</urlset>
+`
+writeFileSync(join(root, 'public', 'sitemap.xml'), sitemap)
+
 console.log(
-  `[gen-archive] ${dates.length}개 날짜, 현재 ${CASES.length}건, RSS ${feedItems.length}건`,
+  `[gen-archive] ${dates.length}개 날짜, 현재 ${CASES.length}건, RSS ${feedItems.length}건, sitemap ${staticUrls.length + caseUrls.length} URL`,
 )

@@ -1,3 +1,8 @@
 {
-  "rewrites": [{ "source": "/((?!archive/|rss.xml).*)", "destination": "/index.html" }]
+  "rewrites": [
+    {
+      "source": "/((?!assets/|archive/|.*\\.(?:xml|txt|png|jpg|jpeg|svg|ico|json|webmanifest|js|css)).*)",
+      "destination": "/index.html"
+    }
+  ]
 }

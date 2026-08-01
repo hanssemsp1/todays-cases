@@ -1,0 +1,65 @@
+/* 소개·개인정보·문의 등 정적 페이지 공용 스타일 */
+.static-page {
+  padding: 24px 0 40px;
+}
+.static-page__hero {
+  padding-bottom: 8px;
+}
+.static-page__title {
+  font-size: 26px;
+  letter-spacing: -0.5px;
+}
+.static-page__updated {
+  color: var(--sub);
+  font-size: 13px;
+  margin: 6px 0 0;
+}
+.static-page__body {
+  max-width: 720px;
+  margin-top: 18px;
+}
+.static-page__body h2 {
+  font-size: 18px;
+  margin: 26px 0 8px;
+}
+.static-page__body p,
+.static-page__body li {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #3a3a3a;
+}
+.static-page__body ul {
+  margin: 6px 0;
+  padding-left: 20px;
+}
+.static-page__body a {
+  color: var(--primary);
+  font-weight: 600;
+}
+.static-page__body a:hover {
+  text-decoration: underline;
+}
+.static-page__note {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  color: var(--sub);
+  font-size: 13.5px;
+  margin-top: 16px;
+}
+.static-page__contact-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: var(--grad);
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+}
+.static-page__contact-card .icon {
+  color: #fff;
+}

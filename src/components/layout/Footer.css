@@ -15,6 +15,24 @@
   margin: 0 0 12px;
   max-width: 460px;
 }
+.app-footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 14px;
+  font-size: 13.5px;
+}
+.app-footer__nav a {
+  color: var(--text);
+  font-weight: 600;
+}
+.app-footer__nav a:hover {
+  color: var(--primary);
+}
+.app-footer__nav span {
+  color: var(--border);
+}
 .app-footer__links {
   display: flex;
   gap: 10px;

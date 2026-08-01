@@ -1,0 +1,38 @@
+.cookie-consent {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: 76px; /* 모바일 하단 탭 위 */
+  z-index: 60;
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+.cookie-consent__text {
+  flex: 1;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text);
+}
+.cookie-consent__text a {
+  color: var(--primary);
+  font-weight: 600;
+}
+.cookie-consent__btn {
+  flex: none;
+  padding: 10px 20px;
+}
+
+@media (min-width: 768px) {
+  .cookie-consent {
+    bottom: 16px;
+  }
+}
