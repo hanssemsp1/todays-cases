@@ -28,7 +28,7 @@ const { CASES, CATEGORY_META } = await import(
   pathToFileURL(tmp).href + '?t=' + Date.now()
 )
 
-const SITE = 'https://todaycase.com'
+const SITE = 'https://www.todaycase.com'
 
 mkdirSync(archiveDir, { recursive: true })
 

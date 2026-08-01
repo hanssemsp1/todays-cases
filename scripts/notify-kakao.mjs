@@ -5,7 +5,7 @@ import { build } from 'esbuild'
 import { join, dirname } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 
-const SITE = 'https://todaycase.com'
+const SITE = 'https://www.todaycase.com'
 
 const [, , CLIENT_ID, CLIENT_SECRET, REFRESH_TOKEN] = process.argv
 if (!CLIENT_ID || !CLIENT_SECRET || !REFRESH_TOKEN) {
