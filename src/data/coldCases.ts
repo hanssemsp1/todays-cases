@@ -44,6 +44,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://ko.wikipedia.org/wiki/%EA%B0%9C%EA%B5%AC%EB%A6%AC_%EC%86%8C%EB%85%84_%EC%82%AC%EA%B1%B4',
     videoUrl: 'https://www.youtube.com/watch?v=GtyiUsoX3Kw',
   },
+  {
+    id: 'cc-apgujeong-leehyungho',
+    caseNo: '1991 · 서울 강남',
+    title: '이형호 군 유괴 살해 사건',
+    occurredDate: '1991-01-29',
+    region: '서울특별시 강남구',
+    status: 'cold',
+    summary:
+      '서울 압구정동에서 9살 이형호 군이 유괴된 뒤 44일간 몸값을 요구하는 협박 전화가 이어졌지만 아이는 끝내 싸늘한 주검으로 발견됐다. 2006년 공소시효가 만료되며 범인을 검거하지 못한 채 영구 미제로 남았다.',
+    details:
+      "1991년 1월 29일 오후 서울 강남구 압구정동 현대아파트에 살던 초등학교 3학년 이형호 군이 집 근처에서 사라졌다. 범인은 가족 사정을 잘 아는 듯한 태도로 부모에게 전화를 걸어 7천만원의 몸값을 요구했고, 44일 동안 전화와 메모로 경찰과 가족을 농락했다. 이형호 군은 실종 43일 만인 3월 13일 잠실대교 인근 배수로에서 숨진 채 발견됐다. 범인의 목소리를 확보하고도 신원을 특정하지 못한 채 2006년 1월 공소시효가 만료돼 영구 미제 사건으로 남았으며, 이 사건은 영화 '그놈 목소리'의 모티브가 됐다.",
+    tags: ['어린이', '유괴', '3대 미제'],
+    sourceUrl: 'https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%98%95%ED%98%B8_%EC%9C%A0%EA%B4%B4_%EC%82%B4%ED%95%B4_%EC%82%AC%EA%B1%B4',
+    videoUrl: 'https://www.youtube.com/watch?v=nuv8blez5CU',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
