@@ -10,6 +10,49 @@
   transform: translateY(-1px);
 }
 
+/* ── 오늘의 톱뉴스 (featured) ── */
+.case-card--featured {
+  position: relative;
+  border: 2px solid transparent;
+  background-image: linear-gradient(var(--surface), var(--surface)), var(--grad);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.case-card__topnews {
+  position: absolute;
+  top: -1px;
+  left: 14px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 0 0 12px 12px;
+  background: var(--grad);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.case-card--featured .case-card__head {
+  padding-top: 34px;
+}
+.case-card--featured .case-card__title {
+  font-size: 20px;
+  line-height: 1.35;
+}
+.case-card--featured .case-card__summary {
+  -webkit-line-clamp: 3;
+  font-size: 14.5px;
+}
+.case-card--featured .case-card__play {
+  width: 66px;
+  height: 66px;
+}
+.case-card--featured .case-card__play .icon {
+  font-size: 38px;
+}
+
 /* 헤더 */
 .case-card__head {
   display: flex;

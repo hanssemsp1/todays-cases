@@ -8,12 +8,24 @@ import './CaseCard.css'
 
 // 뉴스형 사건 카드 — 카드 전체가 상세로 연결.
 // 미디어 우선순위: 방송 영상(썸네일+▶) → 실제 사진 → 카테고리 커버
-export default function CaseCard({ item }: { item: CaseItem }) {
+export default function CaseCard({
+  item,
+  featured = false,
+}: {
+  item: CaseItem
+  featured?: boolean
+}) {
   const meta = CATEGORY_META[item.category]
   const ytId = parseYouTubeId(item.videoUrl)
 
   return (
-    <Link to={`/case/${item.id}`} className="case-card card">
+    <Link
+      to={`/case/${item.id}`}
+      className={'case-card card' + (featured ? ' case-card--featured' : '')}
+    >
+      {featured && (
+        <span className="case-card__topnews">🔴 오늘의 톱뉴스</span>
+      )}
       {/* ── 헤더: 카테고리 아바타 + 출처/지역/시간 ── */}
       <header className="case-card__head">
         <span className="case-card__avatar" style={{ background: meta.color }}>

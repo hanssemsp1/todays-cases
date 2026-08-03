@@ -91,7 +91,17 @@ export default function FeedPage() {
       <section className="feed__list container">
         <p className="feed__count">{list.length}건</p>
         {list.length > 0 ? (
-          list.map((item) => <CaseCard key={item.id} item={item} />)
+          !query.trim() && cat === 'all' ? (
+            <>
+              {/* 맨 위 사건을 '오늘의 톱뉴스'로 크게 강조 */}
+              <CaseCard key={list[0].id} item={list[0]} featured />
+              {list.slice(1).map((item) => (
+                <CaseCard key={item.id} item={item} />
+              ))}
+            </>
+          ) : (
+            list.map((item) => <CaseCard key={item.id} item={item} />)
+          )
         ) : (
           <div className="feed__empty">
             <Icon name="search_off" size={48} />
