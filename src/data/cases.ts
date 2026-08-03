@@ -34,6 +34,37 @@ export const CASES: CaseItem[] = [
     isBreaking: true,
   },
   {
+    id: 'c-20260803-miayeok-stabbing',
+    title: '서울 미아역 인근 마트서 묻지마 흉기 난동…60대 여성 숨져',
+    summary:
+      '서울 강북구 미아역 인근 마트에서 일면식 없는 60대 여성이 흉기에 찔려 숨졌다. 경찰은 현장 인근에서 피의자를 붙잡아 정확한 범행 동기를 조사하고 있다.',
+    content:
+      '서울 강북구 미아역 인근의 한 마트에서 아무런 관계가 없는 60대 여성이 흉기에 찔려 숨지는 이른바 묻지마 흉기 난동이 발생했다. 신고를 받고 출동한 경찰은 현장 인근에서 피의자를 붙잡았다. 경찰은 피의자의 정신질환 여부와 범행 동기 등을 조사하고 있으며, 최근 잇따르는 불특정 다수 대상 흉기 범죄에 대한 시민들의 불안이 커지고 있다.',
+    category: 'crime',
+    region: '서울 강북구',
+    date: '2026-08-03',
+    source: '연합뉴스TV',
+    videoUrl: 'https://www.youtube.com/watch?v=3nAHIf1Qn2I',
+    likes: 380,
+    comments: 72,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260803-siheung-stabbing',
+    title: '시흥서 흉기 사건 2명 사망…중국 국적 용의자 도주 추적',
+    summary:
+      '경기 시흥에서 흉기 사건으로 2명이 숨졌고, 용의자로 지목된 중국 국적 50대 남성이 달아나 경찰이 추적에 나섰다.',
+    content:
+      '경기 시흥에서 흉기에 의한 사건으로 2명이 숨지는 일이 발생했다. 경찰은 용의자로 중국 국적의 50대 남성을 특정했으며, 이 남성이 현장에서 달아나 인상착의와 동선을 토대로 추적하고 있다. 경찰은 가능한 수단을 동원해 검거에 주력하고 있으며 정확한 사건 경위를 조사 중이다.',
+    category: 'crime',
+    region: '경기 시흥시',
+    date: '2026-08-03',
+    source: 'SBS',
+    videoUrl: 'https://www.youtube.com/watch?v=9c3cMNkCALg',
+    likes: 340,
+    comments: 65,
+  },
+  {
     id: 'c-20260803-suyu-officetel-murder',
     title: "'강북 수유동 오피스텔 살인' 50대 남성 구속…마약 양성 반응도",
     summary:
