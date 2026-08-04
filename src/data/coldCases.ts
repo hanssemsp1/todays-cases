@@ -59,6 +59,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%98%95%ED%98%B8_%EC%9C%A0%EA%B4%B4_%EC%82%B4%ED%95%B4_%EC%82%AC%EA%B1%B4',
     videoUrl: 'https://www.youtube.com/watch?v=nuv8blez5CU',
   },
+  {
+    id: 'cc-chuncheon-1972',
+    caseNo: '1972 · 강원 춘천',
+    title: '춘천 강간살인 조작 사건',
+    occurredDate: '1972-09-27',
+    region: '강원 춘천시',
+    status: 'unsolved',
+    summary:
+      '1972년 강원 춘천에서 파출소장의 9세 딸이 성폭행당한 뒤 살해됐다. 경찰은 무고한 만화방 주인을 고문해 허위자백을 받아냈고, 그는 15년을 복역한 뒤 2011년 재심에서야 무죄를 선고받았지만 진범은 끝내 밝혀지지 않았다.',
+    details:
+      "1972년 9월 27일 강원 춘천시 우두동에서 춘천경찰서 역전파출소장의 9세 딸이 성폭행당한 뒤 살해된 채 발견됐다. 조속한 범인 검거 지시가 떨어지자 경찰은 피해 아동이 다녀간 만화방 주인 정원섭씨를 유력 용의자로 지목했다. 경찰은 정원섭씨를 거꾸로 매달고 물고문을 하는 등 가혹행위를 가해 허위자백을 받아냈고, 정씨는 무기징역을 선고받아 15년간 복역했다. 이후 진실·화해를위한과거사정리위원회의 재심 권고로 2011년 재심에서 뒤늦게 무죄가 확정됐지만 정씨는 이미 억울한 옥살이로 삶이 무너진 뒤였다. 사건 발생 50년이 지나도록 진범은 밝혀지지 않아 미제로 남아 있다.",
+    tags: ['조작수사', '재심무죄', '진범미제'],
+    sourceUrl: 'https://ko.wikipedia.org/wiki/%EC%B6%98%EC%B2%9C_%EA%B0%95%EA%B0%84%EC%82%B4%EC%9D%B8_%EC%A1%B0%EC%9E%91_%EC%82%AC%EA%B1%B4',
+    videoUrl: 'https://www.youtube.com/watch?v=BuEzOIAdloA',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
