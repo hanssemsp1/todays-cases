@@ -3,6 +3,8 @@ import { useParams, Link, useNavigate } from 'react-router-dom'
 import { CASES, CATEGORY_META } from '../data/cases'
 import { downloadShareCard } from '../lib/shareCard'
 import { parseYouTubeId, youTubeEmbed } from '../lib/youtube'
+import AdSlot from '../components/ui/AdSlot'
+import { AD_SLOTS } from '../lib/ads'
 import Icon from '../components/ui/Icon'
 import { CategoryBadge, BreakingBadge } from '../components/ui/Badge'
 import './CaseDetailPage.css'
@@ -138,6 +140,9 @@ export default function CaseDetailPage() {
         <h1 className="detail__title">{item.title}</h1>
         <p className="detail__summary">{item.summary}</p>
         <p className="detail__content">{item.content}</p>
+
+        {/* 본문 아래 광고 자리 (승인·slot 설정 시 노출) */}
+        <AdSlot slot={AD_SLOTS.detail} />
 
         {/* ── 공유 액션 (A안) ── */}
         <div className="detail__share card">

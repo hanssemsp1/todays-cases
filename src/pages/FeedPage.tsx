@@ -1,9 +1,11 @@
-import { useMemo, useState } from 'react'
+import { Fragment, useMemo, useState } from 'react'
 import type { CaseCategory } from '../types'
 import { CASES, CATEGORY_META } from '../data/cases'
 import CaseCard from '../components/case/CaseCard'
 import SearchBar from '../components/ui/SearchBar'
 import Icon from '../components/ui/Icon'
+import AdSlot from '../components/ui/AdSlot'
+import { AD_SLOTS } from '../lib/ads'
 import './FeedPage.css'
 
 type SortKey = 'latest' | 'popular'
@@ -105,8 +107,12 @@ export default function FeedPage() {
             <>
               {/* 맨 위 사건을 '오늘의 톱뉴스'로 크게 강조 */}
               <CaseCard key={list[0].id} item={list[0]} featured />
-              {list.slice(1).map((item) => (
-                <CaseCard key={item.id} item={item} />
+              {list.slice(1).map((item, i) => (
+                <Fragment key={item.id}>
+                  <CaseCard item={item} />
+                  {/* 6개마다 광고 자리 (승인·slot 설정 시 노출) */}
+                  {(i + 1) % 6 === 0 && <AdSlot slot={AD_SLOTS.feed} />}
+                </Fragment>
               ))}
             </>
           ) : (
