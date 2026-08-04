@@ -1,5 +1,13 @@
-// 사건 카테고리
-export type CaseCategory = 'crime' | 'traffic' | 'fire' | 'disaster' | 'etc'
+// 사건/콘텐츠 카테고리
+export type CaseCategory =
+  | 'crime'
+  | 'traffic'
+  | 'fire'
+  | 'disaster'
+  | 'showbiz' // 연예·스포츠
+  | 'world' // 해외토픽·기이한 사건
+  | 'mystery' // 미스터리·괴담
+  | 'etc'
 
 // 오늘의 사건사고 한 건
 export interface CaseItem {

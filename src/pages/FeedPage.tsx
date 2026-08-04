@@ -9,7 +9,17 @@ import './FeedPage.css'
 type SortKey = 'latest' | 'popular'
 type FilterCat = 'all' | CaseCategory
 
-const CATS: FilterCat[] = ['all', 'crime', 'traffic', 'fire', 'disaster', 'etc']
+const CATS: FilterCat[] = [
+  'all',
+  'crime',
+  'traffic',
+  'fire',
+  'disaster',
+  'showbiz',
+  'world',
+  'mystery',
+  'etc',
+]
 
 // 🏠 오늘의 사건사고 피드 — 검색 + 카테고리 필터 + 정렬 (소규모라 클라이언트 필터)
 export default function FeedPage() {

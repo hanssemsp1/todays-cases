@@ -18,6 +18,9 @@
   --cat-traffic: #0095f6;  /* 교통사고 */
   --cat-fire: #f58529;     /* 화재/산불 */
   --cat-disaster: #8134af; /* 재난/사고 */
+  --cat-showbiz: #e84393;  /* 연예·스포츠 */
+  --cat-world: #00b8a3;    /* 해외토픽 */
+  --cat-mystery: #5f27cd;  /* 미스터리·괴담 */
   --cat-etc: #8e8e8e;      /* 기타 */
 
   --radius: 16px;
