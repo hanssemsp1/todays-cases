@@ -134,6 +134,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.nocutnews.co.kr/news/6351469',
     videoUrl: 'https://www.youtube.com/watch?v=6nBpdRscNwg',
   },
+  {
+    id: 'cc-nakdonggang-murder',
+    caseNo: '1990 · 부산 사상구',
+    title: '낙동강변 살인사건',
+    occurredDate: '1990-01-04',
+    region: '부산광역시 사상구',
+    status: 'unsolved',
+    summary:
+      '1990년 부산 낙동강변에서 20대 여성이 납치돼 성폭행당한 뒤 살해됐다. 경찰은 애먼 두 청년을 고문해 허위자백을 받아내 21년간 억울한 옥살이를 시켰고, 2021년 재심에서 무죄가 확정됐지만 진범은 끝내 밝혀지지 않았다.',
+    details:
+      "1990년 1월 4일 부산 사상구 낙동강변에서 20대 남녀가 괴한에게 납치됐고, 여성은 성폭행을 당한 뒤 살해된 채 발견됐다. 범인을 찾지 못해 수사가 난항을 겪자 경찰은 다른 사건으로 조사받던 최인철·장동익씨를 살인범으로 지목해 물고문 등 가혹행위로 허위자백을 받아냈다. 두 사람은 무기징역을 선고받고 21년간 복역하며 억울한 옥살이를 했다. 부산고법은 2021년 2월 재심에서 '진술이 일관되고 구체적이며 고문에 의한 허위 자백으로 보인다'며 두 사람에게 무죄를 선고했다. 사건 발생 31년 만에 누명은 벗었지만, 진범이 누구인지는 지금까지도 밝혀지지 않은 채 미제로 남아 있다.",
+    tags: ['조작수사', '재심무죄', '진범미제'],
+    sourceUrl: 'https://news.mt.co.kr/mtview.php?no=2021020410511838553',
+    videoUrl: 'https://www.youtube.com/watch?v=7nYxMdZ8UwU',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
