@@ -149,6 +149,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://news.mt.co.kr/mtview.php?no=2021020410511838553',
     videoUrl: 'https://www.youtube.com/watch?v=7nYxMdZ8UwU',
   },
+  {
+    id: 'cc-songhyehee-missing',
+    caseNo: '1999 · 경기 평택',
+    title: '송혜희 실종 사건',
+    occurredDate: '1999-02-13',
+    region: '경기 평택시',
+    status: 'unsolved',
+    summary:
+      '1999년 2월 경기 평택시에서 당시 송탄여고 3학년이던 송혜희양(17)이 막차 버스에서 내린 뒤 흔적도 없이 사라졌다. 납치·인신매매 사건으로 추정됐으나 결정적 단서를 찾지 못해 2014년 공소시효가 만료됐고, 아버지는 25년간 딸을 찾아 전국을 떠돌다 2024년 세상을 떠났다.',
+    details:
+      '1999년 2월 13일 밤, 송탄여고 3학년이던 송혜희양은 친구들과 놀다 밤 10시쯤 막차 버스를 타고 귀가하던 중 경기 평택시 도일동 하리마을 도일주유소 앞에서 내린 것을 마지막으로 실종됐다. 당시 인적이 드물었던 버스 안에는 송양과 30대로 추정되는 의문의 남성 한 명만 타고 있었던 것으로 파악됐다. 경찰은 납치 및 인신매매 사건으로 보고 수사했으나 별다른 진전을 얻지 못했고, 결국 2014년 2월 공소시효가 만료됐다. 딸을 찾지 못한 절망감에 어머니는 2003년경 세상을 떠났고, 아버지는 이후에도 전단지와 사진으로 뒤덮인 트럭을 몰고 전국을 돌며 25년간 딸을 찾아다녔다. 아버지마저 2024년 8월 교통사고로 별세하면서 사건은 유족 없이 미제로 남아 있다.',
+    tags: ['장기실종', '미제사건', '공소시효만료'],
+    sourceUrl: 'https://www.goodmorningcc.com/news/articleView.html?idxno=403750',
+    videoUrl: 'https://www.youtube.com/watch?v=MZmfw5BRgso',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
