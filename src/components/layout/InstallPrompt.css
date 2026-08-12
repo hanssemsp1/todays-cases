@@ -1,0 +1,101 @@
+/* 홈 화면 추가 안내 — 쿠키 배너보다 위(z 61), 하단 탭 위에 뜬다 */
+.install-prompt {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: 76px;
+  z-index: 61;
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  animation: install-up 0.28s ease-out;
+}
+@keyframes install-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.install-prompt__row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.install-prompt__icon {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 11px;
+}
+.install-prompt__text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.35;
+}
+.install-prompt__text strong {
+  font-size: 14px;
+  color: var(--text);
+}
+.install-prompt__text span {
+  font-size: 12px;
+  color: var(--text-sub);
+}
+
+.install-prompt__cta {
+  flex: none;
+  padding: 9px 18px;
+  border: 0;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  cursor: pointer;
+}
+.install-prompt__close {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text-sub);
+  cursor: pointer;
+}
+.install-prompt__close:hover {
+  background: var(--bg-sub);
+}
+
+.install-prompt__howto {
+  margin: 10px 0 2px;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--text);
+}
+.install-prompt__howto b {
+  color: var(--primary);
+}
+.install-prompt__howto .icon {
+  font-size: 17px;
+  vertical-align: -3px;
+}
+
+@media (min-width: 768px) {
+  .install-prompt {
+    bottom: 16px;
+  }
+}

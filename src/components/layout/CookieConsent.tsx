@@ -23,6 +23,8 @@ export default function CookieConsent() {
       /* 무시 */
     }
     setShow(false)
+    // 같은 자리를 쓰는 설치 안내에 "이제 떠도 된다"고 알림 (배너 겹침 방지)
+    window.dispatchEvent(new Event('tc-cookie-accepted'))
   }
 
   if (!show) return null

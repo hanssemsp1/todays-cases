@@ -55,6 +55,11 @@
 .app-footer__link:hover {
   border-color: var(--sub);
 }
+/* 버튼도 링크와 같은 모양으로 (앱으로 추가) */
+.app-footer__link--btn {
+  font-family: inherit;
+  cursor: pointer;
+}
 .app-footer__link .icon {
   font-family: 'Material Symbols Rounded';
   font-size: 18px;

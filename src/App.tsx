@@ -10,6 +10,7 @@ import AboutPage from './pages/AboutPage'
 import PrivacyPage from './pages/PrivacyPage'
 import ContactPage from './pages/ContactPage'
 import CookieConsent from './components/layout/CookieConsent'
+import InstallPrompt from './components/layout/InstallPrompt'
 
 // 앱 셸: 헤더 + 라우팅 본문 + 푸터 + 모바일 하단 탭
 export default function App() {
@@ -30,6 +31,7 @@ export default function App() {
       <Footer />
       <BottomNav />
       <CookieConsent />
+      <InstallPrompt />
     </div>
   )
 }

@@ -22,6 +22,13 @@ export default function Footer() {
         </nav>
 
         <div className="app-footer__links">
+          <button
+            type="button"
+            className="app-footer__link app-footer__link--btn"
+            onClick={() => window.dispatchEvent(new Event('tc-show-install'))}
+          >
+            <span className="icon">install_mobile</span> 앱으로 추가
+          </button>
           <a className="app-footer__link" href="/rss.xml" target="_blank" rel="noopener">
             <span className="icon">rss_feed</span> RSS 구독
           </a>
