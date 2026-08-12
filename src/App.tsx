@@ -11,6 +11,7 @@ import PrivacyPage from './pages/PrivacyPage'
 import ContactPage from './pages/ContactPage'
 import CookieConsent from './components/layout/CookieConsent'
 import InstallPrompt from './components/layout/InstallPrompt'
+import { Analytics } from '@vercel/analytics/react'
 
 // 앱 셸: 헤더 + 라우팅 본문 + 푸터 + 모바일 하단 탭
 export default function App() {
@@ -32,6 +33,8 @@ export default function App() {
       <BottomNav />
       <CookieConsent />
       <InstallPrompt />
+      {/* 방문자 유입 경로 측정 (스레드·카톡·검색 중 어디서 왔는지) */}
+      <Analytics />
     </div>
   )
 }
