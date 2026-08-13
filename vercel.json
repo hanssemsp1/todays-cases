@@ -1,4 +1,5 @@
 {
+  "cleanUrls": true,
   "rewrites": [
     {
       "source": "/((?!assets/|archive/|google|.*\\.(?:html|xml|txt|png|jpg|jpeg|svg|ico|json|webmanifest|js|css)).*)",
