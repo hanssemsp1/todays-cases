@@ -140,6 +140,51 @@ ${urlXml}
 `
 writeFileSync(join(root, 'public', 'sitemap.xml'), sitemap)
 
+// ── promo.xml 생성 (SNS 자동 게시용 후킹 피드) ─────────────────────
+// Make.com 등이 이 RSS를 읽어 매일 새 항목(날짜별)을 스레드·인스타에 자동 게시.
+// 각 항목: 후킹 문구(description) + 대표 이미지(enclosure=방송영상 썸네일).
+const ytId = (url = '') => {
+  const m = String(url).match(/[?&]v=([a-zA-Z0-9_-]{11})|youtu\.be\/([a-zA-Z0-9_-]{11})/)
+  return m ? m[1] || m[2] : null
+}
+const mmdd = (d) => `${Number(d.slice(5, 7))}/${Number(d.slice(8, 10))}`
+const promoDates = dates.slice(0, 14) // 최근 14일
+const promoItems = promoDates
+  .map((date) => {
+    const dayCases = JSON.parse(readFileSync(join(archiveDir, `${date}.json`), 'utf8'))
+    if (!dayCases.length) return ''
+    const top = dayCases.slice(0, 3)
+    const id = ytId(top[0]?.videoUrl)
+    const image = id ? `https://img.youtube.com/vi/${id}/hqdefault.jpg` : `${SITE}/kakao-banner.png`
+    const lines = top.map((c) => `• ${c.title}`).join('\n')
+    const hook = `🚨 오늘의 사건사고 (${mmdd(date)})\n\n${lines}\n\n👉 전체 영상으로 보기\n${SITE}\n\n#사건사고 #미제사건 #오늘의뉴스 #todaycase`
+    const pub = new Date(`${date}T09:00:00+09:00`).toUTCString()
+    return `    <item>
+      <title>${xmlEscape(`오늘의 사건사고 (${mmdd(date)})`)}</title>
+      <link>${SITE}</link>
+      <guid isPermaLink="false">promo-${date}</guid>
+      <pubDate>${pub}</pubDate>
+      <enclosure url="${image}" type="image/jpeg" />
+      <description><![CDATA[${hook}]]></description>
+    </item>`
+  })
+  .filter(Boolean)
+  .join('\n')
+
+const promo = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>오늘의 사건사고 · 홍보 피드</title>
+    <link>${SITE}</link>
+    <description>SNS 자동 게시용 후킹 피드</description>
+    <language>ko</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+${promoItems}
+  </channel>
+</rss>
+`
+writeFileSync(join(root, 'public', 'promo.xml'), promo)
+
 console.log(
-  `[gen-archive] ${dates.length}개 날짜, 현재 ${CASES.length}건, RSS ${feedItems.length}건, sitemap ${staticUrls.length + caseUrls.length} URL`,
+  `[gen-archive] ${dates.length}개 날짜, 현재 ${CASES.length}건, RSS ${feedItems.length}건, sitemap ${staticUrls.length + caseUrls.length} URL, promo ${promoDates.length}일`,
 )
