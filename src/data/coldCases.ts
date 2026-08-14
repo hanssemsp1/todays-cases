@@ -225,6 +225,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://news.sbs.co.kr/news/endPage.do?news_id=N1003152892',
     videoUrl: 'https://www.youtube.com/watch?v=lKQnY46xzwc',
   },
+  {
+    id: 'cc-cheongju-highschool-girl-missing',
+    caseNo: '2014 · 충북 청주',
+    title: '청주 여고생 실종 사건',
+    occurredDate: '2014-01-29',
+    region: '충북 청주시 상당구',
+    status: 'unsolved',
+    summary:
+      '2014년 1월 29일 청주에 살던 고등학교 3학년 이다현 양이 친구를 만나고 오겠다며 집을 나선 뒤 실종됐다. 유력 용의자로 지목됐던 인물이 사망하면서 공소권 없음으로 수사가 종결돼, 10년 넘게 소재가 확인되지 않고 있다.',
+    details:
+      '실종 다음 날인 1월 30일까지 이양이 돌아오지 않자 가족이 경찰에 신고했다. 경찰이 이양의 휴대전화 위치를 추적한 결과 한 택시 안에서 발견됐는데, 이미 분실폰으로 등록돼 있어 행적 추적에 실패했고 통화기록도 모두 삭제된 상태였다. 경찰은 이양이 머물던 고시텔의 다른 거주자 한모씨를 유력 용의자로 지목했다. 한씨는 이양이 실종된 당일 오전 만나자는 문자를 보낸 사실이 확인됐고, 인천에서 자신의 차량을 매각하면서 대금을 자신이 아닌 이다현의 계좌로 송금받은 의문스러운 정황도 드러났다. 그러나 한씨가 사망하면서 공소권 없음으로 수사가 종결돼 사건은 미궁에 빠졌다. 2014년 3월 SBS 궁금한 이야기 Y에서 이 사건을 심층 조명한 바 있다.',
+    tags: ['여고생 실종', '미제사건', '공소권없음'],
+    sourceUrl: 'https://namu.wiki/w/%EC%B2%AD%EC%A3%BC%20%EC%97%AC%EA%B3%A0%EC%83%9D%20%EC%8B%A4%EC%A2%85%20%EC%82%AC%EA%B1%B4',
+    videoUrl: 'https://www.youtube.com/watch?v=jqPv_AT1cuc',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
