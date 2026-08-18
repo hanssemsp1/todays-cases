@@ -270,6 +270,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.khan.co.kr/article/201606061301001',
     videoUrl: 'https://www.youtube.com/watch?v=zgiDzlZZ-Aw',
   },
+  {
+    id: 'cc-daejeon-galma-villa-woman',
+    caseNo: '2005 · 대전 서구',
+    title: '대전 갈마동 빌라 여성 살인사건',
+    occurredDate: '2005-10-29',
+    region: '대전광역시 서구 갈마동',
+    status: 'cold',
+    summary:
+      '2005년 10월 대전 갈마동의 한 빌라에서 26세 여성이 숨진 채 발견된 사건이다. 현장에 남은 흔적으로 수사가 진행됐지만 20년 가까이 범인을 특정하지 못한 채 장기 미제로 남아 있다.',
+    details:
+      '2005년 10월 29일 대전 서구 갈마동의 한 빌라에서 26세 여성이 숨진 채 발견됐다. 피해자와 연락이 닿지 않자 이를 걱정한 지인이 찾아갔다가 시신을 발견해 신고했다. 경찰은 현장에서 확보한 단서를 토대로 수사를 벌였으나 결정적 증거를 찾지 못해 범인을 특정하지 못했다. 이 사건은 1998년 인근에서 발생한 갈마동 여중생 살인사건, 2006년 대덕구 개인택시 기사 살인사건과 함께 대전 지역의 대표적인 장기 미제 사건으로 꼽힌다. 2019년 화성연쇄살인사건 유력 용의자가 DNA로 특정되며 국내 미제사건 수사에 대한 관심이 높아졌고, 대전경찰청은 이 사건을 포함한 지역 미제사건에 대해 DNA 재감정 등 과학수사 기법을 활용한 재수사를 이어가고 있다. 아직 범인은 검거되지 않았다.',
+    tags: ['미제살인', '대전', '장기미제'],
+    sourceUrl: 'https://n.news.naver.com/mnews/article/003/0011629572?sid=102',
+    videoUrl: 'https://www.youtube.com/watch?v=KWxobnHl7oQ',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
