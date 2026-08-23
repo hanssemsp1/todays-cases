@@ -344,6 +344,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'http://news.sbs.co.kr/news/endPage.do?news_id=N1003668527',
     videoUrl: 'https://www.youtube.com/watch?v=lxH_WjPsx4Q',
   },
+  {
+    id: 'cc-incheon-sipjeong-couple-murder',
+    caseNo: '2006 · 인천 부평구',
+    title: '인천 십정동 부부 살해사건',
+    occurredDate: '2006-11-16',
+    region: '인천광역시 부평구 십정동',
+    status: 'reopened',
+    summary:
+      '2006년 11월 16일 인천 부평구 십정동의 한 주택에서 집주인 부부가 흉기에 수십 차례 찔린 채 숨진 채 발견됐다. 외부 침입 흔적 없이 집에 숨겨둔 거액의 적금통장만 사라져 경찰은 피해자와 안면이 있는 인물의 소행으로 추정했으나, 20년 가까이 범인을 특정하지 못한 채 미제로 남아 있다.',
+    details:
+      "남편은 목과 가슴 등 8곳, 아내는 등과 가슴 등 37곳을 찔려 과다출혈로 숨졌으며, 범행 현장에는 남편이 움켜쥔 것으로 보이는 피 묻은 일회용 비닐 우비가 남아 있었으나 사건 당일은 비나 눈이 내리지 않아 의문을 더했다. 경찰은 약 1500명을 조사하고 1년 가까이 수사했지만 결정적 증거를 확보하지 못해 수사가 사실상 종결됐다. 2015년 살인죄 공소시효를 폐지한 이른바 '태완이법' 시행으로 이 사건의 공소시효도 사실상 사라졌고, 인천지방경찰청 미제사건전담팀이 현재도 재수사 대상으로 다루고 있다. 언론의 미제사건 재조명 연재와 시사 탐사보도 프로그램에서도 이 사건이 다뤄진 바 있다.",
+    tags: ['미제살인', '장기미제', '부부살해'],
+    sourceUrl: 'https://www.khan.co.kr/article/201606212051001',
+    videoUrl: 'https://www.youtube.com/watch?v=VPsF8Hdr6tQ',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
