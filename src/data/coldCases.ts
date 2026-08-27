@@ -402,6 +402,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://namu.wiki/w/%EC%82%AC%EB%B0%94%EC%9D%B4%20%EB%8B%A8%EB%9E%80%EC%A3%BC%EC%A0%90%20%EC%82%B4%EC%9D%B8%EC%82%AC%EA%B1%B4',
     videoUrl: 'https://www.youtube.com/watch?v=WCPKFuAAx9Y',
   },
+  {
+    id: 'cc-yeongju-taxi-driver-murder',
+    caseNo: '2003 · 경북 영주',
+    title: '영주 택시기사 살인사건',
+    occurredDate: '2003-05-22',
+    region: '경북 영주시(발생) · 경북 상주시(시신 발견)',
+    status: 'unsolved',
+    summary:
+      '2003년 5월 22일 밤, 경북 영주에서 개인택시를 몰던 김모씨가 상주까지 가자는 손님의 호출을 받고 나간 뒤 실종됐다가, 다음 날 새벽 상주의 외진 밭둑에서 흉기에 찔려 숨진 채 발견됐다. 20년이 넘도록 범인을 특정하지 못한 채 장기 미제사건으로 남아 있다.',
+    details:
+      '피해자 김씨는 삼 남매를 둔 가장으로 장거리 운행도 마다하지 않고 성실히 일했다. 사건 당일 밤 늦게 걸려온 호출 전화를 받고 영주의 한 관광호텔로 향했으며, 이후 손님을 태우고 상주 방면으로 이동한 것으로 추정된다. 다음 날 새벽 상주시 외곽 마을의 밭둑에서 흉기에 여러 차례 찔려 숨진 채 발견됐고, 초기에는 단순 택시강도 사건으로 수사가 진행됐다. 인근 방범카메라에 포착된 인상착의를 바탕으로 몽타주가 여러 차례 공개됐으며, 공범이 있었을 가능성도 제기됐다. 경찰과 방송 시사프로그램이 수차례 시청자 제보를 요청했지만 결정적 단서를 찾지 못한 채 현재까지 미제로 남아 있다.',
+    tags: ['택시기사', '미제살인', '경북 영주', '콜택시', '장기미제', '그것이알고싶다'],
+    sourceUrl: 'https://news.sbs.co.kr/news/endPage.do?news_id=N1005661785',
+    videoUrl: 'https://www.youtube.com/watch?v=Q4FpV3nxkFg',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
