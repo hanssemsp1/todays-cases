@@ -462,6 +462,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://n.news.naver.com/mnews/article/055/0001379540',
     videoUrl: 'https://www.youtube.com/watch?v=aq6WEQ2nlcQ',
   },
+  {
+    id: 'cc-mokpo-college-student-butterfly-sticker',
+    caseNo: '2010 · 전남 목포',
+    title: '목포 여대생(예비 간호사) 살인사건',
+    occurredDate: '2010-10-15',
+    region: '전남 목포시',
+    status: 'unsolved',
+    summary:
+      '2010년 10월 15일 밤 전남 목포에서 간호사를 꿈꾸며 국가고시를 준비하던 22세 대학생 조미경씨가 아르바이트를 마치고 귀가하던 중 실종됐다가 다음날 새벽 인근 배수로에서 숨진 채 발견됐다. 나비 문양 스티커가 붙은 의심 차량이 목격됐지만 15년이 넘도록 범인을 특정하지 못하고 있다.',
+    details:
+      "조씨는 2010년 10월 15일 밤 11시 14분쯤 아르바이트를 마치고 공원길을 걸어 귀가하던 중 자취를 감췄고, 다음날 새벽 인근 배수로에서 숨진 채 발견됐다. 목격자들은 사건 당시 광택 없는 짙은 회색으로 튜닝된 중형 승용차 트렁크에 나비 문양 스티커가 붙어 있었고, 번호판 끝자리가 '3'이었다는 진술을 남겼다. 경찰은 이 차량을 추적하며 한 온라인 자동차 동호회 회원들을 상대로 조사를 벌였지만 결정적인 증거를 확보하지 못했다. 2025년 2월 SBS '그것이 알고 싶다'가 사건을 재조명하며 새로 제작한 용의자 몽타주를 공개하고 시청자 제보를 받았지만, 15년이 넘도록 범인은 검거되지 않은 채 사건은 미제로 남아 있다.",
+    tags: ['여대생', '미제살인', '나비스티커', '그것이알고싶다'],
+    sourceUrl: 'https://m.entertain.naver.com/article/108/0003305501',
+    videoUrl: 'https://www.youtube.com/watch?v=_GZ3J2Yn3dM',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
