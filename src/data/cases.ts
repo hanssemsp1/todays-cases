@@ -24,6 +24,40 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260902-tupac-shakur-murder-guilty-verdict',
+    title: "래퍼 투팍 살해범, 30년 만에 배심원 유죄 평결…'힙합 최대 미제' 풀렸다",
+    summary:
+      '1996년 힙합의 전설 투팍 샤커를 살해한 혐의로 기소된 전 갱단 두목 듀에인 데이비스에게 미국 라스베이거스 배심원단이 1급 살인 유죄 평결을 내렸다. 30년간 미제로 남았던 사건이 데이비스 본인의 회고록이 결정적 단서가 되며 마침표를 찍었다.',
+    content:
+      "투팍 샤커는 1996년 9월 7일 라스베이거스 도로에서 차량 총격을 받고 엿새 뒤 25세로 숨졌으며, 범인은 30년 가까이 밝혀지지 않아 힙합 역사상 최대 미제 사건으로 남아 있었다. 검찰은 당시 로스앤젤레스 갱단 '사우스사이드 크립스'의 두목이었던 듀에인 '키페 디' 데이비스가 조카가 폭행당한 데 대한 보복으로 총격을 지시했다고 봤다. 결정적 단서는 데이비스 본인이 2019년 펴낸 회고록에서 사건 당일 차량에 함께 있었다고 스스로 밝힌 내용이었고, 이를 근거로 2023년 그는 27년 만에 체포·기소됐다. 라스베이거스 배심원단은 지난달 31일(현지시간) 심리 끝에 데이비스에게 1급 살인 유죄 평결을 내렸으며, 그는 가석방 없는 종신형을 선고받을 처지에 놓였다.",
+    category: 'world',
+    region: '해외 · 미국',
+    date: '2026-09-02',
+    source: '외신 종합',
+    sourceUrl: 'https://www.youtube.com/watch?v=uoyN97ZtgsY',
+    videoUrl: 'https://www.youtube.com/watch?v=uoyN97ZtgsY',
+    likes: 512,
+    comments: 96,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260902-nyc-times-square-stabbing-bofa-vp',
+    title: '뉴욕 타임스스퀘어 대낮 흉기난동…뱅크오브아메리카 여성 임원 사망',
+    summary:
+      '미국 뉴욕 맨해튼 타임스스퀘어 한복판에서 흉기를 든 여성이 행인들을 무차별 공격해 1명이 숨지고 1명이 다쳤다. 숨진 피해자는 뱅크오브아메리카(BofA) 여성 부사장으로 확인됐으며, 범인은 경찰의 투항 요구를 거부하다 총에 맞아 사망했다.',
+    content:
+      '지난달 31일(현지시간) 낮 뉴욕 맨해튼 타임스스퀘어에서 흉기 두 자루를 든 여성이 지나가던 행인 2명을 무작위로 공격했다. 이 중 1명이 현장에서 숨졌고, 다른 1명은 크게 다쳐 병원으로 옮겨졌다. 숨진 피해자는 뱅크오브아메리카에서 부사장으로 재직하던 여성으로 뒤늦게 확인됐다. 뉴욕 경찰(NYPD)은 범인에게 수차례 흉기를 내려놓으라고 경고했으나 이에 응하지 않자 총격을 가해 범인도 현장에서 사망했다. 에릭 애덤스 시장과 NYPD는 이번 공격이 "무작위적이고 아무런 도발 없이" 벌어졌다고 밝혔으며, 경찰의 총기 사용 경위는 자체 감찰 부서가 조사하고 있다.',
+    category: 'world',
+    region: '해외 · 미국',
+    date: '2026-09-02',
+    source: '외신 종합',
+    sourceUrl: 'https://www.youtube.com/shorts/hL-X41yWIAI',
+    videoUrl: 'https://www.youtube.com/shorts/hL-X41yWIAI',
+    likes: 398,
+    comments: 71,
+    isBreaking: true,
+  },
+  {
     id: 'c-20260901-jeju-missing-case-falsification-referral',
     title: "제주 '실종 허위종결' 부 경장, 오늘 검찰 송치…298건 전수조사 결과 발표",
     summary:
