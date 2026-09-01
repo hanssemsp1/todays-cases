@@ -15,6 +15,10 @@ export const CATEGORY_META: Record<
   etc: { label: '기타', icon: 'more_horiz', color: 'var(--cat-etc)' },
 }
 
+// ── 「이슈·미스터리」 탭이 담당하는 카테고리 ────────────────────────
+// 메인 사건사고 피드(FeedPage)에서는 제외되고 IssuePage 에서만 보입니다.
+export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
+
 // ── 오늘의 사건사고 ────────────────────────────────────────────────
 // ※ 2026-08-01부터 매일 예약작업이 "클릭하고 싶은" 실제 사건을 한 배치씩 쌓습니다.
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
@@ -71,23 +75,6 @@ export const CASES: CaseItem[] = [
     isBreaking: false,
   },
   {
-    id: 'c-20260901-kim-byungki-son-hiring-scandal-referral',
-    title: "'아들 특혜채용 의혹' 김병기 수사 11개월째…국수본 \"이번주 검찰 송치\"",
-    summary:
-      '더불어민주당 김병기 의원의 아들 취업 특혜 의혹 등을 11개월째 수사해온 국가수사본부가 조만간 사건을 검찰에 송치하겠다고 밝혔다. 가상화폐 거래소 취업 청탁과 경쟁사 공격 지시 의혹 등 다수 혐의가 제기된 상태다.',
-    content:
-      "김 의원은 아들의 가상화폐 거래소 취업을 청탁하고, 그 대가로 경쟁 거래소를 겨냥한 공격적 질의를 지시했다는 의혹 등 총 11건 안팎의 의혹으로 경찰 수사를 받아왔다. 경찰은 지난해 말 수사에 착수해 김 의원 부부와 아들 등 가족 전원을 대상으로 강제수사를 벌였으며, 올해 2월에는 김 의원을 직접 소환조사했다. 국가수사본부는 '사건을 마무리하는 단계'라며 이번 주 중 검찰에 송치할 방침이라고 밝혔다. 김 의원 측은 일부 의혹에 대해 '가짜뉴스'라며 법적 대응을 예고한 상태다.",
-    category: 'etc',
-    region: '서울',
-    date: '2026-09-01',
-    source: '국민일보',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/005/0001870024?sid=102',
-    videoUrl: 'https://www.youtube.com/watch?v=YxBZaHmgMhA',
-    likes: 410,
-    comments: 149,
-    isBreaking: false,
-  },
-  {
     id: 'c-20260901-bang-sihyuk-hybe-prosecution-referral',
     title: '방시혁 하이브 의장, 자본시장법 위반 혐의로 이번 주 검찰 송치',
     summary:
@@ -119,23 +106,6 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=6_6pT5cSPK4',
     likes: 455,
     comments: 139,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260901-jeju-missing-urban-legend-spread',
-    title: '"장기매매 조직 은신처?" 제주 실종 사건, 근거 없는 괴담으로 번져',
-    summary:
-      "제주에서 실종자들이 잇따라 숨진 채 발견되고 경찰의 부실 대응까지 드러나자 온라인에서는 '귤보디아' 등 제주 전체를 혐오하는 표현과 함께 장기매매 조직설 등 근거 없는 괴담이 빠르게 퍼지고 있다. 제주 관광업계는 과도한 추측과 허위정보 확산에 우려를 표했다.",
-    content:
-      '실종 104일 만에 숨진 채 발견된 장미란씨 사건을 계기로 SNS에는 최근 발견된 시신 4구의 위치를 지도에 표시하며 "이게 다 같은 사건 아니냐"는 식의 음모론이 확산됐다. 일부 온라인 커뮤니티에서는 "중국 장기밀매 조직의 은신처 아니냐"는 근거 없는 주장까지 나왔고, 제주를 비하하는 \'귤보디아\'라는 표현까지 등장해 제주 전체에 대한 혐오로까지 번졌다. 제주관광협회는 "단 한 건의 사건·사고도 관광객에게는 큰 불안으로 다가올 수 있다는 사실을 무겁게 받아들인다"면서도 근거 없는 허위·왜곡 정보에는 단호히 대응하겠다고 밝혔다. 전문가들은 경찰에 대한 불신이 커지면서 검증되지 않은 소문이 사실처럼 퍼지고 있다고 지적한다.',
-    category: 'mystery',
-    region: '제주',
-    date: '2026-09-01',
-    source: '세계일보',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/022/0004155232?sid=102',
-    videoUrl: 'https://www.youtube.com/watch?v=jOgz5oVhFQA',
-    likes: 512,
-    comments: 150,
     isBreaking: false,
   },
   {
@@ -190,23 +160,6 @@ export const CASES: CaseItem[] = [
     isBreaking: false,
   },
   {
-    id: 'c-20260901-jeju-missing-woman-cause-of-death-unknown',
-    title: '100일 넘게 찾은 실종 여성, 국과수도 "부패 심해 사인 불명"',
-    summary:
-      '실종 104일 만에 숨진 채 발견된 30대 여성 장모씨의 부검 결과 국립과학수사연구원이 부패가 심해 정확한 사인을 밝히지 못했다고 발표했다. 경찰은 타살 가능성을 배제하지 않고 모든 가능성을 열어두고 재수사하겠다고 밝혔다.',
-    content:
-      "장씨는 지난 5월 실종 신고됐지만 담당 경찰관이 허위로 사건을 종결 처리하면서 100일 넘게 방치되다시피 했고, 8월 뒤늦게 시신으로 발견됐다. 애초 경찰은 타살 가능성이 낮다고 밝혔으나, 국과수 부검 결과 시신 부패가 심해 정확한 사인을 특정하지 못한 것으로 확인됐다. 경찰 관계자는 목맴사 재연 실험까지 진행했지만 결정적인 결론을 내리지 못했다고 설명했다. 국가수사본부장은 '사망 원인이 불분명한 만큼 범죄 피해 가능성을 포함해 모든 가능성을 열어두고 수사하겠다'고 밝혔다.",
-    category: 'mystery',
-    region: '제주',
-    date: '2026-09-01',
-    source: '동아일보',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/020/0003744766?sid=102',
-    videoUrl: 'https://www.youtube.com/watch?v=20Bpn8kXFd0',
-    likes: 486,
-    comments: 121,
-    isBreaking: false,
-  },
-  {
     id: 'c-20260901-suwon-drug-spread-residential',
     title: '유흥가 넘어 주택가까지…수원 필로폰 확산에 경찰 수사 확대',
     summary:
@@ -255,23 +208,6 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=UXC-stjBL8U',
     likes: 468,
     comments: 95,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260831-tongyeong-elderly-woman-murder-unsolved',
-    title: '통영 60대 여성 살인, 현상금 1억 걸렸지만 두 달 넘게 미제',
-    summary:
-      '경남 통영의 한 단독주택에서 잠자던 60대 여성이 침입한 괴한에게 살해된 사건이 두 달 넘게 미궁에 빠져 있다. 경찰이 현상금 1억원을 걸고 용의자 CCTV까지 공개했지만 여전히 신원을 특정하지 못하고 있다.',
-    content:
-      '지난 6월 새벽 통영시의 한 단독주택에 모자와 마스크, 장갑으로 얼굴을 가린 남성이 침입해 두 시간가량 머문 뒤 피해자를 살해하고 달아났다. 경찰은 CCTV 속 용의자의 독특한 걸음걸이와 175㎝가량의 체격 등을 분석했지만 결정적 제보로 이어지지 못했다. 유족의 동의를 얻어 얼굴을 가린 용의자 영상을 공개해 100건이 넘는 제보를 받았음에도 검거에는 실패한 상태다. 마을 주민들은 범인이 잡히지 않으면서 극심한 불안감을 호소하고 있다.',
-    category: 'mystery',
-    region: '경남 통영시',
-    date: '2026-08-31',
-    source: '세계일보',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/022/0004148143',
-    videoUrl: 'https://www.youtube.com/watch?v=qa0J2pdRHfk',
-    likes: 401,
-    comments: 83,
     isBreaking: false,
   },
   {
@@ -442,23 +378,6 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=OcW50Q3HYpM',
     likes: 780,
     comments: 142,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260830-seogwipo-revenge-murder-expolice',
-    title: '가정폭력 선고 한 달 앞두고…전직 경찰관, 이혼소송 중인 아내 보복살해',
-    summary:
-      '제주 서귀포에서 전직 경찰관이 이혼소송 중이던 아내를 흉기로 찔러 살해한 혐의로 구속됐다. 가정폭력 혐의로 재판을 받던 중 최종 선고를 한 달여 앞두고 벌어진 사건으로, 경찰은 처벌을 우려한 보복 범행으로 보고 있다.',
-    content:
-      '지난 23일 새벽 3시께 제주 서귀포시 남원읍의 한 주택에서 전직 경찰관 A씨(59)가 접근금지 명령을 어기고 이혼소송 중인 아내 B씨(50대)의 거주지에 침입해 흉기로 찔러 살해한 뒤 달아났다. A씨는 사건 발생 이틀 만인 경기 구리시에서 긴급체포됐다. 서귀포경찰서는 지난 27일 특정범죄가중처벌법상 보복살인, 특수재물손괴, 특수주거침입, 가정폭력범죄처벌법 위반 혐의로 A씨를 구속했다. A씨는 별도의 가정폭력 사건으로도 재판을 받고 있었으며, 최종 선고를 약 한 달 앞두고 범행을 저지른 것으로 조사됐다.',
-    category: 'crime',
-    region: '제주특별자치도 서귀포시',
-    date: '2026-08-30',
-    source: '세계일보',
-    sourceUrl: 'https://www.segye.com/newsView/20260828512348',
-    videoUrl: 'https://www.youtube.com/watch?v=u0yb4nk4UqM',
-    likes: 690,
-    comments: 118,
     isBreaking: true,
   },
   {
@@ -638,22 +557,6 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=YKz2S6VyR8A',
     likes: 400,
     comments: 82,
-  },
-  {
-    id: 'c-20260830-louvre-jewel-heist-mystery',
-    title: '루브르 박물관 왕실 보석 도난 미스터리…행방은 여전히 오리무중',
-    summary:
-      '지난해 10월 프랑스 파리 루브르 박물관 아폴론 갤러리에서 4인조 절도범이 단 몇 분 만에 나폴레옹 시대 왕실 보석 8점을 훔쳐 달아났다. 용의자 다수가 체포됐지만 도난당한 보석의 행방은 여전히 밝혀지지 않고 있다.',
-    content:
-      '절도범들은 센강변에 사다리차를 세우고 2층 발코니로 침입, 휴대용 앵글그라인더로 창문을 깨고 경비원을 위협해 진열장 유리를 부순 뒤 범행을 저질렀다. 범행 소요 시간은 단 몇 분에 불과했고, 이후 조사 과정에서 박물관 CCTV가 사실상 사각지대에 있었으며 보안 시스템 비밀번호가 허술했다는 사실이 드러나 논란이 됐다. 프랑스 검찰은 박물관 직원의 공모 정황까지 포착해 용의자를 여럿 체포했지만, 정작 도난당한 왕실 보석 8점은 여전히 발견되지 않은 채 미스터리로 남아 있다.',
-    category: 'mystery',
-    region: '해외 · 프랑스',
-    date: '2026-08-30',
-    source: 'SBS 8뉴스',
-    sourceUrl: 'https://ko.wikipedia.org/wiki/2025%EB%85%84_%EB%A3%A8%EB%B8%8C%EB%A5%B4_%EB%B0%95%EB%AC%BC%EA%B4%80_%EB%8F%84%EB%82%9C_%EC%82%AC%EA%B1%B4',
-    videoUrl: 'https://www.youtube.com/watch?v=qVujOfTP7LA',
-    likes: 350,
-    comments: 61,
   },
   {
     id: 'c-20260829-jeju-officer-arrested-jangmiran',
@@ -902,22 +805,6 @@ export const CASES: CaseItem[] = [
     likes: 710,
     comments: 132,
     isBreaking: true,
-  },
-  {
-    id: 'c-20260828-jeju-palm-farm-mystery-death',
-    title: '제주 야자수농장 실종 여성 시신, 사인은 여전히 미스터리',
-    summary:
-      '제주에서 실종 104일 만에 한림읍 야자수 농장에서 숨진 채 발견된 30대 여성의 사망 경위가 여전히 미궁에 빠져 있다. 국립과학수사연구원은 목맴사 가능성을 제시했지만 단정하지는 못했다.',
-    content:
-      '시신 일부는 백골화된 상태였고, 인근 야자수 나무 줄기에서 흔적이 발견됐다. 숙소를 나선 다음날 새벽 사이 숨진 것으로 추정되지만 "가로등도 없는 외진 곳을 왜 홀로 걸어갔는지" 의문이 남는다. 유족은 "생전 그곳을 무서워했다"고 말해 의문을 더했다.',
-    category: 'mystery',
-    region: '제주 한림읍',
-    date: '2026-08-28',
-    source: 'YTN',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/052/0002398680',
-    videoUrl: 'https://www.youtube.com/watch?v=QxXkQn8-nPU',
-    likes: 380,
-    comments: 64,
   },
   {
     id: 'c-20260828-nepal-flood-korean-missing',

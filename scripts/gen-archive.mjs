@@ -117,6 +117,7 @@ const today = new Date().toISOString().slice(0, 10)
 const staticUrls = [
   { loc: `${SITE}/`, pri: '1.0', freq: 'daily' },
   { loc: `${SITE}/cold-cases`, pri: '0.8', freq: 'daily' },
+  { loc: `${SITE}/issues`, pri: '0.8', freq: 'daily' },
   { loc: `${SITE}/archive`, pri: '0.6', freq: 'daily' },
   { loc: `${SITE}/about`, pri: '0.3', freq: 'monthly' },
   { loc: `${SITE}/privacy`, pri: '0.3', freq: 'yearly' },

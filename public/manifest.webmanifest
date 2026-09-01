@@ -16,6 +16,7 @@
     { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ],
   "shortcuts": [
+    { "name": "이슈·미스터리", "short_name": "이슈", "url": "/issues", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
     { "name": "미제사건", "short_name": "미제사건", "url": "/cold-cases", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
     { "name": "지난기록", "short_name": "지난기록", "url": "/archive", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
   ]

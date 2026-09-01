@@ -14,6 +14,9 @@ export default function Header() {
           <Link to="/" className="app-header__icon-btn" aria-label="홈">
             <Icon name="home" />
           </Link>
+          <Link to="/issues" className="app-header__icon-btn" aria-label="이슈·미스터리">
+            <Icon name="auto_awesome" />
+          </Link>
           <Link to="/cold-cases" className="app-header__icon-btn" aria-label="미제사건 파일">
             <Icon name="folder_special" />
           </Link>

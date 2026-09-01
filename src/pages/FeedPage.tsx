@@ -1,6 +1,6 @@
 import { Fragment, useMemo, useState } from 'react'
 import type { CaseCategory } from '../types'
-import { CASES, CATEGORY_META } from '../data/cases'
+import { CASES, CATEGORY_META, ISSUE_CATEGORIES } from '../data/cases'
 import CaseCard from '../components/case/CaseCard'
 import SearchBar from '../components/ui/SearchBar'
 import Icon from '../components/ui/Icon'
@@ -11,15 +11,14 @@ import './FeedPage.css'
 type SortKey = 'latest' | 'popular'
 type FilterCat = 'all' | CaseCategory
 
+// 연예·스포츠(showbiz)와 미스터리·괴담(mystery)은 「이슈·미스터리」 탭으로 분리됐다
 const CATS: FilterCat[] = [
   'all',
   'crime',
   'traffic',
   'fire',
   'disaster',
-  'showbiz',
   'world',
-  'mystery',
   'etc',
 ]
 
@@ -32,6 +31,8 @@ export default function FeedPage() {
   const list = useMemo(() => {
     const q = query.trim().toLowerCase()
     let result = CASES.filter((c) => {
+      // 이슈·미스터리 탭 소관 카테고리는 메인 피드에서 제외
+      if (ISSUE_CATEGORIES.includes(c.category)) return false
       const matchCat = cat === 'all' || c.category === cat
       const matchQuery =
         !q ||

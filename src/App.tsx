@@ -5,6 +5,7 @@ import BottomNav from './components/layout/BottomNav'
 import FeedPage from './pages/FeedPage'
 import CaseDetailPage from './pages/CaseDetailPage'
 import ColdCasePage from './pages/ColdCasePage'
+import IssuePage from './pages/IssuePage'
 import ArchivePage from './pages/ArchivePage'
 import AboutPage from './pages/AboutPage'
 import PrivacyPage from './pages/PrivacyPage'
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/" element={<FeedPage />} />
           <Route path="/case/:id" element={<CaseDetailPage />} />
           <Route path="/cold-cases" element={<ColdCasePage />} />
+          <Route path="/issues" element={<IssuePage />} />
           <Route path="/archive" element={<ArchivePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
