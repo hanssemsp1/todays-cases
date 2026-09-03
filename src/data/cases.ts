@@ -24,6 +24,93 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260904-gwangju-gyeonggi-wife-murder-official',
+    title: "이혼소송 중 피신한 아내 찾아가 살해한 현직 공무원 구속…5세 딸 앞에서 범행",
+    summary:
+      '경기 광주에서 이혼소송 중이던 아내가 피신해 있던 주소를 찾아가 흉기로 살해한 30대 현직 공무원이 구속됐다. 이혼 소장에 적힌 주소로 찾아가 범행을 저질렀으며, 범행은 5세 딸이 보는 앞에서 벌어진 것으로 조사됐다.',
+    content:
+      '수원지법 성남지원 이탁순 영장전담 부장판사는 3일 살인 및 아동복지법 위반(아동학대) 혐의를 받는 현직 공무원 A씨(30대)에 대해 "도망할 염려가 있다"며 구속영장을 발부했다. A씨는 지난 1일 오전 7시 17분쯤 경기 광주시의 한 다세대주택 건물 계단에서 가정폭력을 피해 별거 중이던 아내를 흉기로 찔러 살해한 혐의를 받는다. 경찰에 따르면 A씨는 아내가 제기한 이혼 소송에서 불리한 결과가 나올 것을 우려해 앙심을 품고 약 3주간 범행을 구상했으며, 이혼 소장에 적힌 아내의 새 주소로 찾아가 흉기를 휘두른 것으로 조사됐다. 범행 당시 부부의 5세 딸이 현장에 있었던 것으로 알려져 아동복지법 위반 혐의도 함께 적용됐다.',
+    category: 'crime',
+    region: '경기 광주시',
+    date: '2026-09-04',
+    time: '07:17',
+    source: 'MBC',
+    sourceUrl: 'https://www.khan.co.kr/article/202609031738001/',
+    videoUrl: 'https://www.youtube.com/watch?v=ortMCy6ICes',
+    likes: 710,
+    comments: 156,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260904-yongin-suji-apartment-fire',
+    title: '용인 수지구 20층 아파트 새벽 화재…5명 연기흡입, 70여 명 대피',
+    summary:
+      '경기 용인시 수지구 신봉동의 20층짜리 아파트 2층 세대에서 새벽 화재가 발생해 주민 5명이 연기를 마셔 병원으로 옮겨졌다. 불이 난 세대 거주민을 포함해 70여 명이 대피했으며 전기 누전이 화재 원인으로 의심되고 있다.',
+    content:
+      '3일 오전 2시 7분쯤 용인시 수지구 신봉동의 20층짜리 아파트 2층 세대에서 불이 났다. 이 불로 7·17·19층 등에 거주하던 주민 5명이 연기를 흡입해 병원으로 옮겨졌으며, 다행히 위독한 상태는 아닌 것으로 전해졌다. 화재가 발생한 2층 세대 거주민 4명을 포함해 51명이 자력으로 대피했고, 26명은 소방당국에 의해 구조됐다. 소방당국은 장비 31대와 인력 84명을 투입해 신고 접수 40분 만인 오전 2시 47분쯤 큰 불길을 잡았고, 1시간 40여 분 만에 완전히 진화했다. 불이 시작된 2층 세대는 전소 수준의 피해를 입었으며, 경찰과 소방당국은 전기 누전 가능성에 무게를 두고 정확한 화재 원인을 조사하고 있다.',
+    category: 'fire',
+    region: '경기 용인시 수지구',
+    date: '2026-09-04',
+    time: '02:07',
+    source: 'YTN',
+    sourceUrl: 'https://www.joongboo.com/news/articleView.html?idxno=363735613',
+    videoUrl: 'https://www.youtube.com/watch?v=DTZcTFJAM1M',
+    likes: 220,
+    comments: 41,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260904-minneapolis-loring-park-shooting',
+    title: '美 미니애폴리스 아파트서 총격…민간인 2명 사망, 경찰관 등 6명 부상',
+    summary:
+      '미국 미네소타주 미니애폴리스 도심 아파트 건물에서 총격 사건이 발생해 민간인 2명이 숨지고 경찰관 2명을 포함해 6명이 다쳤다. 신고를 받고 출동한 경찰과 총격전을 벌인 용의자는 현장에서 사망했다.',
+    content:
+      '현지시간 2일 오후 4시 30분쯤 미니애폴리스 도심 로링파크 인근의 한 아파트 건물에서 총소리가 났다는 신고가 접수됐다. 출동한 경찰이 건물 로비에서 다수의 부상자를 발견했고, 위층에서도 추가 총격 소리가 이어져 경찰과 용의자 간 총격전이 벌어졌다. 이 사건으로 민간인 2명이 숨졌고 용의자도 현장에서 사망했으며, 경찰관 2명이 총상을 입는 등 경찰관 3명을 포함해 모두 6명이 다쳐 병원으로 옮겨졌다. 부상당한 경찰관들은 완쾌가 예상되는 것으로 알려졌다. 경찰은 용의자가 이전에도 경찰에 알려진 인물이라고 밝혔으나 정확한 범행 동기는 공개하지 않았다.',
+    category: 'world',
+    region: '해외 · 미국',
+    date: '2026-09-04',
+    source: '외신 종합',
+    sourceUrl: 'https://www.nbcnews.com/news/us-news/multiple-people-officers-shot-minneapolis-rcna595798',
+    videoUrl: 'https://www.youtube.com/watch?v=rU2QI3lJQC0',
+    likes: 456,
+    comments: 82,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260904-hormuz-tanker-strike-sinokor',
+    title: '호르무즈서 한국 선사 용선 유조선 피격…코스피 4%대 급락',
+    summary:
+      '호르무즈 해협에서 국내 해운사 장금상선(시노코)이 용선한 유조선이 정체불명의 발사체에 피격됐다. 해양수산부는 한국 선박·선원은 아니라고 확인했지만 미·이란 확전 우려로 국내 증시가 4%대 급락했다.',
+    content:
+      '지난달 31일(현지시간) 호르무즈 해협에서 장금상선이 해외 석유회사에 용선을 내준 유조선 "세네갈 프로스퍼리티"호가 정체불명의 발사체에 맞았다. 같은 시각 사우디아라비아 소유 유조선도 함께 피격된 것으로 전해졌다. 장금상선 측은 피격된 선박에 한국인 선원이 없으며 외국인 선원으로만 운항되고 있었다고 밝혔고, 해양수산부도 해당 선박이 라이베리아 선적으로 국내 해운 등록 이력이 없고 한국인 승선자도 없다고 확인했다. 이번 피격은 미국이 호르무즈 해협 인근 이란 시설을 공습한 데 대한 보복으로 이란이 군사행동을 이어가는 가운데 발생했으며, 확전 우려로 국내 코스피 지수가 4%대 급락하는 등 충격이 국내 경제로 번졌다.',
+    category: 'world',
+    region: '해외 · 호르무즈해협',
+    date: '2026-09-04',
+    source: '헤럴드경제',
+    sourceUrl: 'https://biz.heraldcorp.com/article/10860112',
+    videoUrl: 'https://www.youtube.com/watch?v=eY0zcQC5nL8',
+    likes: 388,
+    comments: 74,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260904-iran-kuwait-us-base-attack',
+    title: '이란, 쿠웨이트 미군기지 공격…"美 범죄 대응 차원"',
+    summary:
+      '이란이 쿠웨이트 내 미군 기지들을 미사일과 드론으로 공격했다고 밝혔다. 쿠웨이트군은 방공망을 가동해 대응했으며, 이는 미국이 지난 1일 이란 군사 인프라를 공습한 데 따른 보복 조치로 풀이된다.',
+    content:
+      '이란 국영TV는 3일 이란이 "미국이 이란 국민을 상대로 저지른 범죄에 대한 대응"이라며 쿠웨이트 내 미군 기지들을 공격하고 있다고 확인했다. 쿠웨이트군은 자국 방공망이 미사일 및 드론 공격에 대응하고 있다고 밝혔으며, 쿠웨이트 곳곳에서 공습 사이렌이 울렸다. 이번 공격은 미국이 지난달 30일부터 호르무즈 해협 통행권을 둘러싸고 이란과 무력 충돌을 이어오다 지난 1일 이란 군사 인프라를 공습한 직후 발생했다. 미국과 이란은 최근 몇 달간 걸프 지역 곳곳에서 공격과 보복을 반복해왔으며, 이번 쿠웨이트 공격으로 걸프 지역의 긴장이 한층 고조됐다.',
+    category: 'world',
+    region: '해외 · 쿠웨이트',
+    date: '2026-09-04',
+    source: '연합뉴스TV',
+    sourceUrl: 'https://view.asiae.co.kr/article/2026090315552118711',
+    videoUrl: 'https://www.youtube.com/watch?v=a5b9m8rinSQ',
+    likes: 342,
+    comments: 58,
+    isBreaking: true,
+  },
+  {
     id: 'c-20260903-jangyoongi-park-seongju-indicted',
     title: "'장윤기 강간 사건은 조용히'…박성주 전 국가수사본부장, 부실수사 의혹으로 기소",
     summary:
@@ -941,119 +1028,5 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=u0yb4nk4UqM',
     likes: 540,
     comments: 88,
-  },
-  {
-    id: 'c-20260828-jeju-missing-police-coverup',
-    title: '실종신고 "허위 종결" 처리한 경찰관…최대 298건 전수조사',
-    summary:
-      '제주서부경찰서 소속 경장이 지난 5월 신고된 30대 여성 실종사건을 허위로 "교통사고 사망"이라 입력해 은폐한 사실이 드러났다. 피해 여성은 104일 만에 숨진 채 발견됐고, 경찰은 유사한 방식의 전수조사에 나섰다.',
-    content:
-      '해당 경장은 신고자에게 "통화로 안전을 확인했다"고 말했지만 내부 시스템에는 이미 사망한 것으로 입력한 모순된 정황이 확인됐다. 재신고가 들어오자 위치조회까지 한 사실도 드러나 공분을 샀다. 국회 자료 공개로 파문이 커졌고, 경찰청은 유사 사례가 더 있는지 최대 298건에 대한 전수조사를 지시했다.',
-    category: 'etc',
-    region: '제주',
-    date: '2026-08-28',
-    source: 'SBS',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/055/0001384062',
-    videoUrl: 'https://www.youtube.com/watch?v=28IAjRm5OD0',
-    likes: 710,
-    comments: 132,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260828-nepal-flood-korean-missing',
-    title: '네팔 대홍수 사망 300명 넘어…한국인 9명 연락두절',
-    summary:
-      '네팔 히말라야 산악지대에서 빙하 붕괴로 추정되는 대규모 돌발 홍수가 발생해 사망·실종자가 계속 늘고 있다. 현지 수력발전소 건설 현장에서 근무하던 한국인 9명이 연락 두절 상태다.',
-    content:
-      '실종된 한국인은 국내 발전·에너지 기업 소속으로 수력발전소 건설 현장에 있었던 것으로 전해졌다. 정부는 신속대응팀과 공중급유기를 투입해 카트만두 현지에 도착시켰고 본격 수색에 나섰다. 미국 등 다른 나라도 자국민 실종을 밝히는 등 외국인 피해가 집중되고 있다.',
-    category: 'disaster',
-    region: '해외 · 네팔',
-    date: '2026-08-28',
-    source: 'MBC',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/666/0000120958',
-    videoUrl: 'https://www.youtube.com/watch?v=OS3h4CftFh8',
-    likes: 890,
-    comments: 145,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260828-49ers-owner-sting-arrest',
-    title: '美 NFL 49ers 구단주, 성매매 단속에 적발돼 체포',
-    summary:
-      '미국프로풋볼(NFL) 샌프란시스코 49ers 구단주 제드 요크가 오하이오주에서 성매매 단속(스팅) 작전에 적발돼 체포됐다. NFL 사무국은 개인행동규정 위반 여부를 검토 중이다.',
-    content:
-      '요크는 성매매 웹사이트 광고에 응답해 금전을 대가로 성관계를 약속한 정황이 경찰 보고서에 담긴 것으로 전해졌다. 그는 스코틀랜드 축구클럽의 공동 구단주이기도 해 파장이 스포츠계 전반으로 번지고 있다.',
-    category: 'world',
-    region: '해외 · 미국',
-    date: '2026-08-28',
-    source: '현지 매체',
-    sourceUrl: 'https://www.radiokorea.com/news/article.php?uid=502700',
-    videoUrl: 'https://www.youtube.com/watch?v=7JZF7euQi9Q',
-    likes: 310,
-    comments: 58,
-  },
-  {
-    id: 'c-20260828-tesla-china-door-handle-recall',
-    title: '"화재 때 안 열린다"…테슬라, 中서 매립형 손잡이 대규모 리콜',
-    summary:
-      '중국 규제당국이 화재 시 탈출을 어렵게 만드는 매립형 전자식 문손잡이 안전기준을 강화하며 테슬라 등 8개 제조사 차량 약 430만 대가 리콜 대상에 올랐다. 이 중 테슬라가 약 298만 대로 가장 많다.',
-    content:
-      '중국 내 고속도로에서 발생한 사고로 탑승자들이 차 안에 갇혀 숨진 사건 등이 리콜 배경으로 꼽힌다. 앞서 미국에서도 전기차 사고로 탑승자들이 숨진 사건이 있어, 매립형 손잡이의 안전성 논란이 전 세계로 확산되고 있다.',
-    category: 'world',
-    region: '해외 · 중국',
-    date: '2026-08-28',
-    source: 'KBS',
-    sourceUrl: 'https://www.g-enews.com/view.php?ud=2026082800033610930c8c1c064d_1',
-    videoUrl: 'https://www.youtube.com/watch?v=yKgFzRbVusw',
-    likes: 260,
-    comments: 41,
-  },
-  {
-    id: 'c-20260828-hongseong-dui-hitrun-mom',
-    title: '만취운전 뺑소니 엄마, 항소심서 태도 돌변…유족 "농락하나"',
-    summary:
-      '지난 1월 충남 홍성에서 혈중알코올농도 0.211%, 시속 178㎞로 두 어린 딸을 태운 채 만취운전을 하다 퇴근 중이던 오토바이 운전자를 치어 숨지게 한 30대 여성이 항소심에서 태도를 바꿔 혐의를 인정했다.',
-    content:
-      '1심에서는 "사고 당시 만취해 피해자가 숨진 것을 몰랐다"며 도주 혐의를 부인했지만 재판부는 이를 받아들이지 않고 징역 12년을 선고했다. 항소심에서 갑자기 혐의를 인정하는 태도로 돌아서자 유족 측은 강하게 반발했다.',
-    category: 'traffic',
-    region: '충남 홍성군',
-    date: '2026-08-28',
-    source: '대전MBC',
-    sourceUrl: 'https://imnews.imbc.com/news/2026/society/article/6847523_36918.html',
-    videoUrl: 'https://www.youtube.com/watch?v=L2VUBJCB5kw',
-    likes: 420,
-    comments: 96,
-  },
-  {
-    id: 'c-20260828-hamyang-wildfire-serial-arsonist',
-    title: '함양 대형산불 방화범, 17년간 96차례 방화한 연쇄방화범이었다',
-    summary:
-      '지난 3월 축구장 327개 면적을 태운 경남 함양 대형산불의 방화범이, 17년간 울산 봉대산 일대에서 96차례나 불을 지른 연쇄 방화범으로 확인돼 검찰이 징역 10년을 구형했다.',
-    content:
-      '60대 A씨는 경찰 조사에서 "최근 뉴스에서 산불 관련 내용을 보며 희열을 느꼈고 불을 지르고 싶은 충동을 참지 못했다"고 진술했다. 검찰은 임상심리평가와 화재분석 등 보완수사를 거쳐 방화 동기와 수법을 규명한 뒤 중형을 구형했다.',
-    category: 'fire',
-    region: '경남 함양군',
-    date: '2026-08-28',
-    source: '방송사 종합',
-    sourceUrl: 'https://view.asiae.co.kr/article/2026082718052380791',
-    videoUrl: 'https://www.youtube.com/watch?v=GrUlvwhTYi4',
-    likes: 300,
-    comments: 47,
-  },
-  {
-    id: 'c-20260828-parkwi-ktx-cctv-backlash',
-    title: '박위, KTX 낙상 CCTV 공개했다가 역풍…구독자 1만 명 이탈',
-    summary:
-      '장애인 인플루언서 박위가 KTX 하차 중 겪은 낙상사고 CCTV를 공개하며 철도 안전 개선을 촉구했지만, 공개 방식을 둘러싼 비판이 확산되며 역풍을 맞았다.',
-    content:
-      '영상을 삭제하고 사과했음에도 "당사자에게 직접 사과부터 해야 한다"는 지적이 이어졌고, 하루 새 구독자 1만여 명이 이탈하며 100만 명 타이틀이 무너졌다. 예정돼 있던 다수의 강연도 잇달아 취소됐다.',
-    category: 'showbiz',
-    region: '전국',
-    date: '2026-08-28',
-    source: '연합뉴스TV',
-    sourceUrl: 'https://www.obsnews.co.kr/news/articleView.html?idxno=1535470',
-    videoUrl: 'https://www.youtube.com/watch?v=pFgf4b7Jkeo',
-    likes: 450,
-    comments: 112,
   },
 ]
