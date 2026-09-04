@@ -24,6 +24,40 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260905-nepal-flood-tunnel-rescue',
+    title: '네팔 대홍수 9일 만의 기적…수력발전소 터널서 생존자 2명 구조',
+    summary:
+      '네팔 대홍수 발생 9일째인 4일, 구조대가 중북부 바그마티주 트리슐리 3A 수력발전소 터널에서 실종됐던 네팔인 직원 2명을 살아있는 상태로 구조해 병원으로 옮겼다. 발전소 터널 두 곳에는 여전히 약 90명이 갇혀 있을 가능성이 제기돼 수색이 계속되고 있다.',
+    content:
+      '네팔군 등 구조대는 4일(현지시간) 트리슐리 3A 수력발전소 터널을 수색하던 중 기계반장 산제이 사씨와 기계감독관 카비르 마하르잔씨를 발견해 구조했다. 마하르잔씨는 손과 다리를 움직이지 못하는 상태였고 사씨는 비교적 심각한 부상은 아닌 것으로 전해졌다. 당국은 트리슐리 3A를 포함한 발전소 두 곳의 터널 안에 약 90명이 생존한 채 갇혀 있을 가능성이 있다고 보고 수색을 총력전으로 이어가고 있다. 이 발전소에서 근무하던 한국인 근로자 9명도 나흘째 실종 상태로, 우리 정부 해외긴급구호대(KDRT)는 네팔군 헬기를 지원받아 항공·육상 수색을 병행하고 있지만 이날 합동 수색에서는 특이 사항이 확인되지 않았다.',
+    category: 'world',
+    region: '해외 · 네팔',
+    date: '2026-09-05',
+    source: 'KBS',
+    sourceUrl: 'https://www.khan.co.kr/article/202609041331001/',
+    videoUrl: 'https://www.youtube.com/watch?v=SvdMUv6d55g',
+    likes: 512,
+    comments: 87,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260905-incheon-gyeyang-balcony-fall',
+    title: '인천 아파트 발코니 난간 밧줄로 끌어올리다…설치업체 대표·직원 2명 추락사',
+    summary:
+      '인천 계양구의 한 아파트에서 발코니 난간 교체 작업을 하던 창호업체 대표와 직원이 18m 아래로 추락해 숨졌다. 안전띠 등 추락 방지 장비 없이 밧줄로 새 난간을 직접 끌어올리다 변을 당한 것으로 조사됐다.',
+    content:
+      '지난 2일 오전 11시 25분쯤 인천 계양구 작전동의 한 아파트 6층 발코니에서 창호 공사업체 대표 A씨(68)와 직원 B씨(71)가 지상으로 떨어져 숨졌다. 이들은 기존 철제 난간을 철거하고 가로 3m가 넘는 새 난간을 1층에서 밧줄로 묶어 6층까지 끌어올린 뒤 설치 위치에 맞추던 중 추락했다. 해당 난간은 크기가 커 엘리베이터로 옮길 수 없었는데, 고소작업차를 이용하지 않았고 안전띠 등 추락 방지 장비도 착용하지 않은 상태였다. 두 사람은 심정지 상태로 병원에 옮겨졌으나 끝내 숨졌으며, 경찰은 안전수칙 준수 여부 등 정확한 사고 경위를 조사하고 있다.',
+    category: 'etc',
+    region: '인천 계양구',
+    date: '2026-09-05',
+    source: 'SBS',
+    sourceUrl: 'https://www.khan.co.kr/article/202609030920001/',
+    videoUrl: 'https://www.youtube.com/watch?v=MKVUyaJheQY',
+    likes: 258,
+    comments: 44,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260904-gwangju-gyeonggi-wife-murder-official',
     title: "이혼소송 중 피신한 아내 찾아가 살해한 현직 공무원 구속…5세 딸 앞에서 범행",
     summary:
@@ -995,38 +1029,5 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=nVX2qlSD3Ew',
     likes: 520,
     comments: 98,
-  },
-  {
-    id: 'c-20260828-gyeongsan-china-student-dismember',
-    title: '경산 중국인 유학생 실종 엿새 만에 숨진 채 발견…같은 대학 강사 구속',
-    summary:
-      '경북 경산의 한 대학원에 다니던 중국인 여성 유학생(25)이 실종 신고 엿새 만에 숨진 채 발견됐다. 처음 실종 신고를 했던 30대 중국인 남성 강사가 살인 및 사체손괴·유기 혐의로 구속됐다.',
-    content:
-      '피해 여성은 앱을 통해 알게 된 정모씨와 연인 관계였다는 주장이 있지만, 주변인들은 "일방적으로 쫓아다녔다"고 진술한 것으로 전해졌다. 경찰 조사 결과 정씨는 피해자를 살해한 뒤 시신을 훼손해 여러 지역에 나눠 유기한 정황이 확인됐다. 피해자는 학위수여식 참석차 재입국했다가 변을 당한 것으로 알려졌다. 경찰은 정씨를 상대로 구체적인 범행 경위를 조사하고 있다.',
-    category: 'crime',
-    region: '경북 경산시',
-    date: '2026-08-28',
-    source: 'MBC',
-    sourceUrl: 'https://www.kmib.co.kr/article/view.asp?arcid=9000006937',
-    videoUrl: 'https://www.youtube.com/watch?v=4EDXbobswIQ',
-    likes: 820,
-    comments: 148,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260828-seogwipo-expcop-wife-murder',
-    title: '접근금지 어기고 별거 아내 살해한 전직 경찰관 구속',
-    summary:
-      '제주 서귀포에서 이혼 소송 중이던 아내를 접근금지 명령에도 찾아가 살해한 혐의로 전직 경찰관 A씨(59)가 구속됐다.',
-    content:
-      'A씨는 지난 23일 새벽 서귀포시 남원읍 아내의 집에 침입해 흉기로 살해한 뒤 서울로 이동, 극단적 선택을 암시하는 글을 남겨 실종 신고됐다가 경기 구리에서 긴급체포됐다. 법원은 도주와 증거인멸 우려가 있다고 보고 구속영장을 발부했다. 경찰은 특정범죄가중처벌법상 보복살인 등 혐의를 적용해 수사를 이어가고 있다.',
-    category: 'crime',
-    region: '제주 서귀포시',
-    date: '2026-08-28',
-    source: 'YTN',
-    sourceUrl: 'https://www.ytn.co.kr/_ln/0115_202608272304452399',
-    videoUrl: 'https://www.youtube.com/watch?v=u0yb4nk4UqM',
-    likes: 540,
-    comments: 88,
   },
 ]
