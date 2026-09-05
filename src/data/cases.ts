@@ -24,6 +24,74 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260906-busan-tugboat-capsize-search',
+    title: '부산 앞바다 예인선 전복 닷새째…실종 선원 6명 여전히 못 찾아',
+    summary:
+      '지난 2일 부산 오륙도 앞바다에서 전복·침몰한 예인선 티엔에스캐처호의 실종 선원 6명을 찾기 위한 수색이 닷새째 이어지고 있다. 높은 파도와 강풍 속에 수중 수색은 여전히 이뤄지지 못하고 있다.',
+    content:
+      '지난 2일 오후 1시 29분쯤 부산 오륙도 동쪽 약 9km 해상에서 승선원 8명이 탄 286t급 예인선 티엔에스캐처호가 전복돼 오후 3시 27분쯤 완전히 침몰했다. 이 사고로 선원 1명이 숨졌고 1명은 구조됐으며, 나머지 6명은 실종 상태다. 부산해양경찰서는 해경·해군 함정 7척과 항공기 8대를 투입해 나흘째 밤낮으로 수색을 벌였지만 실종자를 찾지 못했고, 6일에도 4m가 넘는 높은 파도와 초속 20m의 강풍 속에 수색이 난항을 겪고 있다. 실종자 가족의 요청으로 예인선과 연결됐던 컨테이너선 선원들에 대한 조사도 함께 진행되고 있다.',
+    category: 'disaster',
+    region: '부산',
+    date: '2026-09-06',
+    source: '연합뉴스',
+    sourceUrl: 'https://n.news.naver.com/mnews/article/001/0016292080?sid=102',
+    videoUrl: 'https://www.youtube.com/watch?v=ZaOK2U_LpgI',
+    likes: 486,
+    comments: 92,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260906-jeju-typhoon-kroban-wind-damage',
+    title: '태풍 \'크로반\' 간접영향…제주 이틀째 강풍 피해 속출, 1명 사망',
+    summary:
+      '태풍 크로반이 일본 쪽으로 이동했지만 제주에는 이틀째 태풍급 강풍이 몰아쳐 각종 피해가 잇따르고 있다. 강풍으로 인한 안전조치가 41건 접수됐고 1명이 숨졌다.',
+    content:
+      '제주지방기상청에 따르면 중국 북동지방에서 이동해온 고기압과 태풍 크로반의 영향으로 형성된 강풍대가 5일까지 이틀째 제주를 강타했다. 가로수와 가로등이 쓰러지고 지붕과 간판이 날아가는 등 시설물 피해 신고가 41건 접수됐으며, 이 과정에서 1명이 숨졌다. 부산 등 남해안 지역에서도 강한 바람에 따른 시설물 파손 피해가 이어졌다. 기상당국은 당분간 제주와 남해안을 중심으로 강풍이 이어질 것으로 내다보며 안전사고에 유의해달라고 당부했다.',
+    category: 'disaster',
+    region: '제주',
+    date: '2026-09-06',
+    source: '연합뉴스TV',
+    sourceUrl: 'https://n.news.naver.com/mnews/article/654/0000198874?sid=102',
+    videoUrl: 'https://www.youtube.com/watch?v=JkSlaz0KxMc',
+    likes: 312,
+    comments: 58,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260906-busan-officetel-fall-kbs-petition',
+    title: '"가해자 누나가 KBS 드라마에"…부산 오피스텔 추락사 유족 청원에 방송사 답변 요건 충족',
+    summary:
+      '2024년 스토킹·데이트폭력 끝에 20대 여성이 부산의 한 오피스텔에서 추락해 숨진 사건의 유족이 "가해자의 친누나가 KBS 드라마에 출연 중"이라며 올린 시청자 청원이 하루 만에 1000명 넘는 동의를 얻어 KBS의 답변 요건을 채웠다.',
+    content:
+      '숨진 20대 여성 A씨는 2023년 8~10월 전 남자친구 B씨로부터 자택에 찾아와 와인잔으로 자해 위협을 하는 등 지속적인 스토킹과 폭행에 시달리다 2024년 1월 부산진구의 한 오피스텔에서 추락해 숨졌다. A씨의 어머니는 지난 3일 KBS 시청자청원 게시판에 "가해자의 친누나가 현재 KBS 저녁 일일드라마에 비중 있는 배우로 출연 중"이라며 방송사의 책임 있는 조치를 요구하는 글을 올렸다. 이 청원은 게시 하루 만인 4일 1000명 이상의 동의를 얻어 KBS의 공식 답변 요건을 충족했고, 유족은 "죽은 딸의 가해자 가족이 승승장구하는 모습을 볼 때마다 고통스럽다"고 호소했다. KBS는 아직 공식 입장을 내놓지 않고 있다.',
+    category: 'showbiz',
+    region: '부산 부산진구',
+    date: '2026-09-06',
+    source: 'KNN',
+    sourceUrl: 'https://biz.heraldcorp.com/article/10863179',
+    videoUrl: 'https://www.youtube.com/watch?v=tjO8u9wVxGQ',
+    likes: 398,
+    comments: 133,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260906-tokyo-stalking-murder-sentence',
+    title: '도쿄서 韓여성 스토킹 살해한 한국인 남성, 오늘 징역 20년 선고',
+    summary:
+      '지난해 9월 일본 도쿄 세타가야구에서 교제하던 한국인 여성을 흉기로 찔러 살해한 혐의로 재판에 넘겨진 30대 한국인 남성이 도쿄지방법원에서 검찰 구형대로 징역 20년을 선고받았다. 그는 살인 고의를 부인했지만 법원은 이를 인정했다.',
+    content:
+      '박모씨(31)는 지난해 4월부터 방모(당시 40대)씨와 장거리 연애를 이어오다 그해 8월부터 이별 문제로 갈등을 겪었다. 그는 방씨의 아파트를 13차례나 찾아가고 10차례 메시지를 보내거나 전화하고 직장 앞에서 기다리는 등 스토킹을 벌이다, 지난해 9월 도쿄 세타가야구의 방씨 자택에서 흉기로 찔러 살해한 혐의로 기소됐다. 그는 스토킹 행위는 인정하면서도 살인 혐의는 부인했고, 변호인은 몸싸움 과정에서 의도치 않게 흉기에 찔렸을 가능성을 주장했다. 그러나 도쿄지방법원은 상처의 특징과 법의학자의 증언 등을 근거로 살인의 고의성을 인정해 지난 4일 검찰 구형대로 징역 20년을 선고했다.',
+    category: 'world',
+    region: '해외 · 일본',
+    date: '2026-09-06',
+    source: '머니투데이',
+    sourceUrl: 'https://www.mt.co.kr/society/2026/09/05/2026090423104593272',
+    videoUrl: 'https://www.youtube.com/watch?v=-jIcsnAozM8',
+    likes: 356,
+    comments: 71,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260905-nepal-flood-tunnel-rescue',
     title: '네팔 대홍수 9일 만의 기적…수력발전소 터널서 생존자 2명 구조',
     summary:
@@ -964,70 +1032,5 @@ export const CASES: CaseItem[] = [
     likes: 610,
     comments: 104,
     isBreaking: true,
-  },
-  {
-    id: 'c-20260829-nepal-flood-death-toll-update',
-    title: '네팔 대홍수 사망 584명·실종 2500명으로 급증…국경 너머서도 시신 발견',
-    summary:
-      '네팔 히말라야 산악지대를 덮친 대홍수로 인한 사망자가 584명까지 늘었고 실종자는 2500명에 달한다. 급류에 휩쓸린 희생자 시신이 150km 떨어진 인도 북부에서까지 발견되고 있다.',
-    content:
-      '네팔 라수와 지역과 인접한 티베트 자치구에서 빙하 붕괴로 추정되는 돌발 홍수가 발생한 것으로 조사되고 있다. 네팔 외교부에 따르면 한국인 9명을 포함해 33개국 외국인 632명 중 121명이 발견됐고 511명은 여전히 실종 상태다. 구조 당국이 접근조차 하지 못한 지역이 많아 인명 피해는 더 늘어날 것으로 우려된다. 일부 지역에서는 희생자의 금품을 훔치는 범죄까지 발생해 공분을 사고 있다.',
-    category: 'disaster',
-    region: '해외 · 네팔',
-    date: '2026-08-29',
-    source: 'SBS',
-    sourceUrl: 'https://news.sbs.co.kr/news/endPage.do?news_id=N1008727550&plink=ORI&cooper=NAVER',
-    videoUrl: 'https://www.youtube.com/watch?v=LqYtVIYKoy4',
-    likes: 610,
-    comments: 102,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260829-nigeria-niger-mosque-abduction',
-    title: '나이지리아 모스크서 예배객 600명 납치…군, 대규모 구출작전',
-    summary:
-      '나이지리아 니제르주 데케라 마을의 한 모스크에서 금요 예배 도중 무장괴한들이 여성과 어린이, 노인 등 약 600명을 납치했다. 티누부 대통령이 대규모 구출 작전을 지시했다.',
-    content:
-      '무장괴한들은 인근 여러 마을을 동시다발적으로 습격해 주민들을 끌고 갔으며, 이후 페이스북과 왓츠앱을 통해 아이들의 울음소리가 담긴 영상을 공개하며 존재를 과시했다. 나이지리아 서북·중북부 지역에서는 몸값을 노린 대규모 납치가 하나의 "산업"처럼 반복돼 왔으며, 이번 사건은 최근 한 달 새 벌어진 일련의 집단 납치 중 최대 규모로 꼽힌다.',
-    category: 'world',
-    region: '해외 · 나이지리아',
-    date: '2026-08-29',
-    source: 'YTN',
-    sourceUrl: 'https://www.aljazeera.com/news/2026/8/26/nigeria-launches-hunt-for-hundreds-of-kidnapped-mosque-worshippers',
-    videoUrl: 'https://www.youtube.com/watch?v=aQCM5UTEjrY',
-    likes: 340,
-    comments: 55,
-  },
-  {
-    id: 'c-20260829-israel-mk-memorial-hammer',
-    title: '이스라엘 의원, 軍 호위 받으며 팔레스타인 추모비 해머로 파손',
-    summary:
-      '이스라엘 극우 성향 의원 츠비 수콧이 서안지구 마을을 군 호위 하에 둘러보다가 팔레스타인 "순교자" 추모비를 해머로 내리쳐 파손했다. 이스라엘군은 논란이 커지자 그의 방문 목적이 기만적이었다고 비판했다.',
-    content:
-      '해당 추모비는 1930년부터 2004년까지 숨진 팔레스타인 주민 10명의 이름이 새겨진 조형물이었다. 종교시온주의당 소속인 수콧 의원은 군 안내로 나블루스 인근 마다마 마을을 방문한 자리에서 갑자기 촬영을 시작하며 해머를 꺼내 추모비를 반복해서 내리쳤다. 이스라엘군은 그의 방문 자체는 승인됐지만 목적을 숨기고 기만적으로 자원을 이용했다고 지적하면서도, 추모비 파손 행위 자체에 대해서는 별다른 문책을 하지 않아 논란이 일고 있다.',
-    category: 'world',
-    region: '해외 · 이스라엘·서안지구',
-    date: '2026-08-29',
-    source: 'AP',
-    sourceUrl: 'https://www.timesofisrael.com/far-right-mk-smashes-monument-for-palestinian-martyrs-during-idf-escorted-west-bank-tour/',
-    videoUrl: 'https://www.youtube.com/watch?v=jWdc3NkBGR0',
-    likes: 290,
-    comments: 76,
-  },
-  {
-    id: 'c-20260829-brazil-woman-fake-child-adoption',
-    title: '37세女, 12세 자폐 소녀로 1년 넘게 위장…"입양시켜달라" 접근',
-    summary:
-      '브라질에서 30대 여성이 자폐 스펙트럼 장애가 있는 12세 소녀 행세를 하며 한 가정에 1년 넘게 머문 사실이 뒤늦게 드러나 체포됐다. 비슷한 수법의 사기 행각이 이전에도 여러 차례 있었던 것으로 확인됐다.',
-    content:
-      '아만다 마리아 소우자 지 올리베이라(37)는 학대를 피해 도망친 12살 소녀라고 주장하며 한 가정에 접근해 젖병과 공갈젖꼭지를 사용하고 높은 목소리로 말하는 등 철저하게 아이 행세를 했다. 그를 돌본 가족은 1년 넘게 지나서야 진짜 나이를 의심하기 시작했다. 경찰 조사 결과 그는 2020년에는 학대 피해 아동 "줄리아"로, 2023년에도 비슷한 수법으로 아동 행세를 하다 적발된 전력이 있는 것으로 드러났다. 현지 언론은 영화 "오펀"에 빗대 그를 "브라질의 고아"라고 부르고 있다.',
-    category: 'mystery',
-    region: '해외 · 브라질',
-    date: '2026-08-29',
-    source: '머니투데이',
-    sourceUrl: 'https://www.mt.co.kr/world/2026/08/28/2026082815043229977',
-    videoUrl: 'https://www.youtube.com/watch?v=nVX2qlSD3Ew',
-    likes: 520,
-    comments: 98,
   },
 ]
