@@ -24,6 +24,91 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260907-miami-amazon-cargo-plane-runway',
+    title: '아마존 화물기, 마이애미 공항 활주로 이탈 후 화재…5명 사망',
+    summary:
+      '푸에르토리코발 아마존 프라임에어 화물기가 미국 마이애미 국제공항 착륙 중 활주로를 벗어나 인근 차량들과 충돌한 뒤 화재가 발생했다. 이 사고로 5명이 숨지고 5명이 다쳤다.',
+    content:
+      '현지시간 6일 오후 산후안에서 출발해 마이애미 국제공항에 착륙하던 화물 항공사 21에어 소속 보잉767 화물기(프라임 에어 7598편)가 활주로를 이탈해 인근 도로의 차량들을 들이받았다. 충돌 직후 기체에서 검은 연기와 화염이 치솟았고, 소방 인력 60여 대가 긴급 출동해 진화에 나섰다. 이 사고로 5명이 숨졌고 3명이 중상, 2명이 경상을 입었다. 사고 여파로 마이애미 공항의 모든 활주로와 유도로가 한때 전면 폐쇄돼 250편 이상의 항공편이 지연됐으며, 미 국가교통안전위원회(NTSB)가 정확한 사고 원인 조사에 착수했다.',
+    category: 'world',
+    region: '해외 · 미국',
+    date: '2026-09-07',
+    source: '외신 종합',
+    sourceUrl: 'https://chicago.suntimes.com/nation-world/2026/09/06/amazon-cargo-plane-crash-miami',
+    videoUrl: 'https://www.youtube.com/watch?v=XYHsYT9so2w',
+    likes: 520,
+    comments: 88,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260907-colombia-ocana-drone-attack',
+    title: '콜롬비아 반군, 군부대에 드론 20대 동시 공격…군인 3명 사망',
+    summary:
+      '콜롬비아 북동부 오카냐의 군부대가 좌파 반군 민족해방군(ELN)의 드론 공격을 받아 군인 3명이 숨지고 5명이 다쳤다. 폭발물을 실은 드론 약 20대가 부대 내부에서 잇따라 터졌다.',
+    content:
+      '현지시간 4일 밤 콜롬비아 노르테데산탄데르주 오카냐의 \'엘 트라피체\' 군 주둔지가 폭발물을 실은 무인기 공격을 받았다. 콜롬비아군에 따르면 약 20대의 드론이 동원돼 부대 안에서 모두 14차례의 폭발이 일어났고, 헬기 1대도 피해를 입었다. 이 공격으로 대위 등 군인 2명이 현장에서 숨졌고 치료를 받던 군인 1명이 추가로 숨져 사망자가 3명으로 늘었으며 5명이 다쳤다. 현지 당국은 이번 공격을 ELN 산하 조직의 소행으로 지목했고, 콜롬비아 정부는 배후 세력에 강경 대응을 예고했다.',
+    category: 'world',
+    region: '해외 · 콜롬비아',
+    date: '2026-09-07',
+    source: '외신 종합',
+    sourceUrl: 'https://www.cp24.com/news/world/2026/09/06/drone-attack-launched-by-suspected-guerrillas-kills-at-least-3-soldiers-in-colombia/',
+    videoUrl: 'https://www.youtube.com/watch?v=LRn0JLz95mo',
+    likes: 290,
+    comments: 47,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260907-gifu-cake-shop-fire-arson',
+    title: '日 기후 케이크가게 방화 의심 화재로 3명 사망…"사람 찔렸다" 신고',
+    summary:
+      '일본 기후현 모토스시의 한 케이크 가게 겸 주택에서 화재가 발생해 3명이 숨졌다. "사람이 찔리고 휘발유가 뿌려졌다"는 신고가 접수돼 경찰이 살인 및 방화 혐의로 수사하고 있다.',
+    content:
+      '지난 5일 밤 9시쯤 일본 기후현 모토스시의 케이크 가게 겸 주택에서 불이 나 남녀 2명이 숨진 채 발견됐고, 병원으로 옮겨진 다른 1명도 끝내 숨져 사망자가 3명으로 늘었다. 신고 당시 "사람이 찔렸다, 휘발유를 뿌려 화재가 났다"는 내용이 접수됐다. 부검 결과 숨진 남성은 복부를 찔려 과다출혈로, 여성은 급성 일산화탄소 중독으로 사망한 것으로 확인됐다. 화재 당시 건물 안에는 점주와 지인 등 남녀 11명이 있었던 것으로 파악됐으며, 현지 경찰은 이 중 1명이 화재에 관여했을 가능성을 보고 살인 및 현주건조물방화 혐의로 수사를 확대하고 있다.',
+    category: 'world',
+    region: '해외 · 일본',
+    date: '2026-09-07',
+    source: '중일신문',
+    sourceUrl: 'https://www.nikkei.com/article/DGXZQOUD0603E0W6A900C2000000/',
+    videoUrl: 'https://www.youtube.com/watch?v=MPFYeUTyo3o',
+    likes: 380,
+    comments: 64,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260907-ulsan-shaheen-project-fall-death',
+    title: '울산 에쓰오일 샤힌프로젝트 현장서 또 추락사…올해만 세 번째',
+    summary:
+      '울산 울주군 온산읍 에쓰오일(S-OIL) 샤힌프로젝트 공사 현장에서 50대 하청 노동자가 10m 높이 구조물에서 추락해 숨졌다. 올해 들어 이 현장에서만 벌써 세 번째 사망 사고다.',
+    content:
+      '지난 3일 오후 3시30분쯤 현대건설이 시공을 맡은 샤힌프로젝트 패키지-1 현장에서 도장 작업을 하던 50대 노동자가 10m가 넘는 구조물에서 추락해 심정지 상태로 병원에 옮겨졌으나 끝내 숨졌다. 지난 6월에도 같은 현장에서 흙더미 붕괴로 노동자가 숨진 바 있어, 올해만 세 차례 사망사고가 반복됐다. 고용노동부는 해당 공사 구간에 대해 작업중지 명령을 내렸고, 울산시가 현장을 찾아 안전관리 실태를 점검했다. 노동계는 추락 방지용 그물망 등 다중 안전장치 부재를 지적하며 근본적인 안전관리 대책을 촉구했다.',
+    category: 'etc',
+    region: '울산 울주군 온산읍',
+    date: '2026-09-07',
+    source: '연합뉴스TV',
+    sourceUrl: 'https://www.yna.co.kr/view/AKR20260904078700057',
+    videoUrl: 'https://www.youtube.com/watch?v=tdpa1zi4TyY',
+    likes: 410,
+    comments: 76,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260907-kazakhstan-voicephishing-org-arrest',
+    title: '캄보디아서 카자흐스탄으로 거점 옮긴 한국인 스캠 조직 19명 검거·송환',
+    summary:
+      '캄보디아 스캠 범죄 단속이 강화되자 카자흐스탄으로 거점을 옮겨 국내 피해자를 상대로 보이스피싱·투자사기를 벌이던 한국인 조직원 19명이 한·카자흐스탄 합동작전으로 붙잡혀 국내로 송환됐다.',
+    content:
+      '경찰청에 따르면 이 조직은 캄보디아 내 스캠 범죄 단지에 대한 단속이 거세지자 제3국인 카자흐스탄으로 근거지를 옮겨 범행을 이어간 것으로 드러났다. 지난 4일 범정부 합동수사 결과로 조직원 19명 전원이 검거됐으며 국내 송환 절차가 진행됐다. 이는 캄보디아·동남아 각지로 확산되는 한국인 스캠 조직의 이른바 "풍선효과"를 보여주는 대표 사례로 지목된다. 경찰청은 해외로 도피한 스캠 조직에 대한 추적을 지속하겠다고 밝혔다.',
+    category: 'crime',
+    region: '카자흐스탄(해외 거점)',
+    date: '2026-09-07',
+    source: 'MBN',
+    sourceUrl: 'https://www.newsis.com/view/NISX20260905_0003777496',
+    videoUrl: 'https://www.youtube.com/watch?v=75Uo4btgNW0',
+    likes: 320,
+    comments: 58,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260906-busan-tugboat-capsize-search',
     title: '부산 앞바다 예인선 전복 닷새째…실종 선원 6명 여전히 못 찾아',
     summary:
@@ -948,89 +1033,5 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=bkC46Jvpesg',
     likes: 310,
     comments: 87,
-  },
-  {
-    id: 'c-20260829-hayoung-pro-japan-ancestor-controversy',
-    title: '배우 하영, 증조부 친일 논란에 사과…광고 잇단 비공개 처리',
-    summary:
-      '배우 하영이 예능에서 "4대째 의사 집안"이라고 소개했다가 증조부가 친일 인명록에 오른 인물로 확인되며 논란에 휩싸였다. 소속사는 하루 만에 "사실무근" 입장을 뒤집고 사과했다.',
-    content:
-      '하영의 소속사는 처음 증조부의 친일 행적 의혹을 "사실무근"이라며 일축했으나, 증조부 안상호가 한 신문 인터뷰에서 "나는 일본인과 같다"고 밝힌 기록 등이 확인되자 하루 만에 입장을 바꿔 사과했다. 논란이 커지면서 삼성전자를 비롯한 광고주들이 하영이 출연한 광고 영상을 잇달아 비공개 처리했고, 하영이 출연했던 예능 다시보기도 중단됐다. 일부 누리꾼은 차기작 보이콧까지 거론하고 있어 파장이 쉽게 가라앉지 않는 모습이다.',
-    category: 'showbiz',
-    region: '서울특별시',
-    date: '2026-08-29',
-    source: '연합뉴스TV',
-    sourceUrl: 'https://sports.khan.co.kr/article/202608281742013?pt=nv',
-    videoUrl: 'https://www.youtube.com/watch?v=8QkLhqfjle0',
-    likes: 260,
-    comments: 74,
-  },
-  {
-    id: 'c-20260829-zimbabwe-kariba-ferry-disaster',
-    title: '짐바브웨 카리바호 여객선 전복…84명 사망, 어린이 18명 포함',
-    summary:
-      '짐바브웨 카리바호에서 정원을 초과해 운항하던 정부 소유 여객선이 전복돼 최소 84명이 숨졌다. 사망자 중 18명은 어린이로, 최연소 희생자는 생후 1살이었다.',
-    content:
-      '해당 여객선은 승객 90명과 승무원 5명 정원으로 승인됐지만 이를 초과해 태운 것으로 알려졌다. 사고 직후 구조 당국이 시신 수습에 나섰고, 추가 수색이 이어지며 사망자 수는 이후 90명대까지 늘었다는 보도도 나왔다. 짐바브웨 정부는 과적 운항 관행에 대한 전면 조사를 지시했다.',
-    category: 'disaster',
-    region: '해외 · 짐바브웨',
-    date: '2026-08-29',
-    source: 'AP',
-    sourceUrl: 'https://thehill.com/homenews/ap/ap-international/ap-12-more-bodies-are-recovered-in-zimbabwes-ferry-disaster-bringing-death-toll-to-84/',
-    videoUrl: 'https://www.youtube.com/watch?v=tjTFXCDnHUo',
-    likes: 540,
-    comments: 92,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260829-sweden-fagersta-school-sword-attack',
-    title: '스웨덴 고교서 흉기 난동…17세 여학생 숨지고 3명 부상',
-    summary:
-      '스웨덴 파게르스타의 한 고등학교에서 전 재학생이었던 18세 남성이 검을 휘둘러 17세 여학생이 숨지고 3명이 다쳤다. 경찰은 현장에서 용의자에게 총격을 가해 체포했다.',
-    content:
-      '사건은 약 400~500명이 재학 중인 브리넬 고등학교 수업 중에 발생했다. 헬멧을 쓰고 검을 휘두른 용의자는 과거 폭행 전과가 있는 것으로 확인됐다. 경찰은 범행 20분 전 검 사진이 올라온 뒤 삭제된 틱톡 계정을 확인 중이며, 해당 계정에는 과거 스웨덴 학교 공격 사건과 노르웨이 연쇄살인범 브레이비크를 언급한 영상도 있었던 것으로 나타났다. 스웨덴 정부는 사건 이후 학교 공격을 막기 위한 위원회를 구성하겠다고 밝혔다.',
-    category: 'world',
-    region: '해외 · 스웨덴',
-    date: '2026-08-29',
-    source: 'CBS News',
-    sourceUrl: 'https://www.cbsnews.com/news/sweden-school-sword-attack-fagersta/',
-    videoUrl: 'https://www.youtube.com/watch?v=WcYYVRp0BSw',
-    likes: 380,
-    comments: 61,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260829-montana-family-shooting',
-    title: '美 몬태나서 가족 모임 중 총격…8명 사망 후 방화·극단선택',
-    summary:
-      '미국 몬태나주 빌링스 인근에서 열린 가족 저녁 모임에서 44세 남성이 친인척 8명을 총으로 살해한 뒤 집에 불을 지르고 스스로 목숨을 끊었다.',
-    content:
-      '용의자 앨런 스미스는 부모님 집에 얹혀 지내다 몇 주 전 나가달라는 요구를 받은 것으로 알려졌다. 그는 예고 없이 일요일 저녁 가족 모임이 열리던 집을 찾아가 조부모, 부모, 여동생과 어린 조카들을 포함한 8명을 살해했다. 희생자 중에는 7세, 12세, 13세, 15세 어린이 4명이 포함됐으며, 살아남은 12세 여자아이가 신고 전화를 걸어 가족을 구하려 했던 사실이 알려지며 안타까움을 더했다.',
-    category: 'world',
-    region: '해외 · 미국',
-    date: '2026-08-29',
-    source: 'ABC News',
-    sourceUrl: 'https://abcnews.com/US/wireStory/montana-man-killed-8-relatives-including-4-kids-135951915',
-    videoUrl: 'https://www.youtube.com/watch?v=UbMsV2Ey3fs',
-    likes: 470,
-    comments: 88,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260829-ukraine-kryvyirih-drone-strike',
-    title: '러시아, 우크라이나 쇼핑몰에 드론 이중타격…최소 15명 사망',
-    summary:
-      '러시아군이 우크라이나 크리비리흐의 쇼핑센터를 드론으로 두 차례 연속 공격해 최소 15명이 숨지고 130명 이상이 다쳤다. 두 번째 공격은 구조대가 도착한 직후 이뤄진 "이중타격" 방식이었다.',
-    content:
-      '공격 당시 쇼핑센터에는 많은 시민이 있었으며 사상자 중에는 어린이도 다수 포함된 것으로 전해졌다. 젤렌스키 대통령은 이번 공격을 "냉소적이고 비열한" 테러 행위로 규정했다. 첫 드론 공격 이후 구조대가 도착하자 곧이어 두 번째 드론이 같은 지점을 재타격하는 "이중타격" 방식이 사용된 것으로 확인돼 국제사회의 강한 비판을 받고 있다.',
-    category: 'disaster',
-    region: '해외 · 우크라이나',
-    date: '2026-08-29',
-    source: 'CBS News',
-    sourceUrl: 'https://www.cbsnews.com/news/russia-drone-strike-ukraine-mall-kryvyi-rih/',
-    videoUrl: 'https://www.youtube.com/watch?v=VmJKM2cZfg0',
-    likes: 610,
-    comments: 104,
-    isBreaking: true,
   },
 ]
