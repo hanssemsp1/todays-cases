@@ -24,6 +24,142 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260908-paju-cafe-freezer-murder',
+    title: '파주 카페 냉동창고서 실종 60대 여성 숨진 채 발견…운영자 구속',
+    summary:
+      '경기 파주시 문산읍의 한 카페 냉동 컨테이너에서 실종 신고 하루 만에 60대 여성이 숨진 채 발견됐다. 경찰은 실종 당시 함께 있었던 카페 운영자 30대 남성을 살인 혐의로 구속했다.',
+    content:
+      '지난 4일 오후 2시20분쯤 파주시 문산읍의 한 카페 옆 냉동 컨테이너에서 60대 여성 A씨가 숨진 채 발견됐다. 전날 자정쯤 접수된 딸의 실종신고를 받은 경찰이 휴대전화 위치추적 끝에 시신을 찾아냈다. 경찰은 실종 당시 A씨와 함께 있었던 격투기 선수 출신 카페 사장 30대 남성 B씨를 서울 영등포구에서 긴급체포해 지난 6일 구속했다. 냉동 컨테이너에서는 수백억원대 위조 백화점 상품권도 함께 발견돼, 경찰은 B씨를 상대로 이른바 "상품권깡" 관련 사기 혐의까지 수사를 확대하고 있다.',
+    category: 'crime',
+    region: '경기 파주시',
+    date: '2026-09-08',
+    source: 'MBC',
+    sourceUrl: 'https://www.kmib.co.kr/article/view.asp?arcid=9000010046&cp=nv',
+    videoUrl: 'https://www.youtube.com/watch?v=dVRJCr5B8gg',
+    likes: 480,
+    comments: 92,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260908-busan-parking-tower-fall-verdict',
+    title: '부산 주차타워 추락사 대법원 확정…관리소장·입주민 벌금형',
+    summary:
+      '2023년 부산의 한 오피스텔 기계식 주차장에서 뒷좌석에 잠든 차주를 확인하지 않고 차량을 입고시켜 추락사시킨 사건에 대해, 대법원이 관리소장과 입주민의 유죄를 최종 확정했다.',
+    content:
+      '2023년 1월 부산의 한 오피스텔 기계식 주차장에서 대리기사가 차주를 뒷좌석에 남겨둔 채 차량 승강기에 정차시키고 자리를 떴고, 차주는 그대로 잠이 들었다. 이를 확인하지 않은 입주민이 차량을 주차타워에 입고시켰고, 차주는 15층 높이에서 추락해 숨졌다. 대법원 2부는 업무상과실치사 혐의로 기소된 오피스텔 관리소장에게 벌금 1000만원, 차량을 입고한 입주민에게 벌금 500만원을 선고한 원심을 최근 확정했다. 재판부는 차량 내부를 충분히 확인하지 않은 입주민과 관리·감독 의무를 다하지 않은 관리소장 모두에게 주의의무 위반이 있다고 판단했다.',
+    category: 'etc',
+    region: '부산',
+    date: '2026-09-08',
+    source: '국민일보',
+    sourceUrl: 'https://www.kmib.co.kr/article/view.asp?arcid=9000009618',
+    videoUrl: 'https://www.youtube.com/watch?v=78QaaGZdMeY',
+    likes: 210,
+    comments: 46,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260908-greece-airshow-f4-crash',
+    title: '그리스 에어쇼서 F-4 팬텀기 추락…조종사 2명 사망',
+    summary:
+      '그리스 아테네 인근 타나그라 공군기지에서 열린 국제 에어쇼 도중 그리스 공군의 노후 F-4E 팬텀 전투기가 저공 곡예비행 중 추락해 화염에 휩싸였다. 탑승 조종사 2명이 모두 숨졌다.',
+    content:
+      '지난 5일(현지시간) 오후 아테네에서 북쪽으로 약 60km 떨어진 타나그라 공군기지에서 열린 "아테네 플라잉 위크" 에어쇼 도중 그리스 공군 복좌형 F-4 팬텀 전투기가 이륙 직후 저고도 곡예비행을 하다 갑자기 고도를 잃고 추락했다. 탈출 시도나 낙하산은 목격되지 않았고 사출좌석이 작동한 정황도 없었던 것으로 알려졌다. 숨진 조종사는 40세 편대장 이오아니스 블레시아스와 37세 디미트리오스 페트루 중위로 확인됐다. 다행히 관중과 인근 주민 피해는 없었으며, 주최 측은 나머지 행사를 전면 취소했다.',
+    category: 'world',
+    region: '해외 · 그리스',
+    date: '2026-09-08',
+    source: '외신 종합',
+    sourceUrl: 'https://greekreporter.com/2026/09/05/greek-air-force-f-4-phantom-crash/',
+    videoUrl: 'https://www.youtube.com/watch?v=WA_HTzGZ6cw',
+    likes: 340,
+    comments: 58,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260908-capeverde-schoolbus-cliff',
+    title: '카보베르데 고교생 버스 절벽 추락…25명 사망',
+    summary:
+      '서아프리카 카보베르데 포고섬에서 화산 분화구 소풍을 마치고 돌아오던 고교생들을 태운 버스가 도로를 이탈해 약 30m 절벽 아래로 추락했다. 운전기사를 포함해 최소 25명이 숨져 카보베르데 역사상 최악의 교통사고로 기록됐다.',
+    content:
+      '지난 5~6일 카보베르데 포고섬의 캄파나스 데 시마 도로에서 인근 지역 고교생들을 태운 버스가 피코 두 포고 화산 분화구 마을로의 연례 소풍을 마치고 돌아오던 중 도로를 이탈해 절벽 아래로 추락했다. 이 버스는 32명이 탑승했던 것으로 파악되며, 운전기사를 포함해 최소 25명이 숨지고 8~14명이 다쳤다. 이 소풍은 학교 공식 행사가 아니라 운전기사가 매년 사적으로 주최해온 행사였으며, 운전기사 본인도 이번 사고로 목숨을 잃었다. 조제 마리아 페레이라 네베스 카보베르데 대통령은 이를 "대재앙"이라 칭하며 애도했고 정부는 이틀간의 국가 애도 기간을 선포했다.',
+    category: 'world',
+    region: '해외 · 카보베르데',
+    date: '2026-09-08',
+    source: '외신 종합',
+    sourceUrl: 'https://abcnews.go.com/International/wireStory/25-people-dead-bus-crash-cape-verdes-fogo-136237357',
+    videoUrl: 'https://www.youtube.com/watch?v=F_jwAp3pvI4',
+    likes: 620,
+    comments: 104,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260908-mexico-fireworks-explosion',
+    title: '멕시코 축제 불꽃놀이 화약창고 폭발…10명 사망 64명 부상',
+    summary:
+      '멕시코 중부 멕시코주 테마스칼싱고의 수호성인 축제에서 불꽃놀이용 화약 창고가 폭발해 구조물이 무너지면서 관람객들이 매몰됐다. 최소 10명이 숨지고 64명이 다쳤다.',
+    content:
+      '지난 5일 밤(현지시간) 멕시코주 테마스칼싱고의 한 성당 인근에서 열린 수호성인 축제 도중 불꽃놀이 재료 보관 구역에서 폭발이 발생했다. 수백 명이 불꽃놀이 관람을 기다리던 중 폭발이 일어났고, 이로 인해 구조물이 붕괴돼 잔해에 깔린 사람들이 다수 발생했다. 최소 10명이 숨지고 64명이 부상했으며, 부상자 중에는 사제 2명도 포함된 것으로 전해졌다. 멕시코시티에서 북서쪽으로 약 160km 떨어진 인구 6만6000명의 이 소도시에서, 현지 검찰은 정확한 폭발 원인을 조사하고 있다.',
+    category: 'world',
+    region: '해외 · 멕시코',
+    date: '2026-09-08',
+    source: 'CNN',
+    sourceUrl: 'https://www.cnn.com/2026/09/07/americas/temascalcingo-mexico-fireworks-explosion-intl-hnk',
+    videoUrl: 'https://www.youtube.com/watch?v=qqUi0GbG5Es',
+    likes: 410,
+    comments: 77,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260908-melbourne-thomastown-shooting',
+    title: '호주 멜버른 공원서 22세 배관공 총격 살해…범인 도주',
+    summary:
+      '호주 멜버른 북부 토마스타운의 한 공원에서 22세 배관공이 총격을 당해 숨졌다. 결혼을 앞두고 있던 피해자는 전날 도심에서 벌어진 패싸움과 연관된 것으로 추정되며, 범인은 검은색 포르쉐를 타고 달아나 경찰이 추적하고 있다.',
+    content:
+      '지난 6일 오후 7시30분쯤 멜버른 북부 토마스타운의 한 공원에서 22세 배관공 대니얼 후세인이 총에 맞았다. 구급대원들이 가족과 지인들이 지켜보는 가운데 응급처치를 시도했지만 그는 현장에서 숨졌다. 유족에 따르면 후세인은 약혼한 상태로 결혼을 앞두고 있었으며, 사건 발생 며칠 전 멜버른 도심에서 두 그룹 간 다툼이 있었고 사건 직전 번호판 없는 검은색 포르쉐가 그를 미행했다는 목격담도 나왔다. 총격범은 아직 검거되지 않았으며 빅토리아 경찰이 대대적인 추적을 벌이고 있다.',
+    category: 'world',
+    region: '해외 · 호주',
+    date: '2026-09-08',
+    source: '외신 종합',
+    sourceUrl: 'https://www.abc.net.au/news/2026-09-07/melbourne-thomastown-fatal-shooting/107122646',
+    videoUrl: 'https://www.youtube.com/watch?v=xyc5rxaQN1I',
+    likes: 300,
+    comments: 54,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260908-kimjungwoo-mma-choke-controversy',
+    title: '격투기 김중우, 방송 중 비전공 일반인 목 졸라 기절…계약 해지',
+    summary:
+      '종합격투기 선수 겸 유튜버 김중우가 인터넷 방송 도중 격투기를 배우지 않은 일반인에게 목조르기 기술을 걸어 기절시키고 무심하게 방치한 사실이 알려져 파문이 일었다. 소속 단체는 즉각 계약을 해지했고 경찰이 수사에 나섰다.',
+    content:
+      '김중우는 지난 5일 한 인터넷 방송에 출연해 격투기 비전공 일반인 A씨에게 스탠딩 길로틴 초크 기술을 걸었다. A씨가 탭을 쳤음에도 곧바로 풀어주지 않아 A씨는 의식을 잃었고, 기절한 A씨를 두고 한숨을 쉬는 등 무심한 반응을 보인 장면이 방송으로 그대로 송출되며 시청자들에게 충격을 안겼다. 소속 단체 코리안갱스터MMA는 사건 직후 김중우와의 계약을 공식 해지한다고 밝혔다. 경찰은 상해 혐의로 수사에 착수했다.',
+    category: 'showbiz',
+    region: '대한민국',
+    date: '2026-09-08',
+    source: '스포티비뉴스',
+    sourceUrl: 'https://www.spotvnews.co.kr/news/articleView.html?idxno=1006196',
+    videoUrl: 'https://www.youtube.com/watch?v=yFI34ChhIPc',
+    likes: 520,
+    comments: 118,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260908-mcmong-kimminjong-apology',
+    title: 'MC몽, 김민종 도박 의혹 제기 4개월 만에 사과…갈등 봉합',
+    summary:
+      '가수 MC몽이 지난 5월 라이브 방송에서 배우 겸 가수 김민종의 해외 원정도박 의혹을 실명으로 거론했다가 4개월간 갈등을 빚은 끝에 직접 사과했다. 김민종 측도 이를 수용하면서 논란이 일단락됐다.',
+    content:
+      "MC몽은 지난 5월 개인 라이브 방송에서 김민종의 해외 원정도박 의혹을 실명으로 언급했고, 김민종 측은 '명백한 허위사실'이라며 강하게 반박하고 법적 대응을 예고했다. 넉 달간 이어진 갈등은 지난 5일 MC몽이 라이브 방송에서 '김민종 형님을 언급한 것 자체가 제 잘못이었다'며 직접 사과하고, 실제로 두 사람이 만나 오해를 풀었다고 밝히면서 마무리 국면에 접어들었다. 김민종 측도 사과를 수용한 것으로 전해졌으나, 앞서 제출된 고소장의 취하 여부는 아직 확인되지 않고 있다.",
+    category: 'showbiz',
+    region: '대한민국',
+    date: '2026-09-08',
+    source: 'SBS 연예뉴스',
+    sourceUrl: 'https://ent.sbs.co.kr/news/article.do?article_id=E10010321689',
+    videoUrl: 'https://www.youtube.com/shorts/BuFmxAwXX1w',
+    likes: 380,
+    comments: 96,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260907-miami-amazon-cargo-plane-runway',
     title: '아마존 화물기, 마이애미 공항 활주로 이탈 후 화재…5명 사망',
     summary:
@@ -903,135 +1039,5 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=Z1YdPoDbhfk',
     likes: 420,
     comments: 103,
-  },
-  {
-    id: 'c-20260830-thailand-player-lightning-death',
-    title: '경기 중 벼락 맞아 숨진 24세 태국 축구선수, 입단 일주일 만의 비극',
-    summary:
-      '태국 프로축구 얄라FC 소속 소프완 아와에(24)가 몬순 폭우 속 경기 도중 벼락에 맞아 숨졌다. 계약 체결 일주일도 안 된 상황에서 벌어진 사고로 다수 선수가 추가로 부상했다.',
-    content:
-      '태국 나라티왓주 산티팝 스타디움에서 열린 3부리그 경기 도중 강한 섬광과 함께 낙뢰가 경기장을 덮쳤다. 얄라FC 공격수 소프완 아와에가 그 자리에서 쓰러졌고, 동료 선수들이 즉시 심폐소생술을 시도했지만 끝내 사망했다. 이 사고로 태국 선수 8명이 인근 병원으로 옮겨졌고 말레이시아 국적 선수 1명도 치료를 위해 본국으로 돌아갔다. 소프완은 얄라FC와 계약을 맺은 지 채 일주일도 되지 않은 상태였다.',
-    category: 'showbiz',
-    region: '해외 · 태국',
-    date: '2026-08-30',
-    source: '머니투데이·채널A',
-    sourceUrl: 'https://www.mt.co.kr/sports/2026/08/07/2026080701471016151',
-    videoUrl: 'https://www.youtube.com/watch?v=DGFKSa8lI0o',
-    likes: 560,
-    comments: 88,
-  },
-  {
-    id: 'c-20260830-california-schoolbus-parents-riot',
-    title: '"우리 애 내놔"…스쿨버스 창문 부수고 난입한 미국 학부모들',
-    summary:
-      '미국 캘리포니아 캘러베러스 카운티에서 스쿨버스가 정차한 채 아이들을 내려주지 않는다고 오해한 학부모들이 창문을 부수고 진입해 아수라장이 벌어졌다. 학부모 1명이 재물손괴 혐의로 체포됐다.',
-    content:
-      '캘리포니아 캘러베러스 통합교육구 스쿨버스가 고속도로 인근에 정차했고, 운전기사가 학생 소란 행위를 지적하며 잠시 하차를 미룬 것을 두고 오해가 커졌다. 격분한 학부모들이 버스로 몰려가 문을 부수고 창문으로 기어 올라갔고, 놀란 아이들이 창문을 통해 밖으로 빠져나오는 소동이 벌어졌다. 35세 여성 1명이 유리창을 깨고 버스에 침입해 운전자와 대치한 혐의로 중범죄 재물손괴 혐의로 체포됐다. 보안관실은 실제 버스 정차 시간은 4분에 불과했으며 학생들이 감금됐다는 주장은 영상 기록과 다르다고 반박했다.',
-    category: 'world',
-    region: '해외 · 미국',
-    date: '2026-08-30',
-    source: 'MBC AMERICA',
-    sourceUrl: 'https://www.thegatewaypundit.com/2026/08/furious-parents-smash-their-way-school-bus-as/',
-    videoUrl: 'https://www.youtube.com/watch?v=EmaeXlyB7VY',
-    likes: 610,
-    comments: 121,
-  },
-  {
-    id: 'c-20260830-china-stray-dog-abuse-outrage',
-    title: '새끼는 몽둥이로, 어미는 산 채로 불태워…중국 초등생 유기견 학대에 전 세계 공분',
-    summary:
-      '중국 광둥성 지에양시에서 14세 미만 초등학생 여러 명이 유기견과 새끼 강아지들을 몽둥이로 때려 죽이고 어미 개는 기름을 부어 산 채로 불태운 사실이 알려져 국제적 공분을 샀다. 가해자들이 형사 미성년자라 처벌을 피하면서 중국 내 동물보호법 부재 논란까지 번졌다.',
-    content:
-      '중국 광둥성 지에양시 제둥구 한 마을에서 미성년자들이 유기견 모자를 잔혹하게 학대해 죽이는 장면을 촬영해 소셜미디어에 유포했고, 이 영상이 퍼지며 중국 본토는 물론 홍콩·대만, 뉴욕 타임스퀘어 전광판에까지 항의 문구가 등장할 정도로 국제적 파장을 일으켰다. 그러나 가해자들이 모두 중국 형법상 형사책임 연령(14세) 미만이라는 이유로 형사처벌은 이뤄지지 않았고, 현지 정부는 이들을 전문학교로 보내는 교정교육 조치만 발표했다. 이를 계기로 동물보호법이 없는 중국의 법 공백에 대한 비판 여론이 커지고 있다.',
-    category: 'world',
-    region: '해외 · 중국',
-    date: '2026-08-30',
-    source: '머니투데이·JTBC',
-    sourceUrl: 'https://www.mt.co.kr/society/2026/07/27/2026072713442832703',
-    videoUrl: 'https://www.youtube.com/watch?v=23YPEcNPWNQ',
-    likes: 730,
-    comments: 149,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260830-milo-yiannopoulos-ice-detained',
-    title: '"암살 선동" 신고로 부메랑…극우 논객 야노풀로스, 공항서 ICE에 전격 구금',
-    summary:
-      '트럼프 이민단속 정책을 옹호해온 극우 논객 마일로 야노풀로스가 미국 뉴올리언스 공항 도착 직후 이민세관집행국(ICE)에 전격 구금됐다. 자신과 갈등을 빚던 우파 인사의 제보가 구금의 발단이 된 것으로 알려져 아이러니를 낳고 있다.',
-    content:
-      '영국 국적의 야노풀로스는 루이지애나주 뉴올리언스 공항에 도착한 직후 ICE에 체포돼 구금시설에 수용됐다. 그는 2019년 합법적으로 미국에 입국했지만 체류 허용 기간을 넘겨 불법 체류 상태였고, 지난달 이민 재판에 출석하지 않아 이민 판사로부터 최종 추방 명령을 받은 상태였다. 미 국토안보부는 이런 사유로 구금·추방 절차를 밟고 있다고 밝혔다. 특히 트럼프 측근인 한 우파 활동가가 자신에 대한 발언을 문제 삼아 야노풀로스의 이민 신분을 당국에 직접 신고한 것으로 알려지면서, 이민단속을 적극 옹호했던 그가 정작 그 칼끝을 피하지 못했다는 점이 화제가 되고 있다.',
-    category: 'world',
-    region: '해외 · 미국',
-    date: '2026-08-30',
-    source: 'CNN',
-    sourceUrl: 'https://www.cnn.com/2026/08/28/us/milo-yiannopoulos-detained-by-ice',
-    videoUrl: 'https://www.youtube.com/watch?v=kbam7dy4Jro',
-    likes: 480,
-    comments: 96,
-  },
-  {
-    id: 'c-20260830-gimhae-airport-uap-mystery',
-    title: '김해공항 상공 미확인 비행체(UAP) 미스터리',
-    summary:
-      '지난 5월 김해공항 상공에서 정체불명의 비행체가 목격되며 활주로가 일시 폐쇄되고, 나고야발 여객기가 인천공항으로 회항하는 사건이 발생했다. 공군과 경찰은 착시·오인 가능성으로 결론지었으나, 군 무선 교신 기록을 근거로 실체가 있었다는 반박이 이어지며 논란이 계속되고 있다.',
-    content:
-      '나고야발 여객기가 김해공항 도착을 앞두고 있던 중, 활주로 인근에서 녹색 빛을 내는 미확인 비행체가 편대 형태로 목격됐다는 신고가 접수돼 활주로가 폐쇄되고 해당 항공기는 인천공항으로 회항했다. 공군과 경찰의 합동조사는 착시 또는 오인 가능성으로 사건을 종결했지만, 당시 군 무선 교신 기록 등을 근거로 실제 비행체가 존재했다는 반박도 제기되고 있다. SBS "그것이 알고싶다"는 이 사건을 "미지의 침공 - 2026 UAP 미스터리"라는 제목으로 집중 조명했다.',
-    category: 'mystery',
-    region: '부산·경남',
-    date: '2026-08-30',
-    source: 'SBS 그것이 알고싶다',
-    sourceUrl: 'https://programs.sbs.co.kr/culture/unansweredquestions/clip/55073/22000633648',
-    videoUrl: 'https://www.youtube.com/watch?v=YKz2S6VyR8A',
-    likes: 400,
-    comments: 82,
-  },
-  {
-    id: 'c-20260829-jeju-officer-arrested-jangmiran',
-    title: '제주 실종 여성 허위종결 경장 구속…104일 만에 장미란씨 시신 확인',
-    summary:
-      '제주에서 5월 접수된 30대 여성 실종 신고를 허위로 종결 처리한 혐의를 받는 현직 경찰관이 구속됐다. 실종 104일 만인 지난 24일 한림읍 야자수 농장에서 발견된 시신은 부검 결과 장미란씨로 최종 확인됐다.',
-    content:
-      '제주서부경찰서 소속 부모(35) 경장은 지난 5월 접수된 장씨의 실종 신고를 자체 종결하면서 실종 프로파일링 시스템에 "교통사고 사망"이라는 허위 사유를 입력한 혐의를 받는다. 부 경장은 장씨와 통화한 적이 있다고 주장했지만 통신사 통화 기록에는 관련 내역이 없는 것으로 드러났다. 이후 7월 접수된 60대 남성 실종 신고도 같은 방식으로 허위 종결한 사실이 확인됐고, 해당 실종자 역시 숨진 채 발견됐다. 경찰은 부 경장이 유사한 방식으로 처리한 실종 사건이 더 있는지 전수조사에 나섰다.',
-    category: 'crime',
-    region: '제주특별자치도 제주시',
-    date: '2026-08-29',
-    source: 'KBS',
-    sourceUrl: 'https://news.kbs.co.kr/news/pc/view/view.do?ncd=8649411&ref=A',
-    videoUrl: 'https://www.youtube.com/watch?v=RkuoLwop2a4',
-    likes: 890,
-    comments: 156,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260829-parksoohong-flight-delay-controversy',
-    title: '박수홍, 괌행 비행기서 하차 소동…"연예인 특혜" 논란에 사과',
-    summary:
-      '방송인 박수홍이 가족과 함께 괌으로 향하던 항공편에서 딸이 울자 하차 의사를 밝혔다가 다시 재탑승하면서 출발이 70분가량 지연됐다. 다른 승객들의 항의가 이어지자 박수홍은 SNS에 사과문을 올렸다.',
-    content:
-      '박수홍 가족은 지난 23일 괌행 여객기에 탑승했다가 어린 딸이 심하게 울자 내리겠다는 의사를 밝히고 짐까지 챙겨 내렸다. 이후 마음을 바꿔 다시 탑승했지만 이 과정에서 항공기 출발이 70분 가까이 늦어졌다. 온라인에는 "유명인이라 가능했던 특혜 아니냐"는 비판 글이 잇따라 올라왔고, 항공사 측은 승객이 기내에서 하차 의사를 밝히면 절차상 시간이 걸릴 수밖에 없다며 특혜는 없었다고 해명했다. 논란이 커지자 박수홍은 사과문을 올렸지만 이후 딸의 사진에 악성 댓글이 달리는 등 후폭풍이 이어지고 있다.',
-    category: 'showbiz',
-    region: '인천국제공항',
-    date: '2026-08-29',
-    source: 'JTBC',
-    sourceUrl: 'https://www.tvreport.co.kr/entertainment/article/1071715/',
-    videoUrl: 'https://www.youtube.com/watch?v=KhaEF_y_0Bs',
-    likes: 420,
-    comments: 133,
-  },
-  {
-    id: 'c-20260829-shinee-key-illegal-injection',
-    title: '샤이니 키, "주사이모" 불법 시술 인정 후 활동 중단…근황 포착',
-    summary:
-      '그룹 샤이니 멤버 키가 무자격자에게 불법 시술을 받은 이른바 "주사이모" 논란에 휩싸여 방송 활동을 전면 중단했다. 최근에는 일본에서 홀로 거리를 걷는 모습이 포착됐다.',
-    content:
-      '박나래로부터 시작된 "주사이모" 의혹은 방송인 전현무와 샤이니 키·온유 등으로 번졌고, 서울 강남경찰서는 이들을 의료법 위반 혐의 피의자 신분으로 조사했다. 키 측은 "집에서 몇 차례 진료를 받았을 뿐 의사인 줄 알았다"며 공식 사과문을 올리고 모든 방송 활동을 중단했다. 이후 샤이니는 완전체로 새 앨범 활동을 이어갔지만 키 개인 활동은 여전히 멈춰 있는 상태로, 최근 일본에서 홀로 시간을 보내는 모습이 포착돼 근황에 관심이 쏠리고 있다.',
-    category: 'showbiz',
-    region: '서울특별시 강남구',
-    date: '2026-08-29',
-    source: 'YTN',
-    sourceUrl: 'https://www.mediafine.co.kr/news/articleView.html?idxno=87758',
-    videoUrl: 'https://www.youtube.com/watch?v=bkC46Jvpesg',
-    likes: 310,
-    comments: 87,
   },
 ]
