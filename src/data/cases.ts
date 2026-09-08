@@ -24,6 +24,145 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260909-elbrus-avalanche-climbers',
+    title: '러시아 엘부르스산서 대형 눈사태…등반객 11명 사망',
+    summary:
+      '러시아 남부 카바르디노발카르공화국 엘부르스산 5000m 고지에서 등반 중이던 그룹이 대형 눈사태에 휩쓸렸다. 33명 중 11명이 숨지고 6명이 다쳤으며, 당국이 등반 허가 여부 등 사고 경위를 조사하고 있다.',
+    content:
+      '지난 6일(현지시간) 러시아 남부 카바르디노발카르공화국의 엘부르스산 해발 약 5000m 지점에서 대형 눈사태가 발생했다. 당시 33명의 등반객이 그룹을 이뤄 등반 중이었으며, 이 중 11명이 눈더미에 매몰돼 숨지고 6명이 다쳤다. 나머지 인원은 자력으로 빠져나오거나 구조됐다. 이번 눈사태는 2002년 콜카 빙하 붕괴 참사 이후 이 지역에서 발생한 최악의 산악 사고 중 하나로 꼽힌다. 러시아 당국은 사고 당시 등반팀이 정식 허가를 받았는지 등 정확한 경위를 조사하고 있다.',
+    category: 'world',
+    region: '해외 · 러시아',
+    date: '2026-09-09',
+    source: 'KBS',
+    sourceUrl: 'https://www.joongang.co.kr/article/25460093',
+    videoUrl: 'https://www.youtube.com/watch?v=8DJNDrN6pNY',
+    likes: 320,
+    comments: 54,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260909-virginia-i66-oxygen-truck-fire',
+    title: '美 버지니아 고속도로서 SUV, 산소통 트럭 추돌 화재…어린이 포함 3명 사망',
+    summary:
+      '미국 버지니아주 페어팩스카운티 I-66 고속도로에서 SUV가 정차한 산소통 운반 트럭을 그대로 들이받아 화재가 발생했다. 이 사고로 어린이를 포함해 차량에 타고 있던 3명이 모두 숨졌고, 트럭 운전자 등 2명이 입건됐다.',
+    content:
+      '현지시간 지난 6일 버지니아주 페어팩스카운티 I-66 고속도로에서 혼다 파일럿 SUV가 도로에 정차해 있던 산소통 운반 트럭 뒤를 그대로 들이받았다. 충돌 직후 SUV에서 화재가 발생해 순식간에 불길에 휩싸였고, 차량에 타고 있던 어린이를 포함한 3명이 모두 현장에서 숨졌다. 버지니아주 경찰은 트럭 운전자 등 2명을 사고와 관련해 입건했으며, 사고 당시 트럭이 갓길이 아닌 주행 차로에 정차하게 된 경위를 조사하고 있다. 이 사고로 고속도로 일부 구간이 장시간 통제돼 극심한 교통 정체가 빚어졌다.',
+    category: 'world',
+    region: '해외 · 미국',
+    date: '2026-09-09',
+    source: 'NBC4 Washington',
+    sourceUrl:
+      'https://wjla.com/news/local/i66-fairfax-crash-3-dead-2-drivers-charged-honda-pilot-strikes-truck-carrying-oxygen-tanks-fire-fireball-traffic-lanes-closed-dunn-loring-virginia',
+    videoUrl: 'https://www.youtube.com/watch?v=a7v8UVUhgeY',
+    likes: 280,
+    comments: 46,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260909-gwangju-official-vengeance-murder-indictment',
+    title: "이혼소송 아내 살해 공무원, '보복살인' 혐의 적용해 검찰 송치",
+    summary:
+      '지난 1일 경기 광주에서 이혼소송 중이던 아내를 찾아가 살해한 30대 현직 공무원에게 경찰이 일반 살인보다 형량이 무거운 보복살인 혐의를 적용해 검찰에 송치했다. 부부의 5세 딸 앞에서 범행이 벌어져 아동학대 혐의도 함께 적용됐다.',
+    content:
+      '경기남부경찰청은 지난 1일 경기 광주시의 한 다세대주택 계단에서 가정폭력을 피해 별거 중이던 아내를 흉기로 찔러 살해한 혐의를 받는 30대 공무원 A씨를 특정범죄가중처벌법상 보복살인, 가정폭력처벌법 위반, 아동복지법 위반(정서적 학대) 등 혐의로 9일 검찰에 송치한다고 밝혔다. 경찰은 A씨가 아내가 제기한 이혼소송에서 불리한 결과가 예상되자 이에 앙심을 품고 범행을 저지른 것으로 보고, 처벌 수위가 더 높은 보복살인 혐의를 적용했다. 범행 당시 부부의 5세 딸이 현장에 있었던 사실이 확인돼 아동학대 혐의도 함께 적용됐다. 경찰은 A씨의 구속 상태를 유지한 채 사건을 검찰로 넘겼다.',
+    category: 'crime',
+    region: '경기 광주시',
+    date: '2026-09-09',
+    source: '세계일보',
+    sourceUrl: 'https://www.segye.com/newsView/20260907508289',
+    videoUrl: 'https://www.youtube.com/watch?v=ortMCy6ICes',
+    likes: 420,
+    comments: 88,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260909-paju-freezer-murder-accomplices',
+    title: '파주 냉동창고 살인, 계획범죄 정황 포착…공범 최소 3명 추적',
+    summary:
+      '경기 파주 카페 냉동창고 살인사건이 우발적 범행이 아닌 사전에 계획된 범죄였을 가능성이 제기됐다. 경찰은 범행에 최소 3명의 공범이 가담한 정황을 포착하고 위조 상품권 조직 전반으로 수사를 확대하고 있다.',
+    content:
+      '파주 문산읍 카페 냉동창고 살인사건을 수사 중인 경찰은 카페 운영자 B씨가 피해자와 상품권 거래를 하기로 한 당일 직원들에게 출근하지 말라고 지시하고 카페 문을 닫은 정황을 확인했다. 피해자가 발견된 냉동창고 역시 최근 새로 설치된 것으로 파악돼, 범행을 위해 미리 준비된 공간이었을 가능성이 제기됐다. 경찰은 이번 범행에 피해 여성을 서울에서 파주로 태워다준 남성 등 최소 3명의 공범이 가담했으며 이들 모두 위조 상품권 조직의 일원이었던 것으로 보고 강력팀 인력을 투입해 공범 추적에 나섰다. 경찰은 계획 범행 여부와 조직 전체의 범행 가담 정도를 확인하기 위해 수사를 확대하고 있다.',
+    category: 'crime',
+    region: '경기 파주시',
+    date: '2026-09-09',
+    source: 'MBC',
+    sourceUrl: 'https://www.khan.co.kr/article/202609081559001/',
+    videoUrl: 'https://www.youtube.com/watch?v=oFxTagY4dKQ',
+    likes: 460,
+    comments: 102,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260909-d4vd-family-death-penalty-plea',
+    title: "가수 D4vd 살해 혐의 재판 앞두고, 숨진 14세 소녀 유족 '사형 촉구'",
+    summary:
+      "10대 소녀 셀레스트 리바스 에르난데스를 살해한 혐의로 재판을 앞둔 미국 가수 D4vd(본명 데이비드 버크)에 대해 피해자 유족이 사형을 구형해달라는 공개 성명을 냈다. 성명 발표일은 숨진 피해자의 16번째 생일이었다.",
+    content:
+      "지난해 9월 미국 로스앤젤레스의 한 견인차 보관소에서 D4vd 소유 테슬라 차량 트렁크 안에 담긴 14세 소녀 셀레스트 리바스 에르난데스의 시신이 발견됐다. 검찰은 D4vd를 1급 살인, 미성년자 추행, 시신 훼손 등 혐의로 기소했으며 그는 무죄를 주장하고 있다. 피해자 가족은 지난 7일(현지시간) 변호인을 통해 낸 성명에서 '사형이 집행된다면 양심도, 감정도 없이 우리 딸에게 고통만 준 이런 존재에게 딱 맞는 처벌이 될 것'이라며 사형을 촉구했다. 이날은 공교롭게도 숨진 리바스의 16번째 생일이었으며, 가족은 '생일 축하 노래를 부르며 잊지 못할 순간들을 떠올린다'고 애도했다. D4vd의 재판 일정은 아직 확정되지 않았다.",
+    category: 'world',
+    region: '해외 · 미국',
+    date: '2026-09-09',
+    source: 'NBC News',
+    sourceUrl:
+      'https://www.nbcnews.com/news/us-news/d4vd-murder-trial-family-celeste-rivas-hernandez-calls-singer-face-dea-rcna596491',
+    videoUrl: 'https://www.youtube.com/watch?v=s4Q3Mj1zmGM',
+    likes: 340,
+    comments: 76,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260909-delhi-pg-building-collapse',
+    title: '인도 뉴델리 대학가 5층 하숙건물 붕괴…5명 사망·수십명 매몰',
+    summary:
+      '인도 뉴델리 남서부 사티아니케탄 지역의 5층짜리 대학생 하숙(PG) 건물이 갑자기 붕괴해 5명이 숨지고 수십 명이 매몰됐다. 지하실 보수공사 도중 사고가 난 것으로 추정돼 당국이 건물주를 상대로 원인을 조사하고 있다.',
+    content:
+      '지난 6일 오후 인도 뉴델리 남서부 사티아니케탄 지역의 지하 1층, 지상 5층짜리 대학생 하숙 건물이 갑자기 무너져 내렸다. 사고 당시 건물 안에는 최대 50명이 있었던 것으로 전해졌으며, 구조 당국은 잔해에서 시신 4구를 수습했고 중상을 입고 구조된 1명도 병원에서 끝내 숨져 사망자는 5명으로 늘었다. 구조대는 밤샘 작업 끝에 생존자 9명을 잔해 속에서 구조했으며, 여전히 수십 명이 매몰된 채 구조를 기다리고 있는 것으로 알려졌다. 경찰은 지어진 지 50년이 넘은 이 건물의 지하실에서 보수공사가 진행되던 중 사고가 발생했다는 목격자 진술에 따라 건물주 등을 상대로 정확한 붕괴 원인을 조사하고 있다.',
+    category: 'world',
+    region: '해외 · 인도',
+    date: '2026-09-09',
+    source: '세계일보',
+    sourceUrl: 'https://www.segye.com/newsView/20260907505661',
+    videoUrl: 'https://www.youtube.com/watch?v=5dV7dFZrZcY',
+    likes: 380,
+    comments: 62,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260909-cheonan-seongjeong-apartment-fire',
+    title: '천안 성정동 주상복합 아파트 3층서 화재…60대 입주민 숨져',
+    summary:
+      '충남 천안시 성정동의 5층짜리 주상복합 아파트 3층에서 새벽 화재가 발생해 해당 세대에 살던 60대 남성이 심정지 상태로 발견돼 병원으로 옮겨졌으나 숨졌다. 주민 12명은 대피해 추가 피해는 없었다.',
+    content:
+      '7일 오전 5시 39분쯤 충남 천안시 서북구 성정동의 5층짜리 주상복합 아파트 3층에서 불이 났다는 신고가 접수됐다. 소방당국은 장비 17대와 인력 41명을 투입해 신고 접수 약 20분 만인 오전 6시쯤 큰 불길을 잡았다. 화재가 발생한 세대에 살던 60대 남성이 심정지 상태로 발견돼 병원으로 옮겨졌으나 끝내 숨졌다. 같은 건물에 거주하던 주민 12명은 화재 직후 자력으로 대피해 추가 인명피해는 없었다. 경찰과 소방당국은 정확한 화재 원인과 피해 규모를 조사하고 있다.',
+    category: 'fire',
+    region: '충남 천안시',
+    date: '2026-09-09',
+    time: '05:39',
+    source: '연합뉴스TV',
+    sourceUrl: 'http://www.fpn119.co.kr/sub_read.html?uid=256202',
+    videoUrl: 'https://www.youtube.com/watch?v=SnZlgmis0DQ',
+    likes: 240,
+    comments: 38,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260909-cheongju-forced-fight-death',
+    title: "청주서 10대에게 '싸움 강요'해 20대 여성 숨지게 한 연인 구속",
+    summary:
+      "충북 청주에서 아는 20대 여성에게 10대 청소년 두 명과 잇달아 격투기 방식의 무규칙 싸움을 강요해 숨지게 한 20대 연인이 구속됐다. 직접 폭행을 가한 10대 2명도 폭행치사 혐의로 입건됐다.",
+    content:
+      "청주상당경찰서는 지난 5월 29일 밤 0시20분쯤 청주시 용암동의 한 공원에서 아는 20대 여성 A씨에게 이른바 '야차룰'(보호장구 없는 무규칙 격투)로 10대 청소년 2명과 잇달아 싸우도록 강요한 혐의(강요 등)로 20대 연인 남녀 2명을 구속했다고 8일 밝혔다. 경찰 조사 결과 이들은 평소 A씨와 사이가 좋지 않았던 것으로 알려졌으며, A씨가 싸움을 거부하고 위해를 당할 것을 우려해 애원했는데도 이를 무시하고 싸움을 강요한 것으로 드러났다. A씨는 폭행을 당한 뒤 심정지 상태로 병원에 옮겨졌으나 끝내 숨졌다. 직접 폭행을 가한 10대 2명도 폭행치사 혐의로 함께 입건됐다.",
+    category: 'crime',
+    region: '충북 청주시',
+    date: '2026-09-09',
+    source: '연합뉴스TV',
+    sourceUrl: 'https://www.segye.com/newsView/20260908511498',
+    videoUrl: 'https://www.youtube.com/watch?v=uXdksGXQE3Y',
+    likes: 560,
+    comments: 134,
+    isBreaking: true,
+  },
+  {
     id: 'c-20260908-paju-cafe-freezer-murder',
     title: '파주 카페 냉동창고서 실종 60대 여성 숨진 채 발견…운영자 구속',
     summary:
@@ -908,136 +1047,5 @@ export const CASES: CaseItem[] = [
     likes: 715,
     comments: 156,
     isBreaking: true,
-  },
-  {
-    id: 'c-20260831-dallas-apartment-gas-explosion',
-    title: '美 댈러스 아파트 가스폭발…"폭탄 터진 줄" 순식간에 붕괴',
-    summary:
-      '미국 텍사스 댈러스의 한 아파트 단지에서 가스 폭발로 건물이 붕괴돼 어린이를 포함해 최소 3명이 숨지고 여러 명이 다쳤다. 생존자들은 "폭탄이 터진 줄 알았다"고 당시 상황을 전했다.',
-    content:
-      '댈러스 오크클리프 지역의 2층짜리 아파트에서 가스 누출 신고가 접수된 직후 강력한 폭발이 일어나 건물 일부가 순식간에 무너졌다. 소방당국은 5단계 대응 체계를 가동해 밤새 화재를 진압했으며, 20세대 규모의 건물 잔해 속에서 실종자 수색을 이어갔다. 미 교통안전위원회(NTSB)는 가스 누출 신고 후 현장 도착이 지연된 경위 등 안전 수칙 준수 여부를 조사하고 있다.',
-    category: 'world',
-    region: '해외 · 미국',
-    date: '2026-08-31',
-    source: 'MBC 아메리카',
-    sourceUrl: 'https://imnews.imbc.com/news/2026/world/article/6826340_36925.html',
-    videoUrl: 'https://www.youtube.com/watch?v=05m3o0E5574',
-    likes: 388,
-    comments: 67,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260830-gyeongsan-student-murder-dismemberment',
-    title: '경산 중국인 유학생 살해…대학 강사가 시신 훼손해 전국 유기',
-    summary:
-      '경북 경산에서 중국인 대학원생 유학생이 실종 닷새 만에 숨진 채 발견됐다. 피해자가 다니던 대학원의 시간강사였던 30대 중국인 남성이 살해 후 시신을 훼손해 여러 곳에 유기한 혐의로 구속됐다.',
-    content:
-      '지난달 20일 새벽 경산시 하양읍의 한 원룸에서 중국인 대학강사 정모(31)씨가 같은 대학원에 다니던 중국인 유학생 A씨(25)를 살해한 뒤 시신을 훼손한 혐의를 받고 있다. 정씨는 사건 다음 날 자신이 A씨의 남자친구라며 직접 실종 신고를 했으나, 실제로는 연인 관계가 아니었던 것으로 드러났다. 대구지법은 지난 27일 정씨에 대해 구속영장을 발부했으며, 정씨는 사이코패스 검사도 거부한 상태다. 경찰은 정씨를 직접 데리고 다니며 경북·경기 등지에 유기된 것으로 추정되는 시신 잔해를 수색하고 있다.',
-    category: 'crime',
-    region: '경상북도 경산시',
-    date: '2026-08-30',
-    source: '서울경제',
-    sourceUrl: 'https://www.sedaily.com/article/20084752',
-    videoUrl: 'https://www.youtube.com/watch?v=OcW50Q3HYpM',
-    likes: 780,
-    comments: 142,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260830-anseong-dumptruck-headon-crash',
-    title: '안성 국도서 승용차 중앙선 침범…덤프트럭과 정면충돌 대학생 3명 전원 사망',
-    summary:
-      '경기 안성시 삼죽면 국도에서 심야 영화 촬영을 마치고 귀가하던 20대 대학생 3명이 탄 승용차가 중앙선을 넘어 맞은편 25.5t 덤프트럭과 정면충돌해 전원 숨졌다. 경찰은 블랙박스가 없어 CCTV 등으로 정확한 원인을 조사 중이다.',
-    content:
-      '지난 11일 새벽 경기 안성시 삼죽면 38번 국도 일죽IC 인근에서 20대 남성 A씨가 몰던 승용차가 안성 방향으로 직진하던 중 알 수 없는 이유로 중앙선을 침범해 맞은편에서 오던 25.5t 덤프트럭과 정면충돌했다. 이 사고로 승용차에 타고 있던 동아방송예술대 재학생 등 20대 남녀 3명이 전원 사망했다. 이들은 밤샘 영화 촬영을 마치고 귀가하던 길이었던 것으로 알려졌다. 경찰은 사고 차량에 블랙박스가 없어 인근 CCTV 등을 통해 중앙선 침범 원인과 음주·약물 운전 여부 등을 조사하고 있다.',
-    category: 'traffic',
-    region: '경기도 안성시',
-    date: '2026-08-30',
-    source: '문화일보',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/021/0002811033',
-    videoUrl: 'https://www.youtube.com/watch?v=OTJ_SvOsM1w',
-    likes: 640,
-    comments: 108,
-  },
-  {
-    id: 'c-20260830-nepal-flood-koreans-missing',
-    title: '네팔 대홍수, 한국인 근로자 9명 나흘째 실종…정부 2차 신속대응팀 급파',
-    summary:
-      '히말라야 빙하 붕괴로 촉발된 네팔·티베트 대홍수 및 산사태로 현지 사망자가 수백 명을 넘어섰고, 수력발전소 건설 현장에서 근무하던 한국인 근로자 9명이 나흘째 연락이 두절된 상태다. 정부는 외교부·소방청 인력으로 구성된 2차 합동신속대응팀을 추가 파견해 헬기 수색을 이어가고 있다.',
-    content:
-      '지난 26일 네팔-중국(티베트) 국경 지대의 빙하가 붕괴하면서 대규모 산사태와 돌발 홍수가 발생해 네팔 전역에서 사망자가 속출했다. 현지에서 수력발전소 건설 업무를 맡고 있던 한국인 직원 20여 명 중 9명의 연락이 두절됐으며, 다른 직원들과 현장소장은 안전지대로 구조됐다. 정부는 수색·구조에 총력을 다하라고 긴급 지시했고, 외교부 1명과 소방청 8명으로 구성된 2차 정부합동신속대응팀이 현지로 추가 파견됐다. 다만 네팔 군 당국이 2차 홍수 우려로 헬기 이륙을 제한하면서 수색에 어려움을 겪고 있다.',
-    category: 'disaster',
-    region: '해외 · 네팔',
-    date: '2026-08-30',
-    source: 'MBC뉴스',
-    sourceUrl: 'https://www.mt.co.kr/world/2026/08/29/2026082913201711285',
-    videoUrl: 'https://www.youtube.com/watch?v=RU0QJPcZLb8',
-    likes: 870,
-    comments: 145,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260830-leesuji-election-mockery-apology',
-    title: '이수지, "재선거 시위 조롱" 논란 18일 만에 자필 사과',
-    summary:
-      '개그우먼 이수지가 유튜브 콘텐츠에서 재선거를 요구하는 시민 시위를 악성 민원에 빗댄 장면으로 논란에 휩싸였다. 비판이 거세지자 제작진은 해당 장면을 삭제했고, 이수지는 논란 발생 18일 만에 자필 사과문을 공개했다.',
-    content:
-      '이수지는 유튜브에서 1년차 공무원 캐릭터를 연기하며 재선거를 요구하는 시민들의 시위를 진상 민원인의 억지 주장처럼 묘사해 정치적 해석 논란을 낳았다. 논란이 커지자 제작진은 해당 장면을 즉각 삭제하고 사과했지만, 이수지 본인 명의의 입장 표명이 없다는 비판이 이어졌다. 결국 이수지는 자필 사과문을 올려 "많은 분께 실망과 불편을 드린 점 진심으로 죄송하다"며 "신속하고 올바르게 대처하지 못한 점에 대해서도 깊이 사과드린다"고 밝혔다.',
-    category: 'showbiz',
-    region: '서울특별시',
-    date: '2026-08-30',
-    source: '서울신문',
-    sourceUrl: 'https://www.seoul.co.kr/news/society/2026/08/01/20260801500012',
-    videoUrl: 'https://www.youtube.com/watch?v=XZu9rh6td80',
-    likes: 340,
-    comments: 92,
-  },
-  {
-    id: 'c-20260830-geonil-xdinary-heroes-jyp-terminated',
-    title: '엑스디너리 히어로즈 건일, 팬 비하 발언 논란으로 전격 탈퇴·계약 해지',
-    summary:
-      '엑스디너리 히어로즈 멤버 건일이 사적인 통화에서 팬을 비하하는 발언을 한 녹취가 공개되며 논란에 휩싸였다. JYP엔터테인먼트는 팀 탈퇴와 전속계약 해지를 발표했으나, 건일 측은 계약 해지에 동의한 적이 없다며 반박했다.',
-    content:
-      '건일의 전 여자친구라고 주장하는 인물이 SNS에 공개한 통화 녹취록에는 팬들을 향한 비하성 발언이 담겨 있었다. JYP엔터테인먼트는 "상황의 엄중함을 인지하고 충분한 논의를 거쳐 상호 합의하에 전속계약을 해지하기로 했다"며 건일의 팀 탈퇴를 공식 발표했다. 건일은 자신이 그런 발언을 한 것이 맞다고 인정하며 "실망하고 상처받으셨을 모든 분들께 진심으로 죄송하다"고 사과했다. 그러나 이후 건일 측은 "계약 해지에 동의한 적이 없다"며 JYP의 발표를 반박해 갈등이 이어지고 있다.',
-    category: 'showbiz',
-    region: '서울특별시',
-    date: '2026-08-30',
-    source: '스타뉴스',
-    sourceUrl: 'https://www.starnewskorea.com/music/2026/08/13/2026081315112832144',
-    videoUrl: 'https://www.youtube.com/watch?v=IvhUp90kupQ',
-    likes: 510,
-    comments: 137,
-  },
-  {
-    id: 'c-20260830-kangnam-japan-actor-controversy',
-    title: '강남, 광복절 직후 "우익 논란" 일본 배우 홍보했다 역풍',
-    summary:
-      '가수 겸 방송인 강남이 자신의 유튜브 채널에 우익 논란이 있는 일본 배우 후쿠시 소타를 게스트로 출연시켰다가 거센 비판을 받았다. 결국 강남은 해당 영상과 SNS 게시물을 비공개로 전환했다.',
-    content:
-      '강남은 유튜브 채널에 일본 배우 후쿠시 소타와 함께한 영상을 올리고 그의 한국어 실력을 소개하며 응원을 당부했다. 그러나 후쿠시 소타가 과거 한 다큐멘터리에서 가미카제 특공대 훈련을 받은 조부를 "존경한다"고 언급했던 발언이 재조명되며 논란이 커졌다. 광복절 직후라는 시점과 맞물려 강남의 유튜브에는 비판 댓글이 쏟아졌다. 결국 강남은 관련 영상과 SNS 게시물을 삭제하거나 비공개로 전환했다.',
-    category: 'showbiz',
-    region: '서울특별시',
-    date: '2026-08-30',
-    source: 'TV리포트',
-    sourceUrl: 'https://tvreport.co.kr/breaking/article/1070290/',
-    videoUrl: 'https://www.youtube.com/shorts/UsvgjtoT1JU',
-    likes: 290,
-    comments: 74,
-  },
-  {
-    id: 'c-20260830-shintaeyong-slap-suspension',
-    title: '신태용 감독, "뺨 폭행" 논란 끝에 자격정지 1년 중징계',
-    summary:
-      '신태용 전 울산 HD 감독이 선수 뺨을 때리는 영상이 공개돼 폭행 논란에 휩싸인 끝에 대한축구협회로부터 자격정지 1년 징계를 받았다. 신 감독 측은 "애정 표현이 과했을 뿐 폭행은 아니었다"는 입장을 밝혔다.',
-    content:
-      '신태용 감독은 지난해 울산 HD 사령탑으로 부임한 직후 상견례 자리에서 수비수 정승현의 뺨을 손바닥으로 강하게 치는 모습이 담긴 영상이 뒤늦게 공개되며 논란이 됐다. 정승현이 폭행당했다고 주장하면서 파문이 커졌고, 대한축구협회 공정위원회는 조사 끝에 신 감독에게 자격정지 1년 징계를 확정했다. 이 징계는 국내에서만 적용돼 현재 인도네시아 페르시자 자카르타를 이끌고 있는 신 감독의 해외 활동에는 영향이 없다. 신 감독은 "표현이 과했다면 사과하겠지만 폭행은 아니었다"는 입장을 고수했다.',
-    category: 'showbiz',
-    region: '울산·K리그',
-    date: '2026-08-30',
-    source: 'YTN',
-    sourceUrl: 'https://www.ytn.co.kr/_ln/0107_202607271753587313',
-    videoUrl: 'https://www.youtube.com/watch?v=Z1YdPoDbhfk',
-    likes: 420,
-    comments: 103,
   },
 ]
