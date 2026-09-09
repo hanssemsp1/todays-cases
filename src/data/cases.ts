@@ -24,6 +24,92 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260910-hormuz-tanker-escalation',
+    title: '호르무즈서 유조선 잇단 피격…이란 "10척 공격으로 보복" 주장',
+    summary:
+      '이라크 해역에서 이라크산 연료유를 실은 유조선이 드론 공격으로 화재가 발생하고, 두바이 앞바다에서도 유조선이 피격돼 1명이 숨지고 1명이 실종됐다. 이란은 미군의 자국 유조선 공격에 맞서 호르무즈 해협을 지나던 유조선 10척을 공격해 보복했다고 주장했다.',
+    content:
+      '9일(현지시간) 이라크산 연료유 약 200만 배럴을 싣고 있던 파나마 선적 유조선 뉴 안드로스호가 드론 공격을 받아 화재가 발생했다. 이라크 석유부는 선체 일부가 파손됐으나 사상자와 기름 유출은 없다고 밝혔다. 같은 날 두바이 앞바다에서도 유조선이 피격돼 1명이 숨지고 1명이 실종됐으며, 선사 측은 "깊은 슬픔 속에 사망자 발생을 확인한다"고 전했다. 이란 혁명수비대(IRGC)는 미군이 자국 유조선을 공격한 데 대한 보복으로 호르무즈 해협을 지나던 유조선 10척을 미사일로 공격했다고 주장했다. 잇단 상선 피격에 국제유가는 브렌트유 기준 배럴당 101달러를 돌파했고, 호르무즈 해협 물동량 급감에 따라 유가가 추가로 급등할 수 있다는 경고도 나온다.',
+    category: 'world',
+    region: '해외 · 호르무즈해협',
+    date: '2026-09-10',
+    source: '머니투데이',
+    sourceUrl: 'https://www.mt.co.kr/world/2026/09/10/2026091006432055997',
+    videoUrl: 'https://www.youtube.com/watch?v=6WJrZM6d7J8',
+    likes: 512,
+    comments: 89,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260910-saudi-houthi-airstrike',
+    title: '예멘 후티, 사우디 4개 도시 대공습…최소 73명 부상',
+    summary:
+      '친이란 성향 예멘 후티 반군이 사우디아라비아 남부 아브하·지잔 등 4개 도시의 아람코 시설과 공군기지를 향해 탄도미사일과 드론 수십 발을 동시에 발사했다. 이 공격으로 어린이와 여성을 포함해 최소 73명이 다쳤다.',
+    content:
+      '지난 8일 새벽(현지시간) 예멘 후티 반군이 사우디아라비아 남부 아브하와 지잔의 아람코 석유시설, 나즈란·카미스 무샤이트 공군기지 등을 겨냥해 탄도미사일과 드론 수십 발을 동시다발적으로 발사했다. 공격으로 일부 시설에서 화재가 발생했으며 하늘 절반이 검은 연기로 뒤덮일 정도로 규모가 컸던 것으로 전해졌다. 사우디 당국은 어린이와 여성을 포함해 최소 73명이 다쳤다고 밝혔다. 후티 측은 "봉쇄가 풀릴 때까지 계속 타격하겠다"고 밝혀 사우디와의 전면전 우려가 커지고 있으며, 최근 일주일간 예멘 내 사망자는 500명을 넘어선 것으로 전해졌다.',
+    category: 'world',
+    region: '해외 · 사우디아라비아',
+    date: '2026-09-10',
+    source: '채널A',
+    sourceUrl: 'https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000549567',
+    videoUrl: 'https://www.youtube.com/watch?v=p2kleC5MFww',
+    likes: 468,
+    comments: 74,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260910-busan-tugboat-victim-found-pohang',
+    title: '부산 예인선 전복 실종자, 포항 해변서 숨진 채 발견…사망자 2명으로',
+    summary:
+      '지난 3일 부산 앞바다에서 전복된 예인선의 실종 선원 1명이 사고 발생 일주일 만에 사고 해역에서 100km 넘게 떨어진 경북 포항 해변에서 숨진 채 발견됐다. 이로써 이번 사고 인명피해는 사망 2명, 실종 5명으로 늘었다.',
+    content:
+      '지난 3일 부산 오륙도 앞바다에서 286톤급 예인선이 전복·침몰해 승선원 8명 중 1명이 숨지고 6명이 실종된 사고와 관련해, 10일 실종자 1명이 경북 포항 도구해수욕장 인근 해변에서 숨진 채 발견됐다. 해경은 신고된 변사자의 지문을 정밀감식한 끝에 이번 사고 실종자 중 1명과 일치한다고 확인했다. 사고 해역에서 100km 넘게 떨어진 곳에서 발견돼 조류에 밀려 이동한 것으로 추정된다. 이로써 이번 사고 인명피해는 사망 2명, 실종 5명으로 파악됐으며 해경은 남은 실종자 5명을 찾기 위해 수색을 이어가고 있다.',
+    category: 'disaster',
+    region: '부산·경북 포항',
+    date: '2026-09-10',
+    source: 'YTN',
+    sourceUrl: 'https://www.ytn.co.kr/_ln/0101_202609100651022520',
+    videoUrl: 'https://www.youtube.com/watch?v=ZaOK2U_LpgI',
+    likes: 410,
+    comments: 62,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260910-daejeon-anjeon-fire-warrant-denied',
+    title: "74명 사상 대전 안전공업 화재, 손주환 대표 등 6명 구속영장 모두 기각",
+    summary:
+      '14명이 숨지고 60명이 다친 대전 안전공업 화재 참사와 관련해 손주환 대표 등 회사 관계자 6명에게 청구된 구속영장이 법원에서 모두 기각됐다. 화재수신기 임의 차단과 증거 위·변조 정황까지 드러났지만 법원은 도주·증거인멸 우려를 인정하기 어렵다고 판단했다.',
+    content:
+      '대전지법 영장전담 부장판사는 지난 8일 업무상과실치사상과 산업안전보건법, 중대재해처벌법 위반 등 혐의로 청구된 손주환 대표 등 안전공업 임직원 6명의 구속영장을 모두 기각했다. 재판부는 도주나 증거인멸 우려가 있다고 단정하기 어렵고 피의자의 방어권을 보장할 필요가 있다고 기각 사유를 밝혔다. 경찰 조사 결과 화재 발생 전부터 공장 화재수신기가 임의로 차단돼 있었고, 사망자가 다수 발견된 휴게시설은 허가 없이 증축된 사실이 확인됐다. 일부 임직원은 중대재해처벌법 적용을 피하기 위해 안전관리 서류를 위·변조한 정황도 드러나 함께 입건됐다. 경찰은 영장 재신청 여부를 검토하는 한편, 조만간 관련자들을 불구속 송치할 방침이다.',
+    category: 'disaster',
+    region: '대전광역시',
+    date: '2026-09-10',
+    source: '연합뉴스TV',
+    sourceUrl: 'http://www.yonhapnewstv.co.kr/news/MYH202609090039285Rg',
+    videoUrl: 'https://www.youtube.com/watch?v=hfgo3htbkNI',
+    likes: 356,
+    comments: 58,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260910-jangyoonjeong-mother-fraud-verdict',
+    title: "가수 장윤정 이름 팔아 사기 친 모친, 오늘 1심 선고…검찰 징역 1년6개월 구형",
+    summary:
+      '가수 장윤정의 모친 육모 씨가 딸의 이름을 내세워 지인들에게 투자금 명목으로 금품을 가로챈 혐의로 재판에 넘겨진 가운데, 법원의 1심 선고가 10일 내려진다. 앞서 검찰은 결심공판에서 징역 1년6개월을 구형했다.',
+    content:
+      '가수 장윤정의 모친 육모(70) 씨는 2024년 9월부터 약 1년간 과거 금전 갈등을 겪은 지인들에게 딸 장윤정의 이름을 내세워 트로트 공연 등에 투자하면 큰 수익을 돌려주겠다고 속여 여러 차례에 걸쳐 금품을 가로챈 혐의로 구속기소됐다. 검찰은 지난달 27일 결심공판에서 "유사한 수법으로 사기죄 실형을 받은 전력이 있음에도 다시 범행에 이르렀고 피해 금액도 적지 않다"며 육 씨에게 징역 1년6개월을 구형했다. 서울동부지법 형사2단독은 10일 오후 2시 육 씨에 대한 1심 선고 공판을 진행할 예정이다. 딸 장윤정은 수년째 모친과 연락을 끊고 지내왔다며 이번 사건과는 무관하다는 입장을 밝혀 왔다.',
+    category: 'showbiz',
+    region: '서울 송파구',
+    date: '2026-09-10',
+    time: '14:00',
+    source: '뉴스엔',
+    sourceUrl: 'https://www.newsen.com/news_view.php?uid=202609100519432110',
+    videoUrl: 'https://www.youtube.com/watch?v=YePhlHZiX2I',
+    likes: 389,
+    comments: 94,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260909-elbrus-avalanche-climbers',
     title: '러시아 엘부르스산서 대형 눈사태…등반객 11명 사망',
     summary:
@@ -961,91 +1047,6 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=RZEWQKPesjU',
     likes: 689,
     comments: 119,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260831-indonesia-flores-earthquake',
-    title: '인도네시아 플로레스섬 규모 7.7 강진…수십 명 사망',
-    summary:
-      '인도네시아 동부 플로레스섬 인근 해역에서 규모 7.7의 강진이 발생해 최소 38명이 숨졌다. 수백 차례의 여진과 산사태로 수색·구조 작업에 큰 어려움을 겪고 있다.',
-    content:
-      '지진은 플로레스섬 북부 해안, 진원 깊이 10km의 얕은 곳에서 발생했다. 강진 이후 수백 차례의 여진이 이어졌고 전기·통신·도로가 끊기면서 구조 작업이 지연됐다. 사망자는 계속 늘어 40명대까지 집계됐으며, 비슷한 시기 일본 구마모토에서도 강진이 이어지면서 환태평양 지진대 활동에 대한 우려가 커지고 있다.',
-    category: 'world',
-    region: '해외 · 인도네시아',
-    date: '2026-08-31',
-    source: 'KBS',
-    sourceUrl: 'https://news.kbs.co.kr',
-    videoUrl: 'https://www.youtube.com/watch?v=tf9Sv4zbiM8',
-    likes: 574,
-    comments: 88,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260831-kimbyungchan-stalking-murder-appeal',
-    title: '스토킹 살해범 김병찬, 항소심서 형량 늘어 징역 40년',
-    summary:
-      '5개월간 피해자를 스토킹하며 감금·협박을 일삼다 살해한 김병찬이 항소심에서 1심보다 무거운 징역 40년을 선고받았다. 유족들은 법정에서 오열했다.',
-    content:
-      '김병찬은 피해자의 집에 무단 침입하거나 살해 협박을 하는 등 약 5개월간 스토킹을 이어갔으며, 피해자가 견디다 못해 직장을 옮기자 뒤따라가 사흘간 감금하고 차량에 몰래 위치추적기를 부착하는 등 범행을 이어갔다. 1심에서 징역 35년을 선고받았으나 항소심 재판부는 죄질이 무겁다고 판단해 형량을 5년 늘렸다. 김병찬은 유족 앞에서 선처를 구했지만 유족들은 오열하며 강한 처벌을 요구했다.',
-    category: 'crime',
-    region: '서울',
-    date: '2026-08-31',
-    source: 'YTN',
-    sourceUrl: 'https://www.mt.co.kr/society/2026/08/31/2026082721402957688',
-    videoUrl: 'https://www.youtube.com/watch?v=A9GeTojd4wo',
-    likes: 541,
-    comments: 132,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260831-kimsoyoung-motel-murder-life-sentence',
-    title: '"약물 탄 음료로 살해" 강북 모텔 연쇄살인 김소영, 1심 무기징역',
-    summary:
-      '모텔 등지에서 만난 20대 남성들에게 약물 탄 음료를 건네 2명을 숨지게 한 혐의를 받는 김소영이 1심에서 무기징역을 선고받았다. 검찰이 구형한 사형보다는 낮은 형량이다.',
-    content:
-      '서울북부지법 형사합의부는 김소영이 약물의 위험성을 구체적으로 검색한 정황 등을 근거로 살인의 미필적 고의를 인정해 무기징역과 함께 30년간 전자발찌 부착을 명령했다. 재판부는 사형을 선고할 정도의 죄질은 아니라고 판단했다고 밝혔다. 검찰이 앞서 결심공판에서 사형을 구형했던 만큼 유족들은 판결에 강하게 반발하며 항소 의사를 밝혔다.',
-    category: 'crime',
-    region: '서울 강북구',
-    date: '2026-08-31',
-    source: 'MBC',
-    sourceUrl: 'https://news.kbs.co.kr/news/pc/view/view.do?ncd=8648662',
-    videoUrl: 'https://www.youtube.com/watch?v=UsZ1SwM1H7k',
-    likes: 762,
-    comments: 149,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260831-jeju-navy-serviceman-drowning',
-    title: '제주 실종 20대 해군 장병, 사흘 만에 숨진 채 발견',
-    summary:
-      '제주 서귀포에서 낚시 도구를 챙겨 나간 뒤 연락이 끊긴 20대 현역 해군 장병이 실종 사흘 만에 해안가에서 숨진 채 발견됐다. 강한 파도에 휩쓸린 것으로 추정된다.',
-    content:
-      '낚시 도구를 들고 나간 20대 남성이 오후부터 연락이 두절돼 가족이 실종 신고를 접수했다. 경찰과 제주해양특수구조대는 CCTV 등을 토대로 포구 인근에서 차량을 발견하고 해안가 수색을 벌인 끝에 시신을 찾았다. 현역 군인 신분으로 휴무일에 변을 당한 것으로 파악됐으며, 경찰은 정확한 사고 경위를 조사 중이다.',
-    category: 'etc',
-    region: '제주 서귀포시',
-    date: '2026-08-31',
-    source: 'KBS',
-    sourceUrl: 'https://www.etoday.co.kr/news/view/2619568',
-    videoUrl: 'https://www.youtube.com/watch?v=hO-BlnuOU_8',
-    likes: 246,
-    comments: 44,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260831-cheonan-ladder-truck-child-death',
-    title: '천안 아파트 등굣길 이삿짐 사다리차 전도…7세 초등생 참변',
-    summary:
-      '충남 천안의 한 아파트 단지에서 이삿짐 운반용 사다리차가 넘어지면서 등교하던 7세 초등학생이 깔려 숨졌다. 사다리차는 지지대 4개 중 2개만 설치한 상태로 무리하게 작업 중이었다.',
-    content:
-      '아파트 놀이터 인근에서 이삿짐 사다리차가 옆으로 넘어지며 등굣길의 어린이를 덮쳤고, 아이는 병원으로 옮겨졌으나 그날 오후 끝내 숨졌다. 경찰 조사 결과 사다리차 지지대 4개 중 2개만 편 채 11층 높이에서 작업이 이뤄졌고, 무자격 외국인 근로자가 실제 조작을 하고도 이를 숨긴 정황이 확인됐다. 경찰은 50대 운전자와 20대 외국인 근로자 등 2명을 구속했다.',
-    category: 'disaster',
-    region: '충남 천안시',
-    date: '2026-08-31',
-    source: 'SBS',
-    sourceUrl: 'https://www.khan.co.kr/article/202608282000011/',
-    videoUrl: 'https://www.youtube.com/watch?v=CIZRxgGVZwQ',
-    likes: 715,
-    comments: 156,
     isBreaking: true,
   },
 ]
