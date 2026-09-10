@@ -24,6 +24,57 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260911-itaewon-bar-assault-death',
+    title: '이태원 주점서 50대 남성 폭행치사…20시간 넘게 방치, 30대 男 긴급체포',
+    summary:
+      '서울 이태원의 한 주점에서 손님끼리 다투다 50대 남성이 폭행당한 뒤 20시간 가까이 방치돼 숨진 채 발견됐다. 경찰은 가해자로 지목된 30대 남성을 폭행치사 혐의로 긴급체포했다.',
+    content:
+      '10일 오전 6시 47분쯤 서울 용산구 이태원동의 한 주점에서 종업원이 숨져 있는 50대 남성 A씨를 발견해 경찰에 신고했다. 경찰 조사 결과 A씨는 전날 새벽 주점에서 다투던 중 30대 남성 B씨로부터 폭행을 당한 뒤 약 24시간 가까이 방치돼 있었던 것으로 파악됐다. 서울용산경찰서는 도주한 B씨를 추적해 이날 오전 10시쯤 긴급체포하고 폭행치사 혐의를 적용해 조사하고 있다. 경찰은 정확한 사건 경위와 두 사람의 관계를 조사 중이다.',
+    category: 'crime',
+    region: '서울 용산구',
+    date: '2026-09-11',
+    source: 'YTN',
+    sourceUrl: 'https://www.mt.co.kr/society/2026/09/10/2026091016112787571',
+    videoUrl: 'https://www.youtube.com/watch?v=7rV0lV2_JF0',
+    likes: 342,
+    comments: 68,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260911-jordan-airbase-iran-strike',
+    title: '이란, 요르단 美공군기지 탄도미사일 공격…F-15·A-10 등 전투기 다수 파손',
+    summary:
+      '이란 혁명수비대(IRGC)가 요르단 무와파크 살티 공군기지 등 주둔 미군기지를 향해 탄도미사일 공격을 감행해 F-15 전투기 8대와 A-10 공격기 등 다수의 미군 항공기가 파손됐다. 이번 공격은 미군이 걸프 해역에서 이란 유조선을 공격한 데 대한 보복으로 전해졌다.',
+    content:
+      '9일 밤(현지시간) 이란 혁명수비대가 요르단 아즈라크 인근 무와파크 살티 공군기지와 킹 후세인 공군기지를 향해 탄도미사일 20여 발을 발사했다. 요르단군은 이 중 18발을 요격했지만 일부가 기지에 명중해 F-15 전투기 8대가 경미한 손상을 입었고 A-10 공격기 1대는 날개가 파손되는 등 심각한 피해를 입었다. 미군은 요격을 위해 패트리엇 미사일 30여 발을 발사했으며, 이번 공격은 트럼프 대통령이 걸프 해역에서 이란 유조선 5척을 공격한 데 대한 보복으로 알려졌다. 미 국방부는 인명피해 여부를 조사 중이며 중동 내 미군기지에 대한 경계 태세를 강화했다.',
+    category: 'world',
+    region: '해외 · 요르단',
+    date: '2026-09-11',
+    source: 'Defense News',
+    sourceUrl: 'https://www.defensenews.com/flashpoints/middle-east/2026/09/10/iran-attack-on-base-in-jordan-damaged-american-military-aircraft-us-official-says/',
+    videoUrl: 'https://www.youtube.com/watch?v=HtGfiPSS4c8',
+    likes: 486,
+    comments: 82,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260911-tatsuno-drunk-driving-arrest',
+    title: '日 효고서 음주운전 뺑소니…시속 90㎞로 적신호 돌진, 60대 자매 사상',
+    summary:
+      '일본 효고현 다쓰노시에서 음주 상태로 제한속도 40㎞ 도로를 시속 90㎞ 넘게 달리다 적신호를 무시하고 교차로에 진입한 22세 남성이 경차를 들이받았다. 이 사고로 60대 자매 중 1명이 숨지고 1명이 크게 다쳤으며, 석 달 만에 이 남성이 체포됐다.',
+    content:
+      '지난 6월 11일 효고현 다쓰노시의 한 현도에서 비계공으로 일하는 22세 남성이 음주 상태로 제한속도 40㎞ 구간을 시속 90㎞ 이상으로 주행하다 적색 신호를 무시하고 교차로에 진입해 경차를 들이받았다. 이 사고로 경차에 타고 있던 고베시의 60대 여성이 뇌좌상으로 숨졌고, 66세 언니도 갈비뼈 골절 등 중상을 입었다. 효고현 경찰은 사고 발생 석 달 만인 10일 위험운전치사상 등 혐의로 이 남성을 체포했다고 밝혔다. 남성은 경찰 조사에서 신호를 지켰고 과속도, 음주 영향도 없었다며 혐의를 부인하고 있다.',
+    category: 'world',
+    region: '해외 · 일본',
+    date: '2026-09-11',
+    source: '요미우리TV',
+    sourceUrl: 'https://news.yahoo.co.jp/articles/f8912555f112ad83cdfc4721db51ab1d19736cc9',
+    videoUrl: 'https://www.youtube.com/watch?v=3TLsmx4q6g8',
+    likes: 214,
+    comments: 34,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260910-hormuz-tanker-escalation',
     title: '호르무즈서 유조선 잇단 피격…이란 "10척 공격으로 보복" 주장',
     summary:
@@ -997,56 +1048,5 @@ export const CASES: CaseItem[] = [
     likes: 468,
     comments: 95,
     isBreaking: false,
-  },
-  {
-    id: 'c-20260831-bangbang-maserati-drunk-driving-death',
-    title: '강남 뱅뱅사거리 만취 마세라티, 6중 추돌…배달노동자 사망',
-    summary:
-      '서울 서초구 뱅뱅사거리에서 만취 상태로 마세라티를 몰던 40대 남성이 오토바이·택시·버스를 잇달아 들이받는 6중 추돌사고를 냈다. 이 사고로 배달노동자가 숨졌고, 운전자는 도주 우려로 구속됐다.',
-    content:
-      '지난 27일 밤 11시 40분쯤 서초구 뱅뱅사거리 인근에서 흰색 마세라티가 오토바이를 들이받은 뒤 다른 차량들과 잇따라 충돌하는 대형 사고가 발생했다. 오토바이를 몰던 40대 배달노동자는 심정지 상태로 병원에 옮겨졌으나 끝내 숨졌으며, 운전자의 혈중알코올농도는 면허취소 수준이었다. 경찰은 특정범죄가중처벌법상 위험운전치사 혐의로 운전자를 현행범 체포했고, 30일 법원은 도주 우려를 이유로 구속영장을 발부했다. 운전자는 조사에서 "들이받은 줄 몰랐다"는 취지로 진술해 공분을 사고 있다.',
-    category: 'traffic',
-    region: '서울 서초구',
-    date: '2026-08-31',
-    source: '연합뉴스',
-    sourceUrl: 'https://www.yna.co.kr/view/AKR20260830027451004',
-    videoUrl: 'https://www.youtube.com/shorts/aE8zQ6EOE-A',
-    likes: 733,
-    comments: 141,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260831-ulsan-namgu-paint-warehouse-fire',
-    title: '울산 남구 페인트 자재창고 화재…빌라촌 번져 1명 사망',
-    summary:
-      '울산 남구 삼산동의 빌라촌 인근 페인트 자재창고에서 화재가 발생해 인근 빌라에 살던 60대 여성이 숨지고 여러 명이 다쳤다. 인화성 물질을 다루면서도 안전점검 대상에서 빠져있던 사실이 드러나 논란이 됐다.',
-    content:
-      '화재는 출근 시간대에 발생해 순식간에 인접한 빌라촌으로 옮겨붙었다. 소방당국은 신고 접수 38분 만에 큰 불길을 잡았지만 완전 진화까지는 네 시간 넘게 걸렸다. 조사 결과 해당 창고는 인화성 물질을 취급하면서도 법적 안전점검 대상에서 제외돼 있던 것으로 확인돼 관리 사각지대 문제가 도마 위에 올랐다. 울산시는 이후 특별점검을 벌여 유사 사업장 여러 곳에서 위반사항을 추가로 적발했다.',
-    category: 'fire',
-    region: '울산 남구',
-    date: '2026-08-31',
-    source: 'KBS',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/009/0005727395',
-    videoUrl: 'https://www.youtube.com/watch?v=txFQzClNabI',
-    likes: 358,
-    comments: 61,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260831-kumamoto-earthquake-japan',
-    title: '일본 구마모토 규모 7.1 강진…사망자 30명대로',
-    summary:
-      '일본 규슈 구마모토현 해역에서 규모 7.1의 강진이 발생해 다수의 사상자와 대규모 건물 피해가 났다. 10년 전 대지진의 악몽이 재연됐다는 우려 속에 여진 공포가 이어지고 있다.',
-    content:
-      '지진은 진원 깊이 약 10km로 얕게 발생해 피해가 컸으며, 대피소로 쓰이던 쇼핑몰이 붕괴하는 등 사망자가 30명대까지 늘었다. 약 4만 가구가 정전 피해를 입었고 쓰나미 주의보도 발령됐다. 2016년에도 같은 지역에서 규모 7대 지진이 두 차례 발생해 270명 이상이 숨진 전례가 있어, 전문가들은 인근 단층에서 추가 대지진이 발생할 가능성까지 경고하고 나섰다.',
-    category: 'disaster',
-    region: '해외 · 일본',
-    date: '2026-08-31',
-    source: 'MBC',
-    sourceUrl: 'https://www.wikitree.co.kr/articles/1155798',
-    videoUrl: 'https://www.youtube.com/watch?v=RZEWQKPesjU',
-    likes: 689,
-    comments: 119,
-    isBreaking: true,
   },
 ]
