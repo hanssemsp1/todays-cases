@@ -24,6 +24,57 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260912-philippines-coron-ferry-fire',
+    title: '필리핀 팔라완 코론 여객선 화재…사망 35명·실종 54명',
+    summary:
+      '필리핀 마닐라에서 팔라완주 코론으로 향하던 여객선에서 화재가 발생해 사망자가 35명으로 늘었고 54명이 여전히 실종 상태다. 강풍과 높은 파도 속에 구조 작업이 난항을 겪고 있다.',
+    content:
+      '지난 9일 밤(현지시간) 마닐라 바세코를 출발해 팔라완주 코론으로 향하던 여객선에서 화재가 발생했다. 승객 117명과 승무원 17명 등 총 134명이 탑승했던 것으로 파악됐으며, 11일 기준 사망자는 35명으로 늘었고 54명이 여전히 실종 상태다. 불길이 빠르게 번지면서 일부 승객들은 바다로 뛰어들어 대피했고, 필리핀 해안경비대는 강풍과 높은 파도 속에 수색·구조 작업을 이어가고 있다. 정확한 화재 원인은 아직 밝혀지지 않았다.',
+    category: 'disaster',
+    region: '해외 · 필리핀',
+    date: '2026-09-12',
+    source: 'YTN',
+    sourceUrl: 'https://www.nocutnews.co.kr/news/6576220',
+    videoUrl: 'https://www.youtube.com/watch?v=2ADZ3VxmpBQ',
+    likes: 512,
+    comments: 88,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260912-switzerland-graubunden-bus-rollover',
+    title: '스위스 알프스서 네덜란드 관광버스 전복…5명 사망·40명 부상',
+    summary:
+      '스위스 그라우뷘덴주 알프스 지역에서 네덜란드 관광객 48명을 태운 버스가 도로 공사구간에서 가드레일을 들이받고 전복돼 5명이 숨지고 40명이 다쳤다.',
+    content:
+      '10일(현지시간) 스위스 그라우뷘덴주 수슈-체르네츠 구간 공사구역에서 네덜란드 여행사 소속 관광버스가 도로변 가드레일을 들이받고 전복됐다. 버스에는 네덜란드 국적 승객 48명이 타고 있었으며 이 사고로 5명이 숨지고 40명이 다쳤다. 구조헬기 7대와 구급차 13대가 투입돼 부상자들을 인근 병원으로 이송했다. 이 버스는 지난 7일 네덜란드에서 출발해 오스트리아를 거쳐 스위스로 이동하는 일정 중이었으며, 정확한 사고 경위는 조사 중이다.',
+    category: 'world',
+    region: '해외 · 스위스',
+    date: '2026-09-12',
+    source: '국제뉴스',
+    sourceUrl: 'https://www.gukjenews.com/news/articleView.html?idxno=3691766',
+    videoUrl: 'https://www.youtube.com/shorts/oJsNNOllBbI',
+    likes: 356,
+    comments: 58,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260912-qingdao-shipyard-cargo-ship-fire',
+    title: '中 칭다오 조선소 화물선 화재…25명 사망, 시진핑 "엄중 문책"',
+    summary:
+      '중국 산둥성 칭다오 베이하이조선에서 수리 중이던 외국적 화물선에서 화재가 발생해 42명 중 25명이 숨졌다. 시진핑 국가주석은 사고 원인을 조속히 규명하고 엄중히 책임을 물으라고 지시했다.',
+    content:
+      '지난 10일 오전 11시 15분쯤 중국선박그룹 산하 칭다오 베이하이조선유한공사에서 수리 중이던 외국 국적 화물선에서 화재가 발생했다. 사고 당시 선박에는 42명이 타고 있었으며, 이 중 12명은 안전하게 대피하고 5명은 부상을 입어 병원으로 옮겨졌다. 나머지 25명은 실종됐다가 모두 숨진 채 발견됐다. 시진핑 중국 국가주석은 사고 원인을 조속히 규명하고 법에 따라 엄중히 책임을 물으라고 지시했으며, 중국 당국은 정확한 화재 원인을 조사하고 있다.',
+    category: 'world',
+    region: '해외 · 중국',
+    date: '2026-09-12',
+    source: '경향신문',
+    sourceUrl: 'https://www.khan.co.kr/article/202609102139001/',
+    videoUrl: 'https://www.youtube.com/watch?v=RBwniOtFf6Q',
+    likes: 398,
+    comments: 62,
+    isBreaking: true,
+  },
+  {
     id: 'c-20260911-itaewon-bar-assault-death',
     title: '이태원 주점서 50대 남성 폭행치사…20시간 넘게 방치, 30대 男 긴급체포',
     summary:
@@ -996,57 +1047,6 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=ushnLJWxNN0',
     likes: 168,
     comments: 39,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260901-suwon-drug-spread-residential',
-    title: '유흥가 넘어 주택가까지…수원 필로폰 확산에 경찰 수사 확대',
-    summary:
-      '수원역과 인계동 유흥가를 중심으로 불거졌던 마약 문제가 일반 주거지역까지 번지면서 경찰이 단순 투약자 검거를 넘어 공급 경로 전반으로 수사를 확대하고 있다. 최근 몇 달 새 도심 곳곳에서 필로폰 투약 후 이상행동을 보이는 사례가 잇따랐다.',
-    content:
-      '수원영통경찰서는 지난달 31일 필로폰을 투약한 혐의로 한 남성을 붙잡아 조사하고 있다고 밝혔다. 앞서 수원에서는 필로폰에 취해 아파트 단지와 수원역 인근 도로를 기어 다니거나 소리를 지르는 등 이상행동을 보인 사례가 잇따라 SNS를 통해 확산되며 사회적 파장을 일으킨 바 있다. 전문가들은 최근 적발되거나 조사받은 이들 사이에 마약에 노출되는 공통 경로가 있을 가능성을 제기하며, 유흥가를 넘어 일반 주거지역까지 마약이 스며들고 있다고 우려했다. 경찰은 투약자 개인 검거에 그치지 않고 유통 조직까지 추적하는 방향으로 수사를 확대할 방침이다.',
-    category: 'crime',
-    region: '경기 수원시',
-    date: '2026-09-01',
-    source: '수원일보',
-    sourceUrl: 'http://www.suwonilbo.kr/news/articleView.html?idxno=317884',
-    videoUrl: 'https://www.youtube.com/watch?v=lAr4auI8qng',
-    likes: 298,
-    comments: 76,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260831-hanhakja-corruption-verdict',
-    title: '통일교 한학자 총재, "정교유착" 뇌물 혐의 1심 오늘 선고',
-    summary:
-      '정치인들에게 금품과 명품을 건네 로비를 벌인 혐의로 재판에 넘겨진 통일교(세계평화통일가정연합) 한학자 총재의 1심 선고가 31일 서울중앙지법에서 내려진다. 검찰은 앞서 징역 13년을 구형했다.',
-    content:
-      '한 총재는 20대 대선을 전후해 여권 정치인에게 현금 1억원을 건네고, 유력 인사 배우자에게는 명품 가방과 목걸이를 제공하는 등 정교유착 로비를 벌인 혐의로 기소됐다. 함께 기소된 통일교 전 본부장은 앞서 징역 1년 2개월을 선고받았고, 재판부는 그가 한 총재의 승인을 받아 로비를 실행한 것으로 판단한 바 있다. 한 총재 측은 재판 과정에서 "종교 활동에 대한 탄압"이라고 주장했지만 받아들여지지 않았다. 선고 결과에 따라 함께 수사선상에 오른 관련 인사들의 재판에도 영향이 불가피할 전망이다.',
-    category: 'etc',
-    region: '서울',
-    date: '2026-08-31',
-    source: 'YTN',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/052/0002400413',
-    videoUrl: 'https://www.youtube.com/watch?v=L0AXYirKmK4',
-    likes: 612,
-    comments: 128,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260831-leejinho-illegal-gambling',
-    title: '개그맨 이진호, 수년간 불법도박 고백…빚 23억원 파문',
-    summary:
-      '개그맨 이진호가 수년간 인터넷 불법도박을 해왔다고 고백하고 경찰 조사를 받았다. 도박 빚이 23억원에 이르는 것으로 알려지며 동료 연예인들에게까지 금전 피해가 번진 사실이 드러나 방송가에 충격을 줬다.',
-    content:
-      '이진호는 2020년경부터 불법도박 사이트를 이용해 막대한 돈을 탕진했으며, 이 과정에서 동료 연예인 등 지인들에게 수억원을 빌린 사실이 알려지며 파문이 커졌다. 그는 언론 앞에서 거듭 고개를 숙여 사과했고, 경찰은 이진호를 상대로 불법도박 혐의에 대한 수사에 착수했다. 방송 활동을 전면 중단한 이진호는 피해를 본 지인들에게 변제 계획을 밝히며 선처를 호소하고 있다. 이번 사건은 연예인 불법도박 문제에 대한 경각심을 다시 불러일으켰다.',
-    category: 'showbiz',
-    region: '서울',
-    date: '2026-08-31',
-    source: '연합뉴스',
-    sourceUrl: 'http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5212616',
-    videoUrl: 'https://www.youtube.com/watch?v=UXC-stjBL8U',
-    likes: 468,
-    comments: 95,
     isBreaking: false,
   },
 ]
