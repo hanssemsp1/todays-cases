@@ -24,6 +24,23 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260913-jinju-daughter-abuse-death-penalty',
+    title: "경남 진주 10대 친딸 학대치사, 검찰 40대 모친에 '사형' 구형",
+    summary:
+      '경남 진주에서 10대 친딸을 상습 폭행하고 뜨거운 물을 부어 중화상을 입힌 뒤 방치해 숨지게 한 혐의로 구속기소된 40대 여성에게 검찰이 결심 공판에서 사형을 구형했다. 딸은 도움을 요청했지만 끝내 방치된 채 숨진 것으로 조사됐다.',
+    content:
+      '검찰은 지난 10~11일 창원지법 진주지원에서 열린 결심 공판에서 존속학대치사 등 혐의를 받는 40대 여성 A씨에게 사형을 구형했다. A씨는 지난해 10대 친딸을 상습적으로 폭행한 뒤 뜨거운 물을 몸에 끼얹어 중화상을 입히고도 치료를 받게 하지 않고 방치해 숨지게 한 혐의로 구속기소됐다. 검찰은 "피해자가 고통 속에 도움을 요청했음에도 방치돼 숨졌다"며 "극형이 불가피하다"고 구형 이유를 밝혔다. 선고 공판 일정은 추후 지정될 예정이다.',
+    category: 'crime',
+    region: '경남 진주',
+    date: '2026-09-13',
+    source: '연합뉴스TV',
+    sourceUrl: 'https://view.asiae.co.kr/article/2026091112362383279',
+    videoUrl: 'https://www.youtube.com/watch?v=SgEi8QLRXT8',
+    likes: 512,
+    comments: 96,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260912-philippines-coron-ferry-fire',
     title: '필리핀 팔라완 코론 여객선 화재…사망 35명·실종 54명',
     summary:
@@ -1031,22 +1048,5 @@ export const CASES: CaseItem[] = [
     likes: 640,
     comments: 98,
     isBreaking: true,
-  },
-  {
-    id: 'c-20260901-busan-ebike-battery-fire',
-    title: '부산 도로변 전기자전거서 불…"배터리 열폭주 추정"',
-    summary:
-      '1일 새벽 부산의 한 도로변에 세워져 있던 전기자전거에서 화재가 발생했다. 소방당국은 리튬이온 배터리의 열폭주 현상이 원인일 가능성이 높다고 보고 정확한 화재 원인을 조사하고 있다.',
-    content:
-      "화재는 1일 새벽 부산의 한 도로변에 세워져 있던 전기자전거에서 발생했다. 목격자에 따르면 배터리 부분에서 갑자기 연기와 함께 불꽃이 일었으며, 순식간에 자전거 전체로 불이 번진 것으로 알려졌다. 소방과 경찰은 리튬이온 배터리에 과충전이나 외부 충격 등이 가해져 순식간에 온도가 치솟는 '열폭주' 현상이 발생했을 가능성에 무게를 두고 조사하고 있다. 최근 서울과 부산 등 대도시를 중심으로 개인형 이동장치의 배터리 화재가 잇따르면서 충전·보관 방식에 대한 안전 수칙 준수가 강조되고 있다.",
-    category: 'fire',
-    region: '부산',
-    date: '2026-09-01',
-    source: '문화일보',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/021/0002815265?sid=102',
-    videoUrl: 'https://www.youtube.com/watch?v=ushnLJWxNN0',
-    likes: 168,
-    comments: 39,
-    isBreaking: false,
   },
 ]
