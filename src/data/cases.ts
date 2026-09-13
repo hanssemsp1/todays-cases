@@ -24,6 +24,57 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260914-indonesia-java-sea-ferry-capsize',
+    title: '인도네시아 자바해 여객선 전복…6명 사망·130명 실종',
+    summary:
+      '인도네시아 수라바야에서 반자르마신으로 향하던 여객선 버고 트랜스포트 8호가 자바해 악천후 속에 전복됐다. 243명이 타고 있었으며 107명이 구조됐지만 6명이 숨지고 130명이 여전히 실종 상태다.',
+    content:
+      '지난 12일 오전 10시 13분쯤 동자바주 수라바야를 출발해 반자르마신으로 향하던 여객선 버고 트랜스포트 8호가 13일 새벽 2시쯤 기상 악화를 알리는 교신을 끝으로 연락이 끊겼다. 배에는 승객 213명과 승무원 30명 등 총 243명이 타고 있었다. 인도네시아 교통부는 항공 수색 결과 선박이 완전히 침몰하지 않고 뒤집힌 채 해상에 떠 있는 것을 확인했다고 밝혔다. 사고 해역에는 최고 2.5m 높이의 파도가 일고 있어 구조 당국은 함선 12척과 항공기를 투입해 생존자 수색을 벌이고 있으며, 13일 현재 107명이 구조되고 6명이 숨진 채 발견됐지만 130명은 여전히 실종 상태다.',
+    category: 'disaster',
+    region: '해외 · 인도네시아',
+    date: '2026-09-14',
+    source: 'YTN',
+    sourceUrl: 'https://n.news.naver.com/mnews/article/052/0002406526?sid=104',
+    videoUrl: 'https://www.youtube.com/watch?v=XqTDhaKEKi0',
+    likes: 612,
+    comments: 94,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260914-philippines-coron-ferry-death-toll-76',
+    title: '필리핀 코론 여객선 화재 사망자 76명으로 늘어…13명 실종',
+    summary:
+      '지난 9일 필리핀 팔라완 코론 인근에서 발생한 여객선 화재의 사망자가 76명으로 늘었다. 해안경비대가 불에 탄 선체에서 시신 41구를 추가로 수습하면서 사망자 수가 크게 증가했다.',
+    content:
+      '필리핀 해안경비대는 13일 코론 인근 해상에서 화재가 난 여객선 MV 쥰 애스터호에서 불에 탄 시신 41구를 추가로 수습해 사망자가 총 76명으로 늘었다고 밝혔다. 사고 사흘째였던 지난 11일까지 확인된 사망자는 35명이었으나 선체 내부 수색이 이어지며 배로 늘었다. 승객 117명과 승무원 17명 등 134명이 타고 있었으며 현재까지 구조된 생존자는 43명, 실종자는 13명으로 파악된다. 필리핀 해양산업청은 생존자 진술을 토대로 화재 발생 직전 선내에서 두 차례 폭발음이 들렸다며 화물칸에서 불이 시작돼 번진 것으로 추정하고 있다.',
+    category: 'disaster',
+    region: '해외 · 필리핀',
+    date: '2026-09-14',
+    source: '국제뉴스',
+    sourceUrl: 'https://www.gukjenews.com/news/articleView.html?idxno=3693846',
+    videoUrl: 'https://www.youtube.com/watch?v=XqTDhaKEKi0',
+    likes: 498,
+    comments: 82,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260914-iran-hormuz-qeshm-ship-attack',
+    title: '이란 게슘섬 인근서 상선 피격…1명 사망·3명 부상',
+    summary:
+      '호르무즈 해협 게슘섬 인근에서 이란 국적 상선이 정체불명의 발사체에 피격돼 1명이 숨지고 3명이 다쳤다. 영국 해사무역기구도 해협을 지나던 선박이 피격당했다고 보고했다.',
+    content:
+      '이란 국영 IRNA통신은 13일(현지시간) 새벽 호르무즈 해협 게슘섬 인근에서 10명이 탄 이란 국적 화물선이 피격돼 1명이 숨지고 3명이 다쳤다고 보도했다. 게슘 주지사는 "테러 적성세력"의 소행이라고 주장했으나 발사체의 정체는 아직 확인되지 않았다. 영국 해군이 운영하는 해사무역기구(UKMTO)도 이날 호르무즈 해협을 통과하던 한 선박이 발사체에 피격당했다고 별도로 보고했다. 미국이 지난달 30일 호르무즈 해협에서 이란의 기뢰 설치용 로켓발사대를 타격한 이후 미·이란 양측의 무력 공방이 이어지는 가운데 발생한 사건으로, 정확한 공격 주체는 아직 밝혀지지 않았다.',
+    category: 'world',
+    region: '해외 · 호르무즈해협',
+    date: '2026-09-14',
+    source: '헤럴드경제',
+    sourceUrl: 'https://biz.heraldcorp.com/article/10871657',
+    videoUrl: 'https://www.youtube.com/watch?v=Ic7VF0nDzGs',
+    likes: 456,
+    comments: 71,
+    isBreaking: true,
+  },
+  {
     id: 'c-20260913-jinju-daughter-abuse-death-penalty',
     title: "경남 진주 10대 친딸 학대치사, 검찰 40대 모친에 '사형' 구형",
     summary:
@@ -997,56 +1048,5 @@ export const CASES: CaseItem[] = [
     likes: 520,
     comments: 148,
     isBreaking: false,
-  },
-  {
-    id: 'c-20260901-jeon-hyunmoo-solo-travel-controversy',
-    title: "전현무 '즉흥 여행' 알고보니 관광청 지원?…'나혼자산다' 조작 논란",
-    summary:
-      "MBC '나 혼자 산다'에서 전현무의 카자흐스탄 즉흥 여행으로 방영된 장면이 사실은 현지 관광청의 지원을 받은 협찬 여행이었다는 의혹이 제기됐다. 제작진은 '협찬은 없었다'고 해명했지만 시청자 기만 논란은 가라앉지 않고 있다.",
-    content:
-      '방송에서 전현무는 아무 계획 없이 카자흐스탄으로 떠나 즉흥적으로 알마티 등을 여행하는 모습으로 그려졌으나, 실제로는 사전에 현지 일정과 차량 등이 준비돼 있었다는 의혹이 온라인에서 제기됐다. 논란이 커지자 외교부는 해외안전여행 사이트에 카자흐스탄 방문객의 현지 운전 관련 유의사항을 별도로 공지하기도 했다. 제작진은 지난 25일 공식 입장을 내고 "관광청으로부터 금전적 협찬을 받은 사실이 없다"고 반박했지만, 시청자들은 "방송이 다 짜고 치는 것이라지만 기만적"이라는 비판을 이어가고 있다. 전현무 본인은 이번 논란에 대해 별도의 입장을 내놓지 않고 있다.',
-    category: 'showbiz',
-    region: '서울',
-    date: '2026-09-01',
-    source: '굿모닝충청',
-    sourceUrl: 'https://www.ggilbo.com/news/articleView.html?idxno=1177543',
-    videoUrl: 'https://www.youtube.com/watch?v=6_6pT5cSPK4',
-    likes: 455,
-    comments: 139,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260901-capital-ring-expressway-truck-crash',
-    title: '수도권제1순환고속도로 서하남 인근서 대형 화물차 사고…1명 사망',
-    summary:
-      '1일 새벽 수도권제1순환고속도로 서하남교차로 인근에서 대형 화물차가 크게 파손되는 사고가 발생해 1명이 숨지고 도로가 극심한 정체를 빚었다. 뒤이은 차량들이 잇따라 멈춰서면서 한때 통행이 마비됐다.',
-    content:
-      '사고는 1일 새벽 3시 50분쯤 수도권제1순환고속도로 서하남교차로 인근에서 발생했다. 부서진 대형 화물차가 도로 한가운데를 막아서면서 뒤따르던 차량들이 끝없이 줄지어 서는 등 극심한 정체가 빚어졌다. 이 사고로 1명이 숨졌으며, 소방당국과 경찰이 현장에 출동해 사고 수습과 견인 작업을 벌였다. 경찰은 정확한 사고 경위를 조사하고 있다.',
-    category: 'traffic',
-    region: '경기 하남시',
-    date: '2026-09-01',
-    source: 'TV조선',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/448/0000636688?sid=102',
-    videoUrl: 'https://www.youtube.com/watch?v=ecuIN-T0Pjg',
-    likes: 210,
-    comments: 47,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260901-nepal-himalaya-flood-disaster',
-    title: '네팔 대홍수 사망 900명 넘어…한국인 9명 실종 발전소 터널서 시신 수습',
-    summary:
-      '네팔 히말라야 산악지대를 덮친 대홍수로 사망자가 900명을 넘어섰고 실종자는 수천 명에 달한다. 한국인 근로자 9명이 근무했던 수력발전소 터널에서도 시신 1구가 발견돼 우리 정부의 총력 수색이 이어지고 있다.',
-    content:
-      '네팔 재난관리청은 빙하 붕괴로 촉발된 이번 대홍수로 인한 사망자가 939명으로 늘었고 실종자도 수천 명에 이른다고 발표했다. 수력발전소 터널 등 여러 시설에 고립된 것으로 추정되는 인원만 900여 명에 달해 네팔 군과 경찰이 헬기와 굴착기를 동원해 구조에 총력을 기울이고 있다. 한국인 실종자 9명이 근무했던 어퍼트리슐리(UT)-1 발전소 터널에서는 시신 1구가 수습됐으며, 우리 정부 신속대응팀도 헬기와 육로 수색을 병행하며 실종 국민을 찾고 있다. 이번 홍수는 기록적인 몬순 폭우와 고산지대 빙하 붕괴가 겹치며 벌어진 것으로 분석된다.',
-    category: 'disaster',
-    region: '해외 · 네팔',
-    date: '2026-09-01',
-    source: 'YTN',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/052/0002400941?sid=104',
-    videoUrl: 'https://www.youtube.com/watch?v=EyC8T5N3HvI',
-    likes: 640,
-    comments: 98,
-    isBreaking: true,
   },
 ]
