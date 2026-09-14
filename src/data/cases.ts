@@ -24,6 +24,23 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260915-paju-freezer-murder-prosecution-referral',
+    title: "파주 냉동창고 살인, 30대 카페 업주 구속 송치…'계획범죄'로 결론",
+    summary:
+      '경기 파주시 문산읍 카페 냉동창고에서 60대 여성을 살해한 혐의를 받는 30대 카페 운영자가 검찰에 구속 송치됐다. 경찰은 범행 전 냉동창고를 미리 준비한 정황을 확인해 우발이 아닌 계획범죄로 결론 내렸다.',
+    content:
+      '파주경찰서는 14일 피유인자 살해 및 유가증권 위조·행사 등 혐의로 30대 남성 A씨를 구속해 검찰에 송치했다고 밝혔다. A씨는 지난 3일 오전 11시께 파주시 문산읍의 한 카페 건물 인근 냉동창고로 60대 여성 B씨를 유인한 뒤 감금해 숨지게 한 혐의를 받는다. 냉동창고의 온도는 영하 18도였다. 경찰은 A씨가 범행을 위해 냉동창고를 사전에 준비한 정황 등을 포착해 고의성이 명백한 계획범죄로 결론 내렸다. B씨가 숨진 냉동창고에서는 액면가 기준 500억원 상당의 위조 백화점 상품권이 함께 발견돼, 경찰은 위조 상품권 유통 조직과의 연관성 등 공범 여부도 수사 중이다.',
+    category: 'crime',
+    region: '경기 파주시',
+    date: '2026-09-15',
+    source: 'YTN',
+    sourceUrl: 'https://www.fnnews.com/news/202609141515571125',
+    videoUrl: 'https://www.youtube.com/watch?v=HxITJOZFRTE',
+    likes: 447,
+    comments: 91,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260914-indonesia-java-sea-ferry-capsize',
     title: '인도네시아 자바해 여객선 전복…6명 사망·130명 실종',
     summary:
@@ -1030,23 +1047,6 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=fZaWrVyiaI0',
     likes: 340,
     comments: 88,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260901-bang-sihyuk-hybe-prosecution-referral',
-    title: '방시혁 하이브 의장, 자본시장법 위반 혐의로 이번 주 검찰 송치',
-    summary:
-      '하이브 상장 전 부정거래로 1900억원대 부당이득을 챙긴 혐의를 받는 방시혁 하이브 의장이 20개월에 걸친 경찰 수사를 마치고 이번 주 검찰에 송치된다. 구속영장 재신청 여부는 송치 시점에 함께 결정될 전망이다.',
-    content:
-      '방 의장은 하이브 상장 전인 2019년 벤처캐피털 등 기존 투자자들에게 상장 계획을 숨기고 지분을 매도해 1900억원대 부당이득을 챙긴 자본시장법 위반 혐의를 받고 있다. 서울경찰청 금융범죄수사대는 2025년 초부터 수사를 벌여왔으며, 그동안 검찰이 구속영장 신청을 두 차례 반려하는 등 진통을 겪었다. 경찰은 이번 주 중 사건을 검찰에 송치할 예정이며, 신병 처리 방향도 송치 시점에 함께 공개될 것으로 알려졌다. 앞서 증권선물위원회는 방 의장을 부정거래 혐의로 검찰에 고발한 바 있다.',
-    category: 'showbiz',
-    region: '서울',
-    date: '2026-09-01',
-    source: '국민일보',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/005/0001870024?sid=102',
-    videoUrl: 'https://www.youtube.com/watch?v=P_D5nwJe0pE',
-    likes: 520,
-    comments: 148,
     isBreaking: false,
   },
 ]
