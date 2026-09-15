@@ -24,6 +24,91 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260916-yangju-drunk-driving-death-arrest',
+    title: "야간 알바 마치고 귀가하던 30대 치어 숨지게 한 만취 운전자 구속",
+    summary:
+      '경기 양주에서 만취 상태로 신호를 위반해 심야 볼링장 아르바이트를 마치고 귀가하던 30대 남성을 치어 숨지게 한 20대 중고차 딜러가 구속됐다. 법원은 도망할 염려가 있다며 구속영장을 발부했다.',
+    content:
+      '의정부지법은 15일 교통사고처리특례법상 치사와 음주운전 혐의를 받는 20대 중고차 딜러 A씨에 대한 구속영장을 발부했다. A씨는 지난 14일 새벽 2시쯤 만취 상태로 경기 양주시 도로를 달리다 신호를 위반해 다른 차량을 들이받았다. 이 사고로 몸이 아픈 상태에서도 심야 볼링장 아르바이트를 마치고 귀가하던 30대 남성이 숨졌다. 양주경찰서는 A씨의 혈중알코올농도 등을 조사해 검찰에 송치할 방침이다.',
+    category: 'traffic',
+    region: '경기 양주시',
+    date: '2026-09-16',
+    source: '경기일보',
+    sourceUrl: 'https://n.news.naver.com/mnews/article/666/0000123547?sid=102',
+    videoUrl: 'https://www.youtube.com/watch?v=QAe6dJQZIGU',
+    likes: 312,
+    comments: 54,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260916-jeongeup-daycare-abuse-sentence',
+    title: '세 살배기 12명 114차례 학대한 어린이집 교사 2명, 실형 선고 법정구속',
+    summary:
+      '전북 정읍의 한 어린이집에서 세 살배기 원아 12명을 두 달간 114차례에 걸쳐 상습 폭행하고 방치한 혐의로 재판에 넘겨진 보육교사 2명이 1심에서 실형을 선고받고 법정구속됐다.',
+    content:
+      '전주지법 정읍지원 형사1단독 정성화 부장판사는 15일 아동학대범죄의 처벌 등에 관한 특례법 위반 혐의로 기소된 보육교사 A(35)씨와 B(29)씨에게 각각 징역 1년을 선고하고 법정구속했다. 이들은 정읍의 한 어린이집에서 세 살배기 원아 12명을 두 달여간 114차례에 걸쳐 뺨을 때리거나 알몸으로 방치하는 등 상습적으로 학대한 혐의를 받는다. 재판부는 40시간의 아동학대 치료프로그램 이수와 아동관련기관 취업제한 5년도 함께 명령했다. 어린이집 원장 등 관련자에 대한 수사도 이어지고 있다.',
+    category: 'crime',
+    region: '전북 정읍시',
+    date: '2026-09-16',
+    source: 'SBS',
+    sourceUrl: 'https://news.sbs.co.kr/news/endPage.do?news_id=N1008754997&plink=ORI&cooper=NAVER',
+    videoUrl: 'https://www.youtube.com/watch?v=5iPw0UcI-O0',
+    likes: 447,
+    comments: 88,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260916-osan-factory-stabbing-trial',
+    title: "오산 거래처 칼부림 첫 재판…60대 '우발 범행' 주장했지만 혐의는 살인",
+    summary:
+      '지난 7월 경기 오산의 한 기계제작공장에서 거래처 대금 문제로 다투다 흉기를 휘둘러 1명을 숨지게 하고 1명을 다치게 한 60대 남성의 첫 재판이 열렸다. 그는 법정에서 우발적 범행이었다고 주장했지만 혐의는 살인·살인미수다.',
+    content:
+      '수원지법 제12형사부는 15일 살인 및 살인미수 혐의를 받는 60대 A씨에 대한 첫 공판을 열었다. A씨는 지난 7월 20일 오후 6시 22분쯤 오산시 벌음동의 한 기계 제작공장에서 거래처 대금 문제로 갈등을 빚던 사장 B씨와 선반공 등에게 흉기를 무차별로 휘둘렀다. 이 사건으로 B씨가 숨지고 다른 직원 1명이 크게 다쳤으며, A씨 본인도 범행 직후 음독해 중상을 입었다. A씨는 이날 재판에서 계획적 범행이 아니라 우발적으로 벌어진 일이라고 주장했으나, 검찰은 지난달 그를 살인·살인미수 혐의로 구속기소했다.',
+    category: 'crime',
+    region: '경기 오산시',
+    date: '2026-09-16',
+    source: '뉴스1',
+    sourceUrl: 'https://www.news1.kr/local/gyeonggi/6291333',
+    videoUrl: 'https://www.youtube.com/watch?v=7v82XreAUKQ',
+    likes: 268,
+    comments: 41,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260916-hlmando-pyeongtaek-worker-death-raid',
+    title: 'HL만도 평택공장 하청노동자 끼임사망, 노동부 2차 압수수색',
+    summary:
+      '경기 평택 HL만도 공장에서 20대 하청노동자가 기계에 끼여 숨진 사고와 관련해 고용노동부가 본사와 공장을 상대로 두 번째 강제수사에 나섰다. 이 공장에서는 최근 9년간 유사한 끼임 사고가 32건이나 발생한 것으로 확인됐다.',
+    content:
+      '경기지방고용노동청 평택지청은 15일 자동차 부품업체 HL만도 판교 본사와 평택공장, 안전보건책임자 사무실 등에 대한 2차 압수수색을 진행했다. 앞서 지난 7월 이 공장에서 하청업체 소속 20대 노동자 김모씨가 기계에 끼여 숨졌으며, 사고 당시 반드시 배치돼야 할 작업지휘자가 현장에 없었던 것으로 드러났다. 노동부 조사 결과 이 공장에서만 최근 9년간 32건의 끼임 사고가 발생했지만 올해 두 차례 진행된 특별점검 대상에는 포함되지 않았던 것으로 확인됐다. 유가족과 대책위는 중대재해처벌법 위반 혐의로 정몽원 HL그룹 회장에 대한 수사를 촉구하고 있다.',
+    category: 'etc',
+    region: '경기 평택시',
+    date: '2026-09-16',
+    source: '서울경제',
+    sourceUrl: 'https://n.news.naver.com/mnews/article/011/0004661491?sid=102',
+    videoUrl: 'https://www.youtube.com/watch?v=rtvDz60YZtM',
+    likes: 231,
+    comments: 47,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260916-miami-brickell-crane-collapse',
+    title: '美 마이애미 공사장 크레인 붕괴, 주행 차량 덮쳐…4명 부상',
+    summary:
+      '미국 플로리다주 마이애미 브리클 지역 공사현장에서 높이 26m 대형 크레인이 도로 위로 넘어지며 주행 중이던 차량을 덮쳤다. 이 사고로 4명이 다쳐 병원으로 옮겨졌다.',
+    content:
+      '15일(현지시간) 오전 마이애미 브리클의 한 건설현장에서 85피트(약 26m) 높이의 대형 크레인이 도로 쪽으로 붕괴했다. 크레인은 신호 대기 중이거나 주행 중이던 차량 위로 그대로 무너져 내렸고, 현장은 순식간에 아수라장이 됐다. 마이애미 소방당국은 크레인 잔해에 깔린 차량 탑승자 등 4명을 구조해 인근 병원으로 옮겼다고 밝혔다. 당국은 정확한 붕괴 원인을 조사하고 있으며, 사고 현장 주변 도로는 한동안 통제됐다.',
+    category: 'world',
+    region: '해외 · 미국',
+    date: '2026-09-16',
+    source: '채널A',
+    sourceUrl: 'https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000550614',
+    videoUrl: 'https://www.youtube.com/watch?v=R6u5AmE6uj4',
+    likes: 356,
+    comments: 62,
+    isBreaking: true,
+  },
+  {
     id: 'c-20260915-paju-freezer-murder-prosecution-referral',
     title: "파주 냉동창고 살인, 30대 카페 업주 구속 송치…'계획범죄'로 결론",
     summary:
@@ -962,91 +1047,6 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/shorts/5MA73WTZRsA',
     likes: 380,
     comments: 124,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260902-tupac-shakur-murder-guilty-verdict',
-    title: "래퍼 투팍 살해범, 30년 만에 배심원 유죄 평결…'힙합 최대 미제' 풀렸다",
-    summary:
-      '1996년 힙합의 전설 투팍 샤커를 살해한 혐의로 기소된 전 갱단 두목 듀에인 데이비스에게 미국 라스베이거스 배심원단이 1급 살인 유죄 평결을 내렸다. 30년간 미제로 남았던 사건이 데이비스 본인의 회고록이 결정적 단서가 되며 마침표를 찍었다.',
-    content:
-      "투팍 샤커는 1996년 9월 7일 라스베이거스 도로에서 차량 총격을 받고 엿새 뒤 25세로 숨졌으며, 범인은 30년 가까이 밝혀지지 않아 힙합 역사상 최대 미제 사건으로 남아 있었다. 검찰은 당시 로스앤젤레스 갱단 '사우스사이드 크립스'의 두목이었던 듀에인 '키페 디' 데이비스가 조카가 폭행당한 데 대한 보복으로 총격을 지시했다고 봤다. 결정적 단서는 데이비스 본인이 2019년 펴낸 회고록에서 사건 당일 차량에 함께 있었다고 스스로 밝힌 내용이었고, 이를 근거로 2023년 그는 27년 만에 체포·기소됐다. 라스베이거스 배심원단은 지난달 31일(현지시간) 심리 끝에 데이비스에게 1급 살인 유죄 평결을 내렸으며, 그는 가석방 없는 종신형을 선고받을 처지에 놓였다.",
-    category: 'world',
-    region: '해외 · 미국',
-    date: '2026-09-02',
-    source: '외신 종합',
-    sourceUrl: 'https://www.youtube.com/watch?v=uoyN97ZtgsY',
-    videoUrl: 'https://www.youtube.com/watch?v=uoyN97ZtgsY',
-    likes: 512,
-    comments: 96,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260902-nyc-times-square-stabbing-bofa-vp',
-    title: '뉴욕 타임스스퀘어 대낮 흉기난동…뱅크오브아메리카 여성 임원 사망',
-    summary:
-      '미국 뉴욕 맨해튼 타임스스퀘어 한복판에서 흉기를 든 여성이 행인들을 무차별 공격해 1명이 숨지고 1명이 다쳤다. 숨진 피해자는 뱅크오브아메리카(BofA) 여성 부사장으로 확인됐으며, 범인은 경찰의 투항 요구를 거부하다 총에 맞아 사망했다.',
-    content:
-      '지난달 31일(현지시간) 낮 뉴욕 맨해튼 타임스스퀘어에서 흉기 두 자루를 든 여성이 지나가던 행인 2명을 무작위로 공격했다. 이 중 1명이 현장에서 숨졌고, 다른 1명은 크게 다쳐 병원으로 옮겨졌다. 숨진 피해자는 뱅크오브아메리카에서 부사장으로 재직하던 여성으로 뒤늦게 확인됐다. 뉴욕 경찰(NYPD)은 범인에게 수차례 흉기를 내려놓으라고 경고했으나 이에 응하지 않자 총격을 가해 범인도 현장에서 사망했다. 에릭 애덤스 시장과 NYPD는 이번 공격이 "무작위적이고 아무런 도발 없이" 벌어졌다고 밝혔으며, 경찰의 총기 사용 경위는 자체 감찰 부서가 조사하고 있다.',
-    category: 'world',
-    region: '해외 · 미국',
-    date: '2026-09-02',
-    source: '외신 종합',
-    sourceUrl: 'https://www.youtube.com/shorts/hL-X41yWIAI',
-    videoUrl: 'https://www.youtube.com/shorts/hL-X41yWIAI',
-    likes: 398,
-    comments: 71,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260901-jeju-missing-case-falsification-referral',
-    title: "제주 '실종 허위종결' 부 경장, 오늘 검찰 송치…298건 전수조사 결과 발표",
-    summary:
-      '제주에서 실종 신고를 허위로 종결 처리해 30대 여성의 죽음을 막지 못했다는 의혹을 받는 부 모 경장이 1일 검찰에 구속 송치된다. 경찰은 그가 처리한 실종 사건 298건을 전수조사한 결과 63건이 시스템에 미등록되거나 삭제된 사실을 확인했다고 밝혔다.',
-    content:
-      "부 경장은 지난 5월 실종 신고된 30대 여성 장모씨의 휴대전화 위치를 7차례나 조회하고도 안전을 확인하지 않은 채 '연락이 닿았다'는 취지로 신고자에게 거짓말하고 사건을 허위 종결한 혐의를 받는다. 장씨는 실종 104일 만인 8월 숨진 채 발견됐고, 국립과학수사연구원은 부패가 심해 정확한 사인을 밝히지 못했다. 경찰은 부 경장이 처리한 실종 사건 298건을 전수조사해 63건이 시스템에 미등록되거나 삭제된 사실을 확인했으며, 1일 검찰 송치와 함께 구체적인 범행 동기와 여죄 여부를 발표할 예정이다. 국가수사본부장은 '모든 가능성을 열어두고 수사하겠다'고 밝혔다.",
-    category: 'crime',
-    region: '제주',
-    date: '2026-09-01',
-    source: '서울경제',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/011/0004657158?sid=102',
-    videoUrl: 'https://www.youtube.com/watch?v=cjrUu2g0RQ0',
-    likes: 780,
-    comments: 145,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260901-gyeongsan-chinese-student-murder-id-release',
-    title: '경산 중국인 유학생 살해 대학강사, 오늘 신상정보 공개',
-    summary:
-      '경북 경산에서 자신이 가르치던 중국인 여성 유학생을 살해하고 시신을 훼손해 전국 각지에 유기한 혐의로 구속된 중국 국적 대학강사 정모씨(31)의 신상정보가 1일 공개된다. 범행 후 여장을 하고 돌아다니다 직접 실종 신고까지 한 사실이 드러나 공분을 사고 있다.',
-    content:
-      '정씨는 지난 20일 새벽 경산시 하양읍 자신의 원룸에서 자신의 강의를 수강했던 중국 국적 유학생 A씨(25)를 살해한 혐의를 받는다. 그는 범행 다음 날에도 태연히 돌아다녔고, 여성 옷차림으로 변장한 채 경찰에 A씨의 실종을 직접 신고한 사실이 드러나 수사에 혼선을 줬다. 훼손된 시신은 전국 각지에서 잇따라 발견됐으며, 정씨는 사이코패스 진단 검사도 거부한 것으로 알려졌다. 경북경찰청은 범행의 잔혹성과 중대성을 고려해 신상정보공개심의위원회를 열고 정씨의 얼굴과 나이 등을 공개하기로 결정했다.',
-    category: 'crime',
-    region: '경북 경산시',
-    date: '2026-09-01',
-    source: '연합뉴스TV',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/422/0000901401?sid=102',
-    videoUrl: 'https://www.youtube.com/watch?v=NGIaCHPltbc',
-    likes: 690,
-    comments: 132,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260901-gyeongnam-deepfake-election-warrant-denied',
-    title: "경남지사 캠프 '딥페이크·관권선거' 의혹 공무원들, 구속영장 모두 기각",
-    summary:
-      '6·3 지방선거 당시 박완수 경남지사 캠프의 딥페이크 영상 제작과 관권선거 의혹으로 구속영장이 청구됐던 전·현직 경남도청 공무원 등 4명에 대해 법원이 영장을 모두 기각했다. 법원은 혐의는 무겁지만 도주와 증거인멸 우려가 크지 않다고 판단했다.',
-    content:
-      '경찰은 박완수 후보 캠프가 상대 후보를 비방하는 AI 딥페이크 영상을 만들어 유포하고, 공무원들을 동원해 관권선거를 벌였다는 의혹을 수사해왔다. 창원지법은 공직선거법 위반 혐의를 받는 전·현직 경남도청 공무원 3명과 영상 제작업체 대표 1명에 대해 청구된 사전구속영장을 모두 기각했다. 재판부는 혐의가 중대하고 상당 부분 증거가 확보됐다면서도 주거가 일정하고 사회적 유대관계가 있어 도주 우려가 크지 않다고 밝혔다. 경찰은 추가 수사를 거쳐 구속영장 재신청 여부를 검토하고 있다.',
-    category: 'etc',
-    region: '경남',
-    date: '2026-09-01',
-    source: '연합뉴스',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/001/0016277488?sid=102',
-    videoUrl: 'https://www.youtube.com/watch?v=fZaWrVyiaI0',
-    likes: 340,
-    comments: 88,
     isBreaking: false,
   },
 ]

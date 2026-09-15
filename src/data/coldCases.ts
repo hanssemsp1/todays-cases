@@ -686,6 +686,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.sisain.co.kr/news/articleView.html?idxno=30499',
     videoUrl: 'https://www.youtube.com/watch?v=ZZmUkSXb43w',
   },
+  {
+    id: 'cc-gyeongju-japanese-student-missing',
+    caseNo: '1991 · 경북 경주',
+    title: '경주 일본인 여대생 실종사건',
+    occurredDate: '1991-03-28',
+    region: '경북 경주시 진현동',
+    status: 'unsolved',
+    summary:
+      '1991년 3월 일본에서 건너온 24세 예비 대학원생 오마사 유미가 경주 계림유스호스텔에 묵던 중 아침에 방을 나선 뒤 감쪽같이 사라졌다. 경찰 10만여 명이 동원된 수색에도 행방을 찾지 못했고, 35년이 지난 지금까지 영구 미제로 남아 있다.',
+    details:
+      '1991년 3월 27일 일본 시모노세키에서 부관페리를 타고 부산으로 입국한 오마사 유미(당시 24세)는 이튿날인 28일 오전 10시쯤 경북 경주시 진현동 계림유스호스텔 214호실을 나선 뒤 연락이 끊겼다. 경찰은 납치·감금 또는 사고 가능성을 열어두고 10만여 명의 인력을 동원해 대대적인 수색을 벌였으나 단서를 찾지 못했다. 일본 언론도 이 사건을 긴급 보도했고 한일 양국 경찰이 국제 공조수사에 나섰지만 성과 없이 끝났다. 실종 이후 1994년 10월까지 가족에게 몇 차례 말없는 전화가 걸려 온 사실이 확인되면서 납북 가능성도 배제되지 않은 실종자 명단에 이름이 올라 있다. 35년이 지난 현재까지 사건은 풀리지 않은 채 영구 미제로 남아 있다.',
+    tags: ['외국인 실종', '영구미제', '국제공조수사'],
+    sourceUrl: 'https://namu.wiki/w/%EA%B2%BD%EC%A3%BC%20%EC%9D%BC%EB%B3%B8%EC%97%AC%EB%8C%80%EC%83%9D%20%EC%8B%A4%EC%A2%85%EC%82%AC%EA%B1%B4',
+    videoUrl: 'https://www.youtube.com/watch?v=a4PU9M54j1A',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
