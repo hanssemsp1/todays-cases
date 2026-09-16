@@ -24,6 +24,75 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260917-la-chatsworth-news-helicopter-crash',
+    title: '美 LA 교통사고 취재하던 뉴스 헬기 추락…탑승자 등 3명 사망',
+    summary:
+      '미국 로스앤젤레스 채츠워스에서 SUV와 시내버스 충돌 사고를 공중 취재하던 NBC 계열 방송사 헬기가 갑자기 추락해 화재가 발생했다. 이 사고로 조종사와 촬영기자, 지상에 있던 보행자 등 3명이 숨졌다.',
+    content:
+      '현지시간 15일 저녁 7시쯤 캘리포니아주 LA 카운티 샌페르난도밸리 채츠워스에서 SUV와 시내버스가 충돌하는 사고 현장을 헬기로 촬영하던 NBC 지역 방송사 취재 헬기가 갑자기 추락했다. 운항사 엔젤시티에어 소속 AS350 B2 기종인 이 헬기는 추락 직후 화재가 발생해 인근 차량 4대와 컨테이너 2개가 불에 탔으며, 50명 넘는 소방관이 긴급 투입돼 진화했다. 이 사고로 촬영기자 엘리아나 모레노, 조종사 조지 마르시니우와 함께 인근 주차장에 있던 보행자 등 3명이 숨졌다. 앞서 발생한 버스-SUV 충돌사고 사망자 2명까지 더하면 이날 하루 연쇄 사고로 모두 5명이 목숨을 잃었다. 미 연방항공청(FAA)과 교통안전위원회(NTSB)가 정확한 추락 원인을 조사하고 있다.',
+    category: 'world',
+    region: '해외 · 미국',
+    date: '2026-09-17',
+    source: 'YTN',
+    sourceUrl: 'https://www.ytn.co.kr/_ln/0104_202609170330581388',
+    videoUrl: 'https://www.youtube.com/watch?v=_bsV8CoExW8',
+    likes: 420,
+    comments: 78,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260917-gaza-city-al-saada-building-collapse',
+    title: '이스라엘 공습에 손상됐던 건물, 가자시티서 붕괴…최소 21명 사망',
+    summary:
+      '팔레스타인 가자지구 가자시티에서 앞서 이스라엘군 공습으로 손상됐던 6층 건물이 주민들이 잠든 새벽 시간대에 붕괴해 최소 21명이 숨지고 수십 명이 실종됐다.',
+    content:
+      '16일(현지시간) 오전 2시 15분쯤 가자시티 텔알하와 지역의 알사아다 건물이 갑자기 무너져 내렸다. 이 6층짜리 건물은 1년여 전 이스라엘군 공습으로 손상돼 한쪽으로 기울어 있었지만, 갈 곳이 없는 주민들이 계속 거주해온 것으로 전해졌다. 가자 민방위대는 현재까지 시신 21구를 수습했으며 어린이 11명이 포함된 것으로 파악했다. 시민방위대에 따르면 붕괴 당시 건물 안에는 여러 가구가 거주하고 있었으며, 장비 부족으로 구조 작업이 더디게 진행되고 있다. 유엔 산하 기관과 이집트 구조팀, 적십자위원회 등이 생존자 수색에 힘을 보태고 있다.',
+    category: 'world',
+    region: '해외 · 팔레스타인',
+    date: '2026-09-17',
+    source: 'Al Jazeera',
+    sourceUrl: 'https://www.aljazeera.com/news/2026/9/16/gaza-residential-building-collapses-six-families-reportedly-trapped',
+    videoUrl: 'https://www.youtube.com/watch?v=xkM2AHB6T1A',
+    likes: 380,
+    comments: 65,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260917-hwaseong-recycling-facility-fire',
+    title: '화성 자원순환시설서 화재…폭발음과 함께 관계자 화상',
+    summary:
+      '경기 화성시 정남면의 폐유·폐오일필터 처리업체에서 화재가 발생해 초기 진화에 나섰던 50대 남성 관계자가 화상을 입었다. 폭발음이 들리자 소방당국은 대응 2단계를 발령하고 총력 진화에 나섰다.',
+    content:
+      '16일 오후 1시 58분쯤 경기 화성시 정남면의 한 자원순환시설(폐기물 처리시설)에서 불이 났다는 신고가 접수됐다. 시설 관계자는 "폐기물이 타고 있다"고 신고했으며, 초기 진화에 나섰던 50대 남성 관계자가 오른팔에 2도 화상을 입어 병원으로 옮겨졌다. 이외 시설 내부에 있던 관계자 8명은 자력으로 대피해 추가 인명피해는 없었다. 소방당국은 위험물이 있고 연소 확대 우려가 있다고 판단해 대응 1단계 발령 4분 만에 대응 2단계로 상향, 장비 58대와 인력 120명을 투입해 약 2시간 44분 만에 큰불을 잡았다. 소방당국은 정확한 화재 원인과 피해 규모를 조사하고 있다.',
+    category: 'fire',
+    region: '경기 화성시',
+    date: '2026-09-17',
+    time: '13:58',
+    source: '연합뉴스TV',
+    sourceUrl: 'http://www.yonhapnewstv.co.kr/news/MYH20260916224124Aix',
+    videoUrl: 'https://www.youtube.com/watch?v=dWKXSqhA6RM',
+    likes: 210,
+    comments: 32,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260917-ekurhuleni-south-africa-women-killings',
+    title: '남아공서 두 달 새 여성 8명 잇따라 숨진 채 발견…현상금 걸고 수사',
+    summary:
+      '남아프리카공화국 요하네스버그 인근 에쿠룰레니에서 지난 7월부터 두 달여간 여성 8명이 잇따라 숨진 채 발견됐다. 경찰은 연쇄살인 가능성에 무게를 두고 현상금까지 내걸어 수사에 나섰다.',
+    content:
+      '남아공 에쿠룰레니에서는 지난 7월 15일 켐프턴파크 R21 고속도로 인근 공터에서 옷이 벗겨지고 케이블타이로 묶인 여성 시신이 발견된 것을 시작으로, 16일까지 모두 8명의 여성 시신이 잇따라 발견됐다. 신원이 확인된 피해자는 아직 2명뿐이지만, 대부분 폭행 흔적이 있고 옷이 벗겨진 상태로 발견돼 동일범 소행 가능성이 제기된다. 남아공 경찰청(SAPS)은 사건 해결에 도움이 되는 제보에 40만 랜드(약 4천만원)의 현상금을 내걸었고, 야당 민주동맹(DA)도 별도로 50만 랜드 이상의 현상금을 추가했다. 경찰은 아직 8건의 사망이 모두 연관됐다고 단정하지는 않았지만, 사건 간 유사성이 상당해 통합수사팀을 꾸려 집중 수사를 벌이고 있다.',
+    category: 'world',
+    region: '해외 · 남아프리카공화국',
+    date: '2026-09-17',
+    source: '연합뉴스TV',
+    sourceUrl: 'http://www.yonhapnewstv.co.kr/news/AKR20260917055706ft3',
+    videoUrl: 'https://www.youtube.com/watch?v=aFMjCMNqpqY',
+    likes: 290,
+    comments: 44,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260916-yangju-drunk-driving-death-arrest',
     title: "야간 알바 마치고 귀가하던 30대 치어 숨지게 한 만취 운전자 구속",
     summary:
@@ -979,74 +1048,6 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=znxSDLRGRIE',
     likes: 340,
     comments: 68,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260903-anseong-tesla-truck-crash',
-    title: '경부고속도로 안성휴게소 인근 빗길 사고로 50대 부부 참변',
-    summary:
-      '경부고속도로 안성휴게소 인근에서 빗길에 테슬라 차량이 가드레일을 들이받고 멈춰선 뒤 뒤따르던 25톤 화물차에 추돌당해 탑승자 부부가 숨졌다. 경찰은 빗길 미끄러짐을 1차 사고 원인으로 보고 정확한 경위를 조사하고 있다.',
-    content:
-      '지난 1일 오후 경부고속도로 서울 방면 안성휴게소 부근에서 테슬라 차량이 갓길 쪽 가드레일을 들이받고 3~4차로에 걸쳐 멈춰 섰다. 뒤따르던 25톤 화물차가 이를 미처 피하지 못하고 그대로 추돌하면서 테슬라에 타고 있던 50대 부부가 변을 당했다. 사고 당시 비가 내리고 있었으며, 경찰은 노면이 미끄러워 테슬라가 통제력을 잃은 것으로 보고 정확한 사고 경위와 차량 결함 여부 등을 조사하고 있다.',
-    category: 'traffic',
-    region: '경기 안성시',
-    date: '2026-09-03',
-    source: 'MBN',
-    sourceUrl: 'http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5216241',
-    videoUrl: 'https://www.youtube.com/watch?v=S7mJPi65Ku4',
-    likes: 260,
-    comments: 54,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260903-iran-sirik-wedding-strike',
-    title: '美 이란 결혼식장 재공습…어린이 포함 4명 사망·50명 부상',
-    summary:
-      '미군이 이란 남부 호르모즈간주 시리크의 한 결혼식장이 있던 민가를 공습해 어린이를 포함해 최소 4명이 숨지고 50명 이상이 다쳤다. 이란은 이를 "전쟁범죄"로 규정하며 강하게 반발했다.',
-    content:
-      '미군은 이란혁명수비대(IRGC)를 겨냥한 공습을 이어가는 과정에서 지난 1일(현지시간) 이란 남부 시리크군 쿠헤스타크의 한 주택에서 열리던 결혼식 하객들을 타격했다. 이란 당국에 따르면 이 공격으로 어린이를 포함해 최소 4명이 숨졌고, 여성과 어린이를 포함한 50명 넘는 사람이 다쳤다. 이란 외무부는 이번 공격을 "불법적인 선택의 전쟁"이자 "전쟁범죄의 민낯"이라고 규정하며 강하게 반발했고, 이란혁명수비대는 요르단 아카바 주둔 미군기지와 이라크 아르빌을 향해 탄도미사일로 보복 타격을 가했다. 이 여파로 국제유가가 급등하는 등 중동 정세 불안이 세계 경제로 번지고 있다.',
-    category: 'world',
-    region: '해외 · 이란',
-    date: '2026-09-03',
-    source: '외신 종합',
-    sourceUrl: 'https://www.hankyung.com/article/2026090281977',
-    videoUrl: 'https://www.youtube.com/watch?v=dgaLai0nR-s',
-    likes: 470,
-    comments: 91,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260903-russia-kyiv-strike-12-dead',
-    title: '러시아, 키이우 엿새째 집중 공습…최소 12명 사망',
-    summary:
-      '러시아군이 우크라이나 수도 키이우를 엿새째 드론과 미사일로 집중 공습해 최소 12명이 숨졌다. 러시아와 국경을 접한 벨고로드주에서도 우크라이나의 반격 공격으로 민간인 1명이 숨지는 등 양측의 민간인 피해가 늘고 있다.',
-    content:
-      '러시아군은 지난 1일 밤부터 2일 새벽까지 드론과 미사일을 동원해 키이우와 인근 지역을 집중 공습했다. 이번 공격으로 최소 12명이 숨지고 수십 명이 다쳤으며, 우크라이나 수도를 겨냥한 러시아의 집중 공습은 이로써 엿새째 이어졌다. 우크라이나 역시 러시아 영토에 대한 공격을 이어가고 있으며, 러시아 서부 벨고로드주에서는 우크라이나의 공격으로 민간인 1명이 숨졌다고 현지 주지사 권한대행이 밝혔다. 양측의 공습이 격화하면서 민간인 피해가 계속 늘어나고 있다.',
-    category: 'world',
-    region: '해외 · 우크라이나',
-    date: '2026-09-03',
-    source: '뉴스1',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/421/0009147443?sid=104',
-    videoUrl: 'https://www.youtube.com/watch?v=NjPhV3IolmM',
-    likes: 410,
-    comments: 76,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260903-gwajusseyeon-drug-investigation',
-    title: 'BJ 과즙세연, 졸피뎀 투약 혐의 입건…"마약 안 했다" 직접 해명',
-    summary:
-      '인터넷 방송인 과즙세연이 연인인 BJ 케이 등과 함께 향정신성의약품인 졸피뎀을 복용한 혐의로 경찰에 입건된 사실이 뒤늦게 알려졌다. 과즙세연은 자신의 방송에서 "대리처방도, 마약 투약도 아니었다"며 직접 해명에 나섰다.',
-    content:
-      '서울 강남경찰서는 지난 7월 30일 마약류관리법 위반(향정) 혐의로 인터넷 방송인 과즙세연(본명 인세연)과 연인인 BJ 케이 등 3명을 불구속 입건해 조사하고 있다고 밝혔다. 이들은 지난 6월 중순 향정신성의약품으로 분류되는 수면제 졸피뎀을 복용한 혐의를 받으며, 케이는 지인에게 대리로 처방받은 수면제를 건네받은 혐의도 함께 받고 있다. 입건 사실이 알려지자 과즙세연은 자신의 라이브 방송에 출연해 "연인의 약을 먹었을 뿐 마약을 한 것은 아니다"라며 결백을 주장했다. 다만 처방받은 당사자가 아닌 사람이 향정신성의약품을 복용한 것 자체가 마약류관리법 위반에 해당할 수 있어 논란이 이어지고 있다.',
-    category: 'showbiz',
-    region: '서울',
-    date: '2026-09-03',
-    source: '중앙일보',
-    sourceUrl: 'https://n.news.naver.com/mnews/article/025/0003548700?sid=102',
-    videoUrl: 'https://www.youtube.com/shorts/5MA73WTZRsA',
-    likes: 380,
-    comments: 124,
     isBreaking: false,
   },
 ]
