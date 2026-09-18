@@ -24,6 +24,74 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260919-voicephishing-kimminsu-prosecutor-scam-boss-arrest',
+    title: '"김민수 검사입니다"…취준생 죽음 내몬 보이스피싱 총책, 6년 만에 붙잡혀',
+    summary:
+      '2020년 "서울중앙지검 김민수 검사"를 사칭해 20대 취업준비생을 죽음으로 내몬 보이스피싱 조직의 총책이 최근 붙잡혔다. 부산경찰청은 이 총책을 포함해 중국 거점 조직원과 대포통장 유통책 등 67명을 검거했다고 밝혔다.',
+    content:
+      '부산경찰청은 범죄단체조직 및 전기통신사업법 위반 등 혐의로 중국 국적 30대 남성 A씨 등 5명을 구속하고 조직원 등 67명을 검거했다고 17일 밝혔다. A씨는 2020년 "서울중앙지검 김민수 검사"를 사칭해 "계좌가 금융사기에 연루됐으니 누명을 벗으려면 돈을 인출하라"고 속이는 수법으로 20대 취업준비생에게 420만원을 가로챈 조직의 총책이다. 당시 피해자는 수사에 제대로 협조하지 못해 처벌받을 것을 걱정하다 며칠 뒤 숨진 채 발견돼 사회적 파장이 일었다. 경찰은 2015년 8월부터 2021년 7월까지 중국 등 해외에 거점을 두고 검찰과 금융기관을 사칭해 250명으로부터 50억원을 가로챈 이 조직을 추적해 왔으며, 대포통장 공급책과 현금 수거책 등 나머지 조직원들도 붙잡았다.',
+    category: 'etc',
+    region: '부산광역시',
+    date: '2026-09-19',
+    source: '서울신문',
+    sourceUrl: 'https://www.seoul.co.kr/news/society/2026/09/17/20260917500136',
+    videoUrl: 'https://www.youtube.com/watch?v=IWdHEMO0-dU',
+    likes: 512,
+    comments: 118,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260919-daejeon-anjeon-fire-prosecution-referral',
+    title: "'74명 사상' 대전 안전공업 화재, 손주환 대표 등 13명 검찰 송치",
+    summary:
+      '14명이 숨지고 60명이 다친 대전 안전공업 화재 참사와 관련, 경찰이 손주환 대표 등 회사 관계자 13명을 업무상과실치사상 등 혐의로 검찰에 송치했다. 화재수신기 임의 차단과 서류 조작 정황도 함께 확인됐다.',
+    content:
+      '대전경찰청은 14명이 숨지고 60명이 다친 안전공업 화재 참사와 관련, 손주환 대표 등 임직원 13명을 업무상과실치사상, 소방시설법 위반, 증거인멸 등 혐의로 검찰에 송치했다고 17일 밝혔다. 앞서 지난 8일 법원이 손 대표 등 6명에 대한 구속영장을 모두 기각했지만, 경찰은 수사를 이어가 결국 전원을 불구속 송치했다. 경찰 조사 결과 회사는 폐유 등이 쌓인 집진 설비를 방치하고, 방화구획을 훼손하면서까지 휴게시설을 약 560㎡ 규모로 무단 증축했으며, 방화문을 상시 개방하고 화재수신기 경보 기능을 임의로 꺼둔 것으로 드러났다. 위험성 평가서 등 서류 15건을 조작해 마치 안전관리가 정상적으로 이뤄진 것처럼 꾸민 정황도 확인됐다. 고용노동청은 손 대표에 대해 중대재해처벌법 위반 혐의도 별도로 적용해 기소할 방침이다.',
+    category: 'disaster',
+    region: '대전광역시',
+    date: '2026-09-19',
+    source: 'MBC',
+    sourceUrl: 'https://www.nocutnews.co.kr/news/6579670',
+    videoUrl: 'https://www.youtube.com/watch?v=Qgnmdldcm8E',
+    likes: 356,
+    comments: 71,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260919-jeju-dating-violence-murder',
+    title: '제주 6년 교제 여친 흉기로 살해…신고만 9차례, 보호대상은 지난 7월 해제',
+    summary:
+      '제주시 아라동 아파트에서 6년간 교제해온 20대 남성이 여자친구를 흉기로 찔러 살해했다. 두 사람 사이엔 가정폭력 112 신고가 9차례나 있었지만, 피해자는 지난 7월 경찰의 스토킹·데이트폭력 보호 대상에서 해제된 상태였다.',
+    content:
+      '지난 16일 오후 제주시 아라동의 한 아파트에서 20대 여성 A씨가 흉기에 찔려 숨진 채 발견됐다. 함께 있던 남자친구 B씨(20대)가 직접 119에 신고했으며, 경찰 조사에서 술을 마시다 다투던 중 흉기를 휘둘렀다고 진술했다. 두 사람은 6년째 만남과 이별을 반복해온 사이로, 교제 기간 동안 112에 접수된 신고만 5~9차례에 달했다. 경찰은 지난해 11월부터 올해 7월까지 A씨를 가정폭력 전담경찰관(APO) 관리 대상으로 지정해 보호해 왔지만, 사건 발생 전 이미 보호 대상에서 해제한 것으로 확인됐다. 경찰은 B씨를 살인 혐의로 긴급체포해 구속영장을 신청했으며, 보호 대상 해제 결정이 적절했는지도 함께 들여다보고 있다.',
+    category: 'crime',
+    region: '제주특별자치도 제주시',
+    date: '2026-09-19',
+    source: '연합뉴스TV',
+    sourceUrl: 'https://www.nocutnews.co.kr/news/6401432',
+    videoUrl: 'https://www.youtube.com/watch?v=56FszN-jJUs',
+    likes: 402,
+    comments: 76,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260919-lee-chungah-traffic-accident-drama-exit',
+    title: '배우 이청아, 촬영 중 교통사고로 허리 부상…드라마 하차 논의',
+    summary:
+      "배우 이청아가 지난달 드라마 촬영 이동 중 교통사고를 당해 허리 부상이 악화되면서 출연 중이던 드라마 '고분고분한 킬러' 하차를 논의 중이라고 소속사가 밝혔다.",
+    content:
+      "이청아의 소속사 매니지먼트 숲은 18일 이청아가 지난 8월 드라마 촬영차 이동하던 중 교통사고를 당한 것이 사실이라고 공식 입장을 밝혔다. 원래 좋지 않았던 허리 상태가 사고로 더 악화됐고, 최근 의료진으로부터 한 달 이상 움직임을 최소화해야 한다는 진단을 받으면서 액션 장면이 포함된 드라마 촬영을 이어가기 어려운 상황에 놓였다. 이에 따라 이청아 측과 제작진은 '고분고분한 킬러' 하차를 논의 중이다. 이청아는 지난해에도 교통사고로 고관절을 다친 뒤 후유증을 겪으며 촬영을 이어간 바 있다.",
+    category: 'showbiz',
+    region: '서울특별시',
+    date: '2026-09-19',
+    source: '뉴스핌',
+    sourceUrl: 'https://www.newspim.com/news/view/20260918000685',
+    videoUrl: 'https://www.youtube.com/watch?v=wmNVdTl4l8w',
+    likes: 245,
+    comments: 58,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260917-la-chatsworth-news-helicopter-crash',
     title: '美 LA 교통사고 취재하던 뉴스 헬기 추락…탑승자 등 3명 사망',
     summary:
@@ -978,75 +1046,6 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/watch?v=L4A2DkSBRu8',
     likes: 410,
     comments: 96,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260918-counterfeit-cosmetics-online-market-bust',
-    title: "쿠팡·네이버서 팔린 중국산 '짝퉁' 화장품 8만개…유통책 검거",
-    summary:
-      '중국산 위조 화장품·건강기능식품 8만여개를 정품처럼 속여 쿠팡·네이버 등 온라인 오픈마켓에서 45억원어치 판매한 유통 브로커가 검찰에 송치됐다. 압수품 정밀검사 결과 기능성 성분이나 표시 원료가 전혀 검출되지 않았다.',
-    content:
-      '식품의약품안전처와 특허청은 17일 중국 선전의 제조업자와 공모해 2024년 10월부터 지난해 11월까지 위조 화장품·건강기능식품 등 61종을 국내 온라인 오픈마켓에 유통한 브로커 A씨를 검찰에 송치했다고 밝혔다. 판매 규모는 8만여개, 45억원 상당으로 파악됐다. 압수한 제품을 정밀 검사한 결과 화장품에서는 기능성 성분이, 건강기능식품에서는 표시된 원료 성분이 전혀 검출되지 않아 소비자 피해가 우려된다. 당국은 유통망을 넓혀 추가 공범 수사를 이어가고 있다.',
-    category: 'crime',
-    region: '전국',
-    date: '2026-09-18',
-    source: 'KBS',
-    sourceUrl: 'https://www.khan.co.kr/en/article/202609171158017/',
-    videoUrl: 'https://www.youtube.com/watch?v=wL2-dkIkXVk',
-    likes: 260,
-    comments: 54,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260918-yangpyeong-mart-fire',
-    title: '경기 양평 마트서 화재…대응 1단계 발령',
-    summary:
-      '경기 양평군 용문면의 한 대형마트에서 화재가 발생해 소방당국이 대응 1단계를 발령하고 진화에 나섰다. 연소 확대 우려로 신속히 장비와 인력이 투입됐다.',
-    content:
-      '17일 오후 3시쯤 경기 양평군 용문면 다문리의 한 마트에서 불이 나 검은 연기가 치솟았다는 신고가 접수됐다. 소방당국은 인근 주민들에게 안전 문자를 발송해 대피와 창문 닫기를 안내했으며 대응 1단계를 발령해 화재 확산에 대비했다. 소방당국은 장비와 인력을 투입해 진화 작업을 벌였으며, 정확한 화재 원인과 피해 규모는 조사 중이다.',
-    category: 'fire',
-    region: '경기 양평군',
-    date: '2026-09-18',
-    time: '15:00',
-    source: 'YTN',
-    sourceUrl: 'https://www.specialtimes.co.kr/news/articleView.html?idxno=464120',
-    videoUrl: 'https://www.youtube.com/watch?v=SeZRUpt4CxY',
-    likes: 180,
-    comments: 28,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260918-washington-fireworks-wildfire-video',
-    title: '달리는 트럭서 쏜 불꽃놀이가 부른 美 대형 산불…CCTV 공개',
-    summary:
-      '미국 워싱턴주에서 트럭 짐칸에서 쏜 불꽃놀이가 마른 풀에 옮겨붙어 9700에이커를 태우고 100채 넘는 건물을 파괴한 첼란힐스 산불로 번진 CCTV 영상이 공개됐다. 이 화재로 1명이 숨졌고 경찰은 아직 붙잡지 못한 공범 5명을 수배 중이다.',
-    content:
-      '더글러스 카운티 보안관실은 18세 남성이 트럭 뒤에 서서 다른 차량을 향해 불법 폭죽을 쏘던 중 하나가 마른 풀밭에 떨어져 불이 붙었다고 밝혔다. 이 화재로 최소 9700에이커가 소실되고 주택 등 100채 이상이 파괴돼 카운티 역사상 가장 파괴적인 산불로 기록됐다. 보안관실은 아직 붙잡지 못한 성인 공범 5명에게 자수를 촉구하고 있으며, 사건 당시 영상이 최근 공개되며 큰 파장을 낳았다. KBS는 이 미국 현지 영상을 인용해 17일 국제뉴스로 보도했다.',
-    category: 'world',
-    region: '해외 · 미국',
-    date: '2026-09-18',
-    source: 'KBS',
-    sourceUrl: 'https://komonews.com/news/local/chelan-hills-fire-video-suspect-shooting-fireworks-douglas-county-sheriffs-office-washington-state-wildfires-destruction-deadly-wildfire-arson-investigation-new-video',
-    videoUrl: 'https://www.youtube.com/watch?v=PBUyk-KFanw',
-    likes: 340,
-    comments: 62,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260918-tokyo-robbery-suspects-extradited',
-    title: '8년 전 도쿄 강도미수 한국인 2명, 일본 송환되자 얼굴 그대로 공개',
-    summary:
-      '2018년 도쿄에서 4억원 상당을 강탈하려다 실패하고 한국으로 도주했던 한국인 남성 2명이 8년 만에 한일 범죄인 인도조약에 따라 일본으로 송환됐다. 일본 특유의 피의자 신상공개 관행에 따라 공항 도착 순간 얼굴과 실명이 그대로 방송에 노출됐다.',
-    content:
-      '이들은 2018년 11월 도쿄 다이토구에서 귀금속 거래업체 직원에게 최루가스를 뿌리고 약 4700만엔(약 4억2000만원)이 든 가방을 빼앗으려다 피해자의 강한 저항으로 범행에 실패했다. 범행 8시간 만에 나리타공항을 통해 한국으로 도주했던 두 사람은 지난 15일 한일 범죄인 인도조약에 따라 신병이 일본 측에 인계됐다. 일본은 중대 사건 피의자의 신상을 공개하는 관행에 따라 하네다공항 도착 장면을 사실상 생중계하며 마스크를 쓰고도 이들의 얼굴과 신원을 그대로 노출시켰다.',
-    category: 'world',
-    region: '해외 · 일본',
-    date: '2026-09-18',
-    source: 'MBC',
-    sourceUrl: 'https://www.fnnews.com/news/202609171352488222',
-    videoUrl: 'https://www.youtube.com/watch?v=nCA6DILineU',
-    likes: 290,
-    comments: 44,
     isBreaking: false,
   },
 ]
