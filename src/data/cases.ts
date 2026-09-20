@@ -24,6 +24,57 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260921-moscow-refinery-drone-attack-election-day',
+    title: "우크라, 러 총선 마지막날 모스크바 정유시설 겨냥 드론 1600대 '역대 최대' 공습",
+    summary:
+      '우크라이나가 러시아 하원(두마) 선거 마지막 날인 20일 모스크바를 겨냥해 전쟁 발발 이후 최대 규모의 드론 공습을 감행했다. 러시아 방공망이 1600여 대를 요격했다고 밝힌 가운데 모스크바 남동부 정유공장이 피격돼 화재가 발생, 2명이 숨지고 20여 명이 다쳤다.',
+    content:
+      '러시아 국방부는 19일 밤부터 20일 새벽 사이 1600대 이상의 우크라이나 드론을 요격했으며 이 중 450대가 모스크바를 향했다고 밝혔다. 모스크바 남동부 카포트냐에 위치한 가스프롬네프티-모스크바 정유공장이 드론 공격을 받아 대형 화재가 발생했는데, 이 시설은 모스크바 수도권 연료 시장의 약 40%를 공급하는 핵심 인프라다. 모스크바주 당국은 이번 공격으로 44세 여성과 고령 남성 등 2명이 숨지고 어린이 3명을 포함해 최소 20명이 다쳤다고 발표했다. 세르게이 소뱌닌 모스크바 시장은 이번 공습을 단일 공격으로는 역대 최대 규모라고 밝혔다.',
+    category: 'world',
+    region: '해외 · 러시아',
+    date: '2026-09-21',
+    source: 'SBS',
+    sourceUrl: 'https://www.fnnews.com/news/202609210008259334',
+    videoUrl: 'https://www.youtube.com/watch?v=DAJLIQUJ-xw',
+    likes: 618,
+    comments: 142,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260921-seongbuk-capsaicin-child-death-reignited',
+    title: '숨진 44개월 여아 혈액서 캡사이신 검출...경찰 내사종결에 아버지 1인시위',
+    summary:
+      '2019년 서울 성북구에서 숨진 44개월 여아의 혈액에서 캡사이신이 검출됐지만 경찰이 두 차례나 내사종결한 사실이 뒤늦게 알려지며 공분이 일고 있다. 친부가 이달 16일부터 경찰서 앞 1인시위에 나섰고, 언니의 학대 진술까지 새롭게 공개됐다.',
+    content:
+      '2019년 서울 성북구 자택에서 44개월 여아가 숨진 채 발견됐고, 부검 결과 혈액에서 캡사이신이 검출됐으며 몸에서는 멍 자국도 확인됐다. 경찰은 그러나 "타인 개입을 뒷받침할 물증이 없다"며 2019년과 지난 4월 두 차례에 걸쳐 내사종결 처리했다. 친부는 이달 16일부터 서울경찰청과 성북경찰서를 오가며 "증거가 있는데도 왜 수사를 종결했느냐"는 내용의 1인시위를 이어가고 있다. 여기에 당시 함께 살던 언니(13)의 "계모가 나에게도 매운 음식을 억지로 먹였다"는 새로운 진술까지 공개되며 파장이 커지고 있다.',
+    category: 'crime',
+    region: '서울 성북구',
+    date: '2026-09-21',
+    source: 'YTN',
+    sourceUrl: 'https://www.ytn.co.kr/_ln/0103_202609210030410790',
+    videoUrl: 'https://www.youtube.com/watch?v=vjaOL06CvcI',
+    likes: 387,
+    comments: 104,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260921-yg-producer-perry-missing-16years-tip-request',
+    title: "16년째 행방불명 YG 초창기 프로듀서 페리…'그것이 알고싶다' 공식 제보 요청",
+    summary:
+      "YG엔터테인먼트 초창기 음악을 이끌었던 프로듀서 겸 래퍼 페리가 2010년 미국 LA에서 마지막으로 목격된 뒤 16년째 행방이 묘연한 가운데, SBS '그것이 알고싶다' 제작진이 공식 제보를 받기 시작했다. 원타임 출신 동료 송백경도 SNS에 의미심장한 글을 올리며 의혹이 커지고 있다.",
+    content:
+      "페리(본명 Perry Thomas Borja)는 1990년대 중반부터 지누션, 원타임, 휘성, 세븐, 빅뱅 등 YG 소속 가수들의 음악에 참여한 초창기 핵심 프로듀서다. 2010년대 초 YG와 계약 기간이 남아 있던 상태에서 갑자기 동료들과 연락을 끊고 자취를 감췄다. 2021년 조카를 자처한 이가 온라인에 '미국 국무부에 실종 신고를 했지만 여전히 행방을 알 수 없다'는 글을 올리며 실종 사실이 뒤늦게 알려졌다. '그것이 알고싶다' 제작진은 지난 17일 공식 채널을 통해 페리의 근황을 알거나 가족과 연락이 닿는 사람의 제보를 기다린다고 공지했고, 동료 래퍼 송백경도 최근 SNS에 '갑자기 연락이 끊겼다'는 의미심장한 글을 남겨 관심이 집중되고 있다.",
+    category: 'mystery',
+    region: '해외 · 미국',
+    date: '2026-09-21',
+    source: '데일리안',
+    sourceUrl: 'https://www.dailian.co.kr/news/view/1692538',
+    videoUrl: 'https://www.youtube.com/watch?v=KQPtc1SkO9g',
+    likes: 402,
+    comments: 79,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260920-anseong-fleamarket-truck-rampage',
     title: "손잡고 나온 모자의 비극…안성 나눔장터 덮친 1t 트럭에 2명 사망",
     summary:
@@ -897,57 +948,6 @@ export const CASES: CaseItem[] = [
     likes: 380,
     comments: 96,
     isBreaking: false,
-  },
-  {
-    id: 'c-20260907-miami-amazon-cargo-plane-runway',
-    title: '아마존 화물기, 마이애미 공항 활주로 이탈 후 화재…5명 사망',
-    summary:
-      '푸에르토리코발 아마존 프라임에어 화물기가 미국 마이애미 국제공항 착륙 중 활주로를 벗어나 인근 차량들과 충돌한 뒤 화재가 발생했다. 이 사고로 5명이 숨지고 5명이 다쳤다.',
-    content:
-      '현지시간 6일 오후 산후안에서 출발해 마이애미 국제공항에 착륙하던 화물 항공사 21에어 소속 보잉767 화물기(프라임 에어 7598편)가 활주로를 이탈해 인근 도로의 차량들을 들이받았다. 충돌 직후 기체에서 검은 연기와 화염이 치솟았고, 소방 인력 60여 대가 긴급 출동해 진화에 나섰다. 이 사고로 5명이 숨졌고 3명이 중상, 2명이 경상을 입었다. 사고 여파로 마이애미 공항의 모든 활주로와 유도로가 한때 전면 폐쇄돼 250편 이상의 항공편이 지연됐으며, 미 국가교통안전위원회(NTSB)가 정확한 사고 원인 조사에 착수했다.',
-    category: 'world',
-    region: '해외 · 미국',
-    date: '2026-09-07',
-    source: '외신 종합',
-    sourceUrl: 'https://chicago.suntimes.com/nation-world/2026/09/06/amazon-cargo-plane-crash-miami',
-    videoUrl: 'https://www.youtube.com/watch?v=XYHsYT9so2w',
-    likes: 520,
-    comments: 88,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260907-colombia-ocana-drone-attack',
-    title: '콜롬비아 반군, 군부대에 드론 20대 동시 공격…군인 3명 사망',
-    summary:
-      '콜롬비아 북동부 오카냐의 군부대가 좌파 반군 민족해방군(ELN)의 드론 공격을 받아 군인 3명이 숨지고 5명이 다쳤다. 폭발물을 실은 드론 약 20대가 부대 내부에서 잇따라 터졌다.',
-    content:
-      '현지시간 4일 밤 콜롬비아 노르테데산탄데르주 오카냐의 \'엘 트라피체\' 군 주둔지가 폭발물을 실은 무인기 공격을 받았다. 콜롬비아군에 따르면 약 20대의 드론이 동원돼 부대 안에서 모두 14차례의 폭발이 일어났고, 헬기 1대도 피해를 입었다. 이 공격으로 대위 등 군인 2명이 현장에서 숨졌고 치료를 받던 군인 1명이 추가로 숨져 사망자가 3명으로 늘었으며 5명이 다쳤다. 현지 당국은 이번 공격을 ELN 산하 조직의 소행으로 지목했고, 콜롬비아 정부는 배후 세력에 강경 대응을 예고했다.',
-    category: 'world',
-    region: '해외 · 콜롬비아',
-    date: '2026-09-07',
-    source: '외신 종합',
-    sourceUrl: 'https://www.cp24.com/news/world/2026/09/06/drone-attack-launched-by-suspected-guerrillas-kills-at-least-3-soldiers-in-colombia/',
-    videoUrl: 'https://www.youtube.com/watch?v=LRn0JLz95mo',
-    likes: 290,
-    comments: 47,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260907-gifu-cake-shop-fire-arson',
-    title: '日 기후 케이크가게 방화 의심 화재로 3명 사망…"사람 찔렸다" 신고',
-    summary:
-      '일본 기후현 모토스시의 한 케이크 가게 겸 주택에서 화재가 발생해 3명이 숨졌다. "사람이 찔리고 휘발유가 뿌려졌다"는 신고가 접수돼 경찰이 살인 및 방화 혐의로 수사하고 있다.',
-    content:
-      '지난 5일 밤 9시쯤 일본 기후현 모토스시의 케이크 가게 겸 주택에서 불이 나 남녀 2명이 숨진 채 발견됐고, 병원으로 옮겨진 다른 1명도 끝내 숨져 사망자가 3명으로 늘었다. 신고 당시 "사람이 찔렸다, 휘발유를 뿌려 화재가 났다"는 내용이 접수됐다. 부검 결과 숨진 남성은 복부를 찔려 과다출혈로, 여성은 급성 일산화탄소 중독으로 사망한 것으로 확인됐다. 화재 당시 건물 안에는 점주와 지인 등 남녀 11명이 있었던 것으로 파악됐으며, 현지 경찰은 이 중 1명이 화재에 관여했을 가능성을 보고 살인 및 현주건조물방화 혐의로 수사를 확대하고 있다.',
-    category: 'world',
-    region: '해외 · 일본',
-    date: '2026-09-07',
-    source: '중일신문',
-    sourceUrl: 'https://www.nikkei.com/article/DGXZQOUD0603E0W6A900C2000000/',
-    videoUrl: 'https://www.youtube.com/watch?v=MPFYeUTyo3o',
-    likes: 380,
-    comments: 64,
-    isBreaking: true,
   },
   {
     id: 'c-20260907-ulsan-shaheen-project-fall-death',
