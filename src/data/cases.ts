@@ -24,6 +24,74 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260922-martial-law-generals-sentenced',
+    title: "'12·3 계엄' 가담 장성 5명 모두 실형…여인형 18년·곽종근 9년",
+    summary:
+      "12·3 비상계엄에 가담한 혐의로 재판에 넘겨진 전직 군 장성 5명이 21일 1심에서 모두 실형을 선고받고 법정구속됐다. 국회와 중앙선거관리위원회에 병력을 투입한 혐의를 받는 여인형 전 방첩사령관이 가장 무거운 징역 18년을 선고받았다.",
+    content:
+      "서울중앙지법 형사합의26부는 21일 내란중요임무종사 등 혐의로 기소된 여인형 전 국군방첩사령관에게 징역 18년을, 이진우 전 수도방위사령관에게 징역 15년을 선고했다. 문상호 전 정보사령관은 징역 12년, 박안수 전 육군참모총장은 징역 10년을 각각 선고받았다. 수사에 협조하며 계엄 당시 정황을 진술한 곽종근 전 특수전사령관은 가장 가벼운 징역 9년을 선고받았다. 재판부는 이들이 비상계엄 선포 직후 국회와 중앙선거관리위원회에 병력을 투입하고 정치인 체포조를 구성하는 등 혐의 대부분을 유죄로 인정했다.",
+    category: 'crime',
+    region: '서울 서초구',
+    date: '2026-09-22',
+    source: 'MBC',
+    sourceUrl: 'https://www.seoul.co.kr/news/society/law/2026/09/21/20260921500251',
+    videoUrl: 'https://www.youtube.com/watch?v=9vzx4OAwnCk',
+    likes: 780,
+    comments: 148,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260922-kbs-comedian-designated-driver-assault',
+    title: 'KBS 공채 개그맨, 만취 상태로 대리기사 목 조르고 폭행…현행범 체포',
+    summary:
+      'KBS 공채 출신 개그맨이 만취 상태에서 자신이 부른 대리운전 기사의 목을 조르는 등 폭행한 혐의로 현행범 체포됐다. 서울 강남구에서 술을 마신 뒤 경부고속도로를 달리던 차량 안에서 범행이 벌어졌다.',
+    content:
+      "21일 경찰에 따르면 이 개그맨은 전날 밤 서울 강남구 압구정동의 한 주점에서 술을 마신 뒤 귀가하기 위해 대리운전 기사를 불렀다. 그는 경부고속도로를 달리던 차량 안에서 만취 상태로 대리기사 A씨의 목을 잡고 흔드는 등 폭행한 혐의를 받는다. 경찰은 신고를 받고 출동해 그를 현행범으로 체포했으며 특정범죄가중처벌법상 운전자 폭행 혐의를 적용해 조사하고 있다. 이 개그맨은 KBS 공채 개그맨 출신으로 '개그콘서트' 등에 출연한 바 있다.",
+    category: 'showbiz',
+    region: '서울 강남구',
+    date: '2026-09-22',
+    source: 'SBS',
+    sourceUrl: 'https://www.fnnews.com/news/202609211105054563',
+    videoUrl: 'https://www.youtube.com/watch?v=8X3ZVeaNGWc',
+    likes: 420,
+    comments: 96,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260922-yosemite-firefighting-helicopter-crash',
+    title: '美 요세미티 국립공원 산불 진화하던 헬기 추락…조종사 2명 사망',
+    summary:
+      '미국 캘리포니아 요세미티 국립공원에서 돔 화재를 진화하던 소방 헬기가 추락해 탑승했던 조종사 2명이 모두 숨졌다. 미 연방항공청과 교통안전위원회가 정확한 추락 원인을 조사하고 있다.',
+    content:
+      '지난 20일(현지시간) 요세미티 국립공원에서 발생한 돔 화재 진화 작업 중이던 헬기 한 대가 갑자기 추락했다. 이 헬기는 항공업체 프리시전 소속으로, 탑승했던 조종사 2명이 모두 현장에서 숨진 채 발견됐다. 사고 직전 헬기는 화재 현장에 물을 투하하는 임무를 수행 중이었던 것으로 전해졌다. 미 연방항공청(FAA)과 국가교통안전위원회(NTSB)가 사고 현장에 조사관을 파견해 정확한 추락 원인을 조사하고 있다.',
+    category: 'world',
+    region: '해외 · 미국',
+    date: '2026-09-22',
+    source: 'Firehouse',
+    sourceUrl: 'https://www.firehouse.com/lodds/news/55406418/pilots-killed-in-helicopter-crash-at-wildfire-in-yosemite-national-park',
+    videoUrl: 'https://www.youtube.com/watch?v=SADgNVMi7Yo',
+    likes: 340,
+    comments: 58,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260922-japan-typhoon-dujuan-chiba-landslide',
+    title: "초강력 태풍 '두쥐안' 간토 강타…지바·가나가와서 산사태로 사망·실종",
+    summary:
+      "제25호 태풍 두쥐안이 일본 간토 지역을 강타하며 지바현과 가나가와현 등에서 산사태가 잇따라 발생했다. 도쿄 이즈제도 오시마마치에는 최고 단계인 '레벨5' 산사태 특별경보가 발령됐다.",
+    content:
+      "21일 일본 기상청에 따르면 대형 태풍 두쥐안이 간토 지역에 접근하면서 지바현 소데가우라시에서 도로 보수 작업을 하던 남성이 산사태에 매몰돼 숨졌다. 가나가와현 요코스카시와 미우라시에서도 잇따라 산사태가 발생해 1명이 숨지고 4명과 연락이 끊긴 상태다. 도쿄도 이즈제도 오시마마치에는 지난 19일부터 21일 정오까지 583㎜의 비가 쏟아져 최고 단계인 '레벨5' 산사태 특별경보가 발령됐고, 1901가구 3020명에게 긴급 대피 명령이 내려졌다. 일본 기상청은 22일 정오까지 간토와 도카이 지역에 최대 250㎜의 비가 더 내릴 것으로 예보했다.",
+    category: 'world',
+    region: '해외 · 일본',
+    date: '2026-09-22',
+    source: 'YTN',
+    sourceUrl: 'https://view.asiae.co.kr/article/2026092117223140424',
+    videoUrl: 'https://www.youtube.com/watch?v=KQuEatdZeUA',
+    likes: 298,
+    comments: 42,
+    isBreaking: true,
+  },
+  {
     id: 'c-20260921-moscow-refinery-drone-attack-election-day',
     title: "우크라, 러 총선 마지막날 모스크바 정유시설 겨냥 드론 1600대 '역대 최대' 공습",
     summary:
