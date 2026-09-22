@@ -24,6 +24,57 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20260923-peru-ancash-candidate-shot',
+    title: "페루 주지사 후보, 유세 도중 괴한 총격에 사망…생전 살해 위협 폭로했던 언론인",
+    summary:
+      '페루 북부 앙카시주 주지사 후보이자 언론인인 수시 아폰테 폴로(44)가 카라스 시장에서 유세 중 괴한의 총격을 받고 사망했다. 그녀는 피살 며칠 전 경찰 간부 비리 취재로 살해 협박을 받고 있다고 공개적으로 알린 바 있어 정치 테러 논란이 커지고 있다.',
+    content:
+      '페루 현지 언론에 따르면 아폰테 폴로는 지난 19일(현지시간) 오후 앙카시주 카라스 시장에서 지지자들과 인사하던 중 괴한의 총격을 받고 그 자리에서 숨졌다. 그녀는 기자 출신 정치인으로 경찰 고위 간부의 비리를 취재해오다 최근 신변 위협을 받고 있다고 언론에 알린 바 있다. 페루 경찰은 외국인으로 추정되는 용의자를 신속히 검거해 배후를 조사 중이며, 현지 정치권은 이번 사건을 정치 테러로 규정하고 강력한 대응을 촉구했다. 10월로 예정된 앙카시 주지사 선거를 앞두고 백주대낮에 후보가 총격당하며 파장이 커지고 있다.',
+    category: 'world',
+    region: '해외 · 페루',
+    date: '2026-09-23',
+    source: 'SBS',
+    sourceUrl: 'https://n.news.naver.com/mnews/article/081/0003682361?sid=104',
+    videoUrl: 'https://www.youtube.com/watch?v=fuU_yI5PwHA',
+    likes: 412,
+    comments: 68,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20260923-jeju-seogwipo-exofficer-robbery-murder-indictment',
+    title: '제주 전직 경찰관 아내 보복살해, 검찰 강도살인 혐의 추가 구속기소',
+    summary:
+      '제주 서귀포에서 이혼소송 중인 아내를 살해한 전직 경찰관에게 검찰이 강도살인 혐의를 추가해 구속기소했다. 검찰은 그가 보복 목적과 함께 귀금속 등 재물을 빼앗으려는 의도도 있었다고 판단했다.',
+    content:
+      '제주지방검찰청은 21일 특정범죄가중처벌법 위반(보복살인 등) 및 강도살인 혐의로 전직 경찰관 50대 남성을 구속기소했다고 밝혔다. 그는 지난 8월 23일 새벽 서귀포시 남원읍에 있는 아내의 주거지에 침입해 흉기로 아내를 살해한 혐의를 받는다. 앞서 가정폭력으로 신고당해 접근금지 명령과 함께 수사·재판을 받게 되자 보복 목적으로 범행한 것으로 조사됐다. 검찰은 피해자의 휴대전화 포렌식과 계좌거래 분석 등을 통해 범행 당시 재물을 빼앗으려는 의도도 있었다고 보고 강도살인 혐의를 추가했다.',
+    category: 'crime',
+    region: '제주 서귀포시',
+    date: '2026-09-23',
+    source: '경향신문',
+    sourceUrl: 'https://www.khan.co.kr/article/202609211951001/',
+    videoUrl: 'https://www.youtube.com/watch?v=j5azVBOQNm8',
+    likes: 356,
+    comments: 74,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20260923-gwangju-official-indictment-followup',
+    title: '5살 딸 앞 아내 살해한 공무원, 검찰 구속기소…신상정보는 비공개',
+    summary:
+      '경기 광주에서 이혼소송 중이던 아내를 5살 딸이 보는 앞에서 흉기로 찔러 살해한 30대 공무원이 보복살인 등 혐의로 구속기소됐다. 검찰은 전자발찌 부착과 친권상실 심판도 함께 청구했다.',
+    content:
+      '수원지검 성남지청은 22일 특정범죄가중처벌법 위반(보복살인 등) 및 아동복지법 위반(아동학대) 혐의로 30대 공무원을 구속기소했다고 밝혔다. 그는 지난 1일 오전 경기 광주시의 한 다세대주택 계단에서, 가정폭력을 피해 은신 중이던 아내를 미리 준비한 흉기로 찔러 살해한 혐의를 받는다. 이혼 소장에 노출된 주소를 보고 찾아간 것으로 조사됐으며, 범행 당시 함께 있던 5세 딸도 손가락 등을 다쳤다. 검찰은 전자발찌 부착과 보호관찰을 청구했고, 남겨진 아동을 보호하기 위해 친권상실 심판 및 미성년후견인 선임도 함께 청구했다. 경찰은 피의자의 신상정보를 공개하지 않기로 결정했다.',
+    category: 'crime',
+    region: '경기 광주시',
+    date: '2026-09-23',
+    source: 'MBN',
+    sourceUrl: 'https://www.kwnews.co.kr/article/20260922501392',
+    videoUrl: 'https://www.youtube.com/watch?v=5I2cTLJYnA4',
+    likes: 388,
+    comments: 92,
+    isBreaking: false,
+  },
+  {
     id: 'c-20260922-martial-law-generals-sentenced',
     title: "'12·3 계엄' 가담 장성 5명 모두 실형…여인형 18년·곽종근 9년",
     summary:
@@ -882,91 +933,6 @@ export const CASES: CaseItem[] = [
     isBreaking: true,
   },
   {
-    id: 'c-20260908-paju-cafe-freezer-murder',
-    title: '파주 카페 냉동창고서 실종 60대 여성 숨진 채 발견…운영자 구속',
-    summary:
-      '경기 파주시 문산읍의 한 카페 냉동 컨테이너에서 실종 신고 하루 만에 60대 여성이 숨진 채 발견됐다. 경찰은 실종 당시 함께 있었던 카페 운영자 30대 남성을 살인 혐의로 구속했다.',
-    content:
-      '지난 4일 오후 2시20분쯤 파주시 문산읍의 한 카페 옆 냉동 컨테이너에서 60대 여성 A씨가 숨진 채 발견됐다. 전날 자정쯤 접수된 딸의 실종신고를 받은 경찰이 휴대전화 위치추적 끝에 시신을 찾아냈다. 경찰은 실종 당시 A씨와 함께 있었던 격투기 선수 출신 카페 사장 30대 남성 B씨를 서울 영등포구에서 긴급체포해 지난 6일 구속했다. 냉동 컨테이너에서는 수백억원대 위조 백화점 상품권도 함께 발견돼, 경찰은 B씨를 상대로 이른바 "상품권깡" 관련 사기 혐의까지 수사를 확대하고 있다.',
-    category: 'crime',
-    region: '경기 파주시',
-    date: '2026-09-08',
-    source: 'MBC',
-    sourceUrl: 'https://www.kmib.co.kr/article/view.asp?arcid=9000010046&cp=nv',
-    videoUrl: 'https://www.youtube.com/watch?v=dVRJCr5B8gg',
-    likes: 480,
-    comments: 92,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260908-busan-parking-tower-fall-verdict',
-    title: '부산 주차타워 추락사 대법원 확정…관리소장·입주민 벌금형',
-    summary:
-      '2023년 부산의 한 오피스텔 기계식 주차장에서 뒷좌석에 잠든 차주를 확인하지 않고 차량을 입고시켜 추락사시킨 사건에 대해, 대법원이 관리소장과 입주민의 유죄를 최종 확정했다.',
-    content:
-      '2023년 1월 부산의 한 오피스텔 기계식 주차장에서 대리기사가 차주를 뒷좌석에 남겨둔 채 차량 승강기에 정차시키고 자리를 떴고, 차주는 그대로 잠이 들었다. 이를 확인하지 않은 입주민이 차량을 주차타워에 입고시켰고, 차주는 15층 높이에서 추락해 숨졌다. 대법원 2부는 업무상과실치사 혐의로 기소된 오피스텔 관리소장에게 벌금 1000만원, 차량을 입고한 입주민에게 벌금 500만원을 선고한 원심을 최근 확정했다. 재판부는 차량 내부를 충분히 확인하지 않은 입주민과 관리·감독 의무를 다하지 않은 관리소장 모두에게 주의의무 위반이 있다고 판단했다.',
-    category: 'etc',
-    region: '부산',
-    date: '2026-09-08',
-    source: '국민일보',
-    sourceUrl: 'https://www.kmib.co.kr/article/view.asp?arcid=9000009618',
-    videoUrl: 'https://www.youtube.com/watch?v=78QaaGZdMeY',
-    likes: 210,
-    comments: 46,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260908-greece-airshow-f4-crash',
-    title: '그리스 에어쇼서 F-4 팬텀기 추락…조종사 2명 사망',
-    summary:
-      '그리스 아테네 인근 타나그라 공군기지에서 열린 국제 에어쇼 도중 그리스 공군의 노후 F-4E 팬텀 전투기가 저공 곡예비행 중 추락해 화염에 휩싸였다. 탑승 조종사 2명이 모두 숨졌다.',
-    content:
-      '지난 5일(현지시간) 오후 아테네에서 북쪽으로 약 60km 떨어진 타나그라 공군기지에서 열린 "아테네 플라잉 위크" 에어쇼 도중 그리스 공군 복좌형 F-4 팬텀 전투기가 이륙 직후 저고도 곡예비행을 하다 갑자기 고도를 잃고 추락했다. 탈출 시도나 낙하산은 목격되지 않았고 사출좌석이 작동한 정황도 없었던 것으로 알려졌다. 숨진 조종사는 40세 편대장 이오아니스 블레시아스와 37세 디미트리오스 페트루 중위로 확인됐다. 다행히 관중과 인근 주민 피해는 없었으며, 주최 측은 나머지 행사를 전면 취소했다.',
-    category: 'world',
-    region: '해외 · 그리스',
-    date: '2026-09-08',
-    source: '외신 종합',
-    sourceUrl: 'https://greekreporter.com/2026/09/05/greek-air-force-f-4-phantom-crash/',
-    videoUrl: 'https://www.youtube.com/watch?v=WA_HTzGZ6cw',
-    likes: 340,
-    comments: 58,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260908-capeverde-schoolbus-cliff',
-    title: '카보베르데 고교생 버스 절벽 추락…25명 사망',
-    summary:
-      '서아프리카 카보베르데 포고섬에서 화산 분화구 소풍을 마치고 돌아오던 고교생들을 태운 버스가 도로를 이탈해 약 30m 절벽 아래로 추락했다. 운전기사를 포함해 최소 25명이 숨져 카보베르데 역사상 최악의 교통사고로 기록됐다.',
-    content:
-      '지난 5~6일 카보베르데 포고섬의 캄파나스 데 시마 도로에서 인근 지역 고교생들을 태운 버스가 피코 두 포고 화산 분화구 마을로의 연례 소풍을 마치고 돌아오던 중 도로를 이탈해 절벽 아래로 추락했다. 이 버스는 32명이 탑승했던 것으로 파악되며, 운전기사를 포함해 최소 25명이 숨지고 8~14명이 다쳤다. 이 소풍은 학교 공식 행사가 아니라 운전기사가 매년 사적으로 주최해온 행사였으며, 운전기사 본인도 이번 사고로 목숨을 잃었다. 조제 마리아 페레이라 네베스 카보베르데 대통령은 이를 "대재앙"이라 칭하며 애도했고 정부는 이틀간의 국가 애도 기간을 선포했다.',
-    category: 'world',
-    region: '해외 · 카보베르데',
-    date: '2026-09-08',
-    source: '외신 종합',
-    sourceUrl: 'https://abcnews.go.com/International/wireStory/25-people-dead-bus-crash-cape-verdes-fogo-136237357',
-    videoUrl: 'https://www.youtube.com/watch?v=F_jwAp3pvI4',
-    likes: 620,
-    comments: 104,
-    isBreaking: true,
-  },
-  {
-    id: 'c-20260908-mexico-fireworks-explosion',
-    title: '멕시코 축제 불꽃놀이 화약창고 폭발…10명 사망 64명 부상',
-    summary:
-      '멕시코 중부 멕시코주 테마스칼싱고의 수호성인 축제에서 불꽃놀이용 화약 창고가 폭발해 구조물이 무너지면서 관람객들이 매몰됐다. 최소 10명이 숨지고 64명이 다쳤다.',
-    content:
-      '지난 5일 밤(현지시간) 멕시코주 테마스칼싱고의 한 성당 인근에서 열린 수호성인 축제 도중 불꽃놀이 재료 보관 구역에서 폭발이 발생했다. 수백 명이 불꽃놀이 관람을 기다리던 중 폭발이 일어났고, 이로 인해 구조물이 붕괴돼 잔해에 깔린 사람들이 다수 발생했다. 최소 10명이 숨지고 64명이 부상했으며, 부상자 중에는 사제 2명도 포함된 것으로 전해졌다. 멕시코시티에서 북서쪽으로 약 160km 떨어진 인구 6만6000명의 이 소도시에서, 현지 검찰은 정확한 폭발 원인을 조사하고 있다.',
-    category: 'world',
-    region: '해외 · 멕시코',
-    date: '2026-09-08',
-    source: 'CNN',
-    sourceUrl: 'https://www.cnn.com/2026/09/07/americas/temascalcingo-mexico-fireworks-explosion-intl-hnk',
-    videoUrl: 'https://www.youtube.com/watch?v=qqUi0GbG5Es',
-    likes: 410,
-    comments: 77,
-    isBreaking: true,
-  },
-  {
     id: 'c-20260908-melbourne-thomastown-shooting',
     title: '호주 멜버른 공원서 22세 배관공 총격 살해…범인 도주',
     summary:
@@ -1015,40 +981,6 @@ export const CASES: CaseItem[] = [
     videoUrl: 'https://www.youtube.com/shorts/BuFmxAwXX1w',
     likes: 380,
     comments: 96,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260907-ulsan-shaheen-project-fall-death',
-    title: '울산 에쓰오일 샤힌프로젝트 현장서 또 추락사…올해만 세 번째',
-    summary:
-      '울산 울주군 온산읍 에쓰오일(S-OIL) 샤힌프로젝트 공사 현장에서 50대 하청 노동자가 10m 높이 구조물에서 추락해 숨졌다. 올해 들어 이 현장에서만 벌써 세 번째 사망 사고다.',
-    content:
-      '지난 3일 오후 3시30분쯤 현대건설이 시공을 맡은 샤힌프로젝트 패키지-1 현장에서 도장 작업을 하던 50대 노동자가 10m가 넘는 구조물에서 추락해 심정지 상태로 병원에 옮겨졌으나 끝내 숨졌다. 지난 6월에도 같은 현장에서 흙더미 붕괴로 노동자가 숨진 바 있어, 올해만 세 차례 사망사고가 반복됐다. 고용노동부는 해당 공사 구간에 대해 작업중지 명령을 내렸고, 울산시가 현장을 찾아 안전관리 실태를 점검했다. 노동계는 추락 방지용 그물망 등 다중 안전장치 부재를 지적하며 근본적인 안전관리 대책을 촉구했다.',
-    category: 'etc',
-    region: '울산 울주군 온산읍',
-    date: '2026-09-07',
-    source: '연합뉴스TV',
-    sourceUrl: 'https://www.yna.co.kr/view/AKR20260904078700057',
-    videoUrl: 'https://www.youtube.com/watch?v=tdpa1zi4TyY',
-    likes: 410,
-    comments: 76,
-    isBreaking: false,
-  },
-  {
-    id: 'c-20260907-kazakhstan-voicephishing-org-arrest',
-    title: '캄보디아서 카자흐스탄으로 거점 옮긴 한국인 스캠 조직 19명 검거·송환',
-    summary:
-      '캄보디아 스캠 범죄 단속이 강화되자 카자흐스탄으로 거점을 옮겨 국내 피해자를 상대로 보이스피싱·투자사기를 벌이던 한국인 조직원 19명이 한·카자흐스탄 합동작전으로 붙잡혀 국내로 송환됐다.',
-    content:
-      '경찰청에 따르면 이 조직은 캄보디아 내 스캠 범죄 단지에 대한 단속이 거세지자 제3국인 카자흐스탄으로 근거지를 옮겨 범행을 이어간 것으로 드러났다. 지난 4일 범정부 합동수사 결과로 조직원 19명 전원이 검거됐으며 국내 송환 절차가 진행됐다. 이는 캄보디아·동남아 각지로 확산되는 한국인 스캠 조직의 이른바 "풍선효과"를 보여주는 대표 사례로 지목된다. 경찰청은 해외로 도피한 스캠 조직에 대한 추적을 지속하겠다고 밝혔다.',
-    category: 'crime',
-    region: '카자흐스탄(해외 거점)',
-    date: '2026-09-07',
-    source: 'MBN',
-    sourceUrl: 'https://www.newsis.com/view/NISX20260905_0003777496',
-    videoUrl: 'https://www.youtube.com/watch?v=75Uo4btgNW0',
-    likes: 320,
-    comments: 58,
     isBreaking: false,
   },
   {
