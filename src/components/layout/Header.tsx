@@ -7,11 +7,11 @@ export default function Header() {
   return (
     <header className="app-header">
       <div className="container app-header__inner">
-        <Link to="/" className="app-header__logo">
+        <Link to="/news" className="app-header__logo">
           <span className="grad-text">오늘의 사건사고</span>
         </Link>
         <nav className="app-header__actions" aria-label="상단 메뉴">
-          <Link to="/" className="app-header__icon-btn" aria-label="우리나라 사건">
+          <Link to="/news" className="app-header__icon-btn" aria-label="우리나라 사건">
             <Icon name="home" />
           </Link>
           <Link to="/world" className="app-header__icon-btn" aria-label="해외토픽">

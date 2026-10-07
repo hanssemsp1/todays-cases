@@ -12,6 +12,11 @@ export default function Footer() {
           요약·재구성한 것으로, 정확한 내용은 각 원문 출처를 확인해 주세요.
         </p>
 
+        {/* 새 메인(세 개의 방)으로 가는 길 */}
+        <nav className="app-footer__nav" aria-label="메인">
+          <Link to="/">오늘의 케이스 메인</Link>
+        </nav>
+
         {/* 정책·소개 링크 (심사 신뢰도) */}
         <nav className="app-footer__nav" aria-label="사이트 정보">
           <Link to="/about">소개</Link>

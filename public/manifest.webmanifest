@@ -1,13 +1,13 @@
 {
-  "name": "오늘의 사건사고",
-  "short_name": "사건사고",
-  "description": "그날그날 국내외 사건·사고와 미제사건을 방송 영상·출처와 함께 한 곳에서.",
+  "name": "오늘의 케이스",
+  "short_name": "오늘의 케이스",
+  "description": "오늘의 근로 케이스, 모임 한 판, 1cm 차이 연구소. 일상을 살피는 세 개의 방.",
   "start_url": "/?utm_source=pwa",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#FAFAFA",
-  "theme_color": "#DD2A7B",
+  "background_color": "#142129",
+  "theme_color": "#142129",
   "lang": "ko",
   "categories": ["news", "magazines"],
   "icons": [

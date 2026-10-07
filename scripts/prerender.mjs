@@ -103,7 +103,7 @@ function renderCase(item) {
     ? `<p><a href="${esc(item.sourceUrl)}" rel="nofollow noopener">원문 · ${esc(item.source)}</a></p>`
     : ''
   const article =
-    `<article><nav><a href="/">오늘의 사건사고</a> › ${esc(catLabel)}</nav>` +
+    `<article><nav><a href="/news">오늘의 사건사고</a> › ${esc(catLabel)}</nav>` +
     `<h1>${esc(item.title)}</h1>` +
     `<p>${esc(item.source)} · ${esc(item.region)} · ${esc(item.date)}${item.time ? ' ' + esc(item.time) : ''}</p>` +
     `<p>${esc(item.summary)}</p>` +
@@ -121,13 +121,18 @@ for (const item of CASES) {
   writeFileSync(join(dist, 'case', `${item.id}.html`), renderCase(item))
 }
 
-// 홈: 최신 헤드라인 목록을 #root 에 심어 크롤러가 콘텐츠를 읽게 함
+// 홈("/")은 「오늘의 케이스 · 세 개의 방」. 세 방 입구와 사건사고(/news) 최신 헤드라인을
+// #root 에 심어 크롤러가 콘텐츠를 읽게 함 (React 로드 시 대체됨)
 const recent = [...CASES]
   .sort((a, b) => (b.date + (b.time || '')).localeCompare(a.date + (a.time || '')))
   .slice(0, 20)
 const homeBody =
-  `<main><h1>오늘의 사건사고</h1>` +
-  `<p>매일 국내외 사건·사고와 장기 미제사건을 요약·방송영상·출처와 함께 전합니다.</p><ul>` +
+  `<main><h1>일상을 살피는 세 개의 방.</h1>` +
+  `<p>일과 사람, 그리고 공간. 오늘 필요한 방으로 들어오세요.</p><ul>` +
+  `<li><a href="/work">01 일터 · 오늘의 근로 케이스</a></li>` +
+  `<li><a href="/gather">02 모임 · 모임 한 판</a></li>` +
+  `<li><a href="/space">03 공간 · 1cm 차이 연구소</a></li>` +
+  `</ul><h2><a href="/news">오늘의 사건사고</a></h2><ul>` +
   recent
     .map((c) => `<li><a href="/case/${c.id}">${esc(c.title)}</a> <small>${esc(c.date)}</small></li>`)
     .join('') +

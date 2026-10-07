@@ -23,7 +23,7 @@ export default function CaseDetailPage() {
       <div className="container detail__notfound">
         <Icon name="search_off" size={48} />
         <p>존재하지 않는 사건이에요.</p>
-        <Link to="/" className="btn">
+        <Link to="/news" className="btn">
           피드로 돌아가기
         </Link>
       </div>

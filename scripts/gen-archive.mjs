@@ -116,6 +116,10 @@ writeFileSync(join(root, 'public', 'rss.xml'), rss)
 const today = new Date().toISOString().slice(0, 10)
 const staticUrls = [
   { loc: `${SITE}/`, pri: '1.0', freq: 'daily' },
+  { loc: `${SITE}/work`, pri: '0.8', freq: 'weekly' },
+  { loc: `${SITE}/gather`, pri: '0.8', freq: 'weekly' },
+  { loc: `${SITE}/space`, pri: '0.8', freq: 'weekly' },
+  { loc: `${SITE}/news`, pri: '0.9', freq: 'daily' },
   { loc: `${SITE}/cold-cases`, pri: '0.8', freq: 'daily' },
   { loc: `${SITE}/issues`, pri: '0.8', freq: 'daily' },
   { loc: `${SITE}/archive`, pri: '0.6', freq: 'daily' },
