@@ -121,7 +121,7 @@ const staticUrls = [
   { loc: `${SITE}/space`, pri: '0.8', freq: 'weekly' },
   { loc: `${SITE}/news`, pri: '0.9', freq: 'daily' },
   { loc: `${SITE}/cold-cases`, pri: '0.8', freq: 'daily' },
-  { loc: `${SITE}/issues`, pri: '0.8', freq: 'daily' },
+  { loc: `${SITE}/world`, pri: '0.8', freq: 'daily' },
   { loc: `${SITE}/archive`, pri: '0.6', freq: 'daily' },
   { loc: `${SITE}/about`, pri: '0.3', freq: 'monthly' },
   { loc: `${SITE}/privacy`, pri: '0.3', freq: 'yearly' },

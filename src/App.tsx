@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Routes, Route, Outlet, useLocation } from 'react-router-dom'
+import { Routes, Route, Outlet, Navigate, useLocation } from 'react-router-dom'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import BottomNav from './components/layout/BottomNav'
@@ -56,6 +56,8 @@ export default function App() {
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Route>
+        {/* 어느 라우트에도 안 맞는 주소(두 단계 이상 등)는 빈 화면 대신 메인으로 */}
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <CookieConsent />
       <InstallPrompt />

@@ -13,14 +13,26 @@
 
 ## 자산 교체
 
-지금 `public/rooms/` 에 있는 `work.webp` `gather.webp` `space.webp` 는 ffmpeg 로 만든 단색 그라데이션 자리표시이고, 글꼴 `display.woff` `body.woff` 는 아직 없다(없어도 대체 글꼴로 뜬다).
+### 반영됨 (2026-10-07)
 
-**유비서 자산이 오면 `public/rooms/` 에 같은 이름으로 덮어쓰면 끝.** 코드는 바꿀 것이 없다.
+`public/rooms/` 의 세 방 이미지와 글꼴은 실자산이 들어와 있다. 코드는 바꿀 것이 없고, 다시 받으면 같은 이름으로 덮어쓰면 된다.
 
-- `public/rooms/work.webp` — 1536×1024
-- `public/rooms/gather.webp` — 1536×1024
-- `public/rooms/space.webp` — 1536×1024
-- `public/rooms/display.woff` — 제목 글꼴(RoomSerif)
-- `public/rooms/body.woff` — 본문 글꼴(RoomSans)
+- `public/rooms/work.webp` `gather.webp` `space.webp` — 1536×1024
+- `public/rooms/display.woff` — 제목 글꼴(RoomSerif, Noto Serif CJK KR 부분집합)
+- `public/rooms/body.woff` — 본문 글꼴(RoomSans, Noto Sans CJK KR 부분집합)
+- `public/rooms/FONT-LICENSE.txt` — 글꼴 라이선스(OFL 1.1)
 
-글꼴 파일이 들어오면 `index.html` 에 `<link rel="preload" as="font">` 두 줄을 넣는 것을 검토한다(지금은 404 를 피하려고 넣지 않았다).
+글꼴이 들어왔으므로 `index.html` 에 `<link rel="preload" as="font">` 두 줄을 넣는 것을 검토한다(아직 넣지 않았다).
+
+### 자리표시 (브랜드 색으로 임시 제작, 유비서 자산이 오면 교체)
+
+아래 파일은 시안 파비콘(`public/favicon.svg`, ink #142129 바탕에 세 막대)을 기준으로 코드(System.Drawing)로 만든 임시본이다. 유비서가 정식 그림을 주면 같은 이름으로 덮어쓴다.
+
+- `public/og-home.png` — 1200×630, 메인 공유 카드(index.html og:image·twitter:image). 사건 상세는 옛 `og-image.png` 를 그대로 쓴다(prerender.mjs 유튜브 썸네일 없을 때 대체).
+- `public/icon-192.png` `icon-512.png` `icon-maskable-512.png` — PWA 아이콘(manifest.webmanifest)
+- `public/apple-touch-icon.png` — 180×180
+- `public/favicon-32.png` — SVG 파비콘을 못 읽는 브라우저용
+
+## 프리렌더
+
+`scripts/prerender.mjs` 가 홈(`dist/index.html`)과 `dist/news.html` `work.html` `gather.html` `space.html` 을 따로 쓴다(cleanUrls 가 `/news` 등에 서빙). 페이지마다 `<title>`·description·canonical·og:url 이 자기 주소를 가리키고, 홈과 방의 크롤러용 본문은 `.rooms-root` 로 감싸 React 가 뜨기 전에도 어두운 배경이 먼저 보인다.
