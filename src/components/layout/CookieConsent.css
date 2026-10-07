@@ -36,3 +36,24 @@
     bottom: 16px;
   }
 }
+
+/* 「세 개의 방」 화면(어두운 바탕) 위에서는 그 디자인의 상자로 — 둥근 흰 알약 대신 각진 짙은 상자 */
+body[data-shell='rooms'] .cookie-consent {
+  bottom: 16px; /* 새 화면엔 하단 탭이 없다 */
+  background: #1b2c36;
+  border: 1px solid rgba(228, 223, 210, 0.2);
+  border-radius: 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+body[data-shell='rooms'] .cookie-consent__text {
+  color: #d4d9d2;
+  font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+}
+body[data-shell='rooms'] .cookie-consent__text a { color: #d5bc91; }
+body[data-shell='rooms'] .cookie-consent__btn {
+  background: #f1efe9;
+  color: #142129;
+  border-radius: 0;
+  font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+}
+body[data-shell='rooms'] .cookie-consent__btn:hover { filter: none; background: #fff; }

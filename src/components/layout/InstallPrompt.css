@@ -99,3 +99,19 @@
     bottom: 16px;
   }
 }
+
+/* 「세 개의 방」 화면 위에서는 어두운 상자 */
+body[data-shell='rooms'] .install-prompt {
+  bottom: 16px;
+  background: #1b2c36;
+  border: 1px solid rgba(228, 223, 210, 0.2);
+  border-radius: 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+body[data-shell='rooms'] .install-prompt__text strong { color: #f1efe9; }
+body[data-shell='rooms'] .install-prompt__text span,
+body[data-shell='rooms'] .install-prompt__close,
+body[data-shell='rooms'] .install-prompt__howto { color: #b3c0b8; }
+body[data-shell='rooms'] .install-prompt__cta { background: #f1efe9; color: #142129; border-radius: 0; }
+body[data-shell='rooms'] .install-prompt__howto b { color: #d5bc91; }
+body[data-shell='rooms'] .install-prompt__close:hover { background: rgba(255, 255, 255, 0.08); }

@@ -1,4 +1,4 @@
-import { Fragment } from 'react'
+import { Fragment, useEffect } from 'react'
 import type { ReactNode, MouseEvent } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { ROOM_KEYS, NAV_LABELS, rooms } from './roomsData'
@@ -16,6 +16,13 @@ interface Props {
 }
 
 export default function RoomsFrame({ room, onNavClick, children }: Props) {
+  // 전역 배너(쿠키 동의·설치 안내)가 어두운 이 화면에 맞는 옷을 입도록 몸통에 표시를 남긴다.
+  useEffect(() => {
+    document.body.dataset.shell = 'rooms'
+    return () => {
+      delete document.body.dataset.shell
+    }
+  }, [])
   return (
     <div className="rooms-root" data-room={room ?? ''}>
       <a className="skip" href="#content">본문으로 건너뛰기</a>
