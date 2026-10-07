@@ -188,3 +188,46 @@
   font-weight: 600;
   margin-top: 2px;
 }
+
+/* ── 언제 일어난 사건인가 ── */
+.case-card__when {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 7px;
+  color: var(--sub);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+.case-card__when .icon {
+  font-size: 14px;
+}
+/* 지난 사건은 발생일을 또렷하게 못 박는다 */
+.case-card__when.is-old {
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--chip, rgba(0, 0, 0, 0.05));
+  color: var(--text);
+}
+
+/* ── 왜 지금 올리는가 ── */
+.case-card__why {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin: 0 0 9px;
+  padding: 9px 11px;
+  border-left: 3px solid var(--cat-mystery);
+  border-radius: 0 8px 8px 0;
+  background: color-mix(in srgb, var(--cat-mystery) 9%, transparent);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.case-card__why .icon {
+  flex: none;
+  margin-top: 1px;
+  color: var(--cat-mystery);
+}

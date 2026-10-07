@@ -1,5 +1,5 @@
 import type { CaseItem } from '../types'
-import { CATEGORY_META } from '../data/cases'
+import { catMeta } from '../data/cases'
 
 // ── 공유 카드 이미지 생성 (외부 라이브러리 없이 Canvas 2D로 직접 렌더) ──
 // 카카오톡 등에 첨부할 수 있도록 사건을 1080x1080 PNG 카드로 그려서 반환/다운로드.
@@ -83,7 +83,7 @@ async function ensureFonts() {
 
 export async function renderShareCard(item: CaseItem): Promise<HTMLCanvasElement> {
   await ensureFonts()
-  const meta = CATEGORY_META[item.category]
+  const meta = catMeta(item.category)
   const canvas = document.createElement('canvas')
   canvas.width = SIZE
   canvas.height = SIZE

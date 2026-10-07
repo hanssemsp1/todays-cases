@@ -11,11 +11,11 @@ export default function Header() {
           <span className="grad-text">오늘의 사건사고</span>
         </Link>
         <nav className="app-header__actions" aria-label="상단 메뉴">
-          <Link to="/" className="app-header__icon-btn" aria-label="홈">
+          <Link to="/" className="app-header__icon-btn" aria-label="우리나라 사건">
             <Icon name="home" />
           </Link>
-          <Link to="/issues" className="app-header__icon-btn" aria-label="이슈·미스터리">
-            <Icon name="auto_awesome" />
+          <Link to="/world" className="app-header__icon-btn" aria-label="해외토픽">
+            <Icon name="public" />
           </Link>
           <Link to="/cold-cases" className="app-header__icon-btn" aria-label="미제사건 파일">
             <Icon name="folder_special" />

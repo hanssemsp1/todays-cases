@@ -2,10 +2,11 @@ import { NavLink } from 'react-router-dom'
 import Icon from '../ui/Icon'
 import './BottomNav.css'
 
-// 모바일 하단 탭 바 — 피드 / 이슈·미스터리 / 미제사건 분리 탭
+// 모바일 하단 탭 바
+// 첫 탭은 우리나라 사건. 해외는 따로, 미제도 따로 — 섞지 않는다.
 const tabs = [
-  { to: '/', label: '사건사고', icon: 'newspaper', end: true },
-  { to: '/issues', label: '이슈', icon: 'auto_awesome', end: false },
+  { to: '/', label: '우리나라', icon: 'newspaper', end: true },
+  { to: '/world', label: '해외토픽', icon: 'public', end: false },
   { to: '/cold-cases', label: '미제사건', icon: 'folder_special', end: false },
   { to: '/archive', label: '지난기록', icon: 'inventory_2', end: false },
 ]

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import { CASES, CATEGORY_META } from '../data/cases'
+import { CASES, catMeta } from '../data/cases'
 import { downloadShareCard } from '../lib/shareCard'
 import { parseYouTubeId, youTubeEmbed } from '../lib/youtube'
 import AdSlot from '../components/ui/AdSlot'
@@ -30,7 +30,7 @@ export default function CaseDetailPage() {
     )
   }
 
-  const meta = CATEGORY_META[item.category]
+  const meta = catMeta(item.category)
 
   // 공유 카드 이미지 다운로드 → 카카오톡 등에 첨부
   const handleDownload = async () => {

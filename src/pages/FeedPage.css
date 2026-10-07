@@ -110,3 +110,38 @@
     max-width: 470px;
   }
 }
+
+/* 사이트가 무엇을 다루는지 히어로에서 못 박는다 */
+.feed__creed {
+  margin-top: 8px;
+  color: var(--sub);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* 최근 사건 / 다시 보는 사건 경계 */
+.feed__divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 26px 0 6px;
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 800;
+}
+.feed__divider::before,
+.feed__divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line, rgba(0, 0, 0, 0.1));
+}
+.feed__divider span {
+  flex: none;
+}
+.feed__note {
+  margin: 0 0 14px;
+  color: var(--sub);
+  font-size: 12.5px;
+  text-align: center;
+}

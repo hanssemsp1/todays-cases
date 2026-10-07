@@ -14,13 +14,19 @@
   --border: #dbdbdb;
 
   /* 사건 카테고리 톤 (그라데이션은 강조 요소에만, 카테고리는 단색 배지) */
-  --cat-crime: #dd2a7b;    /* 강력범죄 */
+  --cat-murder: #dd2a7b;   /* 살인·강력 */
+  --cat-missing: #6c5ce7;  /* 실종·변사 */
+  --cat-mystery: #5f27cd;  /* 미스터리 */
   --cat-traffic: #0095f6;  /* 교통사고 */
-  --cat-fire: #f58529;     /* 화재/산불 */
-  --cat-disaster: #8134af; /* 재난/사고 */
-  --cat-showbiz: #e84393;  /* 연예·스포츠 */
-  --cat-world: #00b8a3;    /* 해외토픽 */
-  --cat-mystery: #5f27cd;  /* 미스터리·괴담 */
+  --cat-dui: #e17055;      /* 음주운전 */
+  --cat-fire: #f58529;     /* 화재·폭발 */
+  --cat-disaster: #8134af; /* 재난·참사 */
+  --cat-medical: #00b894;  /* 의료사고 */
+  --cat-drug: #2d3436;     /* 마약 */
+  --cat-sexcrime: #b33771; /* 성범죄 */
+  --cat-abuse: #d63031;    /* 학대 */
+  --cat-fraud: #fdcb6e;    /* 사기 */
+  --cat-world: #00b8a3;    /* 해외 */
   --cat-etc: #8e8e8e;      /* 기타 */
 
   --radius: 16px;
