@@ -59,7 +59,8 @@
     "source": "매일신문",
     "sourceUrl": "https://n.news.naver.com/mnews/article/088/0001021595?sid=102",
     "likes": 234,
-    "comments": 41
+    "comments": 41,
+    "videoUrl": "https://www.youtube.com/watch?v=KjqAeoSjHLY"
   },
   {
     "id": "c-20260801-ganghwa-body",
@@ -74,7 +75,8 @@
     "sourceUrl": "https://www.wikitree.co.kr/articles/1149718",
     "likes": 298,
     "comments": 56,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=cxTqhus7w4A"
   },
   {
     "id": "c-20260801-tongyeong-murder",
@@ -104,7 +106,8 @@
     "sourceUrl": "https://n.news.naver.com/mnews/article/014/0005555771?sid=104",
     "likes": 176,
     "comments": 22,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=3attWwXm88s"
   },
   {
     "id": "c-20260801-algeria-bus",
@@ -118,7 +121,8 @@
     "source": "연합뉴스",
     "sourceUrl": "https://n.news.naver.com/mnews/article/001/0016227891?sid=104",
     "likes": 156,
-    "comments": 20
+    "comments": 20,
+    "videoUrl": "https://www.youtube.com/watch?v=Ryj216B6GM4"
   },
   {
     "id": "c-20260801-osan-stabbing",
@@ -132,7 +136,8 @@
     "source": "KBS",
     "sourceUrl": "https://n.news.naver.com/mnews/article/056/0012229024?sid=102",
     "likes": 187,
-    "comments": 34
+    "comments": 34,
+    "videoUrl": "https://www.youtube.com/watch?v=7v82XreAUKQ"
   },
   {
     "id": "c-20260801-goyang-fire",
@@ -146,7 +151,8 @@
     "source": "문화일보",
     "sourceUrl": "https://n.news.naver.com/mnews/article/021/0002808426?sid=102",
     "likes": 143,
-    "comments": 19
+    "comments": 19,
+    "videoUrl": "https://www.youtube.com/watch?v=o8aw1mg_Frw"
   },
   {
     "id": "c-20260801-gangnam-fall",
@@ -160,6 +166,7 @@
     "source": "뉴시스",
     "sourceUrl": "https://www.newsis.com/view/NISX20260731_0003731882",
     "likes": 92,
-    "comments": 15
+    "comments": 15,
+    "videoUrl": "https://www.youtube.com/watch?v=6Qg5HWfLSwQ"
   }
 ]
