@@ -54,7 +54,8 @@
     "source": "헤럴드경제",
     "sourceUrl": "https://biz.heraldcorp.com/article/10825825",
     "likes": 350,
-    "comments": 61
+    "comments": 61,
+    "videoUrl": "https://www.youtube.com/watch?v=lPxcxm_R9TA"
   },
   {
     "id": "c-20260803-stent-rebate-42b",
@@ -67,7 +68,8 @@
     "source": "머니투데이",
     "sourceUrl": "https://www.mt.co.kr/society/2026/07/30/2026073015072941333",
     "likes": 260,
-    "comments": 47
+    "comments": 47,
+    "videoUrl": "https://www.youtube.com/watch?v=kmHEhtXj14E"
   },
   {
     "id": "c-20260803-kumamoto-quake-pm-visit",
@@ -93,7 +95,7 @@
     "region": "서울 강북구",
     "date": "2026-08-03",
     "source": "연합뉴스TV",
-    "videoUrl": "https://www.youtube.com/watch?v=3nAHIf1Qn2I",
+    "videoUrl": "https://www.youtube.com/watch?v=y-4Kju1rWhc",
     "likes": 380,
     "comments": 72,
     "isBreaking": true
