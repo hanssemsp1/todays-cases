@@ -149,10 +149,10 @@ export default function FeedPage() {
             {older.length > 0 && (
               <>
                 <div className="feed__divider">
-                  <span>다시 보는 사건</span>
+                  <span>지난 사건</span>
                 </div>
                 <p className="feed__note">
-                  날짜는 지났지만 지금 다시 봐야 할 이유가 있는 사건들.
+                  일주일이 지난 사건들. 아주 오래된 사건에는 왜 지금 다시 올리는지 함께 적었습니다.
                 </p>
                 {older.map((item) => (
                   <CaseCard key={item.id} item={item} />
