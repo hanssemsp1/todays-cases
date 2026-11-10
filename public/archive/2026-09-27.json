@@ -11,7 +11,8 @@
     "sourceUrl": "https://www.kwnews.co.kr/article/20260926500180",
     "likes": 720,
     "comments": 158,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=X0fWFn3SAzg"
   },
   {
     "id": "c-20260927-namyangju-villa-driver-stabbing",
@@ -40,7 +41,8 @@
     "sourceUrl": "https://www.seoul.co.kr/news/society/2026/09/26/20260926500024",
     "likes": 480,
     "comments": 104,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=xjMj3oDq59M"
   },
   {
     "id": "c-20260927-campsite-brother-in-law-murder-supreme-court",
@@ -82,7 +84,8 @@
     "sourceUrl": "https://www.seoul.co.kr/news/society/accident/2026/09/26/20260926500034",
     "likes": 168,
     "comments": 22,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=gfvdNQsr-2g"
   },
   {
     "id": "c-20260927-samcheok-car-guardrail-crash",
@@ -96,7 +99,8 @@
     "sourceUrl": "https://www.kado.net/news/articleView.html?idxno=2074828",
     "likes": 96,
     "comments": 11,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=9WnYgmjgXRI"
   },
   {
     "id": "c-20260927-hongseong-city-bus-guardrail-crash",

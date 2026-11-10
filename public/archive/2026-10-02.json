@@ -11,7 +11,8 @@
     "sourceUrl": "https://www.fnnews.com/news/202610012110520984",
     "likes": 780,
     "comments": 168,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=P9vVifRTyoI"
   },
   {
     "id": "c-20261002-paju-cafe-freezer-murder-indictment",
@@ -25,7 +26,8 @@
     "sourceUrl": "https://news1.kr/local/gyeonggi/6306181",
     "likes": 540,
     "comments": 122,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=gqNoO4Ll_DI"
   },
   {
     "id": "c-20261002-runaway-teen-confinement-sexual-assault",
@@ -53,7 +55,8 @@
     "sourceUrl": "https://www.news1.kr/local/sejong-chungbuk/6305187",
     "likes": 310,
     "comments": 52,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=jU5-F-yUeW8"
   },
   {
     "id": "c-20261002-muju-ssarijae-tunnel-collision",
@@ -67,7 +70,8 @@
     "sourceUrl": "https://www.news1.kr/local/jeonbuk/6307976",
     "likes": 260,
     "comments": 38,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=1cW7l-FY1rI"
   },
   {
     "id": "c-20261002-jayuro-drowsy-driving-death",
@@ -109,7 +113,8 @@
     "sourceUrl": "https://www.news1.kr/society/incident-accident/6306433",
     "likes": 260,
     "comments": 34,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=A3wolnsQxjg"
   },
   {
     "id": "c-20261002-wonju-apartment-fire-19-evacuated",
@@ -123,7 +128,8 @@
     "sourceUrl": "https://www.news1.kr/local/kangwon/6308245",
     "likes": 220,
     "comments": 24,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=9me1uPynG3A"
   },
   {
     "id": "c-20261002-anseong-bogae-house-fire",
@@ -151,7 +157,8 @@
     "sourceUrl": "https://www.news1.kr/local/gwangju-jeonnam/6307716",
     "likes": 120,
     "comments": 16,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=IvlKacugwgg"
   },
   {
     "id": "c-20261002-seongnam-villa-fire-injury",
@@ -165,7 +172,8 @@
     "sourceUrl": "https://news1.kr/local/gyeonggi/6306972",
     "likes": 150,
     "comments": 18,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=PEuabss3hvA"
   },
   {
     "id": "c-20261002-okcheon-bridge-fall-death",
@@ -207,6 +215,7 @@
     "sourceUrl": "https://www.news1.kr/world/middleeast-africa/6308313",
     "likes": 190,
     "comments": 22,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=sRYTdIyfe0k"
   }
 ]

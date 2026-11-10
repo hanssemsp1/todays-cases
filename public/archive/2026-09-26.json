@@ -55,7 +55,8 @@
     "sourceUrl": "https://www.fnnews.com/news/202609251252060290",
     "likes": 300,
     "comments": 45,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=4PWFzUw4NIc"
   },
   {
     "id": "c-20260926-incheon-gyeyang-apartment-fire",
@@ -83,7 +84,8 @@
     "sourceUrl": "https://www.ajunews.com/view/20260925165916179",
     "likes": 480,
     "comments": 96,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=kg6rn5JTBYU"
   },
   {
     "id": "c-20260926-sydney-shooting-korean-suspect-arrest",
@@ -97,7 +99,8 @@
     "sourceUrl": "https://www.ngonews.kr/news/articleView.html?idxno=239234",
     "likes": 260,
     "comments": 33,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=1g1JjxpehNU"
   },
   {
     "id": "c-20260926-gangwon-chuseok-traffic-accidents",
@@ -139,7 +142,8 @@
     "sourceUrl": "https://www.newspim.com/news/view/20260925000062",
     "likes": 90,
     "comments": 9,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=rtbzKoRUPvQ"
   },
   {
     "id": "c-20260926-busan-offshore-rescue-chuseok",
@@ -153,6 +157,7 @@
     "sourceUrl": "https://www.nocutnews.co.kr/news/6583179",
     "likes": 70,
     "comments": 8,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=nxpSmwfSFWA"
   }
 ]

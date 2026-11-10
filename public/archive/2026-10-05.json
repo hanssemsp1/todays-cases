@@ -11,7 +11,8 @@
     "sourceUrl": "https://www.fnnews.com/news/202610041005526903",
     "likes": 870,
     "comments": 198,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=wXVLpFePapY"
   },
   {
     "id": "c-20261005-nkorea-wonsan-irbm-launch",
@@ -25,7 +26,8 @@
     "sourceUrl": "https://www.news1.kr/diplomacy/defense-diplomacy/6309646",
     "likes": 710,
     "comments": 164,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=GSKvXvWPEa0"
   },
   {
     "id": "c-20261005-jeju-chagwido-fishing-boat-capsize",
@@ -39,7 +41,8 @@
     "sourceUrl": "https://www.seoul.co.kr/news/society/accident/2026/10/05/20261005500003",
     "likes": 560,
     "comments": 96,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=2J6_HHDLPcY"
   },
   {
     "id": "c-20261005-uiwang-line1-track-death",
@@ -53,7 +56,8 @@
     "sourceUrl": "https://www.khan.co.kr/article/202610030948001",
     "likes": 340,
     "comments": 58,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=mdibHXfzmvM"
   },
   {
     "id": "c-20261005-okinawa-hotel-murder-us-marine-arrest",
@@ -67,7 +71,8 @@
     "sourceUrl": "https://www.seoul.co.kr/news/international/2026/10/05/20261005500002",
     "likes": 480,
     "comments": 132,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=PexoKpDzwSQ"
   },
   {
     "id": "c-20261005-seoraksan-ulsanbawi-photo-fall-death",
@@ -81,7 +86,8 @@
     "sourceUrl": "https://www.news1.kr/local/kangwon/6310103",
     "likes": 300,
     "comments": 38,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=vhCZb-Ap1NY"
   },
   {
     "id": "c-20261005-jangseong-pedestrian-hit-death",
@@ -109,7 +115,8 @@
     "sourceUrl": "https://www.khan.co.kr/article/202610041851001/",
     "likes": 260,
     "comments": 34,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=UmKGRtd0K4w"
   },
   {
     "id": "c-20261005-gunwi-farm-shed-fire-burn",
@@ -151,7 +158,8 @@
     "sourceUrl": "https://www.news1.kr/local/busan-gyeongnam/6310087",
     "likes": 140,
     "comments": 14,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=hYefDtkGdKs"
   },
   {
     "id": "c-20261005-chuncheon-drunk-driving-police-assault-fine",

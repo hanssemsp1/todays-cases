@@ -11,7 +11,8 @@
     "sourceUrl": "https://www.newsis.com/view/NISX20261002_0003813213",
     "likes": 780,
     "comments": 212,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=Vh-dPEt2rDI"
   },
   {
     "id": "c-20261004-pyeongtaek-siheung-expwy-3car-crash",
@@ -25,7 +26,8 @@
     "sourceUrl": "https://www.khan.co.kr/article/202610031612001/",
     "likes": 410,
     "comments": 76,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=8tegtyRbfCA"
   },
   {
     "id": "c-20261004-gyeongju-sewer-pipe-collapse-injury",
@@ -67,6 +69,7 @@
     "sourceUrl": "https://www.wikitree.co.kr/articles/1163735",
     "likes": 260,
     "comments": 38,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=mJWfehujPME"
   }
 ]

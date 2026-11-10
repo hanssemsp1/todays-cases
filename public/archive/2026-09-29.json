@@ -26,7 +26,8 @@
     "sourceUrl": "https://www.news1.kr/local/kangwon/6303665",
     "likes": 780,
     "comments": 196,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=G_5r08CcCts"
   },
   {
     "id": "c-20260929-cheongju-teen-stabbing-attempted-assault",
@@ -55,7 +56,8 @@
     "sourceUrl": "https://www.segye.com/newsView/20260928514506",
     "likes": 512,
     "comments": 88,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=BYeBpseYr68"
   },
   {
     "id": "c-20260929-incheon-coastguard-chief-found-dead",
@@ -69,7 +71,8 @@
     "sourceUrl": "https://www.newspim.com/news/view/20260928000756",
     "likes": 470,
     "comments": 102,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=2O9qQScMdaI"
   },
   {
     "id": "c-20260929-pohang-cheongha-tunnel-crash",
@@ -83,7 +86,8 @@
     "sourceUrl": "https://www.news1.kr/local/daegu-gyeongbuk/6303862",
     "likes": 388,
     "comments": 62,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=H7ZOHJREMVU"
   },
   {
     "id": "c-20260929-seogwipo-resort-kidnapping-robbery-chinese",
@@ -97,7 +101,8 @@
     "sourceUrl": "https://www.seoul.co.kr/news/society/accident/2026/09/28/20260928500177",
     "likes": 340,
     "comments": 56,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=AJsOUpD8hyc"
   },
   {
     "id": "c-20260929-yeonggwang-tunnel-collision",
@@ -111,7 +116,8 @@
     "sourceUrl": "https://www.seoul.co.kr/news/society/2026/09/28/20260928500251",
     "likes": 210,
     "comments": 34,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=g0n1rIQHkIE"
   },
   {
     "id": "c-20260929-samcheok-missing-woman-found-dead",
@@ -153,7 +159,8 @@
     "sourceUrl": "https://www.newspim.com/news/view/20260928001116",
     "likes": 98,
     "comments": 11,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=Zlk0uaWAVbU"
   },
   {
     "id": "c-20260929-china-foshan-safety-rope-cut",
@@ -167,6 +174,7 @@
     "sourceUrl": "https://www.seoul.co.kr/news/international/2026/09/28/20260928500087",
     "likes": 260,
     "comments": 48,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=Luubjfp9Z0w"
   }
 ]

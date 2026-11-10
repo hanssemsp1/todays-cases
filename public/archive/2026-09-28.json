@@ -11,7 +11,8 @@
     "sourceUrl": "https://www.seoul.co.kr/news/society/accident/2026/09/27/20260927500049",
     "likes": 850,
     "comments": 182,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=-IWarfA4imM"
   },
   {
     "id": "c-20260928-jeju-cheonjiyeon-waterfall-tourist-fall-death",
@@ -40,7 +41,8 @@
     "sourceUrl": "https://www.news1.kr/world/middleeast-africa/6302380",
     "likes": 480,
     "comments": 64,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=YMljGmNZqMU"
   },
   {
     "id": "c-20260928-dangjin-seokmun-energy-explosion-fire",
@@ -54,7 +56,8 @@
     "sourceUrl": "https://www.seoul.co.kr/news/society/accident/2026/09/27/20260927500052",
     "likes": 260,
     "comments": 34,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=A77xFYNJq5k"
   },
   {
     "id": "c-20260928-wanju-bongdong-vehicle-fire-death",
@@ -68,7 +71,8 @@
     "sourceUrl": "https://www.news1.kr/local/jeonbuk/6302129",
     "likes": 190,
     "comments": 21,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=lKaXjBHupiI"
   },
   {
     "id": "c-20260928-gangseo-teen-stalking-stabbing-indictment",
@@ -110,7 +114,8 @@
     "sourceUrl": "https://kor.theasian.asia/archives/416736",
     "likes": 240,
     "comments": 30,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=ZWWXCFYeH70"
   },
   {
     "id": "c-20260928-yanghwa-hangang-park-knife-threat-arrest",
@@ -124,7 +129,8 @@
     "sourceUrl": "https://www.mt.co.kr/society/2026/09/27/2026092720083565832",
     "likes": 320,
     "comments": 54,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=cAhREzCrVtU"
   },
   {
     "id": "c-20260928-iksan-mireuksan-bee-sting-airlift",
@@ -138,7 +144,8 @@
     "sourceUrl": "https://www.segye.com/newsView/20260927508251",
     "likes": 140,
     "comments": 16,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=07haF0mXa5w"
   },
   {
     "id": "c-20260928-busan-gadeokdo-rock-fisherman-fall-rescue",
@@ -152,6 +159,7 @@
     "sourceUrl": "https://www.seoul.co.kr/news/society/accident/2026/09/27/20260927500022",
     "likes": 110,
     "comments": 12,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=_uEZosUmO6Y"
   }
 ]

@@ -26,7 +26,8 @@
     "sourceUrl": "https://n.news.naver.com/mnews/article/020/0003750559?sid=102",
     "likes": 486,
     "comments": 92,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=ahQ-H2qGzyU"
   },
   {
     "id": "c-20260924-busan-tugboat-underwater-search-begins",
@@ -40,7 +41,8 @@
     "sourceUrl": "https://n.news.naver.com/mnews/article/658/0000156520?sid=102",
     "likes": 298,
     "comments": 51,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=0eWEIzFPtZI"
   },
   {
     "id": "c-20260924-incheon-geomdan-cosmetics-factory-fire",
@@ -54,7 +56,8 @@
     "sourceUrl": "https://n.news.naver.com/mnews/article/421/0009189893?sid=102",
     "likes": 214,
     "comments": 30,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=1pnuEh667lw"
   },
   {
     "id": "c-20260924-jeju-missing-false-closure-lawsuit",
@@ -68,7 +71,8 @@
     "sourceUrl": "https://n.news.naver.com/mnews/article/001/0016333639?sid=102",
     "likes": 358,
     "comments": 74,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=DL2Eq4ysZn4"
   },
   {
     "id": "c-20260924-seoul-gangseo-rooftop-fire-death",
@@ -83,7 +87,8 @@
     "sourceUrl": "https://n.news.naver.com/mnews/article/001/0016334229?sid=102",
     "likes": 236,
     "comments": 38,
-    "isBreaking": true
+    "isBreaking": true,
+    "videoUrl": "https://www.youtube.com/watch?v=58-R5wyVou4"
   },
   {
     "id": "c-20260924-daejeon-dosolsan-flasher-arrest",
@@ -97,7 +102,8 @@
     "sourceUrl": "https://n.news.naver.com/mnews/article/469/0000955793?sid=102",
     "likes": 274,
     "comments": 46,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=d4gTrt0bAC0"
   },
   {
     "id": "c-20260924-jewelry-store-theft-coercion-minors",
@@ -153,7 +159,8 @@
     "sourceUrl": "https://n.news.naver.com/mnews/article/001/0016333356?sid=104",
     "likes": 316,
     "comments": 47,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=vGW0xF4n2AA"
   },
   {
     "id": "c-20260924-weinstein-retrial-15years",
@@ -167,6 +174,7 @@
     "sourceUrl": "https://m.entertain.naver.com/article/117/0004108818",
     "likes": 268,
     "comments": 39,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=213Q5ICmz8U"
   }
 ]

@@ -40,7 +40,8 @@
     "sourceUrl": "https://www.yna.co.kr/view/AKR20260923133900062?input=1195m",
     "likes": 392,
     "comments": 88,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=ctderBpfmuA"
   },
   {
     "id": "c-20260925-bundang-chinese-restaurant-name-vandalism-pesticide",
@@ -54,7 +55,8 @@
     "sourceUrl": "https://www.kyeonggi.com/article/20260924580081",
     "likes": 456,
     "comments": 133,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=T9STswPX3aU"
   },
   {
     "id": "c-20260925-namsan-shuttle-bus-crash-tourists",
@@ -68,7 +70,8 @@
     "sourceUrl": "https://n.news.naver.com/mnews/article/422/0000909517?sid=102",
     "likes": 268,
     "comments": 47,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=PMI_Z09ncOU"
   },
   {
     "id": "c-20260925-muju-deogyusan-resort-deck-collapse-students",
@@ -82,7 +85,8 @@
     "sourceUrl": "https://wemakenews.co.kr/news/view.php?no=26400",
     "likes": 312,
     "comments": 64,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=7LHxonmN_UA"
   },
   {
     "id": "c-20260925-wanju-samnye-vehicle-stream-fall-death",
@@ -138,7 +142,8 @@
     "sourceUrl": "https://n.news.naver.com/mnews/article/214/0001525752?sid=102",
     "likes": 142,
     "comments": 26,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=n4l6vOSLyZg"
   },
   {
     "id": "c-20260925-changnyeong-reservoir-drowning-death",
@@ -166,6 +171,7 @@
     "sourceUrl": "https://n.news.naver.com/mnews/article/005/0001874955?sid=104",
     "likes": 246,
     "comments": 38,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=uBBmt--KKso"
   }
 ]
