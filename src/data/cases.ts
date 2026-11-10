@@ -997,6 +997,7 @@ export const CASES: CaseItem[] = [
     date: '2026-10-01',
     source: '뉴스핌',
     sourceUrl: 'https://www.newspim.com/news/view/20260930000226',
+    videoUrl: 'https://www.youtube.com/watch?v=ZMuzn-d_9rU',
     likes: 560,
     comments: 98,
     isBreaking: false,
