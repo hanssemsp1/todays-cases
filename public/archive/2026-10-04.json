@@ -9,10 +9,10 @@
     "date": "2026-10-04",
     "source": "뉴시스",
     "sourceUrl": "https://www.newsis.com/view/NISX20261002_0003813213",
+    "videoUrl": "https://www.youtube.com/watch?v=Vh-dPEt2rDI",
     "likes": 780,
     "comments": 212,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=Vh-dPEt2rDI"
+    "isBreaking": true
   },
   {
     "id": "c-20261004-pyeongtaek-siheung-expwy-3car-crash",
@@ -24,10 +24,10 @@
     "date": "2026-10-04",
     "source": "경향신문",
     "sourceUrl": "https://www.khan.co.kr/article/202610031612001/",
+    "videoUrl": "https://www.youtube.com/watch?v=8tegtyRbfCA",
     "likes": 410,
     "comments": 76,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=8tegtyRbfCA"
+    "isBreaking": true
   },
   {
     "id": "c-20261004-gyeongju-sewer-pipe-collapse-injury",
@@ -53,10 +53,10 @@
     "date": "2026-10-04",
     "source": "서울신문",
     "sourceUrl": "https://seoul.co.kr/news/society/2026/10/03/20261003500016",
+    "videoUrl": "https://www.youtube.com/watch?v=rIFUc22IC6s",
     "likes": 150,
     "comments": 28,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=rIFUc22IC6s"
+    "isBreaking": false
   },
   {
     "id": "c-20261004-busan-bukang-shark-escape",
@@ -68,9 +68,9 @@
     "date": "2026-10-04",
     "source": "위키트리",
     "sourceUrl": "https://www.wikitree.co.kr/articles/1163735",
+    "videoUrl": "https://www.youtube.com/watch?v=mJWfehujPME",
     "likes": 260,
     "comments": 38,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=mJWfehujPME"
+    "isBreaking": false
   }
 ]

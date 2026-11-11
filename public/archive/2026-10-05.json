@@ -9,10 +9,10 @@
     "date": "2026-10-05",
     "source": "파이낸셜뉴스",
     "sourceUrl": "https://www.fnnews.com/news/202610041005526903",
+    "videoUrl": "https://www.youtube.com/watch?v=wXVLpFePapY",
     "likes": 870,
     "comments": 198,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=wXVLpFePapY"
+    "isBreaking": true
   },
   {
     "id": "c-20261005-nkorea-wonsan-irbm-launch",
@@ -24,10 +24,10 @@
     "date": "2026-10-05",
     "source": "뉴스1",
     "sourceUrl": "https://www.news1.kr/diplomacy/defense-diplomacy/6309646",
+    "videoUrl": "https://www.youtube.com/watch?v=oW31swuZgqg",
     "likes": 710,
     "comments": 164,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=oW31swuZgqg"
+    "isBreaking": true
   },
   {
     "id": "c-20261005-jeju-chagwido-fishing-boat-capsize",
@@ -39,10 +39,10 @@
     "date": "2026-10-05",
     "source": "서울신문",
     "sourceUrl": "https://www.seoul.co.kr/news/society/accident/2026/10/05/20261005500003",
+    "videoUrl": "https://www.youtube.com/watch?v=2J6_HHDLPcY",
     "likes": 560,
     "comments": 96,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=2J6_HHDLPcY"
+    "isBreaking": true
   },
   {
     "id": "c-20261005-uiwang-line1-track-death",
@@ -54,10 +54,10 @@
     "date": "2026-10-05",
     "source": "경향신문",
     "sourceUrl": "https://www.khan.co.kr/article/202610030948001",
+    "videoUrl": "https://www.youtube.com/watch?v=mdibHXfzmvM",
     "likes": 340,
     "comments": 58,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=mdibHXfzmvM"
+    "isBreaking": false
   },
   {
     "id": "c-20261005-okinawa-hotel-murder-us-marine-arrest",
@@ -69,10 +69,10 @@
     "date": "2026-10-05",
     "source": "서울신문",
     "sourceUrl": "https://www.seoul.co.kr/news/international/2026/10/05/20261005500002",
+    "videoUrl": "https://www.youtube.com/watch?v=PexoKpDzwSQ",
     "likes": 480,
     "comments": 132,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=PexoKpDzwSQ"
+    "isBreaking": true
   },
   {
     "id": "c-20261005-seoraksan-ulsanbawi-photo-fall-death",
@@ -84,10 +84,10 @@
     "date": "2026-10-05",
     "source": "뉴스1",
     "sourceUrl": "https://www.news1.kr/local/kangwon/6310103",
+    "videoUrl": "https://www.youtube.com/watch?v=vhCZb-Ap1NY",
     "likes": 300,
     "comments": 38,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=vhCZb-Ap1NY"
+    "isBreaking": false
   },
   {
     "id": "c-20261005-jangseong-pedestrian-hit-death",
@@ -99,10 +99,10 @@
     "date": "2026-10-05",
     "source": "SBS",
     "sourceUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008781723",
+    "videoUrl": "https://www.youtube.com/watch?v=ojSWauu-ac0",
     "likes": 220,
     "comments": 24,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=ojSWauu-ac0"
+    "isBreaking": false
   },
   {
     "id": "c-20261005-chungju-auto-parts-factory-worker-death",
@@ -114,10 +114,10 @@
     "date": "2026-10-05",
     "source": "경향신문",
     "sourceUrl": "https://www.khan.co.kr/article/202610041851001/",
+    "videoUrl": "https://www.youtube.com/watch?v=wsLdxM7nPig",
     "likes": 260,
     "comments": 34,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=wsLdxM7nPig"
+    "isBreaking": false
   },
   {
     "id": "c-20261005-gunwi-farm-shed-fire-burn",
@@ -157,10 +157,10 @@
     "date": "2026-10-05",
     "source": "뉴스1",
     "sourceUrl": "https://www.news1.kr/local/busan-gyeongnam/6310087",
+    "videoUrl": "https://www.youtube.com/watch?v=hYefDtkGdKs",
     "likes": 140,
     "comments": 14,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=hYefDtkGdKs"
+    "isBreaking": false
   },
   {
     "id": "c-20261005-chuncheon-drunk-driving-police-assault-fine",

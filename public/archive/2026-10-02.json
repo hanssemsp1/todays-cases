@@ -9,10 +9,10 @@
     "date": "2026-10-02",
     "source": "파이낸셜뉴스",
     "sourceUrl": "https://www.fnnews.com/news/202610012110520984",
+    "videoUrl": "https://www.youtube.com/watch?v=P9vVifRTyoI",
     "likes": 780,
     "comments": 168,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=P9vVifRTyoI"
+    "isBreaking": true
   },
   {
     "id": "c-20261002-paju-cafe-freezer-murder-indictment",
@@ -24,10 +24,10 @@
     "date": "2026-10-02",
     "source": "뉴스1",
     "sourceUrl": "https://news1.kr/local/gyeonggi/6306181",
+    "videoUrl": "https://www.youtube.com/watch?v=gqNoO4Ll_DI",
     "likes": 540,
     "comments": 122,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=gqNoO4Ll_DI"
+    "isBreaking": false
   },
   {
     "id": "c-20261002-runaway-teen-confinement-sexual-assault",
@@ -53,10 +53,10 @@
     "date": "2026-10-02",
     "source": "뉴스1",
     "sourceUrl": "https://www.news1.kr/local/sejong-chungbuk/6305187",
+    "videoUrl": "https://www.youtube.com/watch?v=jU5-F-yUeW8",
     "likes": 310,
     "comments": 52,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=jU5-F-yUeW8"
+    "isBreaking": true
   },
   {
     "id": "c-20261002-muju-ssarijae-tunnel-collision",
@@ -68,10 +68,10 @@
     "date": "2026-10-02",
     "source": "뉴스1",
     "sourceUrl": "https://www.news1.kr/local/jeonbuk/6307976",
+    "videoUrl": "https://www.youtube.com/watch?v=1cW7l-FY1rI",
     "likes": 260,
     "comments": 38,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=1cW7l-FY1rI"
+    "isBreaking": false
   },
   {
     "id": "c-20261002-jayuro-drowsy-driving-death",

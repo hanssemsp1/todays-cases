@@ -9,10 +9,10 @@
     "date": "2026-10-03",
     "source": "서울신문",
     "sourceUrl": "https://www.seoul.co.kr/news/society/accident/2026/10/02/20261002500025",
+    "videoUrl": "https://www.youtube.com/watch?v=Qz5OQKGT4FI",
     "likes": 420,
     "comments": 68,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=Qz5OQKGT4FI"
+    "isBreaking": true
   },
   {
     "id": "c-20261003-incheon-disabled-woman-sexual-assault-pregnancy-trial",
@@ -38,10 +38,10 @@
     "date": "2026-10-03",
     "source": "뉴스1",
     "sourceUrl": "https://news1.kr/world/middleeast-africa/6307078",
+    "videoUrl": "https://www.youtube.com/watch?v=Ho-q7p96iig",
     "likes": 520,
     "comments": 110,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=Ho-q7p96iig"
+    "isBreaking": true
   },
   {
     "id": "c-20261003-miryang-concrete-mixer-lift-death",
@@ -81,10 +81,10 @@
     "date": "2026-10-03",
     "source": "뉴스1",
     "sourceUrl": "https://news1.kr/local/jeonbuk/6307622",
+    "videoUrl": "https://www.youtube.com/watch?v=AmA1yf0Ve9Y",
     "likes": 190,
     "comments": 28,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=AmA1yf0Ve9Y"
+    "isBreaking": false
   },
   {
     "id": "c-20261003-busan-convenience-store-robbery-attempt-arrest",

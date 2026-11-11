@@ -9,10 +9,10 @@
     "date": "2026-10-06",
     "source": "한국일보",
     "sourceUrl": "https://www.hankookilbo.com/news/article/A2026100521150005941",
+    "videoUrl": "https://www.youtube.com/watch?v=9vLB-_C3UII",
     "likes": 820,
     "comments": 176,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=9vLB-_C3UII"
+    "isBreaking": true
   },
   {
     "id": "c-20261006-gangbuk-shoulder-bump-murder-arrest",
@@ -24,10 +24,10 @@
     "date": "2026-10-06",
     "source": "경향신문",
     "sourceUrl": "https://www.khan.co.kr/article/202610051345001/",
+    "videoUrl": "https://www.youtube.com/watch?v=fly_6e-QZmA",
     "likes": 690,
     "comments": 148,
-    "isBreaking": true,
-    "videoUrl": "https://www.youtube.com/watch?v=fly_6e-QZmA"
+    "isBreaking": true
   },
   {
     "id": "c-20261006-yongin-random-rock-assault",
@@ -39,10 +39,10 @@
     "date": "2026-10-06",
     "source": "서울신문",
     "sourceUrl": "https://www.seoul.co.kr/news/society/accident/2026/10/05/20261005500021",
+    "videoUrl": "https://www.youtube.com/watch?v=QrfZ7PDRtFc",
     "likes": 610,
     "comments": 132,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=QrfZ7PDRtFc"
+    "isBreaking": false
   },
   {
     "id": "c-20261006-siheung-apartment-child-fall-death",
@@ -54,10 +54,10 @@
     "date": "2026-10-06",
     "source": "헤럴드경제",
     "sourceUrl": "https://biz.heraldcorp.com/article/10893468",
+    "videoUrl": "https://www.youtube.com/watch?v=YxDjJUtEgCI",
     "likes": 540,
     "comments": 88,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=YxDjJUtEgCI"
+    "isBreaking": false
   },
   {
     "id": "c-20261006-bank-ai-hacking-investigation-gap",
@@ -69,10 +69,10 @@
     "date": "2026-10-06",
     "source": "서울신문",
     "sourceUrl": "https://www.seoul.co.kr/news/society/2026/10/06/20261006001002",
+    "videoUrl": "https://www.youtube.com/watch?v=h2crU_agWsA",
     "likes": 480,
     "comments": 104,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=h2crU_agWsA"
+    "isBreaking": false
   },
   {
     "id": "c-20261006-pyeongtaek-foreigners-group-brawl",
@@ -84,10 +84,10 @@
     "date": "2026-10-06",
     "source": "서울신문",
     "sourceUrl": "https://www.seoul.co.kr/news/society/2026/10/05/20261005500048",
+    "videoUrl": "https://www.youtube.com/watch?v=7IY1HHh_nT8",
     "likes": 350,
     "comments": 76,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=7IY1HHh_nT8"
+    "isBreaking": false
   },
   {
     "id": "c-20261006-flydubai-copilot-intentional-crash-axe",
@@ -99,10 +99,10 @@
     "date": "2026-10-06",
     "source": "파이낸셜뉴스",
     "sourceUrl": "https://www.fnnews.com/news/202610031621047381",
+    "videoUrl": "https://www.youtube.com/watch?v=ihRSLq1GSD4",
     "likes": 460,
     "comments": 98,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=ihRSLq1GSD4"
+    "isBreaking": false
   },
   {
     "id": "c-20261006-cheongju-concrete-mixer-guardrail-death",
@@ -156,10 +156,10 @@
     "date": "2026-10-06",
     "source": "SBS",
     "sourceUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008779514",
+    "videoUrl": "https://www.youtube.com/watch?v=9R-h2rUAVkE",
     "likes": 140,
     "comments": 14,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=9R-h2rUAVkE"
+    "isBreaking": false
   },
   {
     "id": "c-20261006-yeonggwang-reservoir-fishing-drowning",
@@ -171,9 +171,9 @@
     "date": "2026-10-06",
     "source": "뉴스1",
     "sourceUrl": "https://www.news1.kr/local/gwangju-jeonnam/6310112",
+    "videoUrl": "https://www.youtube.com/watch?v=7l7c4fFBlx4",
     "likes": 90,
     "comments": 8,
-    "isBreaking": false,
-    "videoUrl": "https://www.youtube.com/watch?v=7l7c4fFBlx4"
+    "isBreaking": false
   }
 ]
