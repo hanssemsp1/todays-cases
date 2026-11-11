@@ -191,6 +191,8 @@
 
 /* 영상·사진이 없을 때 — 비어 보이지 않게 사건 내용을 카드 면에 씀 */
 .case-card__textcover {
+  box-sizing: border-box;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -211,11 +213,17 @@
   opacity: 0.85;
 }
 .case-card__textcover-text {
-  font-size: 14.5px;
-  line-height: 1.6;
-  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 700;
+  word-break: keep-all;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* 카드 아래 긴 내용 */
+.case-card__summary--long {
+  -webkit-line-clamp: 4;
 }
