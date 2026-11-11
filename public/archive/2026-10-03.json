@@ -26,7 +26,8 @@
     "sourceUrl": "https://www.news1.kr/local/incheon/6308759",
     "likes": 650,
     "comments": 134,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=W_utiGZJCqE"
   },
   {
     "id": "c-20261003-flydubai-copilot-radicalization-investigation",
@@ -69,7 +70,8 @@
     "sourceUrl": "https://www.news1.kr/local/busan-gyeongnam/6309601",
     "likes": 230,
     "comments": 24,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=yovGkcr7CoY"
   },
   {
     "id": "c-20261003-jeonbuk-teens-forced-gold-ring-theft-referral",
@@ -83,7 +85,8 @@
     "sourceUrl": "https://news1.kr/local/jeonbuk/6307622",
     "likes": 190,
     "comments": 28,
-    "isBreaking": false
+    "isBreaking": false,
+    "videoUrl": "https://www.youtube.com/watch?v=AmA1yf0Ve9Y"
   },
   {
     "id": "c-20261003-busan-convenience-store-robbery-attempt-arrest",
