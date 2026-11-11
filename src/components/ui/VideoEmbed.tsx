@@ -26,7 +26,19 @@ export default function VideoEmbed({ url, label }: { url?: string; label?: strin
           onClick={() => setPlay(true)}
           aria-label="영상 재생"
         >
-          <img src={youTubeThumb(id)} alt="" loading="lazy" />
+          <img
+            src={youTubeThumb(id)}
+            alt=""
+            decoding="async"
+            onError={(e) => {
+              // 큰 썸네일이 없으면 작은 썸네일로
+              const el = e.currentTarget
+              if (!el.dataset.fb) {
+                el.dataset.fb = "1"
+                el.src = `https://img.youtube.com/vi/${id}/mqdefault.jpg`
+              }
+            }}
+          />
           <span className="video-embed__play">
             <Icon name="play_arrow" size={32} />
           </span>

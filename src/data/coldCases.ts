@@ -476,7 +476,7 @@ export const COLD_CASES: ColdCaseItem[] = [
       "조씨는 2010년 10월 15일 밤 11시 14분쯤 아르바이트를 마치고 공원길을 걸어 귀가하던 중 자취를 감췄고, 다음날 새벽 인근 배수로에서 숨진 채 발견됐다. 목격자들은 사건 당시 광택 없는 짙은 회색으로 튜닝된 중형 승용차 트렁크에 나비 문양 스티커가 붙어 있었고, 번호판 끝자리가 '3'이었다는 진술을 남겼다. 경찰은 이 차량을 추적하며 한 온라인 자동차 동호회 회원들을 상대로 조사를 벌였지만 결정적인 증거를 확보하지 못했다. 2025년 2월 SBS '그것이 알고 싶다'가 사건을 재조명하며 새로 제작한 용의자 몽타주를 공개하고 시청자 제보를 받았지만, 15년이 넘도록 범인은 검거되지 않은 채 사건은 미제로 남아 있다.",
     tags: ['여대생', '미제살인', '나비스티커', '그것이알고싶다'],
     sourceUrl: 'https://m.entertain.naver.com/article/108/0003305501',
-    videoUrl: 'https://www.youtube.com/watch?v=_GZ3J2Yn3dM',
+    videoUrl: 'https://www.youtube.com/watch?v=W_tf57HN34A',
   },
   {
     id: 'cc-donghae-tutor-teacher-well',
@@ -970,7 +970,7 @@ export const COLD_CASES: ColdCaseItem[] = [
       '박윤미씨는 2004년 9월 1일부터 경기 양평의 한 초등학교에 부임할 예정이던 예비교사로, 그해 8월 25일 춘천에서 양평교육청으로 서류를 제출하러 가던 길에 실종됐다. 같은 날 가평의 한 시골마을 비탈 아래에서 그의 시신이 발견됐는데, 사인은 질식사였고 생식기 부분 손상과 손목 결박흔이 남아 있어 성폭행 뒤 살해된 것으로 추정됐다. 경찰은 범인이 양평터미널 인근에서 박씨를 승합차에 태운 뒤 가평의 외진 곳에 유기하고, 피해자의 카드로 주유소에서 기름을 넣기까지 한 것으로 봤지만 결정적 증거를 찾지 못해 사건은 미제로 남았다. 10여 년 뒤 재수사에 나선 경찰은 2006~2008년 부녀자 8명을 살해한 연쇄살인범 강호순을 유력 용의자로 지목했으나, 공소시효 문제 등으로 끝내 기소하지 못했다. SBS "그것이 알고 싶다"는 2024년 10월 26일 "살인자와의 동승"이라는 제목으로 이 사건을 재조명했다.',
     tags: ['예비교사', '미제살인', '그것이알고싶다'],
     sourceUrl: 'https://news.sbs.co.kr/news/endPage.do?news_id=N1007849055',
-    videoUrl: 'https://www.youtube.com/watch?v=Pnb9AyXLqK0',
+    videoUrl: 'https://www.youtube.com/watch?v=V_ajbxcaxCg',
   },
   {
     id: 'cc-ochang-manhole-death',
