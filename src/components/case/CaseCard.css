@@ -188,3 +188,34 @@
   font-weight: 600;
   margin-top: 2px;
 }
+
+/* 영상·사진이 없을 때 — 비어 보이지 않게 사건 내용을 카드 면에 씀 */
+.case-card__textcover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+  padding: 14px 16px 44px;
+  color: #fff;
+  overflow: hidden;
+}
+.case-card__textcover-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  opacity: 0.85;
+}
+.case-card__textcover-text {
+  font-size: 14.5px;
+  line-height: 1.6;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

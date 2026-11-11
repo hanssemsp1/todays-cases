@@ -58,11 +58,13 @@ export default function CaseCard({
           <img src={item.image} alt="" loading="lazy" />
         ) : (
           <span
-            className="case-card__cover"
+            className="case-card__textcover"
             style={{ background: `linear-gradient(135deg, ${meta.color}, #262626)` }}
           >
-            <Icon name={meta.icon} size={30} />
-            <span className="case-card__cover-label">{meta.label}</span>
+            <span className="case-card__textcover-label">
+              <Icon name={meta.icon} size={16} /> {meta.label}
+            </span>
+            <span className="case-card__textcover-text">{item.summary}</span>
           </span>
         )}
         <span className="case-card__cat">
@@ -73,7 +75,7 @@ export default function CaseCard({
       {/* ── 본문: 제목 + 요약 + CTA ── */}
       <div className="case-card__body">
         <h3 className="case-card__title">{item.title}</h3>
-        <p className="case-card__summary">{item.summary}</p>
+        {(ytId || item.image) && <p className="case-card__summary">{item.summary}</p>}
         <span className="case-card__more">
           자세히 보기 <Icon name="arrow_forward" size={16} />
         </span>
