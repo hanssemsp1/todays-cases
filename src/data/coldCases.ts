@@ -999,6 +999,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://v.daum.net/v/20230605183459772',
     videoUrl: 'https://www.youtube.com/watch?v=yIQigefZRk8',
   },
+  {
+    id: 'cc-inje-valley-missing',
+    caseNo: '2015 · 강원 인제',
+    title: '인제 계곡 실종 사건',
+    occurredDate: '2015-05-03',
+    region: '강원 인제군',
+    status: 'unsolved',
+    summary:
+      '2015년 5월 3일 강원 인제의 한 계곡 인근에서 40대 남성 김주철 씨가 실종됐다. 실종 당일 동행했던 지인이 마지막 목격자로 지목됐으나 진술이 번갈아 바뀌었고, 10년 넘게 수색이 이어졌지만 시신도 범인도 찾지 못한 채 미제로 남아 있다.',
+    details:
+      '김씨는 실종 당일 저녁 6시 10분쯤 양양의 한 스쿠버 가게를 들른 뒤 인제 계곡 방향으로 차를 몰고 가는 모습이 CCTV에 찍혔다. 그날 함께 있었던 지인 이 모 씨는 처음에는 양양에서 헤어졌다고 진술했지만, CCTV에 동행 모습이 찍히자 계곡에서 함께 야영했다고 말을 바꿨다. 이씨는 새벽에 김씨가 먼저 가라고 해서 혼자 돌아왔다고 주장했으나, 김씨의 휴대전화는 그날 밤 9시 12분쯤 배터리가 분리되며 신호가 끊겼다. 가족들은 10년 넘게 계곡 주변을 자체 수색하며 시신 발견을 호소하고 있고, 경찰은 이씨를 유력한 참고인으로 보고 있으나 결정적 증거를 찾지 못해 사건은 미제로 남아 있다.',
+    tags: ['실종', '인제', '강원', '미제사건', '계곡'],
+    sourceUrl: 'https://www.nocutnews.co.kr/news/6330872',
+    videoUrl: 'https://www.youtube.com/watch?v=8ZjfbH8ty8I',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────

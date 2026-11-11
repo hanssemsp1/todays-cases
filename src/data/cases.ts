@@ -24,6 +24,108 @@ export const ISSUE_CATEGORIES: CaseCategory[] = ['showbiz', 'mystery']
 //    date = 게시일(사이트에 올라온 날). 각 항목은 공개 보도 기반이며 원문 출처를 표기합니다.
 export const CASES: CaseItem[] = [
   {
+    id: 'c-20261112-gyeongnam-dui-convenience-store',
+    title: '경남서 음주 차량에 떠밀린 승용차 편의점 덮쳐…손님·직원 8명 부상',
+    summary:
+      '경남 지역에서 만취 운전자가 몰던 차량이 다른 승용차를 들이받았고, 충격으로 밀려난 승용차가 편의점 안으로 그대로 돌진해 손님과 직원 등 8명이 다쳤다. 사고 장면이 블랙박스와 매장 CCTV에 고스란히 담기면서 여러 방송사가 긴급 보도에 나섰다.',
+    content:
+      '경남 지역의 한 도로에서 만취 상태로 운전하던 차량이 주행 중이던 승용차를 들이받는 사고가 발생했다. 충격으로 튕겨 나간 승용차는 그대로 인근 편의점 내부로 돌진했고, 당시 매장 안에 있던 손님과 직원 등 8명이 다쳐 병원으로 옮겨졌다. 사고 순간은 인근 차량 블랙박스와 매장 CCTV에 그대로 담겼다. 경찰은 음주운전 차량 운전자의 혈중알코올농도와 정확한 사고 경위를 조사하고 있다.',
+    category: 'traffic',
+    region: '경남',
+    date: '2026-11-12',
+    source: 'SBS',
+    sourceUrl: 'https://www.youtube.com/watch?v=cTXdhT9Jhb0',
+    videoUrl: 'https://www.youtube.com/watch?v=cTXdhT9Jhb0',
+    likes: 420,
+    comments: 58,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20261112-nationwide-battery-coin-investment-fraud',
+    title: '배터리·코인 투자 미끼로 전국 10만명서 수백억 원 가로챈 사기조직 검거',
+    summary:
+      '배터리 소재와 가상화폐 투자를 미끼로 고령층 등을 끌어모아 전국에서 수백억 원을 가로챈 대규모 투자사기 조직이 경찰에 적발됐다. 피해자가 전국적으로 10만 명에 이르는 것으로 집계되면서 올해 최대 규모 투자사기 사건으로 꼽힌다.',
+    content:
+      '경찰은 배터리 소재·가상화폐 등에 투자하면 고수익을 보장한다고 속여 투자금을 가로챈 사기 조직을 검거해 수사하고 있다고 밝혔다. 조직은 고령층을 주요 표적으로 삼아 투자를 권유했으며, 집계된 피해자는 전국적으로 10만 명, 피해 금액은 수백억 원에 이르는 것으로 나타났다. 경찰은 조직의 자금 흐름을 추적해 추가 공범과 윗선을 특정하는 데 수사력을 모으고 있다.',
+    category: 'crime',
+    region: '전국',
+    date: '2026-11-12',
+    source: '연합뉴스TV',
+    sourceUrl: 'https://www.youtube.com/watch?v=YbNLVah8ADg',
+    videoUrl: 'https://www.youtube.com/watch?v=YbNLVah8ADg',
+    likes: 560,
+    comments: 77,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20261112-gwangju-apartment-arson-guard-death',
+    title: '광주 아파트서 40대 남성 방화…치료받던 경비원 끝내 사망',
+    summary:
+      '광주의 한 아파트에서 40대 남성이 불을 질러 경비원이 심정지 상태로 병원에 옮겨졌으나 끝내 숨졌다. 방화범은 현장에서 체포됐으며 경찰은 정확한 범행 동기를 조사하고 있다.',
+    content:
+      '광주의 한 아파트에서 40대 남성이 불을 지르는 사고가 발생해 불을 끄려던 70대 경비원이 심정지 상태로 발견돼 병원으로 옮겨졌다. 경비원은 치료를 받았지만 끝내 숨졌다. 화재 당시 입주민 다수가 연기를 흡입해 대피하는 등 소동이 일었다. 경찰은 방화 혐의로 40대 남성을 체포해 조사하고 있으며 정확한 범행 동기를 밝히고 있다.',
+    category: 'crime',
+    region: '광주',
+    date: '2026-11-12',
+    source: 'MBC',
+    sourceUrl: 'https://www.youtube.com/watch?v=DzrdsWwddGU',
+    videoUrl: 'https://www.youtube.com/watch?v=DzrdsWwddGU',
+    likes: 480,
+    comments: 66,
+    isBreaking: true,
+  },
+  {
+    id: 'c-20261112-kt-bomb-threat-teen-sentence',
+    title: '"KT·방송사 다 터뜨린다" 7차례 허위 폭파 협박한 10대, 징역 1년 선고',
+    summary:
+      'KT 사옥과 방송사 등을 겨냥해 7차례에 걸쳐 폭탄을 설치했다는 허위 협박 글을 올린 10대에게 징역 1년이 선고됐다. 대기업과 언론사를 대상으로 한 반복적 테러 협박이라는 점에서 사회적 불안을 키운 사건으로 꼽힌다.',
+    content:
+      '법원은 KT 사옥과 방송사 등에 폭탄을 설치했다는 허위 협박 글을 7차례에 걸쳐 올린 10대에게 징역 1년을 선고했다. 이 10대는 "KT와 방송사를 다 터뜨리겠다"는 식의 협박을 반복해 올렸고, 그때마다 경찰과 소방 인력이 출동해 현장을 점검했다. 재판부는 대기업과 언론사를 겨냥한 반복적 허위 협박이 사회에 미친 불안이 크다고 보고 중형을 선고했다.',
+    category: 'crime',
+    region: '서울',
+    date: '2026-11-12',
+    source: 'SBS',
+    sourceUrl: 'https://www.youtube.com/watch?v=C2y4gYxZ0yc',
+    videoUrl: 'https://www.youtube.com/watch?v=C2y4gYxZ0yc',
+    likes: 390,
+    comments: 54,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20261112-chungbuk-elderly-couple-co-poisoning',
+    title: '충북 자택서 잠자던 노부부 숨진 채 발견…일산화탄소 중독 추정',
+    summary:
+      '충북의 한 자택에서 잠을 자던 노부부가 숨진 채 발견됐다. 소방당국은 일산화탄소 중독으로 추정하고 있으며 겨울철 난방 기구 사용에 따른 중독 사고 주의가 요구된다.',
+    content:
+      '충북의 한 자택에서 잠을 자던 노부부가 숨진 채 발견됐다. 소방과 경찰은 현장 상황을 토대로 일산화탄소 중독에 의한 사망으로 추정하고 있다. 당국은 기온이 떨어지면서 밀폐된 공간에서 난방 기구를 사용하다 벌어지는 일산화탄소 중독 사고에 주의가 필요하다고 당부했다.',
+    category: 'disaster',
+    region: '충북',
+    date: '2026-11-12',
+    source: 'KBS',
+    sourceUrl: 'https://www.youtube.com/watch?v=3t_Xf8hftWY',
+    videoUrl: 'https://www.youtube.com/watch?v=3t_Xf8hftWY',
+    likes: 340,
+    comments: 45,
+    isBreaking: false,
+  },
+  {
+    id: 'c-20261112-jtbc-rental-car-insurance-fraud-21',
+    title: '렌터카로 수도권서 43차례 고의 추돌…보험사기단 21명 검거',
+    summary:
+      '렌터카를 이용해 수도권 일대에서 43차례나 고의로 교통사고를 낸 보험사기단 21명이 경찰에 검거됐다. 보험사에서 받아낸 합의금이 수억 원에 이르는 것으로 조사됐다.',
+    content:
+      '경찰은 렌터카를 이용해 다른 차량에 고의로 추돌 사고를 낸 뒤 보험사로부터 합의금을 받아낸 보험사기단 21명을 검거해 검찰에 송치했다. 이들은 수도권 일대에서 43차례에 걸쳐 고의 사고를 낸 것으로 조사됐으며, 보험사에서 받아낸 합의금은 수억 원에 이르는 것으로 나타났다. 경찰은 조직적으로 역할을 나눠 범행한 것으로 보고 추가 공범 여부를 조사하고 있다.',
+    category: 'crime',
+    region: '수도권',
+    date: '2026-11-12',
+    source: 'JTBC',
+    sourceUrl: 'https://www.youtube.com/watch?v=JlDDwBVLj8U',
+    videoUrl: 'https://www.youtube.com/watch?v=JlDDwBVLj8U',
+    likes: 300,
+    comments: 40,
+    isBreaking: false,
+  },
+  {
     id: 'c-20261111-seongbuk-jeongneung-vengeance-murder',
     title: "서울 성북구 숙박업소서 아들 성범죄 합의 거절한 10대 피해자 살해한 50대 아버지 긴급체포",
     summary:
@@ -939,108 +1041,6 @@ export const CASES: CaseItem[] = [
     videoUrl: "https://www.youtube.com/watch?v=vk3DAeUTKBw",
     likes: 512,
     comments: 84,
-    isBreaking: false,
-  },
-  {
-    id: "c-20261023-jejuair-battery-fire",
-    title: "인천발 몽골행 제주항공 여객기 기내서 보조배터리 화재…승객 1명 화상",
-    summary:
-      "이달 초 운항 중이던 제주항공 여객기 안에서 승객이 지닌 보조배터리가 터져 불이 났습니다. 규정을 지켰는데도 불이 난 사례로, 올해 기내 보조배터리 화재는 7건에 이릅니다.",
-    content:
-      "지난 4일 인천공항을 떠나 몽골로 향하던 제주항공 여객기에서 착륙을 1시간가량 앞두고 승객 주머니 속 보조배터리가 터져 불이 났습니다. 승무원이 바로 불을 꺼 운항에는 문제가 없었지만, 배터리를 갖고 있던 승객 1명이 화상을 입었습니다. 해당 승객은 배터리를 선반이 아닌 몸에 지니는 등 규정을 지킨 것으로 확인됐습니다. 기내 보조배터리 화재는 올해만 7건으로 지난해보다 크게 늘었으며, 국내 항공사들은 리콜 대상 보조배터리 10여 종의 반입을 막았습니다.",
-    category: "fire",
-    region: "인천공항 · 몽골행 여객기",
-    date: "2026-10-23",
-    source: "KBS",
-    sourceUrl: "https://www.youtube.com/watch?v=8eOZoomXFA8",
-    videoUrl: "https://www.youtube.com/watch?v=8eOZoomXFA8",
-    likes: 276,
-    comments: 39,
-    isBreaking: false,
-  },
-  {
-    id: "c-20261022-cheongna-gas-spray-injuries",
-    title: "인천 청라복합문화센터서 호신용 가스분사기 오발…6명 부상",
-    summary:
-      "인천 청라동의 복합문화센터에서 호신용 가스분사기가 잘못 발사돼 6명이 다쳤습니다. 많은 사람이 모이는 공공시설에서 벌어진 사고여서 경찰이 경위를 살피고 있습니다.",
-    content:
-      "22일 아침 인천 서구 청라의 복합문화센터 안에서 호신용 가스분사기가 갑자기 터지듯 발사됐습니다. 60대 여성 등 6명이 다쳤고, 이 가운데 3명은 병원 치료를 받았습니다. 현장에 퍼진 가스는 화학대응센터가 중화 작업을 마쳤습니다. 경찰은 70대 남성이 분사기를 잘못 다뤄 사고가 난 것으로 보고 정확한 경위를 조사하고 있습니다.",
-    category: "etc",
-    region: "인천 · 서구",
-    date: "2026-10-22",
-    source: "KBS",
-    sourceUrl: "https://www.youtube.com/watch?v=V7AR9-p2O54",
-    videoUrl: "https://www.youtube.com/watch?v=V7AR9-p2O54",
-    likes: 164,
-    comments: 22,
-    isBreaking: false,
-  },
-  {
-    id: "c-20261021-yeoksam-arson-targeted",
-    title: "역삼동 특허법인 방화 70대, 불 지르기 직전 특정 직원 위치 물어",
-    summary:
-      "강남 빌딩 두 곳에 불을 지른 70대 이 모 씨가 범행 직전 4년 전에도 공격했던 직원을 찾은 것으로 드러났습니다. 출입구에 불을 붙인 점 등이 살해 의도를 판단할 주요 정황으로 꼽힙니다.",
-    content:
-      "서울 강남구 역삼동의 특허법인 사무실 두 곳에 연달아 불을 지른 70대 이 모 씨가 범행 직전 사무실 입구에서 직원 A씨의 이름을 대며 어디 있는지 물은 것으로 확인됐습니다. 목격자들은 직원이 모른다고 답하자 이 씨가 곧바로 불을 냈다고 전했고, 출구가 막힌 직원들은 창문을 깨고 테라스로 피했습니다. 이 씨는 4년 전에도 요구를 들어주지 않는다며 A씨 몸에 휘발유를 뿌리고 협박해 징역 2년 6개월을 선고받은 바 있습니다. 경찰은 특정인을 노린 범행이며 살해 의도가 의심된다는 피해자 진술을 확보했습니다.",
-    category: "crime",
-    region: "서울 · 강남구",
-    date: "2026-10-21",
-    source: "KBS",
-    sourceUrl: "https://www.youtube.com/watch?v=fmbHFkFZKwo",
-    videoUrl: "https://www.youtube.com/watch?v=fmbHFkFZKwo",
-    likes: 588,
-    comments: 92,
-    isBreaking: false,
-  },
-  {
-    id: "c-20261021-aricell-families-appeal",
-    title: "아리셀 참사 대표 징역 4년 확정에 유족 반발…재판소원 예고",
-    summary:
-      "노동자 23명이 숨진 아리셀 화재 참사의 회사 대표에게 징역 4년이 확정되자 유족들이 강하게 반발했습니다. 유족들은 책임을 너무 가볍게 물었다며 헌법재판소에 재판소원을 내겠다고 밝혔습니다.",
-    content:
-      "노동자 23명이 숨진 경기 화성 아리셀 공장 화재 참사와 관련해 회사 대표의 징역 4년형이 확정됐습니다. 유족들은 참사의 무게에 비해 처벌이 지나치게 가볍다고 비판했습니다. 이들은 확정 판결에 대해 재판소원을 제기하겠다고 예고했습니다.",
-    category: "fire",
-    region: "경기 · 화성",
-    date: "2026-10-21",
-    source: "MBC",
-    sourceUrl: "https://www.youtube.com/watch?v=1b96XrXhuag",
-    videoUrl: "https://www.youtube.com/watch?v=1b96XrXhuag",
-    likes: 402,
-    comments: 68,
-    isBreaking: false,
-  },
-  {
-    id: "c-20261020-yeoksam-arson-two-buildings",
-    title: "서울 역삼동 빌딩 두 곳 잇따라 불…19명 부상, 70대 방화 용의자 검거",
-    summary:
-      "서울 강남구 역삼동에서 200m가량 떨어진 빌딩 두 곳에 7분 간격으로 불이 나 19명이 다쳤습니다. 두 곳 모두 특허법인 사무실이었고, 경찰은 방화 혐의로 70대 남성을 붙잡았습니다.",
-    content:
-      "20일 오전 11시 55분쯤 서울 강남구 역삼동 신명빌딩 3층에서 불이 나 1명이 심정지 상태로 이송되는 등 11명이 다쳤으며, 이 환자는 치료 뒤 호흡을 되찾았습니다. 7분 뒤 약 200m 떨어진 한양빌딩 4층에서도 불이 나 8명이 다쳤고, 이 가운데 3명은 심한 호흡곤란 증세를 보였습니다. 소방당국은 대응 1단계를 발령해 낮 12시 35분쯤 한양빌딩, 오후 2시 20분쯤 신명빌딩의 불을 모두 껐습니다. 불이 난 두 곳은 모두 특허법인 사무실이었고, 경찰은 화재 약 4시간 뒤인 오후 4시 16분쯤 서울 중구 동묘앞역 근처에서 70대 용의자를 체포했습니다.",
-    category: "fire",
-    region: "서울 · 강남구",
-    date: "2026-10-20",
-    source: "KBS",
-    sourceUrl: "https://www.youtube.com/watch?v=nwZ0r7k9xqs",
-    videoUrl: "https://www.youtube.com/watch?v=nwZ0r7k9xqs",
-    likes: 694,
-    comments: 108,
-    isBreaking: false,
-  },
-  {
-    id: "c-20261020-aricell-ceo-sentence-final",
-    title: "23명 숨진 화성 아리셀 화재 참사…대표 징역 4년 대법원 확정",
-    summary:
-      "2024년 근로자 23명이 숨진 아리셀 공장 화재와 관련해 박순관 대표에게 징역 4년이 확정됐습니다. 대법원은 안전 책임자가 따로 있어도 대표이사가 책임을 피할 수 없다는 경영책임자 기준을 처음 제시했습니다.",
-    content:
-      "2024년 6월 경기 화성의 리튬전지 제조업체 아리셀 공장에서 배터리 폭발로 불이 번져 근로자 23명이 숨지고 9명이 다쳤으며, 희생자 중에는 불법 파견 근로자도 있었습니다. 대법원은 20일 중대재해처벌법 위반 혐의로 기소된 박순관 대표에게 징역 4년을 선고한 원심을 확정했습니다. 1심의 징역 15년은 2심에서 일부 혐의가 빠지며 크게 줄었고, 아들 박중언 총괄본부장은 징역 7년, 법인은 벌금 8억 원이 확정됐습니다. 유족들은 형량이 지나치게 가볍고 2년 넘게 제대로 된 사과도 받지 못했다고 비판했습니다.",
-    category: "fire",
-    region: "경기 · 화성",
-    date: "2026-10-20",
-    source: "KBS",
-    sourceUrl: "https://www.youtube.com/watch?v=sQSmZnZ1QDE",
-    videoUrl: "https://www.youtube.com/watch?v=sQSmZnZ1QDE",
-    likes: 542,
-    comments: 97,
     isBreaking: false,
   },
 ]
