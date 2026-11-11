@@ -8,14 +8,6 @@ import './CaseCard.css'
 
 // 뉴스형 사건 카드 — 카드 전체가 상세로 연결.
 // 미디어 우선순위: 방송 영상(썸네일+▶) → 실제 사진 → 카테고리 커버
-// 카드 면에 쓸 짧은 한 줄 — 요약의 첫 문장 (너무 길면 잘라냄)
-function gist(text: string): string {
-  const first = text.split(/(?<=[.!?])\s+/)[0] || text
-  if (first.length <= 46) return first
-  const cut = first.slice(0, 46)
-  return cut.slice(0, cut.lastIndexOf(' ') > 20 ? cut.lastIndexOf(' ') : 46).trim() + '…'
-}
-
 export default function CaseCard({
   item,
   featured = false,
@@ -25,6 +17,8 @@ export default function CaseCard({
 }) {
   const meta = CATEGORY_META[item.category]
   const ytId = parseYouTubeId(item.videoUrl)
+  // 영상·사진이 없으면 제목을 카드 면에, 아래에는 긴 내용만
+  const textOnly = !ytId && !item.image
 
   return (
     <Link
@@ -72,7 +66,7 @@ export default function CaseCard({
             <span className="case-card__textcover-label">
               <Icon name={meta.icon} size={16} /> {meta.label}
             </span>
-            <span className="case-card__textcover-text">{gist(item.summary)}</span>
+            <span className="case-card__textcover-text">{item.title}</span>
           </span>
         )}
         <span className="case-card__cat">
@@ -82,7 +76,7 @@ export default function CaseCard({
 
       {/* ── 본문: 제목 + 요약 + CTA ── */}
       <div className="case-card__body">
-        <h3 className="case-card__title">{item.title}</h3>
+        {!textOnly && <h3 className="case-card__title">{item.title}</h3>}
         <p className="case-card__summary case-card__summary--long">
           {item.content && item.content.length > item.summary.length ? item.content : item.summary}
         </p>
