@@ -28,6 +28,19 @@ const { CASES, CATEGORY_META } = await import(
   pathToFileURL(tmp).href + '?t=' + Date.now()
 )
 
+// 이슈·미스터리 탭(issues.ts)도 같은 방식으로 불러온다
+const tmpIssues = join(root, 'node_modules', '.cache', 'gen-archive.issues.mjs')
+await build({
+  entryPoints: [join(root, 'src/data/issues.ts')],
+  bundle: true,
+  format: 'esm',
+  platform: 'node',
+  outfile: tmpIssues,
+  logLevel: 'silent',
+})
+const { ISSUES } = await import(pathToFileURL(tmpIssues).href + '?t=' + Date.now())
+
+
 const SITE = 'https://www.todaycase.com'
 
 mkdirSync(archiveDir, { recursive: true })
@@ -123,7 +136,7 @@ const staticUrls = [
   { loc: `${SITE}/privacy`, pri: '0.3', freq: 'yearly' },
   { loc: `${SITE}/contact`, pri: '0.3', freq: 'yearly' },
 ]
-const caseUrls = CASES.map((c) => ({
+const caseUrls = [...CASES, ...ISSUES].map((c) => ({
   loc: `${SITE}/case/${c.id}`,
   pri: '0.7',
   freq: 'weekly',

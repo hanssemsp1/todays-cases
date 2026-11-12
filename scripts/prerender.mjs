@@ -25,6 +25,19 @@ const { CASES, CATEGORY_META } = await import(
   pathToFileURL(tmp).href + '?t=' + Date.now()
 )
 
+// 이슈·미스터리 탭(issues.ts)도 같은 방식으로 불러온다
+const tmpIssues = join(root, 'node_modules', '.cache', 'prerender.issues.mjs')
+await build({
+  entryPoints: [join(root, 'src/data/issues.ts')],
+  bundle: true,
+  format: 'esm',
+  platform: 'node',
+  outfile: tmpIssues,
+  logLevel: 'silent',
+})
+const { ISSUES } = await import(pathToFileURL(tmpIssues).href + '?t=' + Date.now())
+
+
 const tpl = readFileSync(join(dist, 'index.html'), 'utf8')
 
 const esc = (s = '') =>
@@ -126,7 +139,7 @@ function renderCase(item) {
 }
 
 mkdirSync(join(dist, 'case'), { recursive: true })
-for (const item of CASES) {
+for (const item of [...CASES, ...ISSUES]) {
   writeFileSync(join(dist, 'case', `${item.id}.html`), renderCase(item))
 }
 
@@ -144,4 +157,4 @@ const homeBody =
 const home = tpl.replace('<div id="root"></div>', `<div id="root">${homeBody}</div>`)
 writeFileSync(join(dist, 'index.html'), home)
 
-console.log(`[prerender] 기사 ${CASES.length}개 HTML + 홈 생성 완료`)
+console.log(`[prerender] 기사 ${CASES.length + ISSUES.length}개 HTML + 홈 생성 완료`)
