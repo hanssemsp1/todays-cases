@@ -7,7 +7,7 @@ const items = [
   { to: '/', label: '홈', icon: 'home', end: true },
   { to: '/issues', label: '이슈', icon: 'auto_awesome', end: false },
   { to: '/cold-cases', label: '미제', icon: 'fingerprint', end: false },
-  { to: '/archive', label: '기록', icon: 'inventory_2', end: false },
+  { to: '/records', label: '기록', icon: 'inventory_2', end: false },
 ]
 
 // 상단 헤더 — 인스타풍 얇은 바 + 그라데이션 로고

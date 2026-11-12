@@ -48,6 +48,7 @@ export default function App() {
           <Route path="/case/:id" element={<CaseDetailPage />} />
           <Route path="/cold-cases" element={<ColdCasePage />} />
           <Route path="/issues" element={<IssuePage />} />
+          <Route path="/records" element={<ArchivePage />} />
           <Route path="/archive" element={<ArchivePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
