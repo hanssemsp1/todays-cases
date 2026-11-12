@@ -100,7 +100,7 @@ export async function renderShareCard(item: CaseItem): Promise<HTMLCanvasElement
   ctx.fillStyle = '#FFFFFF'
   ctx.font = '700 44px "Poppins", "Noto Sans KR", sans-serif'
   ctx.textBaseline = 'middle'
-  ctx.fillText('오늘의 사건사고', PAD, headerH / 2)
+  ctx.fillText('오늘의 사건 뉴스', PAD, headerH / 2)
   // 헤더 우측 날짜
   ctx.font = '500 30px "Poppins", "Noto Sans KR", sans-serif'
   ctx.textAlign = 'right'

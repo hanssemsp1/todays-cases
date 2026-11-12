@@ -53,7 +53,7 @@ const briefLines = top
   .join('\n')
 // 오늘의 대표 영상(방송 뉴스). 카톡이 유튜브 링크를 썸네일 미리보기로 변환 → 눌러서 재생.
 const topVideo = top.find((c) => c.videoUrl)?.videoUrl
-let text = `📰 오늘의 사건사고 (${today})\n\n${briefLines}`
+let text = `📰 오늘의 사건 뉴스 (${today})\n\n${briefLines}`
 if (topVideo) text += `\n\n🎬 오늘의 영상\n${topVideo}`
 text += `\n\n👉 전체보기 ${SITE}`
 

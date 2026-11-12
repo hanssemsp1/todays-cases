@@ -142,6 +142,29 @@ export default function CaseDetailPage() {
         <p className="detail__summary">{item.summary}</p>
         <p className="detail__content">{item.content}</p>
 
+        {/* 해설 — 이 사이트가 직접 쓰는 부분: 쟁점 · 관련 법 · 대비 방법 */}
+        {item.insight && (
+          <section className="detail__insight" aria-label="사건 해설">
+            <h2 className="detail__insight-head">
+              <Icon name="lightbulb" size={20} /> 사건 해설
+            </h2>
+            <h3 className="detail__insight-title">이 사건의 쟁점</h3>
+            <p className="detail__insight-text">{item.insight.issue}</p>
+            <h3 className="detail__insight-title">관련 법 · 제도</h3>
+            <p className="detail__insight-text">{item.insight.law}</p>
+            <h3 className="detail__insight-title">이렇게 대비하세요</h3>
+            <ul className="detail__insight-tips">
+              {item.insight.tips.map((t) => (
+                <li key={t}>{t}</li>
+              ))}
+            </ul>
+            <p className="detail__insight-note">
+              ※ 해설은 편집부가 공개된 법령과 기관 안내를 바탕으로 쓴 일반 정보입니다. 개별 사건의
+              결론은 수사와 재판 결과에 따라 달라질 수 있습니다.
+            </p>
+          </section>
+        )}
+
         {/* 본문 아래 광고 자리 (승인·slot 설정 시 노출) */}
         <AdSlot slot={AD_SLOTS.detail} />
 

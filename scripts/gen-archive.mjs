@@ -101,7 +101,7 @@ const items = feedItems
 const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>오늘의 사건사고</title>
+    <title>오늘의 사건 뉴스</title>
     <link>${SITE}</link>
     <description>그날그날의 사건·사고를 한 곳에서. 매일 자동 업데이트됩니다.</description>
     <language>ko</language>
@@ -118,7 +118,7 @@ const staticUrls = [
   { loc: `${SITE}/`, pri: '1.0', freq: 'daily' },
   { loc: `${SITE}/cold-cases`, pri: '0.8', freq: 'daily' },
   { loc: `${SITE}/issues`, pri: '0.8', freq: 'daily' },
-  { loc: `${SITE}/records`, pri: '0.6', freq: 'daily' },
+  { loc: `${SITE}/archive`, pri: '0.6', freq: 'daily' },
   { loc: `${SITE}/about`, pri: '0.3', freq: 'monthly' },
   { loc: `${SITE}/privacy`, pri: '0.3', freq: 'yearly' },
   { loc: `${SITE}/contact`, pri: '0.3', freq: 'yearly' },
@@ -158,10 +158,10 @@ const promoItems = promoDates
     const id = ytId(top[0]?.videoUrl)
     const image = id ? `https://img.youtube.com/vi/${id}/hqdefault.jpg` : `${SITE}/kakao-banner.png`
     const lines = top.map((c) => `• ${c.title}`).join('\n')
-    const hook = `🚨 오늘의 사건사고 (${mmdd(date)})\n\n${lines}\n\n👉 전체 영상으로 보기\n${SITE}\n\n#사건사고 #미제사건 #오늘의뉴스 #todaycase`
+    const hook = `🚨 오늘의 사건 뉴스 (${mmdd(date)})\n\n${lines}\n\n👉 전체 영상으로 보기\n${SITE}\n\n#사건사고 #미제사건 #오늘의뉴스 #todaycase`
     const pub = new Date(`${date}T09:00:00+09:00`).toUTCString()
     return `    <item>
-      <title>${xmlEscape(`오늘의 사건사고 (${mmdd(date)})`)}</title>
+      <title>${xmlEscape(`오늘의 사건 뉴스 (${mmdd(date)})`)}</title>
       <link>${SITE}</link>
       <guid isPermaLink="false">promo-${date}</guid>
       <pubDate>${pub}</pubDate>
@@ -175,7 +175,7 @@ const promoItems = promoDates
 const promo = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>오늘의 사건사고 · 홍보 피드</title>
+    <title>오늘의 사건 뉴스 · 홍보 피드</title>
     <link>${SITE}</link>
     <description>SNS 자동 게시용 후킹 피드</description>
     <language>ko</language>

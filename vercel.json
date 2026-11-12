@@ -3,14 +3,7 @@
   "rewrites": [
     {
       "source": "/((?!assets/|archive/|google|.*\\.(?:html|xml|txt|png|jpg|jpeg|svg|ico|json|webmanifest|js|css)).*)",
-      "destination": "/"
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/archive",
-      "destination": "/records",
-      "permanent": false
+      "destination": "/index.html"
     }
   ]
 }

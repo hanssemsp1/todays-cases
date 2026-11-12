@@ -54,9 +54,9 @@ export default function FeedPage() {
       {/* 히어로 */}
       <section className="feed__hero container">
         <h1 className="feed__title">
-          오늘의 <span className="grad-text">사건사고</span>
+          오늘의 <span className="grad-text">사건 뉴스</span>
         </h1>
-        <p className="feed__subtitle">그날그날의 사건·사고를 한 곳에서.</p>
+        <p className="feed__subtitle">그날그날의 사건·사고를 영상과 해설로.</p>
       </section>
 
       {/* 검색 + 정렬 */}

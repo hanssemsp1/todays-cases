@@ -7,7 +7,7 @@ const items = [
   { to: '/', label: '홈', icon: 'home', end: true },
   { to: '/issues', label: '이슈', icon: 'auto_awesome', end: false },
   { to: '/cold-cases', label: '미제', icon: 'fingerprint', end: false },
-  { to: '/records', label: '기록', icon: 'inventory_2', end: false },
+  { to: '/archive', label: '기록', icon: 'inventory_2', end: false },
 ]
 
 // 상단 헤더 — 인스타풍 얇은 바 + 그라데이션 로고
@@ -16,7 +16,7 @@ export default function Header() {
     <header className="app-header">
       <div className="container app-header__inner">
         <Link to="/" className="app-header__logo">
-          <span className="grad-text">오늘의 사건사고</span>
+          <span className="grad-text">오늘의 사건 뉴스</span>
         </Link>
         <nav className="app-header__actions" aria-label="상단 메뉴">
           {items.map((t) => (

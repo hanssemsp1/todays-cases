@@ -9,12 +9,20 @@ export type CaseCategory =
   | 'mystery' // 미스터리·괴담
   | 'etc'
 
+// 사건 해설 — 뉴스를 줄인 글이 아니라 이 사이트가 직접 쓰는 부분 (26.11.12)
+export interface CaseInsight {
+  issue: string          // 이 사건의 쟁점 (2~3문장)
+  law: string            // 관련 법 · 제도 (2~3문장, 확실한 조항만)
+  tips: string[]         // 이렇게 대비하세요 (3줄)
+}
+
 // 오늘의 사건사고 한 건
 export interface CaseItem {
   id: string
   title: string
   summary: string        // 카드/피드용 요약
   content: string        // 상세 본문
+  insight?: CaseInsight  // 해설(쟁점 · 관련 법 · 대비 방법)
   category: CaseCategory
   region: string         // 지역 (예: 서울 강남구)
   date: string           // ISO (YYYY-MM-DD)

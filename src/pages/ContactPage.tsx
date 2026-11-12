@@ -11,7 +11,7 @@ export default function ContactPage() {
 
       <div className="static-page__body">
         <p>
-          「오늘의 사건사고」에 대한 문의·제휴·정정 요청은 아래 이메일로 보내주세요. 확인 후 최대한
+          「오늘의 사건 뉴스」에 대한 문의·제휴·정정 요청은 아래 이메일로 보내주세요. 확인 후 최대한
           빠르게 답변드리겠습니다.
         </p>
 

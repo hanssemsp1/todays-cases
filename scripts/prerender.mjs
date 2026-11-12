@@ -41,7 +41,7 @@ const ytId = (url = '') => {
 
 function renderCase(item) {
   const url = `${SITE}/case/${item.id}`
-  const pageTitle = `${item.title} — 오늘의 사건사고`
+  const pageTitle = `${item.title} — 오늘의 사건 뉴스`
   const desc = (item.summary || item.title).replace(/\s+/g, ' ').trim().slice(0, 155)
   const id = ytId(item.videoUrl)
   const image = id
@@ -82,10 +82,10 @@ function renderCase(item) {
     dateModified: pub,
     image: [image],
     articleSection: catLabel,
-    author: { '@type': 'Organization', name: item.source || '오늘의 사건사고' },
+    author: { '@type': 'Organization', name: item.source || '오늘의 사건 뉴스' },
     publisher: {
       '@type': 'Organization',
-      name: '오늘의 사건사고',
+      name: '오늘의 사건 뉴스',
       logo: { '@type': 'ImageObject', url: `${SITE}/icon-192.png` },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
@@ -102,12 +102,21 @@ function renderCase(item) {
   const srcBlock = item.sourceUrl
     ? `<p><a href="${esc(item.sourceUrl)}" rel="nofollow noopener">원문 · ${esc(item.source)}</a></p>`
     : ''
+  const ins = item.insight
+  const insightBlock = ins
+    ? `<section><h2>사건 해설</h2>` +
+      `<h3>이 사건의 쟁점</h3><p>${esc(ins.issue)}</p>` +
+      `<h3>관련 법 · 제도</h3><p>${esc(ins.law)}</p>` +
+      `<h3>이렇게 대비하세요</h3><ul>${(ins.tips || []).map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` +
+      `</section>`
+    : ''
   const article =
-    `<article><nav><a href="/">오늘의 사건사고</a> › ${esc(catLabel)}</nav>` +
+    `<article><nav><a href="/">오늘의 사건 뉴스</a> › ${esc(catLabel)}</nav>` +
     `<h1>${esc(item.title)}</h1>` +
     `<p>${esc(item.source)} · ${esc(item.region)} · ${esc(item.date)}${item.time ? ' ' + esc(item.time) : ''}</p>` +
     `<p>${esc(item.summary)}</p>` +
     `<p>${esc(item.content)}</p>` +
+    insightBlock +
     videoBlock +
     srcBlock +
     `</article>`
@@ -126,8 +135,8 @@ const recent = [...CASES]
   .sort((a, b) => (b.date + (b.time || '')).localeCompare(a.date + (a.time || '')))
   .slice(0, 20)
 const homeBody =
-  `<main><h1>오늘의 사건사고</h1>` +
-  `<p>매일 국내외 사건·사고와 장기 미제사건을 요약·방송영상·출처와 함께 전합니다.</p><ul>` +
+  `<main><h1>오늘의 사건 뉴스</h1>` +
+  `<p>매일 국내외 사건·사고와 장기 미제사건을 요약·방송영상·출처, 그리고 쟁점·관련 법·대비 방법 해설과 함께 전합니다.</p><ul>` +
   recent
     .map((c) => `<li><a href="/case/${c.id}">${esc(c.title)}</a> <small>${esc(c.date)}</small></li>`)
     .join('') +
