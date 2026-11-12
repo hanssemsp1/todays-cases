@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { CASES, CATEGORY_META } from '../data/cases'
+import { ISSUES } from '../data/issues'
 import { downloadShareCard } from '../lib/shareCard'
 import { parseYouTubeId, youTubeEmbed } from '../lib/youtube'
 import AdSlot from '../components/ui/AdSlot'
@@ -13,7 +14,7 @@ import './CaseDetailPage.css'
 export default function CaseDetailPage() {
   const { id } = useParams()
   const navigate = useNavigate()
-  const item = CASES.find((c) => c.id === id)
+  const item = CASES.find((c) => c.id === id) ?? ISSUES.find((c) => c.id === id)
 
   const [downloading, setDownloading] = useState(false)
   const [copied, setCopied] = useState(false)

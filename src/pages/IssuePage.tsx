@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { CaseCategory } from '../types'
 import { CASES, CATEGORY_META, ISSUE_CATEGORIES } from '../data/cases'
+import { ISSUES } from '../data/issues'
 import CaseCard from '../components/case/CaseCard'
 import SearchBar from '../components/ui/SearchBar'
 import Icon from '../components/ui/Icon'
@@ -16,7 +17,7 @@ export default function IssuePage() {
 
   const list = useMemo(() => {
     const q = query.trim().toLowerCase()
-    return CASES.filter((c) => ISSUE_CATEGORIES.includes(c.category))
+    return [...ISSUES, ...CASES.filter((c) => ISSUE_CATEGORIES.includes(c.category))]
       .filter((c) => {
         const matchCat = cat === 'all' || c.category === cat
         const matchQuery =
