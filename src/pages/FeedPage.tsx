@@ -1,7 +1,8 @@
 import { Fragment, useMemo, useState } from 'react'
-import type { CaseCategory } from '../types'
+import { Link } from 'react-router-dom'
+import type { CaseCategory, CaseItem } from '../types'
 import { CASES, CATEGORY_META, ISSUE_CATEGORIES } from '../data/cases'
-import CaseCard from '../components/case/CaseCard'
+import { parseYouTubeId, youTubeThumb } from '../lib/youtube'
 import SearchBar from '../components/ui/SearchBar'
 import Icon from '../components/ui/Icon'
 import AdSlot from '../components/ui/AdSlot'
@@ -21,6 +22,47 @@ const CATS: FilterCat[] = [
   'world',
   'etc',
 ]
+
+function FeedStory({ item, featured = false }: { item: CaseItem; featured?: boolean }) {
+  const videoId = parseYouTubeId(item.videoUrl)
+  const image = videoId ? youTubeThumb(videoId) : item.image
+  const category = CATEGORY_META[item.category].label
+  const date = new Date(item.date + 'T00:00:00+09:00')
+  const dateLabel = date.toLocaleDateString('ko-KR', {
+    timeZone: 'Asia/Seoul',
+    ...(featured ? { year: 'numeric', weekday: 'long' } : {}),
+    month: 'long',
+    day: 'numeric',
+  })
+  const title = featured ? <h1>{item.title}</h1> : <h3>{item.title}</h3>
+
+  return (
+    <Link to={`/case/${item.id}`} className={featured ? 'feed__lead' : 'feed__story'}>
+      <div className="feed__story-copy">
+        <div className="feed__meta">
+          <span className="feed__category">{category}</span>
+          {item.isBreaking && <span className="feed__category">속보</span>}
+          {!featured && <span>{item.region}</span>}
+        </div>
+        {title}
+        {featured && <p className="feed__summary">{item.summary}</p>}
+        <div className="feed__meta">
+          {featured && <><span>{item.source}</span><span>{item.region}</span></>}
+          <time dateTime={item.date}>{dateLabel}</time>
+          {item.time && <span>{item.time}</span>}
+          {!featured && videoId && <span>영상</span>}
+        </div>
+        {featured && <span className="feed__read">{videoId ? '기사와 영상 보기' : '기사 보기'} <span aria-hidden="true">↗</span></span>}
+      </div>
+      {image && (
+        <div className="feed__media">
+          <img src={image} alt="" loading={featured ? 'eager' : 'lazy'} />
+          {featured && videoId && <span className="feed__play" aria-hidden="true"><Icon name="play_arrow" size={27} /></span>}
+        </div>
+      )}
+    </Link>
+  )
+}
 
 // 🏠 오늘의 사건사고 피드 — 검색 + 카테고리 필터 + 정렬 (소규모라 클라이언트 필터)
 export default function FeedPage() {
@@ -49,83 +91,85 @@ export default function FeedPage() {
     return result
   }, [query, cat, sort])
 
+  const showLead = !query.trim() && cat === 'all' && list.length > 0
+  const stories = showLead ? list.slice(1) : list
+
   return (
     <div className="feed">
-      {/* 히어로 */}
-      <section className="feed__hero container">
-        <h1 className="feed__title">
-          오늘의 <span className="grad-text">사건 뉴스</span>
-        </h1>
-        <p className="feed__subtitle">그날그날의 사건·사고를 영상과 해설로.</p>
-      </section>
+      {showLead && (
+        <section className="feed__hero container" aria-label="대표 기사">
+          <p className="feed__edition">{sort === 'latest' ? '오늘의 주요 뉴스' : '인기 뉴스'}</p>
+          <FeedStory item={list[0]} featured />
+        </section>
+      )}
 
-      {/* 검색 + 정렬 */}
-      <section className="feed__controls container">
-        <SearchBar
-          value={query}
-          onChange={setQuery}
-          placeholder="키워드 · 지역으로 검색 (예: 화재, 강남)"
-        />
-        <div className="feed__sort">
-          <button
-            className={'feed__sort-btn' + (sort === 'latest' ? ' is-active' : '')}
-            onClick={() => setSort('latest')}
-          >
-            <Icon name="schedule" size={18} /> 최신순
-          </button>
-          <button
-            className={'feed__sort-btn' + (sort === 'popular' ? ' is-active' : '')}
-            onClick={() => setSort('popular')}
-          >
-            <Icon name="trending_up" size={18} /> 인기순
-          </button>
-        </div>
-      </section>
-
-      {/* 카테고리 필터 칩 */}
-      <section className="feed__chips container" aria-label="카테고리 필터">
-        {CATS.map((c) => {
-          const label = c === 'all' ? '전체' : CATEGORY_META[c].label
-          const active = cat === c
-          return (
+      <section className="feed__list container" aria-labelledby="feed-list-title">
+        <div className="feed__controls">
+          {showLead
+            ? <h2 id="feed-list-title">{sort === 'latest' ? '최신 사건' : '인기 사건'}</h2>
+            : <h1 id="feed-list-title">{query.trim() ? '검색 결과' : cat === 'all' ? '최신 사건' : CATEGORY_META[cat].label}</h1>}
+          <SearchBar
+            value={query}
+            onChange={setQuery}
+            placeholder="키워드 · 지역으로 검색 (예: 화재, 강남)"
+          />
+          <div className="feed__sort" role="group" aria-label="기사 정렬">
             <button
-              key={c}
-              className={'feed__chip' + (active ? ' is-active' : '')}
-              onClick={() => setCat(c)}
+              className={'feed__sort-btn' + (sort === 'latest' ? ' is-active' : '')}
+              onClick={() => setSort('latest')}
+              aria-pressed={sort === 'latest'}
             >
-              {c !== 'all' && <Icon name={CATEGORY_META[c].icon} size={16} />}
-              {label}
+              <Icon name="schedule" size={18} /> 최신순
             </button>
-          )
-        })}
-      </section>
+            <button
+              className={'feed__sort-btn' + (sort === 'popular' ? ' is-active' : '')}
+              onClick={() => setSort('popular')}
+              aria-pressed={sort === 'popular'}
+            >
+              <Icon name="trending_up" size={18} /> 인기순
+            </button>
+          </div>
+        </div>
 
-      {/* 피드 목록 */}
-      <section className="feed__list container">
-        <p className="feed__count">{list.length}건</p>
-        {list.length > 0 ? (
-          !query.trim() && cat === 'all' ? (
-            <>
-              {/* 맨 위 사건을 '오늘의 톱뉴스'로 크게 강조 */}
-              <CaseCard key={list[0].id} item={list[0]} featured />
-              {list.slice(1).map((item, i) => (
-                <Fragment key={item.id}>
-                  <CaseCard item={item} />
-                  {/* 6개마다 광고 자리 (승인·slot 설정 시 노출) */}
-                  {(i + 1) % 6 === 0 && <AdSlot slot={AD_SLOTS.feed} />}
-                </Fragment>
-              ))}
-            </>
-          ) : (
-            list.map((item) => <CaseCard key={item.id} item={item} />)
-          )
-        ) : (
+        {/* 카테고리 필터 칩 */}
+        <div className="feed__chips" role="group" aria-label="카테고리 필터">
+          {CATS.map((c) => {
+            const label = c === 'all' ? '전체' : CATEGORY_META[c].label
+            const active = cat === c
+            return (
+              <button
+                key={c}
+                className={'feed__chip' + (active ? ' is-active' : '')}
+                onClick={() => setCat(c)}
+                aria-pressed={active}
+              >
+                {label}
+              </button>
+            )
+          })}
+        </div>
+
+        <p className="feed__count" role="status">{list.length}건</p>
+        {stories.map((item, i) => (
+          <Fragment key={item.id}>
+            <FeedStory item={item} />
+            {showLead && (i + 1) % 6 === 0 && <AdSlot slot={AD_SLOTS.feed} />}
+          </Fragment>
+        ))}
+        {list.length === 0 && (
           <div className="feed__empty">
             <Icon name="search_off" size={48} />
             <p>검색 결과가 없어요.</p>
           </div>
         )}
       </section>
+      <aside className="feed__archive container">
+        <div>
+          <h2>미제사건</h2>
+          <p>아직 풀리지 않은 사건의 기록</p>
+        </div>
+        <Link to="/cold-cases">미제사건 보기 ↗</Link>
+      </aside>
     </div>
   )
 }

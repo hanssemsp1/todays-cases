@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 import Icon from '../ui/Icon'
 import './Header.css'
 
@@ -12,11 +12,12 @@ const items = [
 
 // 상단 헤더 — 인스타풍 얇은 바 + 그라데이션 로고
 export default function Header() {
+  const isHome = useLocation().pathname === '/'
   return (
-    <header className="app-header">
+    <header className={isHome ? 'app-header app-header--home' : 'app-header'}>
       <div className="container app-header__inner">
         <Link to="/" className="app-header__logo">
-          <span className="grad-text">오늘의 사건 뉴스</span>
+          <span className={isHome ? undefined : 'grad-text'}>오늘의 사건 뉴스</span>
         </Link>
         <nav className="app-header__actions" aria-label="상단 메뉴">
           {items.map((t) => (
@@ -27,10 +28,10 @@ export default function Header() {
               className={({ isActive }) =>
                 'app-header__icon-btn' + (isActive ? ' is-active' : '')
               }
-              aria-label={t.label}
+              aria-label={isHome && t.to === '/cold-cases' ? '미제사건' : t.label}
             >
               <Icon name={t.icon} size={22} />
-              <span className="app-header__icon-label">{t.label}</span>
+              <span className="app-header__icon-label">{isHome && t.to === '/cold-cases' ? '미제사건' : t.label}</span>
             </NavLink>
           ))}
         </nav>
