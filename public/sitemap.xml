@@ -2,655 +2,727 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.todaycase.com/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/cold-cases</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/issues</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/records</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/about</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/privacy</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/contact</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.todaycase.com/case/c-20261114-siheung-family-of-three-deaths</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.todaycase.com/case/c-20261114-gimpo-schoolzone-child-death</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.todaycase.com/case/c-20261114-turkey-steel-factory-explosion</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.todaycase.com/case/c-20261114-cheonan-disabled-teen-death</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.todaycase.com/case/c-20261114-yangcheon-husband-kills-caregiver-wife</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.todaycase.com/case/c-20261114-seongbuk-murder-suspect-detained</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.todaycase.com/case/c-20261114-incheon-michuhol-motorcycle-death</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.todaycase.com/case/c-20261114-bundang-pileup-chinese-ebus-followup</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.todaycase.com/case/c-20261114-noshow-scam-military-impersonation</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.todaycase.com/case/c-20261114-australia-forest-missing-teen-found</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.todaycase.com/case/c-20261112-gyeongnam-dui-convenience-store</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261112-nationwide-battery-coin-investment-fraud</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261112-gwangju-apartment-arson-guard-death</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261112-kt-bomb-threat-teen-sentence</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261112-chungbuk-elderly-couple-co-poisoning</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261112-jtbc-rental-car-insurance-fraud-21</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-seongbuk-jeongneung-vengeance-murder</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-cheorwon-self-propelled-howitzer-collision</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-bundang-commute-32-car-pileup</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-gyeonggi-exchange-students-drug-ring</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-hoengseong-salon-ev-crash</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-gwangju-bongseon-runaway-bus</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-cheongju-girlfriend-stabbing</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-suwon-hospital-storage-fire</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-hansol-paper-jangheung-worker-death</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-andong-cafe-random-assault</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-gwangju-daycare-infant-death</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261111-japan-earthquake-swarm</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261110-cheorwon-howitzer-crash</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261110-hd-samho-shipyard-worker-death</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261110-busan-giftcard-loanshark-ring</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261110-daejeon-hospital-supply-scam</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261109-cheongju-girlfriend-murder</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261109-daejeon-stalking-murder-kwon-identity</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261109-gyeonggi-foreign-student-drug-ring</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261109-songnae-ic-8car-pileup</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261108-car-camping-gas-heater-death</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261107-white-house-armed-man-arrest</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261107-cheonan-japanese-woman-murder-referred</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261107-cheongju-sanitation-worker-step-death</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261107-severance-stabbing-suspect-arrested</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261106-cheonan-japanese-woman-murder</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261106-cheongju-sanitation-worker-death</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261106-gapyeong-hospital-knife-threat</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261105-eunpyeong-stalking-murder</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261105-gangwon-daycare-abuse-indicted</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261105-gwangju-serial-arson</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261104-busan-banyan-fire-sentencing</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261104-severance-hospital-doctor-stabbed</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261103-cold-medicine-meth-ring</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261103-yeongam-commuter-bus-crash</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261103-leaked-data-detective-murder</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261102-florida-learjet-crash-9-dead</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261102-expressway-secondary-crashes-3-dead</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261101-golf-drugged-coffee-fraud</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261031-gapyeong-house-fire</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261031-incheon-suv-rollover</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261031-yeongheung-fishing-boat-fire</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261031-spain-toledo-high-speed-train-crash</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261031-yeongam-naju-multiple-crashes</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261031-streamer-threat-subscriber-arrest</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261030-ulsan-boiler-tower-probe</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261030-cheonan-murder-suspect-arrested</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261030-jeju-forklift-death</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261030-gwangyang-bridge-motorcycle-death</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261029-cheonan-japanese-woman-murder</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261029-jeju-stalking-murder-identity</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261029-brazil-plane-daycare</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261029-incheon-knife-arrest</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/c-20261028-jeju-missing-report-cop-trial</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.todaycase.com/case/s-20261114-son-heungmin-discord-comment</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.todaycase.com/case/m-20261114-midnight-motel-knocking</loc>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261112-national-team-joint-statement</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261112-kim-soohyun-testifies</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261112-jennie-billboard-3rd</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261111-deux-ai-kim-sungjae</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261111-honeybee-mass-disappearance</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261111-doomsday-paper-nov13</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261110-bigbang-bangkok-storm</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261110-nvidia-mystery-woman-spy-suspicion</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261109-cho-jinwoong-drama-airs</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261109-sangju-motel-monthly-room</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20260621-leroy-tics-kalachi-sleep</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261108-samsung-ks-champion</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261107-fake-webnovel-writer-vanished</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261107-mexico-border-pale-creature</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261107-chilgok-dabu-tunnel-accidents</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261106-newjeans-contract-nyt</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261106-ahn-jaewook-sports-day-noise</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261104-spain-tenerife-player-death</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261103-pyramid-hidden-room-labyrinth</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261102-park-hangseo-kimchi-man</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261102-sokcho-football-assoc-embezzle</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261102-chinese-lock-curse-crew</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261102-jecheon-temple-site-abandoned-village</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261030-choi-bulam-dies</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261030-patrick-stewart-dies</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261030-yeongnam-six-women-missing</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261029-yoon-daeyeol-gas-blast</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261027-younha-agency-split</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261026-gangwon-pension-cleaver</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261025-near-death-psychic-detective</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261024-fc-seoul-champion</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261023-curious-y-unreleased-xfiles</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261019-song-mino-reservice</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261019-asiad-football-exemption</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261019-prayer-house-roommate</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261016-gyeongbu-missing-driver-7hours</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261015-ha-jungwoo-wedding</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261014-noahs-ark-site-underground-scan</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261013-kfa-national-team-rumor</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/s-20261013-anita-mui-urn-stolen</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261012-busan-two-sons-name</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.todaycase.com/case/m-20261012-samcheok-yellow-shroud</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

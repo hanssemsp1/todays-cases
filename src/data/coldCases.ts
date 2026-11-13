@@ -1014,6 +1014,22 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.nocutnews.co.kr/news/6330872',
     videoUrl: 'https://www.youtube.com/watch?v=8ZjfbH8ty8I',
   },
+  {
+    id: 'cc-tongyeong-60s-woman-murder',
+    caseNo: '2026 · 경남 통영',
+    title: '통영 60대 여성 살인사건',
+    occurredDate: '2026-06-10',
+    region: '경남 통영시',
+    status: 'unsolved',
+    summary:
+      '2026년 6월 경남 통영의 한 자택에서 60대 여성이 흉기에 살해된 채 발견됐다. 외부 침입 흔적과 용의자로 추정되는 CCTV 영상이 공개됐지만 넉 달이 넘도록 범인은 잡히지 않았고, 경찰은 현상금 1억 원을 걸고 공개수사를 이어가고 있다.',
+    details:
+      '통영의 한 주택에서 혼자 살던 60대 여성이 집 안에서 흉기에 살해된 채 발견됐다. 경찰은 발생 초기 범인을 특정하지 못하자 사건을 공개수사로 전환했고, 이후 30~40대로 추정되는 건장한 체격의 용의자가 야산과 해안가 도로 주변에서 찍힌 CCTV 영상을 공개하며 현상금 1억 원을 내걸었다. 경찰은 사건 전후 피해자의 동선과 용의자로 보이는 인물이 현장 주변을 오간 약 두 시간가량의 행적을 추적하고 있지만, 넉 달 넘게 결정적인 신원 확인에는 이르지 못했다. SBS "그것이 알고싶다"도 이 사건을 다루며 용의자의 걸음걸이와 행동을 분석했으나 범인은 특정되지 않았다. 사건 현장이 인터넷에 알려지면서 일부 유튜버가 현장을 찾아 촬영하는 일까지 벌어져 논란이 되기도 했다.',
+    reward: 100000000,
+    tags: ['살인', '통영', '경남', '미제사건', '공개수사', '현상금'],
+    sourceUrl: 'https://www.youtube.com/watch?v=oIUfIazqE3s',
+    videoUrl: 'https://www.youtube.com/watch?v=F5JRXNoTENk',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
