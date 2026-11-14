@@ -4,7 +4,7 @@ import './BottomNav.css'
 
 // 모바일 하단 탭 바 — 피드 / 이슈·미스터리 / 미제사건 분리 탭
 const tabs = [
-  { to: '/', label: '사건사고', icon: 'newspaper', end: true },
+  { to: '/', label: '홈', icon: 'newspaper', end: true },
   { to: '/issues', label: '이슈', icon: 'auto_awesome', end: false },
   { to: '/cold-cases', label: '미제사건', icon: 'fingerprint', end: false },
   { to: '/records', label: '지난기록', icon: 'inventory_2', end: false },

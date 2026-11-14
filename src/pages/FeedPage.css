@@ -1,20 +1,12 @@
-.feed, .app-header--home {
+.feed {
   color: var(--ink);
   background: var(--paper);
 }
-.feed .container, .app-header--home .container {
+.feed .container {
   max-width: 1120px;
   padding-inline: clamp(16px, 4vw, 48px);
 }
 .feed { padding: 26px 0 42px; }
-.app-header--home { border-color: var(--rule); backdrop-filter: none; }
-.app-header--home .app-header__inner { height: auto; min-height: 64px; gap: 10px 24px; }
-.app-header--home .app-header__logo { font-size: clamp(20px, 3vw, 26px); letter-spacing: -.05em; }
-.app-header--home .app-header__actions { gap: 18px; }
-.app-header--home .app-header__icon-btn { width: auto; min-width: 32px; color: var(--muted-ink); }
-.app-header--home .app-header__icon-btn.is-active { color: var(--wine); }
-.app-header--home .app-header__icon-btn .icon { display: none; }
-.app-header--home .app-header__icon-label { font-size: 14px; }
 .feed__edition {
   margin: 0 0 16px;
   border-top: 3px solid var(--wine);
@@ -118,9 +110,6 @@
 .feed__archive::before { content: ''; flex: 0 0 100%; border-top: 2px solid var(--ink); margin-bottom: 6px; }
 .feed__archive p { margin: 4px 0; color: var(--muted-ink); }
 @media (max-width: 640px) {
-  .app-header--home .app-header__inner { flex-wrap: wrap; gap: 0 18px; padding-top: 8px; }
-  .app-header--home .app-header__actions { flex-wrap: wrap; gap: 0 14px; }
-  .app-header--home .app-header__icon-btn { min-width: 44px; }
   .feed { padding-top: 16px; }
   .feed__lead:has(.feed__media) { grid-template-columns: minmax(0, 1fr); }
   .feed__controls .searchbar { flex: 1 1 100%; order: 1; }
