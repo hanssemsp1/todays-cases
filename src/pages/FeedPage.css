@@ -115,3 +115,18 @@
   .feed__controls .searchbar { flex: 1 1 100%; order: 1; }
   .feed__chips { gap: 0 9px; }
 }
+
+.feed__edition { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 12px; }
+.feed__tagline { font-size: 13px; color: var(--muted-ink); font-weight: 400; }
+.feed__title { font-size: 26px; }
+.feed__subtitle { color: var(--muted-ink); font-size: 14px; }
+@media (min-width: 1024px) {
+  .feed__story { justify-content: flex-start; gap: 20px; }
+  .feed__story .feed__media { order: -1; }
+}
+@media (max-width: 640px) {
+  .feed__edition { flex-direction: column; }
+  .feed__chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .feed__chips::-webkit-scrollbar { display: none; }
+  .feed__chip { flex: none; white-space: nowrap; }
+}

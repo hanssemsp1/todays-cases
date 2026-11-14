@@ -5,7 +5,15 @@ import { parseYouTubeId, youTubeThumb } from '../../lib/youtube'
 import Icon from '../ui/Icon'
 import '../../pages/FeedPage.css'
 
-export default function FeedStory({ item, featured = false }: { item: CaseItem; featured?: boolean }) {
+export default function FeedStory({
+  item,
+  featured = false,
+  showBreaking = item.isBreaking,
+}: {
+  item: CaseItem
+  featured?: boolean
+  showBreaking?: boolean
+}) {
   const videoId = parseYouTubeId(item.videoUrl)
   const image = videoId ? youTubeThumb(videoId) : item.image
   const category = CATEGORY_META[item.category].label
@@ -23,7 +31,7 @@ export default function FeedStory({ item, featured = false }: { item: CaseItem; 
       <div className="feed__story-copy">
         <div className="feed__meta">
           <span className="feed__category">{category}</span>
-          {item.isBreaking && <span className="feed__category">속보</span>}
+          {showBreaking && <span className="feed__category">속보</span>}
           {!featured && <span>{item.region}</span>}
         </div>
         {title}
@@ -32,9 +40,9 @@ export default function FeedStory({ item, featured = false }: { item: CaseItem; 
           {featured && <><span>{item.source}</span><span>{item.region}</span></>}
           <time dateTime={item.date}>{dateLabel}</time>
           {item.time && <span>{item.time}</span>}
-          {!featured && videoId && <span>영상</span>}
+          {!featured && (videoId || item.insight) && <span>{[videoId && '영상', item.insight && '해설'].filter(Boolean).join(' · ')}</span>}
         </div>
-        {featured && <span className="feed__read">{videoId ? '기사와 영상 보기' : '기사 보기'} <span aria-hidden="true">↗</span></span>}
+        {featured && <span className="feed__read">{['기사', videoId && '영상', item.insight && '해설'].filter(Boolean).join(' · ') + ' 보기'} <span aria-hidden="true">↗</span></span>}
       </div>
       {image && (
         <div className="feed__media">

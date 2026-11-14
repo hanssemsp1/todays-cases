@@ -52,14 +52,25 @@ export default function FeedPage() {
   }, [query, cat, sort])
 
   const showLead = !query.trim() && cat === 'all' && list.length > 0
-  const stories = showLead ? list.slice(1) : list
+  const latestDate = CASES.filter(item => !ISSUE_CATEGORIES.includes(item.category))
+    .reduce((latest, item) => item.date > latest ? item.date : latest, '')
+  const latestStories = list.filter(item => item.date === latestDate)
+    .sort((a, b) => (b.time ?? '').localeCompare(a.time ?? ''))
+  const lead = latestStories.find(item => item.isBreaking && item.category !== 'world')
+    ?? latestStories[0]
+    ?? list[0]
+  const stories = showLead ? list.filter(item => item.id !== lead.id) : list
+  const breakingIds = new Set(stories
+    .filter(item => item.date === latestDate && item.isBreaking)
+    .slice(0, 3)
+    .map(item => item.id))
 
   return (
     <div className="feed">
       {showLead && (
         <section className="feed__hero container" aria-label="대표 기사">
-          <p className="feed__edition">{sort === 'latest' ? '오늘의 주요 뉴스' : '인기 뉴스'}</p>
-          <FeedStory item={list[0]} featured />
+          <div className="feed__edition"><span>오늘의 주요 뉴스</span><span className="feed__tagline">그날그날의 사건·사고를 영상과 해설로</span></div>
+          <FeedStory item={lead} featured />
         </section>
       )}
 
@@ -112,7 +123,7 @@ export default function FeedPage() {
         <p className="feed__count" role="status">{list.length}건</p>
         {stories.map((item, i) => (
           <Fragment key={item.id}>
-            <FeedStory item={item} />
+            <FeedStory item={item} showBreaking={breakingIds.has(item.id)} />
             {showLead && (i + 1) % 6 === 0 && <AdSlot slot={AD_SLOTS.feed} />}
           </Fragment>
         ))}
