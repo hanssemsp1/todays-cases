@@ -87,9 +87,6 @@ export default function CaseDetailPage() {
       <article className="container detail__article">
         {/* 헤더 */}
         <div className="detail__head">
-          <span className="detail__avatar" style={{ background: meta.color }}>
-            <Icon name={meta.icon} size={22} />
-          </span>
           <div className="detail__headmeta">
             <span className="detail__source">{item.source}</span>
             <span className="detail__loc">
@@ -122,7 +119,7 @@ export default function CaseDetailPage() {
               ) : (
                 <span
                   className="detail__thumb"
-                  style={{ background: `linear-gradient(135deg, ${meta.color}, #262626)` }}
+                  style={{ background: 'var(--wine)' }}
                 >
                   <Icon name={meta.icon} size={88} />
                 </span>
