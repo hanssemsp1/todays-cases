@@ -4,8 +4,8 @@
 
 /* 다크 파일 헤더 */
 .cold__hero {
-  background: #262626;
-  color: #fff;
+  background: var(--paper);
+  color: var(--wine);
   padding: 26px 0 22px;
   margin-bottom: 16px;
 }
@@ -14,14 +14,14 @@
   align-items: center;
   gap: 5px;
   padding: 4px 12px;
-  border-radius: 999px;
-  background: var(--grad); /* 강조 → 그라데이션 */
+  border-radius: 0;
+  background: transparent; /* 강조 → 그라데이션 */
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 1px;
 }
 .cold__badge .icon {
-  color: #fff;
+  color: var(--wine);
 }
 .cold__title {
   font-size: 26px;
@@ -29,7 +29,7 @@
 }
 .cold__subtitle {
   margin: 0;
-  color: #c7c7c7;
+  color: var(--muted-ink);
   font-size: 14px;
   max-width: 460px;
 }
@@ -55,15 +55,7 @@
   font-size: 13px;
   font-weight: 500;
 }
-.cold__today .cold-card {
-  outline: 2px solid transparent;
-  background-image:
-    linear-gradient(var(--surface), var(--surface)),
-    var(--grad);
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-  border: 2px solid transparent;
-}
+.cold__today .cold-card { border-top: 2px solid var(--wine); }
 .cold__today-note {
   margin: 10px 2px 0;
   font-size: 12.5px;
@@ -103,7 +95,7 @@
   gap: 4px;
   flex: none;
   padding: 8px 14px;
-  border-radius: 999px;
+  border-radius: 0;
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--text);
@@ -114,12 +106,12 @@
   transition: 0.15s;
 }
 .cold__chip.is-active {
-  background: var(--text);
-  color: #fff;
-  border-color: var(--text);
+  background: transparent;
+  color: var(--wine);
+  border-color: var(--wine);
 }
 .cold__chip.is-active .icon {
-  color: #fff;
+  color: var(--wine);
 }
 
 /* 목록 */
@@ -137,8 +129,3 @@
   color: var(--sub);
 }
 
-@media (min-width: 768px) {
-  .cold__list {
-    max-width: 560px;
-  }
-}

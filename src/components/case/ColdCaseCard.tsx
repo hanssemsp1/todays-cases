@@ -14,18 +14,13 @@ export default function ColdCaseCard({ item }: { item: ColdCaseItem }) {
       <div className="cold-card__filetab">
         <Icon name="folder_special" size={16} />
         <span className="cold-card__no">{item.caseNo}</span>
-        <span className="cold-card__status" style={{ color: status.color }}>
+        <span className="cold-card__status">
           <Icon name={status.icon} size={14} />
           {status.label}
         </span>
       </div>
 
       <div className="cold-card__inner">
-        {/* 좌측 미제 인장 */}
-        <div className="cold-card__stamp" style={{ borderColor: status.color, color: status.color }}>
-          <Icon name="fingerprint" size={30} />
-          <span>미제</span>
-        </div>
 
         {/* 우측 내용 */}
         <div className="cold-card__content">
