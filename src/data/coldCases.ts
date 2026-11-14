@@ -1030,6 +1030,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.youtube.com/watch?v=oIUfIazqE3s',
     videoUrl: 'https://www.youtube.com/watch?v=F5JRXNoTENk',
   },
+  {
+    id: 'cc-gwangju-yongbong-tape-murder',
+    caseNo: '2004 · 광주 용봉동',
+    title: '광주 용봉동 여대생 테이프 살인사건',
+    occurredDate: '2004-09-14',
+    region: '광주광역시 용봉동',
+    status: 'cold',
+    summary:
+      '2004년 9월 광주 용봉동의 한 아파트에서 22세 여대생이 얼굴 전체가 테이프에 감겨 질식사한 채 발견됐다. 범인은 20년 넘게 잡히지 않았지만, 경찰이 보관 중이던 증거물을 재감정해 범인의 것으로 추정되는 새로운 DNA 단서를 확보한 것으로 알려졌다.',
+    details:
+      '2004년 9월 14일 광주광역시 용봉동의 한 아파트에서 22세 여대생이 숨진 채 발견됐다. 피해자는 얼굴 전체가 노란색 테이프로 감긴 상태였고, 부검 결과 경부 압박에 의한 질식사로 확인됐다. 당시 아파트에는 CCTV가 설치돼 있지 않았고, 현장에서 범인을 특정할 지문이나 족적도 나오지 않아 수사는 난항을 겪었다. 경찰은 증거보관실에 보존돼 있던 머플러와 마흔두 조각의 테이프를 재감정해 범인의 것으로 추정되는 새로운 DNA 단서를 확보한 것으로 알려졌다. 사건은 20년 넘게 범인을 특정하지 못한 채 미제로 남아 있다.',
+    tags: ['테이프살인', '광주', '용봉동', '미제사건', 'DNA'],
+    sourceUrl: 'https://www.youtube.com/watch?v=tzwa_jM8eRs',
+    videoUrl: 'https://www.youtube.com/watch?v=tzwa_jM8eRs',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
