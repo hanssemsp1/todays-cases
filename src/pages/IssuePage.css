@@ -1,0 +1,37 @@
+/* 이슈·미스터리 — 단순한 한 줄 세로 목록: 영상(썸네일) → 제목 → 설명 */
+.issue .container { max-width: 680px; }
+
+.issue__head { padding-top: 28px; }
+.issue__head h1 { margin: 0; font-size: clamp(26px, 5vw, 34px); letter-spacing: -.04em; line-height: 1.25; color: var(--ink); }
+.issue__head p { margin: 6px 0 0; color: var(--muted-ink); font-size: 15px; }
+.issue__chips { margin-top: 18px; }
+
+.issue__list { padding-bottom: 48px; }
+
+.issue-card { display: block; padding: 26px 0 28px; border-bottom: 1px solid var(--rule); color: inherit; text-decoration: none; }
+.issue-card:last-child { border-bottom: 0; }
+
+.issue-card__media { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #332128; }
+.issue-card__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.issue-card__play {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 56px; height: 56px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: rgba(33, 29, 29, .72); color: #fff; border: 1px solid rgba(255, 255, 255, .8);
+}
+
+.issue-card__meta { display: flex; align-items: center; gap: 10px; margin-top: 14px; font-size: 13px; color: var(--muted-ink); }
+.issue-card h2 { margin: 6px 0 0; font-size: clamp(19px, 3.6vw, 23px); line-height: 1.38; letter-spacing: -.03em; color: var(--ink); }
+.issue-card p {
+  margin: 8px 0 0; font-size: 15.5px; line-height: 1.7; color: var(--muted-ink);
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.issue-card:hover h2 { color: var(--wine); }
+
+@media (max-width: 640px) {
+  .issue__head { padding-top: 20px; }
+  .issue-card { padding: 20px 0 22px; }
+  /* 휴대폰에서는 영상이 화면 폭을 꽉 채우게 */
+  .issue-card__media { margin: 0 calc(-1 * clamp(16px, 4vw, 48px)); }
+  .issue-card__play { width: 50px; height: 50px; }
+}
