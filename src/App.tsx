@@ -36,11 +36,27 @@ function ScrollToTop() {
   return null
 }
 
+// 메뉴(홈 · 이슈 · 미제사건 · 지난기록)마다 바탕색을 조금씩 다르게 — 대표님 26.11.14.
+// <html data-section="…">에 적고 색은 styles/global.css가 정한다. index.html 머리의 짧은 스크립트가
+// 첫 화면이 그려지기 전에 같은 값을 넣어 두므로(깜빡임 방지), 규칙을 바꾸면 두 곳을 같이 고친다.
+function sectionOf(pathname: string) {
+  if (pathname.startsWith('/issues')) return 'issues'
+  if (pathname.startsWith('/cold-cases')) return 'cold'
+  if (pathname.startsWith('/records') || pathname.startsWith('/archive')) return 'records'
+  return 'home'
+}
+function SectionTint() {
+  const { pathname } = useLocation()
+  useEffect(() => { document.documentElement.dataset.section = sectionOf(pathname) }, [pathname])
+  return null
+}
+
 // 앱 셸: 헤더 + 라우팅 본문 + 푸터 + 모바일 하단 탭
 export default function App() {
   return (
     <div className="app-shell">
       <ScrollToTop />
+      <SectionTint />
       <Header />
       <main className="app-main">
         <Routes>

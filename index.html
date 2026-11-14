@@ -2,6 +2,17 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
+    <!-- 메뉴마다 바탕색을 다르게: 화면이 그려지기 전에 어느 메뉴인지 적어 둔다(색은 styles/global.css, 규칙은 App.tsx sectionOf와 같게) -->
+    <script>
+      (function () {
+        var p = location.pathname
+        document.documentElement.dataset.section =
+          p.indexOf('/issues') === 0 ? 'issues'
+          : p.indexOf('/cold-cases') === 0 ? 'cold'
+          : p.indexOf('/records') === 0 || p.indexOf('/archive') === 0 ? 'records'
+          : 'home'
+      })()
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#FAFAFA" />
 

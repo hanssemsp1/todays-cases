@@ -1,4 +1,4 @@
-/* ??? ?? ?? ?? ??? */
+/* 사이트 공통 색 · 지면 값 */
 :root {
   --paper: #faf7f1;
   --ink: #211d1d;
@@ -24,6 +24,12 @@
   --shadow: none;
   --maxw: 1120px;
 }
+
+/* 메뉴마다 바탕색을 조금씩 다르게(대표님 26.11.14) — 글자색 · 자주색 포인트는 그대로, 종이 색과 선 색만 바꾼다.
+   <html data-section>은 index.html 머리의 스크립트와 App.tsx(SectionTint)가 넣는다. */
+:root[data-section='issues']  { --paper: #f4f1fa; --rule: #d7cfe4; } /* 이슈 · 미스터리: 연한 보랏빛 */
+:root[data-section='cold']    { --paper: #edf2f6; --rule: #cbd6de; } /* 미제사건: 차가운 푸른 회색(서류철) */
+:root[data-section='records'] { --paper: #f4eedc; --rule: #d8cba6; } /* 지난기록: 오래된 종이 */
 
 /* ---- 리셋 ---- */
 * { box-sizing: border-box; }
