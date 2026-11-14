@@ -1,8 +1,8 @@
 import { Fragment, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import type { CaseCategory, CaseItem } from '../types'
+import type { CaseCategory } from '../types'
 import { CASES, CATEGORY_META, ISSUE_CATEGORIES } from '../data/cases'
-import { parseYouTubeId, youTubeThumb } from '../lib/youtube'
+import FeedStory from '../components/case/FeedStory'
 import SearchBar from '../components/ui/SearchBar'
 import Icon from '../components/ui/Icon'
 import AdSlot from '../components/ui/AdSlot'
@@ -23,46 +23,6 @@ const CATS: FilterCat[] = [
   'etc',
 ]
 
-function FeedStory({ item, featured = false }: { item: CaseItem; featured?: boolean }) {
-  const videoId = parseYouTubeId(item.videoUrl)
-  const image = videoId ? youTubeThumb(videoId) : item.image
-  const category = CATEGORY_META[item.category].label
-  const date = new Date(item.date + 'T00:00:00+09:00')
-  const dateLabel = date.toLocaleDateString('ko-KR', {
-    timeZone: 'Asia/Seoul',
-    ...(featured ? { year: 'numeric', weekday: 'long' } : {}),
-    month: 'long',
-    day: 'numeric',
-  })
-  const title = featured ? <h1>{item.title}</h1> : <h3>{item.title}</h3>
-
-  return (
-    <Link to={`/case/${item.id}`} className={featured ? 'feed__lead' : 'feed__story'}>
-      <div className="feed__story-copy">
-        <div className="feed__meta">
-          <span className="feed__category">{category}</span>
-          {item.isBreaking && <span className="feed__category">속보</span>}
-          {!featured && <span>{item.region}</span>}
-        </div>
-        {title}
-        {featured && <p className="feed__summary">{item.summary}</p>}
-        <div className="feed__meta">
-          {featured && <><span>{item.source}</span><span>{item.region}</span></>}
-          <time dateTime={item.date}>{dateLabel}</time>
-          {item.time && <span>{item.time}</span>}
-          {!featured && videoId && <span>영상</span>}
-        </div>
-        {featured && <span className="feed__read">{videoId ? '기사와 영상 보기' : '기사 보기'} <span aria-hidden="true">↗</span></span>}
-      </div>
-      {image && (
-        <div className="feed__media">
-          <img src={image} alt="" loading={featured ? 'eager' : 'lazy'} />
-          {featured && videoId && <span className="feed__play" aria-hidden="true"><Icon name="play_arrow" size={27} /></span>}
-        </div>
-      )}
-    </Link>
-  )
-}
 
 // 🏠 오늘의 사건사고 피드 — 검색 + 카테고리 필터 + 정렬 (소규모라 클라이언트 필터)
 export default function FeedPage() {

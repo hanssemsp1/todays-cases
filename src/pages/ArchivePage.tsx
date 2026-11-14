@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { CaseItem } from '../types'
 import { CASES } from '../data/cases'
-import CaseCard from '../components/case/CaseCard'
+import FeedStory from '../components/case/FeedStory'
 import Icon from '../components/ui/Icon'
 import './ArchivePage.css'
 
@@ -117,7 +117,7 @@ export default function ArchivePage() {
         {loading ? (
           <p className="archive__empty">불러오는 중…</p>
         ) : dayCases.length > 0 ? (
-          dayCases.map((item) => <CaseCard key={item.id} item={item} />)
+          dayCases.map((item) => <FeedStory key={item.id} item={item} />)
         ) : (
           <div className="archive__empty">
             <Icon name="folder_open" size={48} />

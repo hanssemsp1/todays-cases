@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import type { CaseCategory } from '../types'
 import { CASES, CATEGORY_META, ISSUE_CATEGORIES } from '../data/cases'
 import { ISSUES } from '../data/issues'
-import CaseCard from '../components/case/CaseCard'
+import FeedStory from '../components/case/FeedStory'
 import SearchBar from '../components/ui/SearchBar'
 import Icon from '../components/ui/Icon'
 import './FeedPage.css'
@@ -32,24 +32,35 @@ export default function IssuePage() {
       )
   }, [query, cat])
 
+  const showLead = !query.trim() && cat === 'all' && list.length > 0
+  const stories = showLead ? list.slice(1) : list
+
   return (
     <div className="feed">
       {/* 히어로 */}
       <section className="feed__hero container">
         <h1 className="feed__title">
-          이슈·<span className="grad-text">미스터리</span>
+          이슈·미스터리
         </h1>
         <p className="feed__subtitle">
           연예·스포츠 소식과 설명되지 않은 이야기들.
         </p>
       </section>
 
-      <section className="feed__controls container">
+      {showLead && (
+        <section className="feed__hero container" aria-label="대표 이슈">
+          <FeedStory item={list[0]} featured />
+        </section>
+      )}
+
+      <section className="container">
+        <div className="feed__controls">
         <SearchBar
           value={query}
           onChange={setQuery}
           placeholder="키워드 · 지역으로 검색"
         />
+        </div>
       </section>
 
       {/* 카테고리 필터 칩 */}
@@ -62,8 +73,8 @@ export default function IssuePage() {
               key={c}
               className={'feed__chip' + (active ? ' is-active' : '')}
               onClick={() => setCat(c)}
+              aria-pressed={active}
             >
-              {c !== 'all' && <Icon name={CATEGORY_META[c].icon} size={16} />}
               {label}
             </button>
           )
@@ -73,7 +84,7 @@ export default function IssuePage() {
       <section className="feed__list container">
         <p className="feed__count">{list.length}건</p>
         {list.length > 0 ? (
-          list.map((item) => <CaseCard key={item.id} item={item} />)
+          stories.map((item) => <FeedStory key={item.id} item={item} />)
         ) : (
           <div className="feed__empty">
             <Icon name="search_off" size={48} />
