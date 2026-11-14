@@ -28,7 +28,7 @@
   font-weight: 600;
 }
 .app-footer__nav a:hover {
-  color: var(--primary);
+  color: var(--wine);
 }
 .app-footer__nav span {
   color: var(--border);
@@ -44,7 +44,7 @@
   align-items: center;
   gap: 5px;
   padding: 8px 14px;
-  border-radius: 999px;
+  border-radius: 0;
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--text);

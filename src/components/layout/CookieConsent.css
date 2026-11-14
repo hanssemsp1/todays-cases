@@ -1,38 +1,22 @@
 .cookie-consent {
   position: fixed;
-  left: 12px;
-  right: 12px;
-  bottom: 76px; /* 모바일 하단 탭 위 */
+  inset-inline: 12px;
+  bottom: 16px;
   z-index: 60;
-  max-width: 620px;
-  margin: 0 auto;
+  max-width: 680px;
+  margin-inline: auto;
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 12px 14px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  box-shadow: var(--shadow);
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
 }
-.cookie-consent__text {
-  flex: 1;
-  margin: 0;
-  font-size: 13px;
-  line-height: 1.5;
-  color: var(--text);
-}
-.cookie-consent__text a {
-  color: var(--primary);
-  font-weight: 600;
-}
-.cookie-consent__btn {
-  flex: none;
-  padding: 10px 20px;
-}
-
-@media (min-width: 768px) {
-  .cookie-consent {
-    bottom: 16px;
-  }
+.cookie-consent__text { flex: 1; min-width: 0; margin: 0; font-size: 13px; line-height: 1.5; }
+.cookie-consent__text a { color: var(--wine); font-weight: 700; text-decoration: underline; }
+.cookie-consent__btn { flex: none; padding: 8px 12px; min-height: 44px; }
+@media (max-width: 640px) {
+  .cookie-consent { inset-inline: 0; bottom: calc(62px + env(safe-area-inset-bottom)); padding: 4px 10px; gap: 8px; }
+  .cookie-consent__text { font-size: 12px; line-height: 1.4; }
+  .cookie-consent__extra { display: none; }
 }

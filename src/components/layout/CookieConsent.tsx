@@ -32,8 +32,8 @@ export default function CookieConsent() {
   return (
     <div className="cookie-consent" role="dialog" aria-label="쿠키 사용 안내">
       <p className="cookie-consent__text">
-        본 사이트는 이용자 경험 개선과 광고 제공을 위해 쿠키를 사용합니다. 자세한 내용은{' '}
-        <Link to="/privacy">개인정보처리방침</Link>을 확인해 주세요.
+        <span className="cookie-consent__extra">본 사이트는 </span>이용자 경험 개선과 광고 제공을 위해 쿠키를 사용합니다. <span className="cookie-consent__extra">자세한 내용은 </span>
+        <Link to="/privacy">개인정보처리방침</Link><span className="cookie-consent__extra">을 확인해 주세요.</span>
       </p>
       <button className="btn cookie-consent__btn" onClick={accept}>
         확인

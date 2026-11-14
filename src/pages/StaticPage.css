@@ -54,8 +54,8 @@
   gap: 8px;
   margin-top: 12px;
   padding: 12px 18px;
-  border-radius: 999px;
-  background: var(--grad);
+  border-radius: 0;
+  background: var(--wine);
   color: #fff;
   font-weight: 700;
   font-size: 15px;
@@ -63,3 +63,6 @@
 .static-page__contact-card .icon {
   color: #fff;
 }
+
+.static-page__body { overflow-wrap: anywhere; }
+.static-page__hero { border-bottom: 1px solid var(--rule); padding-bottom: 18px; }

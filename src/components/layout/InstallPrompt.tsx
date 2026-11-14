@@ -44,6 +44,15 @@ export default function InstallPrompt() {
   const [deferred, setDeferred] = useState<BeforeInstallPromptEvent | null>(null)
   const [show, setShow] = useState(false)
   const [howTo, setHowTo] = useState(false)
+  const [cookieOpen, setCookieOpen] = useState(true)
+
+  useEffect(() => {
+    const update = () => setCookieOpen(Boolean(document.querySelector('.cookie-consent')))
+    update()
+    const observer = new MutationObserver(update)
+    observer.observe(document.body, { childList: true, subtree: true })
+    return () => observer.disconnect()
+  }, [])
 
   useEffect(() => {
     if (isStandalone() || snoozed()) return
@@ -122,7 +131,7 @@ export default function InstallPrompt() {
     }
   }
 
-  if (!show) return null
+  if (!show || cookieOpen) return null
 
   return (
     <div className="install-prompt" role="dialog" aria-label="앱으로 추가 안내">
