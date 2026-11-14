@@ -1,31 +1,28 @@
-/* ============================================================
-   오늘의 사건사고 — 디자인 시스템 (전역)
-   색 조합: 인스타 · 그라데이션 / 버튼: 둥근 알약 / 폰트: Poppins / 아이콘: 솔리드
-   ============================================================ */
-
-/* ---- 색 조합: 인스타 · 그라데이션 (레시피 값 그대로) ---- */
+/* ??? ?? ?? ?? ??? */
 :root {
-  --primary: #0095f6;              /* 액션 블루 */
-  --grad: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4); /* 포인트 그라데이션 */
-  --text: #262626;
-  --sub: #8e8e8e;
-  --bg: #fafafa;
-  --surface: #ffffff;
-  --border: #dbdbdb;
-
-  /* 사건 카테고리 톤 (그라데이션은 강조 요소에만, 카테고리는 단색 배지) */
-  --cat-crime: #dd2a7b;    /* 강력범죄 */
-  --cat-traffic: #0095f6;  /* 교통사고 */
-  --cat-fire: #f58529;     /* 화재/산불 */
-  --cat-disaster: #8134af; /* 재난/사고 */
-  --cat-showbiz: #e84393;  /* 연예·스포츠 */
-  --cat-world: #00b8a3;    /* 해외토픽 */
-  --cat-mystery: #5f27cd;  /* 미스터리·괴담 */
-  --cat-etc: #2fb56a;      /* 기타 */
-
-  --radius: 16px;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06);
-  --maxw: 640px;           /* 인스타풍 단일 컬럼 피드 폭 */
+  --paper: #faf7f1;
+  --ink: #211d1d;
+  --muted-ink: #665d5d;
+  --rule: #d9cec5;
+  --wine: #79263c;
+  --primary: var(--wine);
+  --grad: var(--wine);
+  --text: var(--ink);
+  --sub: var(--muted-ink);
+  --bg: var(--paper);
+  --surface: var(--paper);
+  --border: var(--rule);
+  --cat-crime: var(--wine);
+  --cat-traffic: var(--wine);
+  --cat-fire: var(--wine);
+  --cat-disaster: var(--wine);
+  --cat-showbiz: var(--wine);
+  --cat-world: var(--wine);
+  --cat-mystery: var(--wine);
+  --cat-etc: var(--wine);
+  --radius: 0px;
+  --shadow: none;
+  --maxw: 1120px;
 }
 
 /* ---- 리셋 ---- */
@@ -47,7 +44,7 @@ h1, h2, h3 { font-weight: 700; margin: 0; }
 
 /* ---- 버튼: 둥근 알약 (레시피 값 그대로) ---- */
 .btn {
-  border-radius: 999px;
+  border-radius: 0;
   padding: 12px 22px;
   font-weight: 700;
   background: var(--primary);
@@ -89,20 +86,14 @@ h1, h2, h3 { font-weight: 700; margin: 0; }
 }
 
 /* ---- 그라데이션 텍스트 유틸 (로고/강조) ---- */
-.grad-text {
-  background: var(--grad);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-}
+.grad-text { color: var(--ink); }
 
 /* ---- 레이아웃 컨테이너 ---- */
 .container {
   width: 100%;
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 clamp(16px, 4vw, 48px);
 }
 
 /* ---- 카드 공용 ---- */
