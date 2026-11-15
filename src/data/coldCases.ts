@@ -1045,6 +1045,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.youtube.com/watch?v=tzwa_jM8eRs',
     videoUrl: 'https://www.youtube.com/watch?v=tzwa_jM8eRs',
   },
+  {
+    id: 'cc-yeongdong-highschool-girl-wrist',
+    caseNo: '2001 · 충북 영동',
+    title: '영동 여고생 손목절단 살인사건',
+    occurredDate: '2001-03-08',
+    region: '충북 영동군',
+    status: 'cold',
+    summary:
+      '2001년 3월 충북 영동의 한 신축 공사장 지하에서 16세 정소윤 양이 두 손목이 잘린 채 숨진 상태로 발견됐다. 절단된 손은 다음 날 인근 하천에서 발견됐지만, 범인이 왜 손목을 가져갔는지조차 밝혀지지 않은 채 25년 가까이 미제로 남아 있다.',
+    details:
+      '2001년 3월 8일 오전 충북 영동군 시내의 한 신축 공사장 지하에서 16세 정소윤 양이 숨진 채 발견됐다. 시신의 양 손목은 잘려 있었고, 절단된 손은 다음 날 인근 하천에서 따로 발견됐다. 경찰은 당시 사건 현장 주변 인물들을 조사했지만 결정적인 증거를 찾지 못했고, 범인이 왜 피해자의 손목만 가져갔는지에 대한 의문도 풀리지 않았다. 2014년 SBS "그것이 알고 싶다"가 이 사건을 다루며 다시 관심이 모였고, 이후 새로운 제보자가 나타나 공사장 주변 상황에 대한 진술을 내놓았지만 범인 특정으로는 이어지지 않았다. 사건은 발생 25년이 다 되도록 미제로 남아 있다.',
+    tags: ['미제사건', '영동', '충북', '손목절단', '그것이알고싶다'],
+    sourceUrl: 'https://www.youtube.com/watch?v=3JgTAGYkXKo',
+    videoUrl: 'https://www.youtube.com/watch?v=3JgTAGYkXKo',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
