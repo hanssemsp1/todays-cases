@@ -1060,6 +1060,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.youtube.com/watch?v=3JgTAGYkXKo',
     videoUrl: 'https://www.youtube.com/watch?v=3JgTAGYkXKo',
   },
+  {
+    id: 'cc-injae-gwangchiryeong',
+    caseNo: '2003 · 강원 인제',
+    title: '인제 광치령 토막 시신 사건',
+    occurredDate: '2003-04-18',
+    region: '강원도 인제군',
+    status: 'cold',
+    summary:
+      '2003년 강원 인제 광치령 31번 국도 변에서 신체가 세 토막으로 잘린 남성의 시신이 담긴 마대자루가 발견됐다. 머리와 양팔이 끝내 발견되지 않아 신원조차 확인하지 못한 채 20년 넘게 미제로 남아 있다.',
+    details:
+      '2003년 4월 가드레일 보수 공사를 하러 온 주민이 강원 인제군 해발 380m 부근 광치령 도로변에서 마대자루 세 개를 발견했다. 자루 안에는 신체가 세 토막으로 잘린 남성의 시신이 들어 있었지만, 머리와 양팔이 없어 신원을 확인할 단서가 거의 남아 있지 않았다. 경찰이 주변을 수색했지만 끝내 머리와 팔은 찾지 못했다. 피해자의 몸에서 발견된 불법 확대 시술 흔적이 수감 경험자들 사이에 유행했던 방식과 비슷하다는 점이 유일한 단서로 꼽히며 조직 간 갈등에 따른 보복 살해 가능성 등이 제기됐지만, 신원과 범인 모두 밝혀지지 않은 채 미제로 남아 있다.',
+    tags: ['토막살인', '신원미확인', '강원', '미제사건'],
+    sourceUrl: 'https://v.daum.net/v/20250614141203678',
+    videoUrl: 'https://www.youtube.com/watch?v=Y1VCjNQLdFo',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
