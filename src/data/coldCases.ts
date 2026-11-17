@@ -1075,6 +1075,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://v.daum.net/v/20250614141203678',
     videoUrl: 'https://www.youtube.com/watch?v=Y1VCjNQLdFo',
   },
+  {
+    id: 'cc-gumi-3yo-girl-death',
+    caseNo: '2021 · 경북 구미',
+    title: '구미 3세 여아 사망(아이 바꿔치기 의혹) 사건',
+    occurredDate: '2021-02-10',
+    region: '경북 구미',
+    status: 'cold',
+    summary:
+      '2021년 2월 경북 구미의 한 원룸에서 3세 여아가 숨진 채 발견됐다. 아이를 방치해 숨지게 한 혐의로 체포된 친모로 알려진 김씨가 실은 친모가 아니라 외할머니라는 DNA 감정 결과가 나와 전국을 충격에 빠뜨렸다.',
+    details:
+      '2021년 2월 경북 구미의 한 원룸 건물에서 3세 여아가 숨진 채 발견됐다. 경찰은 아이를 방치해 숨지게 한 혐의로 함께 살던 김씨를 체포했지만, 국립과학수사연구원 DNA 감정 결과 숨진 아이의 친모는 김씨가 아니라 김씨의 어머니인 외할머니 석씨로 드러났다. 그렇다면 김씨가 키우던 아이와 석씨가 낳은 아이가 어느 시점에 뒤바뀐 것인지가 수사의 핵심이 됐지만, 병원 기록 등을 통해서도 바꿔치기가 이뤄진 구체적인 경위와 시점은 끝내 확인되지 않았다. 2023년 5월 대법원은 아이 바꿔치기 혐의에 대해 무죄를 확정했고, 사건의 진실은 영구 미제로 남게 됐다.',
+    tags: ['영구미제', 'DNA', '경북', '아동사망'],
+    sourceUrl: 'https://www.youtube.com/watch?v=P0bJVNvHJ90',
+    videoUrl: 'https://www.youtube.com/watch?v=P0bJVNvHJ90',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
