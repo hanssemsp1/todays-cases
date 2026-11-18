@@ -1090,6 +1090,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.youtube.com/watch?v=P0bJVNvHJ90',
     videoUrl: 'https://www.youtube.com/watch?v=P0bJVNvHJ90',
   },
+  {
+    id: 'cc-samjeondong-arson-murder',
+    caseNo: '2003 · 서울 송파',
+    title: '삼전동 방화 살인사건',
+    occurredDate: '2003-04-06',
+    region: '서울 송파구',
+    status: 'unsolved',
+    summary:
+      '2003년 4월 서울 송파구 삼전동의 한 다세대주택에서 불이 난 뒤 반지하 집에서 세 사람의 시신이 흉기에 찔린 채 발견됐다. 상견례를 마치고 돌아온 예비부부와 신랑 측 가족이 한꺼번에 변을 당한 이 사건은 20년 넘게 범인을 찾지 못한 채 미제로 남아 있다.',
+    details:
+      '2003년 4월 6일 새벽 서울 송파구 삼전동의 한 다세대주택에서 화재가 발생했다. 불은 2분 만에 꺼졌지만, 반지하층 집 안에서는 흉기에 찔려 숨진 세 사람의 시신이 각기 다른 방에서 발견됐다. 이날 낮 상견례를 마치고 집으로 돌아왔던 예비부부와 신랑 측 가족이었다. 마지막으로 이들이 살아있는 모습을 본 사람은 상견례에 함께 있었던 신부 측 어머니였는데, 그가 찜질방에 다녀오겠다며 집을 나선 뒤 약 1시간의 행적이 불분명해 유력한 용의자로 지목됐다. 그러나 결정적인 물증이 나오지 않아 수사는 진척되지 못했고, 사건은 20년 넘게 범인을 특정하지 못한 채 미제로 남아 있다.',
+    tags: ['방화', '흉기', '서울', '미제사건'],
+    sourceUrl: 'https://www.youtube.com/watch?v=Ig-BqWUdCyQ',
+    videoUrl: 'https://www.youtube.com/watch?v=Ig-BqWUdCyQ',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
