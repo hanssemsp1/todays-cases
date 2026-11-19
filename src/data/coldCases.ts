@@ -1105,6 +1105,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.youtube.com/watch?v=Ig-BqWUdCyQ',
     videoUrl: 'https://www.youtube.com/watch?v=Ig-BqWUdCyQ',
   },
+  {
+    id: 'cc-yanggu-pawnshop-elderly-couple',
+    caseNo: '2005 · 강원 양구',
+    title: '양구 전당포 노부부 살인사건',
+    occurredDate: '2005-08-14',
+    region: '강원 양구',
+    status: 'cold',
+    summary:
+      '2005년 8월 강원 양구의 한 전당포에서 중국인 노부부가 흉기에 찔려 숨진 채 발견됐다. 외부 침입 흔적이 없어 경찰은 금전 거래로 생긴 원한 관계에 수사를 집중했지만, 20년이 지난 지금까지 범인을 특정하지 못한 채 미제로 남아 있다.',
+    details:
+      '2005년 8월 14일 강원 양구군의 한 전당포에서 70대 중국인 노부부가 흉기에 찔려 숨진 채 발견됐다. 현장에는 외부인이 강제로 침입한 흔적이 없었고 금품도 그대로 남아 있어, 경찰은 단순 강도보다는 금전 거래 과정에서 생긴 원한 관계에 초점을 맞춰 수사를 벌였다. 수사 과정에서 부부의 아들이 유력한 용의선상에 올랐지만 결정적인 물증을 찾지 못해 기소로 이어지지 못했다. 사건을 다룬 방송에서는 당시 진술의 모순과 현장 정황을 둘러싼 의문이 다시 제기됐지만, 20년이 지난 지금까지도 범인을 특정하지 못한 채 미제로 남아 있다.',
+    tags: ['흉기', '강원', '장기미제', '전당포'],
+    sourceUrl: 'https://www.youtube.com/watch?v=Q0lPF29PqWQ',
+    videoUrl: 'https://www.youtube.com/watch?v=Q0lPF29PqWQ',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
