@@ -1150,6 +1150,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.khan.co.kr/article/201605240953001',
     videoUrl: 'https://www.youtube.com/watch?v=l7tb1OBgo1U',
   },
+  {
+    id: 'cc-bupyeong-concrete-burial',
+    caseNo: '2016 · 인천 부평',
+    title: '인천 부평 공장 콘크리트 암매장 백골 사건',
+    occurredDate: '2016-04-28',
+    region: '인천 부평구',
+    status: 'unsolved',
+    summary:
+      '인천 부평의 한 공장에서 보수공사를 하던 작업자가 재래식 화장실 옆 콘크리트 구조물 속에 묻혀 있던 성인 여성의 백골 시신을 발견했다. 경찰은 DNA 대조에도 신원을 확인하지 못했고, 범인도 특정하지 못한 채 사건은 미제로 남아 있다.',
+    details:
+      '2016년 4월 28일 인천 부평구의 한 공업단지 공장에서 보수 공사를 하던 작업자가 재래식 화장실 옆 콘크리트 구조물 속에서 사람의 형체가 온전히 남아 있는 백골 시신을 발견했다. 경찰은 현장 감식에 나서 시신의 신원을 확인하려 했지만 DNA 대조로도 신원이 확인되지 않았다. 시사프로그램 제작진은 약 1년간 취재해 용의자의 윤곽을 좁혀갔다고 밝혔지만, 피해자의 신원과 범인을 특정하지 못한 채 이 사건은 지금까지 미제로 남아 있다.',
+    tags: ['암매장', '백골', '신원미확인'],
+    sourceUrl: 'https://www.youtube.com/watch?v=hVhilO_XtxA',
+    videoUrl: 'https://www.youtube.com/watch?v=hVhilO_XtxA',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
