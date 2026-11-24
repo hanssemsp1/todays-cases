@@ -1165,6 +1165,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.youtube.com/watch?v=hVhilO_XtxA',
     videoUrl: 'https://www.youtube.com/watch?v=hVhilO_XtxA',
   },
+  {
+    id: 'cc-pohang-heunghae-dismemberment',
+    caseNo: '2008 · 경북 포항',
+    title: '포항 흥해 토막 시신 사건',
+    occurredDate: '2008-07-08',
+    region: '경북 포항시 흥해읍',
+    status: 'unsolved',
+    summary:
+      '포항 칠포해수욕장 인근 갈대숲에서 잘린 다리 한쪽이 처음 발견된 뒤, 보름 만에 머리와 몸통까지 차례로 나오면서 한 여성의 토막 시신 사건으로 밝혀졌다. 지문으로 신원은 확인됐지만 범인은 끝내 특정되지 않은 채 16년 넘게 미제로 남아 있다.',
+    details:
+      '2008년 7월 8일 경북 포항시 흥해읍 칠포해수욕장 인근 갈대숲에서 잘린 다리 한쪽이 처음 발견됐다. 이후 팔과 다리가 차례로 나왔고, 보름이 지난 7월 22일에는 이웃 마을 도로변에서 조경 작업을 하던 인부가 머리와 몸통을 발견했다. 부검 결과 피해자는 40~50대 여성으로, 설골이 부러진 채 목이 졸린 뒤 참혹하게 훼손돼 버려진 것으로 추정됐다. 얼굴을 알아보기 힘든 상태였지만 왼쪽 손에서 지문을 확보해 신원은 확인됐다. 경찰은 피해자의 남편을 유력한 용의자로 거론했지만 결정적인 증거를 찾지 못했고, 현장에서 유류품도 나오지 않은 데다 당시 포항 지역에 계속 비가 내려 증거가 유실됐을 것으로 추정된다. 이후 미제수사팀이 원점에서 다시 수사에 나섰지만 범인을 특정하지 못한 채 사건은 16년 넘게 풀리지 않고 있다.',
+    tags: ['토막살인', '신원확인', '장기미제'],
+    sourceUrl: 'https://www.youtube.com/watch?v=fgkI4sz1oI4',
+    videoUrl: 'https://www.youtube.com/watch?v=fgkI4sz1oI4',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
