@@ -1180,6 +1180,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.youtube.com/watch?v=fgkI4sz1oI4',
     videoUrl: 'https://www.youtube.com/watch?v=fgkI4sz1oI4',
   },
+  {
+    id: 'cc-ansan-yoonnamhee-missing',
+    caseNo: '2002 · 경기 안산',
+    title: '안산 자동차 영업사원 윤남희 씨 실종 사건',
+    occurredDate: '2002-02-08',
+    region: '경기 안산시',
+    status: 'unsolved',
+    summary:
+      '자동차 영업사원으로 일하던 윤남희 씨가 고객을 만나러 나간 뒤 자취를 감췄다. 한 달 뒤 안산의 한 초등학교 앞에서 그의 차가 발견됐지만, 실종 당일 누군가 그의 신용카드를 사용한 사실만 확인된 채 행방은 밝혀지지 않았다.',
+    details:
+      '2002년 2월 8일, 자동차 영업사원으로 일하던 윤남희 씨는 둘째 언니를 만나 장을 보고 아들을 이발시킨 뒤, 오후 4시 50분쯤 고객을 만나러 집을 나섰다. 그는 이후 집으로 돌아오지 않았다. 같은 해 3월, 안산의 한 초등학교 앞에서 그의 승용차가 발견됐는데, 차 안에는 그의 소지품과 명절 선물세트가 그대로 남아 있었다. 가족들은 그가 사라진 날 밤부터 다음 날 오전 사이 누군가 그의 신용카드를 사용한 사실을 확인했고, 카드 사용 당시 걸려온 전화 두 통 모두 안산 구운동의 한 공중전화에서 발신된 것으로 파악됐다. 카드를 쓴 사람이 누구인지, 그가 윤 씨의 실종과 어떤 관련이 있는지는 끝내 밝혀지지 않았다. 20년이 넘도록 윤 씨의 생사와 행방은 확인되지 않은 채 사건은 미제로 남아 있다.',
+    tags: ['실종', '여성', '안산'],
+    sourceUrl: 'https://programs.sbs.co.kr/programTemplate/amp/vod/unansweredquestions/22000378500',
+    videoUrl: 'https://www.youtube.com/watch?v=WzCrDY44egc',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
