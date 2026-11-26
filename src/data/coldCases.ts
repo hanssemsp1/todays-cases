@@ -1195,6 +1195,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://programs.sbs.co.kr/programTemplate/amp/vod/unansweredquestions/22000378500',
     videoUrl: 'https://www.youtube.com/watch?v=WzCrDY44egc',
   },
+  {
+    id: 'cc-gangneung-fingerprint-fragment-murder',
+    caseNo: '2005 · 강원 강릉',
+    title: '강릉 노파 쪽지문 살인사건',
+    occurredDate: '2005-05-18',
+    region: '강원 강릉시',
+    status: 'unsolved',
+    summary:
+      '강릉에서 69세 여성이 손발이 묶인 채 숨진 사건이다. 12년 만에 현장에 남은 1cm가량의 쪽지문으로 용의자가 붙잡혀 해결된 것처럼 보였지만, 1·2심 모두 무죄가 선고되고 검찰이 상고를 포기해 끝내 다시 미제로 남았다.',
+    details:
+      '2005년 5월 강릉의 한 주택에서 69세 여성이 손발이 묶인 채 숨진 상태로 발견됐다. 범인이 쓴 것으로 보이는 박스테이프가 현장에 남아 있었지만, 당시 과학수사 기술로는 결정적 증거를 확보하지 못해 수사가 진척되지 않았다. 12년이 지난 뒤 경찰은 테이프에 남아 있던 1cm 길이의 쪽지문을 지문자동검색시스템(AFIS)으로 재감정했고, 그 결과 정씨를 유력 용의자로 지목해 구속했다. 그러나 법원은 박스테이프가 다른 경로로 범행 장소에서 발견됐을 가능성을 배제하기 어렵다고 판단했고, 국민참여재판으로 진행된 1심에서는 배심원 9명 가운데 8명이 무죄 의견을 냈다. 검찰이 항소했지만 2심에서도 무죄가 선고됐고, 검찰이 상고를 포기하면서 정씨의 무죄가 그대로 확정됐다. 유일한 물증으로 여겨졌던 쪽지문의 주인이 무죄로 풀려나면서, 사건은 12년 만에 해결되는 듯하다가 다시 미제로 남게 됐다.',
+    tags: ['쪽지문', '무죄확정', '영구미제'],
+    sourceUrl: 'https://www.seoul.co.kr/news/plan/every_cases/2018/11/05/20181105016001',
+    videoUrl: 'https://www.youtube.com/watch?v=4i9siQI_qG4',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
