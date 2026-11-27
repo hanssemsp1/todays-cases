@@ -1210,6 +1210,21 @@ export const COLD_CASES: ColdCaseItem[] = [
     sourceUrl: 'https://www.seoul.co.kr/news/plan/every_cases/2018/11/05/20181105016001',
     videoUrl: 'https://www.youtube.com/watch?v=4i9siQI_qG4',
   },
+  {
+    id: 'cc-naju-deudeulgang-schoolgirl',
+    caseNo: '2001 · 전남 나주',
+    title: '나주 드들강 여고생 살인사건',
+    occurredDate: '2001-02-04',
+    region: '전남 나주시 남평읍',
+    status: 'reopened',
+    summary:
+      '2001년 2월 전남 나주시 남평읍 드들강 인근에서 10대 여고생이 성폭행당한 뒤 살해된 채 발견됐다. 공소시효가 임박하도록 범인을 찾지 못해 미제로 남을 뻔했지만, 다른 사건으로 수감 중이던 무기수의 DNA가 현장 DNA와 일치한다는 사실이 확인되며 16년 만에 단죄됐다.',
+    details:
+      '2001년 2월 4일 새벽 전남 나주시 남평읍 드들강 인근에서 10대 여고생이 실종됐고, 같은 날 오후 강 인근에서 성폭행당한 흔적이 있는 시신으로 발견됐다. 경찰은 현장에서 범인의 DNA를 확보했지만 당시 데이터베이스에서 일치하는 인물을 찾지 못해 범인을 특정하지 못한 채 수사가 장기화됐고, 공소시효 만료가 다가오면서 사건은 영구 미제로 남을 위기에 놓였다. 그러나 경찰은 공소시효 만료를 앞두고 다른 범죄로 수감 중이던 한 무기수의 DNA가 현장에서 나온 DNA와 일치한다는 사실을 확인했고, 피해자가 남긴 다이어리의 기록도 수사에 중요한 단서가 됐다. 재판에 넘겨진 범인은 결국 무기징역이 확정되며 16년 만에 사건이 해결됐다.',
+    tags: ['DNA', '장기미제', '전남', '재수사', '해결'],
+    sourceUrl: 'https://www.ytn.co.kr/_ln/0115_201608071400105726',
+    videoUrl: 'https://www.youtube.com/watch?v=tQwOe-9qqbs',
+  },
 ]
 
 // ── "오늘의 미제사건" — 가장 최근에 올라온(배열의 마지막) 사건 ──────
